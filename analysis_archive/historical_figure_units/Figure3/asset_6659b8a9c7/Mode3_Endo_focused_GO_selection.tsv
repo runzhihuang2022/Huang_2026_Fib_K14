@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 3	8–14 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	25	822	34	5	ANGPTL4;CDH5;FLT1;PGF;THBS1	0.00262293296968	0.0989428603562639	pre-specified repair function
+Mode 3	8–14 dpb	Fib–Endo	Blood Vessel Morphogenesis (GO:0048514)	25	822	13	2	COL4A1;FLT1	0.0564351968145665	0.1688714696624436	pre-specified repair function
+Mode 3	8–14 dpb	Fib–Endo	Notch Signaling Pathway (GO:0007219)	25	822	10	5	JAG1;JAG2;NOTCH1;NOTCH3;NOTCH4	3.908943055629097e-06	0.0026541723347721	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Vasoconstriction (GO:0042310)	25	822	5	3	EDN1;EDNRA;EDNRB	0.0002394286432758	0.0812860243921494	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Regulation Of Stem Cell Differentiation (GO:2000736)	25	822	6	3	JAG1;NOTCH1;PTN	0.0004692177914327	0.0862398534811561	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Endothelin Receptor Signaling Pathway (GO:0086100)	25	822	2	2	EDN1;EDNRB	0.0008890706544449	0.0862398534811561	top BH-adjusted result used to fill display

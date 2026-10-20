@@ -1,0 +1,7 @@
+﻿date,figure,panel,request_source,change_type,change_summary,scientific_impact,files_changed,approved_by,status
+2026-07-22,Figure6,all,expert comment,restyle,Created A4 portrait review proof using Arial 8-12 pt visible added text and 4 mm major gutters,Improves readability without changing available data panels,outputs/vector/; outputs/raster/,pending,review_ready
+2026-07-22,Figure6,A-E,user-supplied composite,retain,Extracted original embedded media from slide 7 instead of screenshot crops,Preserves current displayed evidence and resolution,inputs/current/,pending,provenance_complete
+2026-07-22,Figure6,F,source audit,blocked,Replaced blue placeholder with explicit SOURCE REQUIRED warning,Prevents unsupported dual-recombinase claim from appearing submission-ready,outputs/assembled/ and outputs/vector/,pending,blocked
+2026-07-22,Figure6,G,Results caution,replace,Created editable evidence-strength-coded mechanism panel,Avoids upgrading association to complete lineage conversion or epidermal incorporation,outputs/vector/Figure6G_mechanism_v01_editable.svg,pending,pending_approval
+2026-07-22,FigureS6,A-L,supplied legend,layout_blueprint,Created one-page A4 3x4 source-status blueprint with locked panel identities,Makes every missing evidence requirement explicit,supplements/figures/,pending,blocked
+2026-07-22,Figure6 and FigureS6,legends,consistency audit,Separated supplied legend from proposed reconciled legend and recorded conflicts,Prevents silent panel reassignment,legends/ and LEGEND_CONFLICTS.md,pending,pending_approval,

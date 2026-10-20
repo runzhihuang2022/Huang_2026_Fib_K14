@@ -1,0 +1,7 @@
+﻿claim	status	effect	p_or_fdr	note
+IGFL1-IGFLR1_candidate_interaction	supported	score=0.0822029635310173	FDR=0.010978043912175647	permutation screen, not CellChat
+IGFLR1_enriched_in_Fib_K14	supported	log2FC_proxy=1.0368489027023315	FDR=5.378234217402027e-22	cell/bin-level inference
+IGFL1-IGFLR1_spatial_adjacency	not_supported	r=-0.056186173589269785	P=0.7025948103792415	n=107 aggregated bins
+IGFL1_intervention_marker_response	provisional	source summary only		raw replicate table unavailable
+IGFL1_intervention_RNAseq_GSEA	unavailable			count matrix or ranked list not located
+IGFL1_to_KLF4_causal_link	proposed			requires direct perturbation evidence

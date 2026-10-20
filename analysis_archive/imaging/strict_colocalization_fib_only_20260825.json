@@ -1,0 +1,22 @@
+{
+  "analysis_scope": "whole_slide",
+  "threshold_status": "EXPLORATORY_CONTROLS_ABSENT",
+  "families": [
+    {
+      "name": "Fib_K14",
+      "input_dir": "data/external/local_fe05c5546243",
+      "input_globs": ["*.ome.tiff"],
+      "level": 2,
+      "pixel_um": 1.0113780498504639,
+      "channels": {"DAPI": 0, "PDGFRA": 1, "KRT14": 4},
+      "marker_compartments": {"PDGFRA": "membrane", "KRT14": "cytoplasmic"},
+      "positive_definition": "PDGFRA outer-cell-ring-positive AND KRT14 cytoplasmic-positive AND valid DAPI nucleus",
+      "expansion_units": [2, 3, 5],
+      "primary_expansion": 3,
+      "background_sigma_um_or_px": 15,
+      "nuclear_area_min": 20,
+      "nuclear_area_max": 300,
+      "tile": 1024
+    }
+  ]
+}

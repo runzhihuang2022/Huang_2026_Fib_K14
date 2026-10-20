@@ -1,0 +1,14 @@
+﻿figure,title,panels,readme,report,canonical_input_manifest,status
+Figure1,Human wound epithelialization atlas,8,Figure1/README.md,Figure1/Figure1.html,Figure1/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+Figure2,Identification of Fib_K14,9,Figure2/README.md,Figure2/Figure2.html,Figure2/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+Figure3,Fibroblast-to-keratinocyte transdifferentiation,13,Figure3/README.md,Figure3/Figure3.html,Figure3/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+Figure4,KLF4-associated epithelial regulation,16,Figure4/README.md,Figure4/Figure4.html,Figure4/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+Figure5,The epithelialization-front niche,12,Figure5/README.md,Figure5/Figure5.html,Figure5/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+Figure6,IGFL1-responsive epithelial features,12,Figure6/README.md,Figure6/Figure6.html,Figure6/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS1,Atlas sampling and quality control,5,FigureS1/README.md,FigureS1/FigureS1.html,FigureS1/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS2,Keratinocyte state analysis,8,FigureS2/README.md,FigureS2/FigureS2.html,FigureS2/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS3,Skin appendage cell analysis,8,FigureS3/README.md,FigureS3/FigureS3.html,FigureS3/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS4,Fibroblast landscape and supporting comparisons,8,FigureS4/README.md,FigureS4/FigureS4.html,FigureS4/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS5,Supporting spatial analyses,4,FigureS5/README.md,FigureS5/FigureS5.html,FigureS5/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS6,Adult-rat multi-omics validation,6,FigureS6/README.md,FigureS6/FigureS6.html,FigureS6/source_data/data_manifest.csv,Executed supporting analyses and/or archived sources; see panel-specific status
+FigureS7,KLF4 and IGFL1 response comparison,6,FigureS7/README.md,FigureS7/FigureS7.html,FigureS7/source_data/data_manifest.csv,Rebuilt computational panels

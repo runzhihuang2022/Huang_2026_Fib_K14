@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-20",
+  "stage": 9,
+  "mode": "reproduce",
+  "baseline": "V12",
+  "readiness": "partial",
+  "local_packaging": "complete",
+  "executed_groups": [
+    "core",
+    "derived",
+    "figure_s7",
+    "gsea",
+    "mechanism",
+    "mechanism_r"
+  ],
+  "full_raw_pipeline_reexecuted": false,
+  "publication_action": "author_authorized_github_publication",
+  "unresolved_registers": [
+    "docs/evidence_gaps_inherited.csv",
+    "provenance/figure_panel_coverage.csv",
+    "data/external_assets.csv"
+  ],
+  "repository_url": "https://github.com/runzhihuang2022/Huang_2026_Fib_K14",
+  "layout": "figure-oriented entry points with preserved canonical modules"
+}

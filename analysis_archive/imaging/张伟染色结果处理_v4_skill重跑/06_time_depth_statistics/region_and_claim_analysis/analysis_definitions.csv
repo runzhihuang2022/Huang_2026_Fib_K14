@@ -1,0 +1,9 @@
+﻿item,definition
+Independent unit,Patient/slide. Cells and ROIs are within-slide subsamples.
+ROI sampling,Up to five non-overlapping ROIs selected using DAPI tissue density only.
+KC_Spinous_Mig primary,"At least 2 of SOX9, MMP3, KRT6B positive in the same segmented cell."
+Fib_K14 primary,PDGFRA positive and at least one of P63/KLF4/KRT14 positive in the same cell.
+SAC_SG_Progenitor primary,"KRT77, SCGB2A2 and S100A7 all positive in the same cell."
+Thresholds,Panel-wide Otsu thresholds on pooled per-cell mean 8-bit intensity.
+Region group,Front_candidate is assigned only when healing status is not documented and requires anatomical review.
+Multiplicity,Holm within region contrasts; BH across three panels for depth and time families.

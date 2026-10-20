@@ -1,0 +1,3 @@
+﻿element,source,processing
+UMAP coordinates and labels,external_asset_decd995edda5,read directly from X_umap and sub_labels; no PPT extraction
+colors,original annotation color registry,same colors used in UMAP and key swatches

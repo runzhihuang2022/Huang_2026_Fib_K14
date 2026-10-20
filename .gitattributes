@@ -1,0 +1,8 @@
+# Preserve file bytes and provenance hashes across operating systems.
+# Text files remain diffable; automatic line-ending conversion is disabled.
+* -text
+*.png binary
+*.pdf binary
+*.xlsx binary
+*.gz binary
+*.npz binary

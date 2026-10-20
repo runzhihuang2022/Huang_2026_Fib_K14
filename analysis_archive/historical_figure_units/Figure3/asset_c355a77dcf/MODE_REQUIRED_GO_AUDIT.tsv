@@ -1,0 +1,17 @@
+﻿mode	group	time_group	interface	status	significant_lr_n	lr_gene_n	go_terms_tested	go_fdr_lt_0.05
+Mode 1	D0_7	0–7 dpb	Fib-SAC	PASS	86	42	789	12
+Mode 1	D0_7	0–7 dpb	Fib-KC	PASS	75	31	446	25
+Mode 1	D0_7	0–7 dpb	Fib-Endo	PASS	41	32	789	37
+Mode 1	D0_7	0–7 dpb	Fib-Immune	NOT_ESTIMABLE	0	0	0	0
+Mode 2	D15_28	15–28 dpb	Fib-SAC	PASS	88	41	798	10
+Mode 2	D15_28	15–28 dpb	Fib-KC	PASS	83	38	668	10
+Mode 2	D15_28	15–28 dpb	Fib-Endo	PASS	50	41	1024	50
+Mode 2	D15_28	15–28 dpb	Fib-Immune	PASS	153	65	1175	56
+Mode 3	D8_14	8–14 dpb	Fib-SAC	PASS	80	32	698	24
+Mode 3	D8_14	8–14 dpb	Fib-KC	PASS	84	34	627	2
+Mode 3	D8_14	8–14 dpb	Fib-Endo	PASS	26	25	679	1
+Mode 3	D8_14	8–14 dpb	Fib-Immune	PASS	90	46	992	33
+Mode 4	M1_2	1–2 mph	Fib-SAC	PASS	51	36	579	28
+Mode 4	M1_2	1–2 mph	Fib-KC	PASS	114	46	722	9
+Mode 4	M1_2	1–2 mph	Fib-Endo	PASS	78	51	985	2
+Mode 4	M1_2	1–2 mph	Fib-Immune	NOT_ESTIMABLE	0	0	0	0

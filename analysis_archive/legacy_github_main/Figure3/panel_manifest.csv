@@ -1,0 +1,27 @@
+﻿figure,panel,current_content,source_asset,observational_unit,test_or_method,status,notes
+Figure3,A,Fib_K14 and SAC-to-KC proxy maps,pbmc_final.h5ad,cell,UMAP projection proxy,Complete,Computational relationship only; not lineage proof
+Figure3,B,Fib-KC and SAC-KC PAGA networks,pbmc_final.h5ad,cell,PAGA,Complete,Source-generated plots
+Figure3,C,UMAP by time category and grade,pbmc_final.h5ad,cell,UMAP,Complete,
+Figure3,D,Fib_K14 abundance by time and grade,source_data/sample_level_Fib_K14_stats.csv,sample,Kruskal-Wallis plus FDR-adjusted pairwise tests,Complete,Time KW P=0.010252; grade KW P=0.0011066
+Figure3,E,Fibroblast marker dot plot,pbmc_final.h5ad,cell,mean expression and percent expressed,Complete,
+Figure3,F,Fib_K14 enriched functions,source_data/Fib_K14_curated_enrichment.csv,gene set,hypergeometric test with FDR,Complete,
+Figure3,G,Fib_K14 spatial trajectory,registered Stereo-seq wound sections,spatial cell/bin,registered rotations and x-y wound coordinates,Complete,Original embedded source image retained because matching standalone export was not found
+Figure3,H,VIM/KRT5 wound IF,20260621 slide 5 original experimental image blob,specimen,descriptive IF,Complete,Experimental pixels preserved
+Figure3,I,Pdgfra-CreER;R26-EYFP lineage tracing,20260621 slide 5 original experimental image blob,mouse/specimen,lineage association,Complete,Supports lineage association not full conversion
+Figure3,J,Sorted-cell IF and wound-only quantification,20260621 slide 5 original experimental image blob,field/replicate,descriptive mean plus SEM,Partial,No normal-versus-wound replicate table was located; no star added
+Figure3,K,PDGFRA then EPCAM sequential gating,source_data/machine_matched_nested_gating_summary.csv,event,machine-matched gates,Complete,10000 total; 1259 PDGFRA+; 619 PDGFRA+EPCAM+; 6.19% of all events
+FigureS3,A,Fibroblast subcluster UMAP,pbmc_final.h5ad,cell,UMAP,Complete,
+FigureS3,B,QC violins and doublet audit,pbmc_final.h5ad,cell,descriptive QC,Partial,doublet_score is absent from registered h5ad
+FigureS3,C,Marker and contamination heat map,pbmc_final.h5ad,cell,cluster means and row z scores,Complete,
+FigureS3,D,Sample-level KC proximity score,pbmc_final.h5ad,sample,two-sided Mann-Whitney with BH FDR,Complete,Score defined from Harmony centroid distance to KC centroid
+FigureS3,E,PAGA connectivity quantification,pbmc_final.h5ad,cell,PAGA plus neighbor-edge enrichment audit,Complete,Observed comparisons are ns after FDR; no stars fabricated
+FigureS3,F,DPT pseudotime,pbmc_final.h5ad,cell,Scanpy diffusion pseudotime,Complete,Computational ordering only
+FigureS3,G,Epithelialization/fibroblast marker dot plot,pbmc_final.h5ad,cell,mean expression and percent expressed,Complete,
+FigureS3,H,Fib_K14 enrichment,Fib_K14_curated_enrichment.csv,gene set,hypergeometric with FDR,Complete,
+FigureS3,I,Additional spatial maps,registered Stereo-seq wound sections,spatial cell/bin,registered rotations,Complete,19dpb_p1 and 26dpb p1/p2
+FigureS3,J,Independent VIM/KRT5 and VIM/KRT14 IF,not located,specimen,Mann-Whitney planned,Missing,Explicit placeholder retained
+FigureS3,K,Healthy skin tissue IF controls,not located,specimen,descriptive controls,Missing,Explicit placeholder retained
+FigureS3,L,Flow gating controls,machine_matched_nested_gating_summary.csv,event,sequential gating,Complete,Viability/singlet control plots not separately located
+FigureS3,M,Normal-versus-wound flow quantification,not supplied,biological replicate,t-test or Mann-Whitney planned,Missing,Available FCS files lack an auditable condition/replicate mapping for this comparison
+FigureS3,N,Single-cell clone images,not located,clone,descriptive,Missing,Explicit placeholder retained
+FigureS3,O,Clone efficiency and marker retention,not located,biological replicate,t-test or Mann-Whitney planned,Missing,Explicit placeholder retained

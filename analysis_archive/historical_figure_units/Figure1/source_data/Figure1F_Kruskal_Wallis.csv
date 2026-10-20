@@ -1,0 +1,6 @@
+﻿process,test,statistic,p_value,significance,observational_unit,group_n
+Epithelialization,two-sided Kruskal-Wallis omnibus,4.43181818181818,0.4890574290804841,ns,Stereo-seq section,1;1;4;2;2;1
+Skin development,two-sided Kruskal-Wallis omnibus,9.113636363636369,0.1046165306663593,ns,Stereo-seq section,1;1;4;2;2;1
+Inflammatory response,two-sided Kruskal-Wallis omnibus,7.840909090909093,0.1652241378024564,ns,Stereo-seq section,1;1;4;2;2;1
+Vascularization,two-sided Kruskal-Wallis omnibus,7.045454545454547,0.2172816876011187,ns,Stereo-seq section,1;1;4;2;2;1
+Matrix remodeling,two-sided Kruskal-Wallis omnibus,4.272727272727273,0.5108545479114701,ns,Stereo-seq section,1;1;4;2;2;1

@@ -1,0 +1,9 @@
+﻿date,figure,panel,change,reason,status
+2026-07-22,Figure4,all,Froze formal A-I panel identities,Old PowerPoint letters repeat and shift panels,done
+2026-07-22,Figure4,D-F,Replaced PPT-derived experimental crops with exports from source AI,Preserve original experimental pixels,done
+2026-07-22,Figure4,G,Inserted source-data gate,RNA-seq/GSEA source tables not found,blocked
+2026-07-22,Figure4,H,Relabeled available scATAC as rat rn7 validation,Prevent species misstatement,done
+2026-07-22,Figure4,I,Added evidence-bounded vector working model,Avoid unsupported upstream mechanism or fate conversion,done
+2026-07-22,FigureS4,A-Q,Created A4 portrait source-availability draft,Freeze panel contract and expose missing evidence,done
+2026-07-22,FigureS4,C,Excluded drafted correlation directions contradicted by live FDR statistics,Scientific integrity,done
+2026-07-22,FigureS4,Q,Blocked motif enrichment/footprinting,Current KLF4 motif table contains zero hits,blocked

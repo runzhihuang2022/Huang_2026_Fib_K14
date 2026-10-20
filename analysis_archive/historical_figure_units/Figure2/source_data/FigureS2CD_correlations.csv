@@ -1,0 +1,3 @@
+﻿state_a,state_b,method,statistic,p_value,n_bins
+Fib_K14,KC_Spinous_Mig,Pearson,-0.2682704934767462,7.854532221663956e-158,9595
+Fib_K14,SAC_SG_Progenitor,Spearman,-0.0238585733954812,0.0194354119540012,9595

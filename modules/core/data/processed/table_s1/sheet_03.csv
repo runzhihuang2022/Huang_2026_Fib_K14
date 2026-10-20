@@ -1,0 +1,155 @@
+﻿Human and adult-rat cohort and assay metadata used for Figure 1 and Figure S6,,,,,,,,,,,,
+Species,Modality,Sample ID,Section ID,Patient ID,Injury depth,Repair stage,Time point,Cells / bins / spots / pixels / libraries,Sampling site,Figure S6 QC code,Figure S6 life stage,Figure S1 / S6 plot code
+Human,scRNA-seq,TABLE_S_5283b03431ca,,TABLE_patient1,SPTDI,1-2mph,2mph,9785,Skin,,,R01
+Human,scRNA-seq,TABLE_S_bf6cd5ff1837,,TABLE_patient1,SPTDI,1-2mph,2mph,8217,Skin,,,R02
+Human,scRNA-seq,TABLE_S_02212164d258,,TABLE_patient1,DPTDI,1-2mph,2mph,8188,Skin,,,R03
+Human,scRNA-seq,TABLE_S_9b61cec781f0,,TABLE_patient1,DPTDI,1-2mph,2mph,7605,Skin,,,R04
+Human,scRNA-seq,TABLE_S_03bbc46a411e,,TABLE_patient2,Normal,Normal,Normal,13869,Skin,,,R05
+Human,scRNA-seq,TABLE_S_acccbb845e4d,,TABLE_patient3,Normal,Normal,Normal,10190,Skin,,,R06
+Human,scRNA-seq,TABLE_S_9318dc0a2d77,,TABLE_patient4,Normal,Normal,Normal,12162,Skin,,,R07
+Human,scRNA-seq,TABLE_S_88935349db44,,TABLE_patient5,Normal,Normal,Normal,14696,Skin,,,R08
+Human,scRNA-seq,TABLE_S_f3a36f50c5b2,,TABLE_patient6,DPTDI,0-7dpb,5dpb,3939,Skin,,,R09
+Human,scRNA-seq,TABLE_S_d602b660b56d,,TABLE_patient7,DPTDI,15-28dpb,26dpb,9018,Skin,,,R10
+Human,scRNA-seq,TABLE_S_087ef12c5ea4,,TABLE_patient7,DPTDI,15-28dpb,26dpb,8964,Skin,,,R11
+Human,scRNA-seq,TABLE_S_ac0c643ac2b3,,TABLE_patient8,DPTDI,0-7dpb,7dpb,3220,Skin,,,R12
+Human,scRNA-seq,TABLE_S_190d6819e729,,TABLE_patient8,DPTDI,0-7dpb,7dpb,3724,Skin,,,R13
+Human,scRNA-seq,TABLE_S_63356950b848,,TABLE_patient8,DPTDI,0-7dpb,7dpb,2843,Skin,,,R14
+Human,scRNA-seq,TABLE_S_0ce6b06bfcb2,,TABLE_patient9,DPTDI,8-14dpb,12dpb,400,Skin,,,R18
+Human,scRNA-seq,TABLE_S_d400aa528081,,TABLE_patient9,DPTDI,15-28dpb,19dpb,2949,Skin,,,R19
+Human,scRNA-seq,TABLE_S_fca35d1fd6ad,,TABLE_patient10,DPTDI,0-7dpb,6dpb,2991,Skin,,,R20
+Human,scRNA-seq,TABLE_S_be69ab0c411b,,TABLE_patient10,DPTDI,0-7dpb,6dpb,3680,Skin,,,R21
+Human,scRNA-seq,TABLE_S_8196d38d9913,,TABLE_patient11,DPTDI,8-14dpb,11dpb,1339,Skin,,,R24
+Human,scRNA-seq,TABLE_S_09b8bfb77a7b,,TABLE_patient12,DPTDI,8-14dpb,12dpb,4498,Skin,,,R25
+Human,scRNA-seq,TABLE_S_e5c74143fb41,,TABLE_patient13,DPTDI,15-28dpb,26dpb,3256,Skin,,,R15
+Human,scRNA-seq,TABLE_S_ede18777bfbf,,TABLE_patient12,DPTDI,15-28dpb,22dpb,5469,Skin,,,R16
+Human,scRNA-seq,TABLE_S_852e0380c295,,TABLE_patient14,DPTDI,15-28dpb,22dpb,4294,Skin,,,R17
+Human,scRNA-seq,TABLE_S_ecbaaac08061,,TABLE_patient12,DPTDI,15-28dpb,22dpb,3904,Skin,,,R22
+Human,scRNA-seq,TABLE_S_3e2ea8121fe9,,TABLE_patient14,DPTDI,15-28dpb,22dpb,3625,Skin,,,R23
+Human,scRNA-seq,TABLE_S_14b1487566a9,,TABLE_patient15,Normal,Normal,Normal,7148,Skin,,,R26
+Human,scRNA-seq,TABLE_S_5efdff3bf01e,,TABLE_patient16,Normal,Normal,Normal,7874,Skin,,,R27
+Human,scRNA-seq,TABLE_S_efc6199957eb,,TABLE_patient17,Normal,Normal,Normal,7181,Skin,,,R28
+Human,scRNA-seq,TABLE_S_5eac1d74d515,,TABLE_patient18,DPTDI,1-2mph,1mph,18962,Skin,,,R29
+Human,scRNA-seq,TABLE_S_d06925ff5425,,TABLE_patient18,DPTDI,1-2mph,1mph,23613,Skin,,,R30
+Human,scRNA-seq,TABLE_S_1283df579cca,,TABLE_patient19,SPTDI,0-7dpb,7dpb,2453,Skin,,,R31
+Human,scRNA-seq,TABLE_S_919ef7b1c65e,,TABLE_patient19,SPTDI,0-7dpb,7dpb,2631,Skin,,,R32
+Human,scRNA-seq,TABLE_S_89a014d312ac,,TABLE_patient10,SPTDI,8-14dpb,12dpb,509,Skin,,,R33
+Human,scRNA-seq,TABLE_S_2ed132b9f352,,TABLE_patient20,SPTDI,8-14dpb,10dpb,8099,Skin,,,R34
+Human,scRNA-seq,TABLE_S_8f67b681f27b,,TABLE_patient12,SPTDI,15-28dpb,19dpb,5503,Skin,,,R35
+Human,scRNA-seq,TABLE_S_cddf8eee816f,,TABLE_patient21,Normal,Normal,Normal,14109,Skin,,,R36
+Human,scRNA-seq,TABLE_S_7c96ea8a361f,,TABLE_patient21,Normal,Normal,Normal,14372,Skin,,,R37
+Human,scRNA-seq,TABLE_S_685b6ba3f6e1,,TABLE_patient22,Normal,Normal,Normal,14026,Skin,,,R38
+Human,Stereo-seq,TABLE_S_6eb7c1392f89,,TABLE_patient23,DPTDI,0-7dpb,5dpb,16821,Skin,,,ST01
+Human,Stereo-seq,TABLE_S_fdafe146baf7,,TABLE_patient24,DPTDI,8-14dpb,12dpb,13315,Skin,,,ST02
+Human,Stereo-seq,TABLE_S_b10464a9ad97,,TABLE_patient25,SPTDI,8-14dpb,12dpb,29135,Skin,,,ST03
+Human,Stereo-seq,TABLE_S_36016d2af1ee,,TABLE_patient24,DPTDI,8-14dpb,12dpb,25512,Skin,,,ST04
+Human,Stereo-seq,TABLE_S_af84cdf78eb5,,TABLE_patient25,SPTDI,8-14dpb,12dpb,34538,Skin,,,ST05
+Human,Stereo-seq,TABLE_S_c8406aa3985c,,TABLE_patient26,DPTDI,15-28dpb,19dpb,40440,Skin,,,ST06
+Human,Stereo-seq,TABLE_S_ea750bdc5691,,TABLE_patient26,DPTDI,15-28dpb,19dpb,47042,Skin,,,ST07
+Human,Stereo-seq,TABLE_S_6c1ea5e90408,,TABLE_patient27,DPTDI,15-28dpb,26dpb,39669,Skin,,,ST08
+Human,Stereo-seq,TABLE_S_7cee6eb9302c,,TABLE_patient27,DPTDI,15-28dpb,26dpb,34928,Skin,,,ST09
+Human,Stereo-seq,TABLE_S_d9df150c4d41,,TABLE_patient28,SPTDI & DPTDI,1-2mph,2mph,90304,Skin,,,ST10
+Human,Stereo-seq,TABLE_S_317a248b8f7d,,TABLE_patient29,Normal,Normal,Normal,15357,Skin,,,ST11
+Human,10x Visium,TABLE_S_c6df93186555,,TABLE_patient30,DPTDI,15-28dpb,26dpb,2236,Skin,,,V01
+Human,10x Visium,TABLE_S_91b474e200df,,TABLE_patient31,Not encoded,Not encoded,Not encoded,2213,Skin,,,V02
+Rat,scRNA-seq,TABLE_S_8dc18257ec84,,,FTDI,8-14dpi,10dpi,7556,Skin,RR01,Adult,RR01
+Rat,scRNA-seq,TABLE_S_3aeb46a43773,,,FTDI,8-14dpi,10dpi,7822,Skin,RR02,Adult,RR02
+Rat,scRNA-seq,TABLE_S_b3cb9597f88f,,,FTDI,15-28dpi,19dpi,6664,Skin,RR03,Adult,RR03
+Rat,scRNA-seq,TABLE_S_97c7a65e413b,,,FTDI,15-28dpi,19dpi,6704,Skin,RR04,Adult,RR04
+Rat,scRNA-seq,TABLE_S_0997cbf1bc65,,,FTDI,0-7dpi,1dpi,4017,Skin,RR05,Adult,RR05
+Rat,scRNA-seq,TABLE_S_d97bb6fcbfb3,,,FTDI,0-7dpi,1dpi,5474,Skin,RR06,Adult,RR06
+Rat,scRNA-seq,TABLE_S_5722ed326859,,,FTDI,0-7dpi,2dpi,7731,Skin,RR07,Adult,RR07
+Rat,scRNA-seq,TABLE_S_7591f344fb08,,,FTDI,0-7dpi,2dpi,7835,Skin,RR08,Adult,RR08
+Rat,scRNA-seq,TABLE_S_f036bbdab484,,,FTDI,0-7dpi,5dpi,10435,Skin,RR09,Adult,RR09
+Rat,scRNA-seq,TABLE_S_d2491b6a9cc0,,,FTDI,0-7dpi,5dpi,10074,Skin,RR10,Adult,RR10
+Rat,scRNA-seq,TABLE_S_722c41a89f7e,,,Normal,Normal,Normal,3150,Skin,RR11,Adult,RR11
+Rat,scRNA-seq,TABLE_S_781f94a24041,,,Normal,Normal,Normal,2167,Skin,RR12,Adult,RR12
+Rat,scRNA-seq,TABLE_S_85bd2f76c2e2,,,Normal,Normal,Normal,4325,Skin,RR13,Adult,RR13
+Rat,scRNA-seq,TABLE_S_45bf6019c4ea,,,PTDI,0-7dpi,0.5dpi,5397,Skin,RR14,Adult,RR14
+Rat,scRNA-seq,TABLE_S_9d78369d900a,,,PTDI,0-7dpi,0.5dpi,5330,Skin,RR15,Adult,RR15
+Rat,scRNA-seq,TABLE_S_ac83a6be2c3b,,,PTDI,0-7dpi,0dpi,21135,Skin,RR16,Adult,RR16
+Rat,scRNA-seq,TABLE_S_85a7a005cf92,,,PTDI,0-7dpi,0dpi,19093,Skin,RR17,Adult,RR17
+Rat,scRNA-seq,TABLE_S_e930636fc7b1,,,PTDI,8-14dpi,11dpi,8636,Skin,RR18,Adult,RR18
+Rat,scRNA-seq,TABLE_S_cb567149e58f,,,PTDI,8-14dpi,11dpi,7529,Skin,RR19,Adult,RR19
+Rat,scRNA-seq,TABLE_S_cc2417ac169d,,,PTDI,15-28dpi,15dpi,9049,Skin,RR20,Adult,RR20
+Rat,scRNA-seq,TABLE_S_47b53082f61e,,,PTDI,15-28dpi,15dpi,12892,Skin,RR21,Adult,RR21
+Rat,scRNA-seq,TABLE_S_1392994546b7,,,PTDI,15-28dpi,19dpi,9192,Skin,RR22,Adult,RR22
+Rat,scRNA-seq,TABLE_S_9271b061d20f,,,PTDI,15-28dpi,19dpi,5533,Skin,RR23,Adult,RR23
+Rat,scRNA-seq,TABLE_S_749ade562f06,,,PTDI,0-7dpi,1dpi,12042,Skin,RR24,Adult,RR24
+Rat,scRNA-seq,TABLE_S_43692561a4e5,,,PTDI,0-7dpi,1dpi,9877,Skin,RR25,Adult,RR25
+Rat,scRNA-seq,TABLE_S_963d186a116b,,,PTDI,0-7dpi,1dpi,2385,Skin,RR26,Adult,RR26
+Rat,scRNA-seq,TABLE_S_2cd2d583c702,,,PTDI,0-7dpi,1dpi,2847,Skin,RR27,Adult,RR27
+Rat,scRNA-seq,TABLE_S_0b869bd2b229,,,PTDI,0-7dpi,2dpi,9459,Skin,RR28,Adult,RR28
+Rat,scRNA-seq,TABLE_S_24ab555a4371,,,PTDI,0-7dpi,2dpi,8568,Skin,RR29,Adult,RR29
+Rat,scRNA-seq,TABLE_S_e52fa4b6215a,,,PTDI,0-7dpi,3dpi,7392,Skin,RR30,Adult,RR30
+Rat,scRNA-seq,TABLE_S_6e1fa49d6ebe,,,PTDI,0-7dpi,3dpi,6602,Skin,RR31,Adult,RR31
+Rat,scRNA-seq,TABLE_S_af961164a5c4,,,PTDI,0-7dpi,7dpi,8601,Skin,RR32,Adult,RR32
+Rat,scRNA-seq,TABLE_S_d2747e95c05b,,,PTDI,0-7dpi,7dpi,11681,Skin,RR33,Adult,RR33
+Rat,scRNA-seq,TABLE_S_ed6a66704d87,,,PTDI,0-7dpi,0.5dpi,5733,Skin,RR34,Adult,RR34
+Rat,scRNA-seq,TABLE_S_4bc7899c5f88,,,PTDI,0-7dpi,0.5dpi,5652,Skin,RR35,Adult,RR35
+Rat,scRNA-seq,TABLE_S_70950a9b13e1,,,PTDI,0-7dpi,0dpi,16743,Skin,RR36,Adult,RR36
+Rat,scRNA-seq,TABLE_S_295b95f21c2a,,,PTDI,0-7dpi,0dpi,12714,Skin,RR37,Adult,RR37
+Rat,scRNA-seq,TABLE_S_a404c119048c,,,PTDI,8-14dpi,11dpi,7759,Skin,RR38,Adult,RR38
+Rat,scRNA-seq,TABLE_S_b57681afeef0,,,PTDI,8-14dpi,11dpi,7740,Skin,RR39,Adult,RR39
+Rat,scRNA-seq,TABLE_S_00ca94cc5fb3,,,PTDI,15-28dpi,15dpi,10365,Skin,RR40,Adult,RR40
+Rat,scRNA-seq,TABLE_S_1acbd773fb69,,,PTDI,15-28dpi,15dpi,12160,Skin,RR41,Adult,RR41
+Rat,scRNA-seq,TABLE_S_259748dec624,,,PTDI,15-28dpi,19dpi,7134,Skin,RR42,Adult,RR42
+Rat,scRNA-seq,TABLE_S_832d7375001a,,,PTDI,15-28dpi,19dpi,6108,Skin,RR43,Adult,RR43
+Rat,scRNA-seq,TABLE_S_dd56a64f1c41,,,PTDI,0-7dpi,1dpi,8014,Skin,RR44,Adult,RR44
+Rat,scRNA-seq,TABLE_S_5c0cd3199139,,,PTDI,0-7dpi,1dpi,7803,Skin,RR45,Adult,RR45
+Rat,scRNA-seq,TABLE_S_2c1a0b27f250,,,PTDI,0-7dpi,1dpi,14477,Skin,RR46,Adult,RR46
+Rat,scRNA-seq,TABLE_S_d89f02074f74,,,PTDI,0-7dpi,1dpi,11959,Skin,RR47,Adult,RR47
+Rat,scRNA-seq,TABLE_S_17c850317ac2,,,PTDI,0-7dpi,2dpi,7617,Skin,RR48,Adult,RR48
+Rat,scRNA-seq,TABLE_S_66401238bae2,,,PTDI,0-7dpi,2dpi,7780,Skin,RR49,Adult,RR49
+Rat,scRNA-seq,TABLE_S_16b7eb7505c9,,,PTDI,0-7dpi,3dpi,10175,Skin,RR50,Adult,RR50
+Rat,scRNA-seq,TABLE_S_6f404d8de042,,,PTDI,0-7dpi,3dpi,10675,Skin,RR51,Adult,RR51
+Rat,scRNA-seq,TABLE_S_4c6850f7a8d7,,,PTDI,0-7dpi,7dpi,6449,Skin,RR52,Adult,RR52
+Rat,scRNA-seq,TABLE_S_ad8835552efa,,,PTDI,0-7dpi,7dpi,6031,Skin,RR53,Adult,RR53
+Rat,Stereo-seq,TABLE_S_4dfc034d6d28,TABLE_S_4dfc034d6d28,,Not encoded in source object,Adult wound repair,10d,45100,Skin,RST01,Adult,RST01
+Rat,Stereo-seq,TABLE_S_52b38bfec5f0,TABLE_S_52b38bfec5f0,,Not encoded in source object,Adult wound repair,19d,58368,Skin,RST02,Adult,RST02
+Rat,Stereo-seq,TABLE_S_391c1db0cf06,TABLE_S_391c1db0cf06,,Not encoded in source object,Adult wound repair,1d,40282,Skin,RST03,Adult,RST03
+Rat,Stereo-seq,TABLE_S_63a900a92921,TABLE_S_63a900a92921,,Not encoded in source object,Adult wound repair,2d,63652,Skin,RST04,Adult,RST04
+Rat,Stereo-seq,TABLE_S_1939c61c9e7a,TABLE_S_1939c61c9e7a,,Not encoded in source object,Adult wound repair,5d1,73386,Skin,RST05,Adult,RST05
+Rat,Stereo-seq,TABLE_S_6ada7a3416eb,TABLE_S_6ada7a3416eb,,Not encoded in source object,Adult wound repair,nor,43594,Skin,RST06,Adult,RST06
+Rat,scATAC-seq,TABLE_S_cc4e0981a74f,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,6334,Skin,RA01,Adult,RA01
+Rat,scATAC-seq,TABLE_S_c70dde485400,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,555,Skin,RA02,Adult,RA02
+Rat,scATAC-seq,TABLE_S_03d0761cbcdc,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,303,Skin,RA03,Adult,RA03
+Rat,scATAC-seq,TABLE_S_b1088a5dcbb6,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,797,Skin,RA04,Adult,RA04
+Rat,scATAC-seq,TABLE_S_4c91b6bc47a9,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,496,Skin,RA05,Adult,RA05
+Rat,scATAC-seq,TABLE_S_72fadb448f75,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,2716,Skin,RA06,Adult,RA06
+Rat,scATAC-seq,TABLE_S_a5d6190a10a5,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,2086,Skin,RA07,Adult,RA07
+Rat,scATAC-seq,TABLE_S_3f4e02c20640,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,538,Skin,RA08,Adult,RA08
+Rat,scATAC-seq,TABLE_S_6eacdd89a8b4,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,121,Skin,RA09,Adult,RA09
+Rat,scATAC-seq,TABLE_S_de3053313ba8,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,5024,Skin,RA10,Adult,RA10
+Rat,scATAC-seq,TABLE_S_3f6229849b78,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,3454,Skin,RA11,Adult,RA11
+Rat,scATAC-seq,TABLE_S_f91e5f51bedb,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,1436,Skin,RA12,Adult,RA12
+Rat,scATAC-seq,TABLE_S_99f9bf4be020,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,145,Skin,RA13,Adult,RA13
+Rat,scATAC-seq,TABLE_S_60026c485266,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,966,Skin,RA14,Adult,RA14
+Rat,scATAC-seq,TABLE_S_e82326fcafde,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,305,Skin,RA15,Adult,RA15
+Rat,scATAC-seq,TABLE_S_0754d4d196c3,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,1507,Skin,RA16,Adult,RA16
+Rat,scATAC-seq,TABLE_S_6a32e5e437a6,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,1613,Skin,RA17,Adult,RA17
+Rat,scATAC-seq,TABLE_S_a48e2832af0b,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,128,Skin,RA18,Adult,RA18
+Rat,scATAC-seq,TABLE_S_76b9bc27f3be,,,Not encoded in source table,Adult skin / wound atlas,Not encoded,94,Skin,RA19,Adult,RA19
+Human,bulk RNA-seq,TABLE_S_0a93c01a9ef7,,,Not applicable,Control,Not encoded,1,Cultured human cells,BKOE01,Not encoded,
+Human,bulk RNA-seq,TABLE_S_f3d7e5ee70bf,,,Not applicable,Control,Not encoded,1,Cultured human cells,BKOE02,Not encoded,
+Human,bulk RNA-seq,TABLE_S_6ca4f4dd66bc,,,Not applicable,KLF4-OE,Not encoded,1,Cultured human cells,BKOE03,Not encoded,
+Human,bulk RNA-seq,TABLE_S_9bce0bcc8a06,,,Not applicable,KLF4-OE,Not encoded,1,Cultured human cells,BKOE04,Not encoded,
+Human,bulk RNA-seq,PBS1,,,Not applicable,PBS control,Not encoded,1,Cultured human cells,BIG01,Not encoded,
+Human,bulk RNA-seq,PBS2,,,Not applicable,PBS control,Not encoded,1,Cultured human cells,BIG02,Not encoded,
+Human,bulk RNA-seq,PBS3,,,Not applicable,PBS control,Not encoded,1,Cultured human cells,BIG03,Not encoded,
+Human,bulk RNA-seq,IGFL-1,,,Not applicable,IGFL1 treatment,Not encoded,1,Cultured human cells,BIG04,Not encoded,
+Human,bulk RNA-seq,IGFL-2,,,Not applicable,IGFL1 treatment,Not encoded,1,Cultured human cells,BIG05,Not encoded,
+Not confirmed,Spatial proteomics,TABLE_S_dc3624061342,TABLE_S_dc3624061342,TABLE_P_50c7b444c9db,Missing,Within-section descriptive only,Missing,2029,Skin wound context not independently documented,SPP01,Not confirmed,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

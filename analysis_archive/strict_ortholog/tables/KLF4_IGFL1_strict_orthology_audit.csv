@@ -1,0 +1,15 @@
+﻿gene,requested_species,display_species,strict_ortholog_present,orthology_type,gene_id,protein_id,percent_identity_to_human,sequence_length_aa,tree_included,interpretation
+KLF4,homo_sapiens,Human,True,reference,ENSG00000136826,ENSP00000363804,100.0,479,True,human reference sequence
+KLF4,rattus_norvegicus,Rat,True,ortholog_one2one,ENSRNOG00000016299,ENSRNOP00000022255,91.0788,482,True,strict Ensembl Compara protein ortholog
+KLF4,mus_musculus,Mouse,True,ortholog_one2one,ENSMUSG00000003032,ENSMUSP00000103245,90.6832,483,True,strict Ensembl Compara protein ortholog
+KLF4,cervus_hanglu_yarkandensis,Cervid,True,ortholog_one2one,ENSCHYG00000012671,ENSCHYP00000018976,65.7143,140,False,strict ortholog record is partial; retained in audit but excluded from full-length tree
+KLF4,cavia_porcellus,Guinea pig proxy,True,ortholog_one2one,ENSCPOG00000027434,ENSCPOP00000014365,88.6994,469,True,strict Ensembl Compara protein ortholog
+KLF4,heterocephalus_glaber_female,Naked mole-rat proxy,True,ortholog_one2many,ENSHGLG00000004266,ENSHGLP00000044724,86.1598,513,True,strict Ensembl Compara protein ortholog
+KLF4,moschus_moschiferus,Musk deer (cervid proxy),True,ortholog_one2many,ENSMMSG00000005545,ENSMMSP00000007125,80.5328,488,True,strict Ensembl Compara protein ortholog
+IGFL1,homo_sapiens,Human,True,reference,ENSG00000188293,ENSP00000415823,100.0,110,True,human reference sequence
+IGFL1,cervus_hanglu_yarkandensis,Cervid,True,ortholog_one2one,ENSCHYG00000013392,ENSCHYP00000020021,41.1043,163,True,strict Ensembl Compara protein ortholog
+IGFL1,cavia_porcellus,Guinea pig proxy,True,ortholog_one2one,ENSCPOG00000024181,ENSCPOP00000020530,49.1525,118,True,strict Ensembl Compara protein ortholog
+IGFL1,heterocephalus_glaber_female,Naked mole-rat proxy,True,ortholog_one2one,ENSHGLG00000032378,ENSHGLP00000055116,17.0492,305,True,strict Ensembl Compara protein ortholog
+IGFL1,moschus_moschiferus,Musk deer (cervid proxy),True,ortholog_one2one,ENSMMSG00000002324,ENSMMSP00000003039,59.8361,122,True,strict Ensembl Compara protein ortholog
+IGFL1,bos_taurus,Cattle,True,ortholog_one2one,ENSBTAG00000000027,ENSBTAP00000031752,59.0164,122,True,strict Ensembl Compara protein ortholog
+IGFL1,capra_hircus,Goat,True,ortholog_one2one,ENSCHIG00000023173,ENSCHIP00000027108,50.0,144,True,strict Ensembl Compara protein ortholog

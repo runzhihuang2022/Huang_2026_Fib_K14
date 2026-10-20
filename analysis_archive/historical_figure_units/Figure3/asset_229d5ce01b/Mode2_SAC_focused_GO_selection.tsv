@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–SAC	Positive Regulation Of Epithelial Cell Proliferation (GO:0050679)	41	822	45	4	LAMB1;LAMC1;MDK;NOTCH2	0.1808245695164809	0.3582103698029469	pre-specified repair function
+Mode 2	15–28 dpb	Fib–SAC	Regulation Of Cell Migration (GO:0030334)	41	822	127	9	CD74;COL1A1;EDN1;F2RL1;JAG1;LAMB1;MDK;THBS1;TNC	0.1669940981638698	0.3582103698029469	pre-specified repair function
+Mode 2	15–28 dpb	Fib–SAC	Regulation Of Basement Membrane Organization (GO:0110011)	41	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	5.362648391889924e-06	0.0042793934167281	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–SAC	Positive Regulation Of Integrin-Mediated Signaling Pathway (GO:2001046)	41	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	2.58429828372006e-05	0.0068742334346953	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–SAC	Regulation Of Integrin-Mediated Signaling Pathway (GO:2001044)	41	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	2.58429828372006e-05	0.0068742334346953	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–SAC	Regulation Of Extracellular Matrix Organization (GO:1903053)	41	822	10	5	LAMA2;LAMB1;LAMB2;LAMC1;LRP1	5.06992366617819e-05	0.0101144977140254	top BH-adjusted result used to fill display

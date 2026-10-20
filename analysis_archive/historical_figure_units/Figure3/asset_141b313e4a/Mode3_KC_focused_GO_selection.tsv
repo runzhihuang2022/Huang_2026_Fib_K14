@@ -1,0 +1,3 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 3	8–14 dpb	Fib–KC	Endoderm Formation (GO:0001706)	44	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	2.993822744228261e-06	0.0012274673251335	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–KC	Endodermal Cell Differentiation (GO:0035987)	44	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	2.993822744228261e-06	0.0012274673251335	top BH-adjusted result used to fill display

@@ -1,0 +1,5 @@
+﻿display_order,mode,source_file,crop_left,crop_top,crop_right,crop_bottom,processing
+1,Mode1_unhealed_gradient,external_asset_808e2d3d02e6,2,0,545,276,crop only; no intensity or color adjustment
+2,Mode2_one_way_epithelialization,external_asset_808e2d3d02e6,584,0,1117,276,crop plus horizontal mirror; reversed raster scale labels masked and redrawn as vector; no intensity or color adjustment
+3,Mode3_almost_healed,external_asset_808e2d3d02e6,1153,0,1702,276,crop only; no intensity or color adjustment
+4,Mode4_scar_hyperplasia,external_asset_808e2d3d02e6,1741,0,2295,276,crop plus horizontal mirror; reversed raster scale labels masked and redrawn as vector; no intensity or color adjustment

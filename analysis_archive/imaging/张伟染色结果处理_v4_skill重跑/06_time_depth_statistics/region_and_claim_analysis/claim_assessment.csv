@@ -1,0 +1,13 @@
+﻿panel,claim,status,adjusted_p,front_median_pct,comparison_median_pct,qualification
+KC_Spinous_Mig,Front_candidate enriched vs Unhealed,Not_supported,1.0,3.635919786692473,5.136383763424458,Front_candidate requires anatomical ROI confirmation.
+KC_Spinous_Mig,Front_candidate enriched vs Healed,Directional_trend,1.0,3.635919786692473,3.460015566274265,Front_candidate requires anatomical ROI confirmation.
+KC_Spinous_Mig,Temporal association,Not_supported,0.4736893367639054,,,"Spearman rho=-0.257; cross-sectional slides, not repeated measures."
+KC_Spinous_Mig,SPTDI differs from DPTDI,Not_supported,0.5714285714285714,,,Mixed-depth specimens excluded.
+Fib_K14_core,Front_candidate enriched vs Unhealed,Directional_trend,0.6951160734823385,2.3511315939250768,0.0026891841015435,Front_candidate requires anatomical ROI confirmation.
+Fib_K14_core,Front_candidate enriched vs Healed,Not_supported,0.6951160734823385,2.3511315939250768,3.91123370868396,Front_candidate requires anatomical ROI confirmation.
+Fib_K14_core,Temporal association,Not_supported,0.4736893367639054,,,"Spearman rho=0.258; cross-sectional slides, not repeated measures."
+Fib_K14_core,SPTDI differs from DPTDI,Not_supported,0.5714285714285714,,,Mixed-depth specimens excluded.
+SAC_SG_Progenitor,Front_candidate enriched vs Unhealed,Not_supported,,0.0,0.0,Front_candidate requires anatomical ROI confirmation.
+SAC_SG_Progenitor,Front_candidate enriched vs Healed,Not_supported,,0.0,0.0,Front_candidate requires anatomical ROI confirmation.
+SAC_SG_Progenitor,Temporal association,Not_supported,,,,"Spearman rho=nan; cross-sectional slides, not repeated measures."
+SAC_SG_Progenitor,SPTDI differs from DPTDI,Not_supported,,,,Mixed-depth specimens excluded.

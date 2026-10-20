@@ -1,0 +1,9 @@
+{
+  "figure": "FigureS1",
+  "core_scripts": [
+    "audit_table_s1.py",
+    "rebuild_atlas_audits.py"
+  ],
+  "extra_groups": [],
+  "scope": "Executed supporting analyses and/or archived sources; see panel-specific status"
+}

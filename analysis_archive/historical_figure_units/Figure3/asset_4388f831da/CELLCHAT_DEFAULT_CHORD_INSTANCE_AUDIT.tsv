@@ -1,0 +1,17 @@
+﻿group	interface	status	n_all_lr	n_display_lr	reason
+D0_7	Fib_Endo	PASS	8	8	
+D0_7	Fib_Immune	NOT_ESTIMABLE	0	0	No significant ligand-receptor pair
+D0_7	Fib_KC	PASS	8	8	
+D0_7	Fib_SAC	PASS	8	8	
+D15_28	Fib_Endo	PASS	8	8	
+D15_28	Fib_Immune	PASS	8	8	
+D15_28	Fib_KC	PASS	8	8	
+D15_28	Fib_SAC	PASS	8	8	
+D8_14	Fib_Endo	PASS	8	8	
+D8_14	Fib_Immune	PASS	8	8	
+D8_14	Fib_KC	PASS	8	8	
+D8_14	Fib_SAC	PASS	8	8	
+M1_2	Fib_Endo	PASS	8	8	
+M1_2	Fib_Immune	NOT_ESTIMABLE	0	0	No significant ligand-receptor pair
+M1_2	Fib_KC	PASS	8	8	
+M1_2	Fib_SAC	PASS	8	8	

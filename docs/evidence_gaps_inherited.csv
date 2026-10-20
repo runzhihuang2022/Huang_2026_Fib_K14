@@ -1,0 +1,12 @@
+﻿位置,当前状态,处理
+"Fig3M; Fig6E,F,L",作者已确认定性结果；最终图件和数值源表待提供,保留蓝色占位，按作者确认撰写定性结果，不新增比例、峰值日、n 或 P
+Graphical abstract,前置与文末图形摘要仍含旧口径：人ST合并为13张但387061仅对应Stereo；大鼠30张/644462与现用6张/324382不一致；图中仍为Epithelial-Like Plasticity,两处图保留作者原件；最终组图需区分11张Stereo与2张Visium，按当前大鼠范围同步，并与transdifferentiation表述一致。
+Fig2D,原图标题为 Milo；现有脚本是50近邻密度对比,正文与方法按实际算法描述，图中文字待同步
+FigS2A,图内N与当前可追溯文库数不一致,图中9/9/14/7需核对；可追溯分析文库为8/5/9/6
+Table S1 animal linkage,RR/RA/RST均已对应原始文库或切片；部分独立动物ID、ATAC时间点未提供,新增对应表明确标记，不以文库编号代替独立动物编号
+STAR Methods / KRT,等位基因、诱导洗脱/阴性对照、试剂货号、培养/样本元信息、人伦理与公开访问号仍有作者待填项,待作者补全实验元信息；具体条目保留在当前 KRT 和方法资料清单，不新增未提供的条件。
+Fig4M / Fig6H,图中通路面板与当前count-model/富集方向的最终一致性尚需核定,不新增方向性定量结论
+Histology endpoints,11个KLF4 day12形态判定100%及1个IGFL1 day12注释冲突待作者审定,沿用可核验结果与处理记录
+Response-only figures,额外实验和敏感性分析保留原回复信中的状态与占位,Fib_CD45来源、ECAD/屏障、受体阻断救援等未提供材料不称为已完成
+Graphical abstract placement,作者手改稿同时保留前置图形摘要及文末图版中的图形摘要,沿用作者布局；单独图件文件夹的Graphical_abstract采用本次前置图原件。
+Cell format rule coverage,STAR Methods官方PDF成功重新获取；完整Cell作者指南页面HTTP403,沿用作者批准的稿件样式；不声称已核准全部官方投稿细则。

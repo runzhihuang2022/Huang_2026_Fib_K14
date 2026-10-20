@@ -1,0 +1,8 @@
+﻿asset_id,modality,species,source_path_or_accession,subset_rule,observational_unit,n_observations,checksum_or_version,used_by_panel,status,notes
+DATA001,Stereo-seq,Human,external_asset_6acdf2ec56a4,sample_id BW15D_1_D1_SDSDB_19dpb; anchor-defined regions,Spatial bins,47042,Live object audited 2026-07-22,Figure2B; Figure2E; FigureS2A-E,Verified,47 annotated sublabels; MergeScore columns used for correlations
+DATA002,Spatial-region anchors,Human,external_asset_f6f72cdda076,19dpb_p1,Region definitions,3 regions,Live file audited 2026-07-22,Figure2B; Figure2E; FigureS2A-E,Verified,Un-epi 23016; Epi-Front 9595; Newly-epi 14431 bins
+DATA003,Raster panels from current figure,Human,inputs/raw_panels/from_slide3,Slide 3 images 13-29,Raster images,17 files,Extracted from supplied working figure,Figure2A; Figure2D; Figure2F,Verified,Original microscopy and spatial rasters retained
+DATA004,Multiplex IF healthy control,Human,Not located,Healthy skin with marker panels matched to Figure2F,Biological specimens,Unknown,Missing,FigureS2F,Missing,Required before submission
+DATA005,IF quantification raw table,Human,Not located,Healthy skin versus Epi-Front; matched markers,Biological replicates,Unknown,Missing,FigureS2G,Missing,Counts; denominators and replicate IDs required
+ENV001,Software,,external_asset_06653b588c43,h5py/scipy/matplotlib/statsmodels workflow,Runtime,1,Used 2026-07-22,Derived panels and assembly,Verified,Set OPENBLAS_NUM_THREADS=1 and MKL_NUM_THREADS=1
+ENV002,Software,,external_asset_e5491bf6f779,PDF opened then IllustratorSaveOptions with PDF compatibility,Application,1,Adobe Illustrator 2024,Figure2 and FigureS2 AI masters,Verified,Real .ai files generated

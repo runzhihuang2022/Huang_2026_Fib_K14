@@ -1,0 +1,7 @@
+﻿panel_id,current_figure,description,analysis_group,status,note
+S7A,paper_figures/Figure_S7.png,KLF4 histology,figure_s7,executed_verified,Inherited histology; no new efficacy test
+S7B,paper_figures/Figure_S7.png,IGFL1 histology,figure_s7,executed_verified,Inherited histology; no new efficacy test
+S7C,paper_figures/Figure_S7.png,Shared and distinct gene responses,figure_s7,executed_verified,"Transcript response, not receptor or pathway activation"
+S7D,paper_figures/Figure_S7.png,Full-library-corrected GSEA,figure_s7,executed_verified,"Transcript response, not receptor or pathway activation"
+S7E,paper_figures/Figure_S7.png,Patient-level associations,figure_s7,executed_verified,"Transcript response, not receptor or pathway activation"
+S7F,paper_figures/Figure_S7.png,Patient-balanced ligand/receptor detection,figure_s7,executed_verified,"Transcript response, not receptor or pathway activation"

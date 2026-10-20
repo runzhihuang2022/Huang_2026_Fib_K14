@@ -1,0 +1,49 @@
+﻿Single-cell-to-spatial mapping parameters,,,,,,
+Cell state,Priority class,Compartment gate,Key markers,Key cutoffs,Auxiliary markers,Auxiliary cutoffs
+KC_Basal,Regular,Epi,"COL17A1, KRT15","1.0, 1.0",S100A2,0.5
+KC_Basal_Mig,Regular,Epi,"COL17A1, AREG","1.0, 1.0",MMP3,0.5
+KC_Basal_Prolif,Regular,Epi,"COL17A1, MKI67","0.5, 0.5",STMN1,0.5
+KC_Spinous,Regular,Epi,"KRT10, DSG1","1.0, 0.5",MT1X,0.5
+KC_Spinous_Mig,Regular,Epi,"KRT17, KRT6A","1.5, 1.5",S100A7,0.5
+KC_Spinous_Mat,Regular,Epi,"KRT1, KRT2","2.0, 2.0","SBSN, KRTDAP","2.5, 2.5"
+KC_Granular,Regular,Epi,"FLG, KLK7","1.0, 1.0",CNFN,0.5
+SAC_SG_Progenitor,Regular,SAC,"S100A7, KRT77, SCGB2A2","0.5, 0.5, 0.5",,
+SAC_SG_Clear,Regular,SAC,"KRT19, AQP5","0.5, 0.5",KRT7,0.5
+SAC_SG_Dark,Regular,SAC,"MUCL1, PIP, DCD","0.5, 0.5, 0.5",,
+SAC_SG_Ductal,Regular,SAC,"MMP7, ATP5MG","1.0, 1.0",CLDN4,2.0
+SAC_HF_IRS,Regular,SAC,"KRT25, FXYD3","1.0, 1.0",KRT71,2.0
+SAC_HF_ORS,Regular,SAC,"KRT17, PTHLH","0.5, 0.5",KRT23,0.5
+SAC_HF_HFSC,Regular,SAC,"TCF3, CD34","0.5, 0.5",LGR5,0.5
+SAC_HF_DP_DS,Regular,SAC,"BMP4, PDGFRA","0.5, 0.5",SOX2,0.5
+SAC_HF_Matrix,Regular,SAC,"LEF1, MKI67","0.5, 0.5",HOXC13,0.5
+Melanocyte,Regular,Epi_Buffer,"MLANA, PMEL, DCT","0.5, 0.5, 0.5","TYR, MITF, SOX10","0.5, 0.5, 0.5"
+Fib_Papi,Regular,Non-Epi,"FAP, CRABP1","1.0, 1.0","COL6A1, PDGFRA, TNN, LAMA4, COL1A1, DPP4, CD9","0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5"
+Fib_SFRP2,Regular,Non-Epi,"SFRP2, THY1, COL1A1","1.0, 0.5, 0.5","CTHRC1, PDGFRA, COL3A1, DPP4, FSTL1","1.0, 0.5, 0.5, 0.5, 0.5"
+Fib_Myo,Regular,Non-Epi,"ACTA2, POSTN, TAGLN","0.5, 0.5, 0.5","PDGFRA, MYLK, CNN1, LOX, COL3A1, RUNX2, LRRC15","0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5"
+Fib_Inflama,Regular,Non-Epi,"CCL19, CXCL12","0.5, 0.5","VIM, PDGFRA, IL6, CXCL1, CXCL5, CCL2","0.5, 0.5, 0.5, 0.5, 0.5, 0.5"
+Fib_Fasci,Regular,Non-Epi,"PI16, PROCR","0.5, 0.5",TNC,0.5
+Fib_EN1,Regular,Non-Epi,"EN1, DPP4","0.5, 0.5","DLK1, COL1A1","0.5, 0.5"
+Fib_Prolif,Priority,None,"MKI67, VIM","0, 0","TOP2A, COL1A1, PDGFRA","0, 0, 0"
+Fib_K14,Priority,Non-Epi,"KRT14, VIM","2.5, 2.5","PDGFRA, KLF4, TP63, COL1A1","2.5, 2.5, 2.5, 2.5"
+Fib_CD45,Priority,None,"PTPRC, COL1A2","0, 0","COL1A1, CD34, PDGFRA","0, 0, 0"
+Endo_Capillary,Regular,Non-Epi,"COL15A1, PECAM1","0.2, 0.2",RGCC,0.5
+Endo_Arterial,Regular,Non-Epi,"PECAM1, SEMA3G","0.2, 0.2",HEY1,0.5
+Endo_Venous,Regular,Non-Epi,"VWF, ACKR1","0.2, 0.2",SELE,0.5
+Endo_Lymphatic,Regular,Non-Epi,"LYVE1, PDPN","0.2, 0.2",CCL21,0.5
+Endo_Prolif,Regular,Non-Epi,"PECAM1, MKI67","0.2, 0.2",TOP2A,0.5
+Pericyte,Regular,Non-Epi,"PDGFRB, DES","0.2, 0.2",RGS5,2.0
+Schwann,Regular,None,"MPZ, S100B","0.5, 0.5",PLP1,0.5
+M1_Macrophage,Regular,Non-Epi,"CD86, CD68","0.5, 0.5",IL1B,0.5
+M2_Macrophage,Regular,Non-Epi,"ARG1, CD68","0.5, 0.5",CD163,0.5
+LAM,Regular,None,"TREM2, LIPA","0.5, 0.5",SPP1,0.5
+Neutrophil,Regular,None,"CXCR2, FCGR3B","0.5, 0.5",CSF3R,0.5
+Mast,Regular,None,"TPSAB1, CPA3","0.5, 0.5",KIT,0.5
+cDC1,Regular,None,"IRF8, CLEC9A","0.5, 0.5",HLA-DRA,0.5
+cDC2,Regular,None,"LAMP3, CD1C","0.5, 0.5",HLA-DRA,0.5
+pDC,Regular,None,"LILRA4, IL3RA","0.5, 0.5",HLA-DRA,0.5
+LGHS,Regular,Epi,"CD207, ITGAX","0.5, 0.5",CD1A,0.5
+B_Mature,Regular,None,"MS4A1, CD79A","0.5, 0.5",CD19,0.5
+B_Plasma,Regular,None,"JCHAIN, MZB1","0.5, 0.5",CD38,0.5
+CD4_T,Regular,None,"CD3D, CD4","0.1, 0.1",IL7R,0.5
+CD8_T,Regular,None,"CD3D, CD8A","0.1, 0.1",PRF1,0.5
+NK,Regular,None,"KLRB1, NKG7","0.1, 0.1",GNLY,0.5

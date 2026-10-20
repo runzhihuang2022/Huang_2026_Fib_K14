@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 4	1–2 mph	Fib–KC	Keratinocyte Differentiation (GO:0030216)	46	822	7	1	JAG1	0.3327815696529507	0.5234603339639006	pre-specified repair function
+Mode 4	1–2 mph	Fib–KC	Epidermal Cell Differentiation (GO:0009913)	46	822	7	1	JAG1	0.3327815696529507	0.5234603339639006	pre-specified repair function
+Mode 4	1–2 mph	Fib–KC	Positive Regulation Of Cell Migration (GO:0030335)	46	822	90	8	COL1A1;EGFR;F2R;FN1;HBEGF;LAMB1;SEMA3C;THBS1	0.1185947093394443	0.3909834709729625	pre-specified repair function
+Mode 4	1–2 mph	Fib–KC	Epidermis Development (GO:0008544)	46	822	12	2	LAMA3;LAMB3	0.1415479148243293	0.4135810102727533	pre-specified repair function
+Mode 4	1–2 mph	Fib–KC	Endoderm Formation (GO:0001706)	46	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	3.937955570877563e-06	0.0014216019610868	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–KC	Endodermal Cell Differentiation (GO:0035987)	46	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	3.937955570877563e-06	0.0014216019610868	top BH-adjusted result used to fill display

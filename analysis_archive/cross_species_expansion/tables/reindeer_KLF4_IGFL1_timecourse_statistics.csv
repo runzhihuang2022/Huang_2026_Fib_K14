@@ -1,0 +1,13 @@
+﻿gene,tissue,contrast,p_value,n_day,n_day0,p_adj_bh,significance
+KLF4,Velvet,day 3 vs day 0,,1,1,,
+KLF4,Velvet,day 7 vs day 0,,1,1,,
+KLF4,Velvet,day 14 vs day 0,,1,1,,
+KLF4,Back,day 3 vs day 0,,1,1,,
+KLF4,Back,day 7 vs day 0,,1,1,,
+KLF4,Back,day 14 vs day 0,,1,1,,
+IGFL1,Velvet,day 3 vs day 0,,1,1,,
+IGFL1,Velvet,day 7 vs day 0,,1,1,,
+IGFL1,Velvet,day 14 vs day 0,,1,1,,
+IGFL1,Back,day 3 vs day 0,,1,1,,
+IGFL1,Back,day 7 vs day 0,,1,1,,
+IGFL1,Back,day 14 vs day 0,,1,1,,

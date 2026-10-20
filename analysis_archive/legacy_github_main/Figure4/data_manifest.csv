@@ -1,0 +1,10 @@
+﻿asset_id,modality,species,source_path,package_path,status,notes
+spatial_reanalysis,Stereo-seq,human,external_asset_d5274322cc9c,assets/computational,available,19dpb and 19dpb_p1 registered sections
+if_source,multiplex IF,human,external_asset_897eb7ed7bd4,assets/experimental/1.ai,available,original experimental AI
+klf4_oe_source,cell imaging,human cells,external_asset_9ea123ad571c,assets/experimental/3.ai,available,original experimental AI
+atac_transfer,scATAC-seq,rat,external_asset_e74531cfcd79,assets/atac,partial,rn7 workflow; motif output unsuccessful
+scenic,SCENIC,human,,source_data,missing,AUC/loom and regulon definition required
+qpcr,qPCR,human cells,,source_data,missing,raw values and design required
+western,Western blot,human cells,,source_data,missing,original blot and quantification required
+rnaseq,RNA-seq,human cells,,source_data,missing,DEG and GSEA source tables required
+motif,KLF4 motif/footprinting,rat,,source_data,failed,current motif-hit table is empty

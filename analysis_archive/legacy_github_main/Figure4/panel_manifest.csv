@@ -1,0 +1,27 @@
+﻿panel_id,status,source,notes
+Figure4A,partial,assets/computational/Figure4A_KLF4_prioritization_spatial_gradient.pdf,Spatial and differential evidence available; true SCENIC source missing
+Figure4B,partial,assets/computational/Figure4B_OSKM_spatial_featureplots.pdf,Exploratory OSKM spatial expression only
+Figure4C,partial,assets/computational/FigureS4A_B_KLF4_regulon_proxy_FibK14_vs_fibroblasts.pdf,Must be labeled target-gene proxy
+Figure4D,ready,assets/experimental/1.ai,Human multiplex IF source artwork
+Figure4E,ready,assets/experimental/3.ai,KLF4-OE live imaging and morphology
+Figure4F,needs_label_check,assets/experimental/3.ai,KRT14 versus KRT5 endpoint must be reconciled
+Figure4G,blocked,,RNA-seq and GSEA source tables/code not found
+Figure4H,partial,assets/atac,rat rn7 accessibility data; motif/footprinting blocked
+Figure4I,ready,scripts/build_figure4_evidence_safe.py,Evidence-bounded vector model
+FigureS4A,blocked,,True SCENIC regulon heatmap missing
+FigureS4B,blocked,,True SCENIC regulon UMAP missing
+FigureS4C,ready,source_data/KLF4_FibK14_spearman_correlations.tsv,Use live FDR and directions
+FigureS4D,partial,assets/computational/Figure4B_OSKM_spatial_featureplots.pdf,OSKM spatial expression available
+FigureS4E,partial,assets/computational/Figure4B_OSKM_spatial_featureplots.pdf,Spatial feature plots available
+FigureS4F,blocked,,qPCR values missing
+FigureS4G,blocked,,Western blot source missing
+FigureS4H,ready,assets/experimental/3.ai,Time-lapse source artwork
+FigureS4I,partial,assets/experimental/3.ai,Only length and aspect ratio source plots located
+FigureS4J,needs_label_check,assets/experimental/3.ai,KRT14 versus KRT5 label check
+FigureS4K,blocked,,RNA-seq DEG table missing
+FigureS4L,blocked,,Positive GSEA table missing
+FigureS4M,blocked,,Negative GSEA table missing
+FigureS4N,partial,assets/atac/UMAP_predictedGroup_ggplot.pdf,Rat RNA-label-transferred ATAC UMAP available
+FigureS4O,blocked,,Fragment TSS nucleosome QC source plots missing
+FigureS4P,ready,assets/atac/BrowserTrack_Krt14_FibK14_browser_group.pdf,Rat accessibility browser track
+FigureS4Q,blocked,assets/atac/KLF4_motif_hits_in_peakAnnotation.csv,Zero motif hits; no footprinting output

@@ -1,0 +1,123 @@
+﻿MotifID,MotifSimilarityQvalue,OrthologousIdentity,Annotation,IGFL1_rank,rank_percentile
+tfdimers__MD00382,2.89756e-06,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 2.9e-06),864,3.18936877076412
+tfdimers__MD00515,0.0,1.0,gene is directly annotated,1012,3.7356958287190847
+tfdimers__MD00155,6.48189e-07,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 6.48e-07) which is directly annotated,1017,3.7541528239202657
+tfdimers__MD00150,3.10856e-06,1.0,gene is annotated for similar motif tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 3.11e-06),1037,3.827980804724991
+tfdimers__MD00048,3.68715e-07,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.69e-07),1254,4.629014396456257
+transfac_pro__M09808,0.0,1.0,gene is directly annotated,1512,5.5813953488372094
+tfdimers__MD00014,0.0,1.0,gene is directly annotated,2311,8.530823181985973
+tfdimers__MD00258,0.0,1.0,gene is directly annotated,2429,8.96640826873385
+tfdimers__MD00159,1.08637e-07,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 1.09e-07),2723,10.051679586563308
+tfdimers__MD00299,5.85964e-06,1.0,motif similar to tfdimers__MD00515 ('M01654_forward_4_M01835_reverse dimer: DRI1 / GKLF'; q-value = 5.86e-06) which is directly annotated,3271,12.074566260612771
+tfdimers__MD00069,6.81156e-07,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 6.81e-07),3374,12.454780361757106
+tfdimers__MD00319,3.02998e-06,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.03e-06),3829,14.1343669250646
+tfdimers__MD00459,1.9261e-06,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 1.93e-06),4045,14.931709117755627
+tfdimers__MD00054,8.06519e-08,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 8.07e-08) which is directly annotated,4302,15.880398671096346
+tfdimers__MD00505,5.19771e-06,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 5.2e-06),4424,16.330749354005167
+tfdimers__MD00116,1.67867e-07,1.0,motif similar to tfdimers__MD00588 ('M01835_reverse_2_M00517_forward dimer: GKLF / AP-1'; q-value = 1.68e-07) which is directly annotated,4488,16.566998892580287
+tfdimers__MD00450,6.08585e-08,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 6.09e-08) which is directly annotated,4928,18.19121447028424
+tfdimers__MD00050,1.56642e-08,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 1.57e-08) which is directly annotated,5197,19.18420081210779
+tfdimers__MD00383,6.77314e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 6.77e-06) which is directly annotated,5239,19.339239571797712
+tfdimers__MD00192,8.21279e-06,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 8.21e-06),5398,19.926172019195278
+tfdimers__MD00263,5.31115e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 5.31e-06) which is directly annotated,5649,20.85271317829457
+tfdimers__MD00040,1.46863e-16,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 1.47e-16),5950,21.96382428940569
+tfdimers__MD00273,1.10762e-07,1.0,motif similar to tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 1.11e-07) which is directly annotated,6018,22.21483942414175
+metacluster_50.1,5.81159e-06,1.0,motif similar to tfdimers__MD00588 ('M01835_reverse_2_M00517_forward dimer: GKLF / AP-1'; q-value = 5.81e-06) which is directly annotated,6738,24.87264673311185
+tfdimers__MD00266,0.0,1.0,gene is directly annotated,7168,26.459948320413435
+tfdimers__MD00190,4.38482e-08,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 4.38e-08),7266,26.82170542635659
+tfdimers__MD00272,7.66892e-08,1.0,motif similar to tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 7.67e-08) which is directly annotated,7354,27.146548541897378
+tfdimers__MD00506,1.07876e-06,1.0,motif similar to tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 1.08e-06) which is directly annotated,7555,27.888519748984866
+tfdimers__MD00380,1.95038e-10,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 1.95e-10),7592,28.025101513473608
+tfdimers__MD00597,1.23927e-07,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 1.24e-07),7877,29.077150239940934
+tfdimers__MD00465,1.13357e-06,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 1.13e-06) which is directly annotated,7965,29.40199335548173
+tfdimers__MD00097,1.80334e-07,1.0,motif similar to tfdimers__MD00515 ('M01654_forward_4_M01835_reverse dimer: DRI1 / GKLF'; q-value = 1.8e-07) which is directly annotated,8059,29.74898486526393
+tfdimers__MD00418,2.87856e-10,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 2.88e-10) which is directly annotated,8352,30.83056478405316
+tfdimers__MD00472,3.95283e-07,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 3.95e-07) which is directly annotated,8357,30.849021779254336
+tfdimers__MD00028,1.02959e-06,1.0,motif similar to tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 1.03e-06) which is directly annotated,8466,31.25138427464009
+tfdimers__MD00562,3.47808e-08,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.48e-08),8757,32.325581395348834
+tfdimers__MD00059,9.59247e-07,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 9.59e-07) which is directly annotated,8808,32.51384274640088
+tfdimers__MD00423,4.02111e-09,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 4.02e-09) which is directly annotated,8842,32.639350313768915
+tfdimers__MD00186,8.64282e-06,1.0,motif similar to tfdimers__MD00515 ('M01654_forward_4_M01835_reverse dimer: DRI1 / GKLF'; q-value = 8.64e-06) which is directly annotated,9084,33.53266888150609
+tfdimers__MD00420,6.42058e-06,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 6.42e-06) which is directly annotated,9505,35.08674787744555
+tfdimers__MD00304,4.52402e-06,1.0,gene is annotated for similar motif tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 4.52e-06),9604,35.45219638242894
+tfdimers__MD00143,3.89462e-06,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.89e-06),9705,35.8250276854928
+tfdimers__MD00308,5.31647e-07,1.0,motif similar to tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 5.32e-07) which is directly annotated,10974,40.5094130675526
+tfdimers__MD00355,1.01414e-07,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 1.01e-07),11138,41.11480251015135
+tfdimers__MD00209,5.79746e-09,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 5.8e-09) which is directly annotated,11264,41.57991878922112
+tfdimers__MD00398,3.50406e-06,1.0,motif similar to tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.5e-06) which is directly annotated,11494,42.428940568475454
+tfdimers__MD00057,1.50145e-08,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 1.5e-08),11525,42.54337393872277
+tfdimers__MD00411,4.22187e-07,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 4.22e-07) which is directly annotated,12021,44.37430786267996
+tfdimers__MD00458,4.40287e-06,1.0,gene is annotated for similar motif tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 4.4e-06),12072,44.562569213732
+tfdimers__MD00105,6.68022e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 6.68e-06) which is directly annotated,12205,45.05352528608343
+tfdimers__MD00366,6.48132e-06,1.0,gene is annotated for similar motif tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 6.48e-06),12212,45.07936507936508
+tfdimers__MD00082,1.18408e-06,1.0,gene is annotated for similar motif tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 1.18e-06),12725,46.973052787006274
+tfdimers__MD00017,8.16007e-09,1.0,gene is annotated for similar motif tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 8.16e-09),13095,48.33887043189369
+tfdimers__MD00084,7.9486e-09,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 7.95e-09) which is directly annotated,13653,50.39867109634552
+transfac_pro__M07040,0.0,1.0,gene is directly annotated,13656,50.40974529346622
+tfdimers__MD00265,3.87222e-07,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 3.87e-07),13700,50.57216685123662
+tfdimers__MD00376,0.0,1.0,gene is directly annotated,14117,52.11148025101514
+tfdimers__MD00314,9.81725e-06,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 9.82e-06) which is directly annotated,14536,53.65817644887412
+tfdimers__MD00055,0.0,1.0,gene is directly annotated,14676,54.1749723145072
+transfac_pro__M01835,0.0,1.0,gene is directly annotated,14883,54.9390919158361
+tfdimers__MD00326,3.5245e-07,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 3.52e-07),14916,55.0609080841639
+tfdimers__MD00268,8.60556e-12,1.0,motif similar to tfdimers__MD00375 ('M01735_forward_5_M01835_reverse dimer: PITX3 / GKLF'; q-value = 8.61e-12) which is directly annotated,15711,57.99557032115172
+tfdimers__MD00410,0.0,1.0,gene is directly annotated,16061,59.2875599852344
+tfdimers__MD00557,8.45007e-07,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 8.45e-07),16214,59.85234403839055
+tfdimers__MD00375,0.0,1.0,gene is directly annotated,16217,59.86341823551126
+tfdimers__MD00015,4.64137e-08,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 4.64e-08) which is directly annotated,16835,62.144702842377264
+tfdimers__MD00408,7.05847e-06,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 7.06e-06),16955,62.58767072720561
+jaspar__MA0039.4,0.0,1.0,gene is directly annotated,17347,64.03469915097823
+transfac_pro__M07289,0.0,1.0,gene is directly annotated,17520,64.6733111849391
+metacluster_0.2,8.79662e-06,1.0,gene is annotated for similar motif tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 8.8e-06),17621,65.04614248800296
+hdpi__KLF4,0.0,1.0,gene is directly annotated,17658,65.1827242524917
+tfdimers__MD00242,1.7196e-10,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.72e-10) which is directly annotated,17686,65.28608342561832
+tfdimers__MD00220,2.89756e-06,1.0,gene is annotated for similar motif tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 2.9e-06),17767,65.58508674787744
+tfdimers__MD00537,3.29052e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 3.29e-06) which is directly annotated,18041,66.59653008490218
+tfdimers__MD00298,4.7244e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 4.72e-06) which is directly annotated,18045,66.61129568106313
+metacluster_163.1,4.20923e-06,1.0,"motif similar to taipale_cyt_meth__KLF4_NRCCMCGCCCN_eDBD_meth ('KLF4 [Znf_C2H2, CpG-meth]'; q-value = 4.21e-06) which is directly annotated",18185,67.1280915466962
+tfdimers__MD00174,1.91991e-06,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 1.92e-06) which is directly annotated,18355,67.75562938353636
+tfdimers__MD00204,5.49949e-06,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 5.5e-06) which is directly annotated,18403,67.9328165374677
+tfdimers__MD00162,3.4439e-07,1.0,motif similar to tfdimers__MD00588 ('M01835_reverse_2_M00517_forward dimer: GKLF / AP-1'; q-value = 3.44e-07) which is directly annotated,18435,68.05094130675526
+metacluster_3.9,1.33345e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.33e-06) which is directly annotated,18618,68.7264673311185
+tfdimers__MD00151,4.8095e-07,1.0,gene is annotated for similar motif tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 4.81e-07),18663,68.89258028792912
+tfdimers__MD00332,3.47281e-07,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 3.47e-07) which is directly annotated,18893,69.74160206718346
+tfdimers__MD00189,2.80516e-06,1.0,motif similar to tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 2.81e-06) which is directly annotated,18907,69.79328165374677
+tfdimers__MD00106,1.66983e-06,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 1.67e-06),19036,70.26947212993724
+tfdimers__MD00217,1.43867e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 1.44e-06) which is directly annotated,19261,71.10003691399041
+tfdimers__MD00522,1.44053e-06,1.0,motif similar to tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 1.44e-06) which is directly annotated,19379,71.53562200073829
+tfdimers__MD00443,1.72398e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.72e-06) which is directly annotated,19561,72.20745662606127
+metacluster_167.5,4.48995e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 4.49e-06) which is directly annotated,19562,72.21114802510151
+tfdimers__MD00350,9.74447e-09,1.0,motif similar to tfdimers__MD00258 ('M00195_forward_12_M01835_forward dimer: Oct-1 / GKLF'; q-value = 9.74e-09) which is directly annotated,19571,72.24437061646364
+tfdimers__MD00310,3.43178e-08,1.0,motif similar to tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 3.43e-08) which is directly annotated,19658,72.56552233296419
+tfdimers__MD00392,2.92737e-06,1.0,gene is annotated for similar motif tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 2.93e-06),19707,72.74640088593577
+metacluster_3.5,1.46459e-08,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.46e-08) which is directly annotated,20086,74.1454411221853
+tfdimers__MD00197,1.30033e-06,1.0,gene is annotated for similar motif tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 1.3e-06),20349,75.11627906976744
+tfdimers__MD00560,8.465e-06,1.0,gene is annotated for similar motif tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 8.46e-06),20452,75.49649317091178
+tfdimers__MD00391,0.0,1.0,gene is directly annotated,20627,76.14248800295312
+tfdimers__MD00070,2.92099e-08,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 2.92e-08) which is directly annotated,20721,76.48947951273533
+tfdimers__MD00362,8.77358e-06,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 8.77e-06) which is directly annotated,20746,76.58176448874123
+tfdimers__MD00593,4.25472e-08,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 4.25e-08),20992,77.48984865263935
+tfdimers__MD00488,8.23758e-06,1.0,motif similar to tfdimers__MD00515 ('M01654_forward_4_M01835_reverse dimer: DRI1 / GKLF'; q-value = 8.24e-06) which is directly annotated,21092,77.85898855666298
+tfdimers__MD00588,0.0,1.0,gene is directly annotated,21093,77.86267995570321
+metacluster_192.1,9.09279e-07,1.0,motif similar to tfdimers__MD00266 ('M01835_reverse_3_M00133_forward dimer: GKLF / Tst-1'; q-value = 9.09e-07) which is directly annotated,21145,78.0546327057955
+metacluster_3.10,7.6453e-12,1.0,"motif similar to taipale_cyt_meth__KLF4_NRCCMCGCCCN_eDBD_meth ('KLF4 [Znf_C2H2, CpG-meth]'; q-value = 7.65e-12) which is directly annotated",21157,78.09892949427834
+metacluster_167.2,1.73046e-06,1.0,motif similar to tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 1.73e-06) which is directly annotated,21201,78.26135105204872
+metacluster_195.2,1.06107e-06,1.0,motif similar to swissregulon__hs__KLF4 ('hs__KLF4'; q-value = 1.06e-06) which is directly annotated,21234,78.38316722037652
+transfac_pro__M07461,0.0,1.0,gene is directly annotated,21321,78.70431893687707
+tfdimers__MD00569,2.38605e-10,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 2.39e-10) which is directly annotated,21367,78.87412329272794
+tfdimers__MD00348,5.25304e-06,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 5.25e-06) which is directly annotated,21607,79.76005906238464
+tfdimers__MD00133,8.16007e-09,1.0,gene is annotated for similar motif tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 8.16e-09),22270,82.20745662606127
+tfdimers__MD00436,3.15316e-08,1.0,motif similar to tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 3.15e-08) which is directly annotated,22277,82.23329641934293
+tfdimers__MD00103,4.82494e-11,1.0,gene is annotated for similar motif tfdimers__MD00055 ('M01230_forward_5_M01835_forward dimer: ZNF333 / GKLF'; q-value = 4.82e-11),22489,83.01587301587301
+tfdimers__MD00012,4.86332e-06,1.0,motif similar to tfdimers__MD00410 ('M01835_reverse_5_M00750_forward dimer: GKLF / HMG IY'; q-value = 4.86e-06) which is directly annotated,22615,83.48098929494279
+metacluster_3.3,9.61544e-07,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 9.62e-07) which is directly annotated,22632,83.5437430786268
+tfdimers__MD00086,1.04087e-08,1.0,gene is annotated for similar motif tfdimers__MD00014 ('M01835_reverse_6_M01654_forward dimer: GKLF / DRI1'; q-value = 1.04e-08),22645,83.59173126614986
+metacluster_133.2,7.86865e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 7.87e-06) which is directly annotated,22825,84.2561830933924
+metacluster_3.7,1.38653e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.39e-06) which is directly annotated,22885,84.47766703580658
+tfdimers__MD00193,1.84922e-08,1.0,gene is annotated for similar motif tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 1.85e-08),23187,85.59246954595791
+tfdimers__MD00154,7.07153e-07,1.0,gene is annotated for similar motif tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 7.07e-07),23345,86.17571059431525
+tfdimers__MD00439,1.39978e-08,1.0,gene is annotated for similar motif tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 1.4e-08),23559,86.9656699889258
+metacluster_3.2,1.48292e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 1.48e-06) which is directly annotated,23603,87.1280915466962
+tfdimers__MD00029,2.41275e-06,1.0,gene is annotated for similar motif tfdimers__MD00376 ('M01835_reverse_4_M01297_forward dimer: GKLF / HOXA13'; q-value = 2.41e-06),23637,87.25359911406423
+metacluster_3.4,6.15283e-06,1.0,motif similar to tfdimers__MD00391 ('M01588_forward_8_M01113_forward dimer: GKLF (KLF4) / CACD'; q-value = 6.15e-06) which is directly annotated,23743,87.64488741232927
+metacluster_170.2,1.98385e-06,1.0,motif similar to transfac_pro__M01588 ('V$GKLF_02: GKLF (KLF4)'; q-value = 1.98e-06) which is directly annotated,24055,88.79660391288299

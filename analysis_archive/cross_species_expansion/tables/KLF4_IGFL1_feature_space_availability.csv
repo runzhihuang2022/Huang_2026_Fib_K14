@@ -1,0 +1,9 @@
+﻿group,cohort,KLF4_available,IGFL1_available,KLF4_symbol,IGFL1_symbol,source
+Human normal,Human,True,True,KLF4,IGFL1,external_asset_decd995edda5
+Human wound,Human,True,True,KLF4,IGFL1,external_asset_decd995edda5
+Rat embryo,Rat,True,False,Klf4,,external_asset_4899326aa62d
+Rat adult,Rat,True,False,Klf4,,external_asset_4899326aa62d
+Reindeer velvet,Reindeer,True,True,KLF4,IGFL1,external_asset_66f48a6c202e
+Reindeer back,Reindeer,True,True,KLF4,IGFL1,external_asset_66f48a6c202e
+Acomys wound,Acomys,False,False,,,external_asset_772dfed66cf1
+Acomys control,Acomys,True,False,Klf4,,external_asset_b402716df77b

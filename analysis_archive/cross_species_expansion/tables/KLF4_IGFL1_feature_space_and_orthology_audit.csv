@@ -1,0 +1,25 @@
+﻿group,cohort,gene,analysis_context,available,matched_feature,feature_space_n,audit_status,audit_reason,annotation_source,source
+Human normal,Human,KLF4,Fib_K14,True,KLF4,52399,direct/mapped feature,Matched as KLF4,existing Fib_K14 annotation,external_asset_decd995edda5
+Human normal,Human,IGFL1,all cells/spots,True,IGFL1,52399,direct/mapped feature,Matched as IGFL1,existing Fib_K14 annotation,external_asset_decd995edda5
+Human wound,Human,KLF4,Fib_K14,True,KLF4,52399,direct/mapped feature,Matched as KLF4,existing Fib_K14 annotation,external_asset_decd995edda5
+Human wound,Human,IGFL1,all cells/spots,True,IGFL1,52399,direct/mapped feature,Matched as IGFL1,existing Fib_K14 annotation,external_asset_decd995edda5
+Rat embryo,Rat,KLF4,Fib_K14,True,Klf4,25726,direct/mapped feature,Matched as Klf4,existing Fib_K14 annotation,external_asset_4899326aa62d
+Rat embryo,Rat,IGFL1,all cells/spots,False,,25726,ortholog unresolved,"Igfl1 is absent from the 25,726-feature object; Ensembl has no rat IGFL1 ortholog in the queried release",existing Fib_K14 annotation,external_asset_4899326aa62d
+Rat adult,Rat,KLF4,Fib_K14,True,Klf4,25726,direct/mapped feature,Matched as Klf4,existing Fib_K14 annotation,external_asset_4899326aa62d
+Rat adult,Rat,IGFL1,all cells/spots,False,,25726,ortholog unresolved,"Igfl1 is absent from the 25,726-feature object; Ensembl has no rat IGFL1 ortholog in the queried release",existing Fib_K14 annotation,external_asset_4899326aa62d
+Reindeer velvet,Reindeer,KLF4,Fib_K14,True,KLF4,3000,direct/mapped feature,Matched as KLF4,existing Fib_K14 annotation,external_asset_66f48a6c202e
+Reindeer velvet,Reindeer,IGFL1,all cells/spots,True,IGFL1,3000,direct/mapped feature,Matched as IGFL1,existing Fib_K14 annotation,external_asset_66f48a6c202e
+Reindeer back,Reindeer,KLF4,Fib_K14,True,KLF4,3000,direct/mapped feature,Matched as KLF4,existing Fib_K14 annotation,external_asset_66f48a6c202e
+Reindeer back,Reindeer,IGFL1,all cells/spots,True,IGFL1,3000,direct/mapped feature,Matched as IGFL1,existing Fib_K14 annotation,external_asset_66f48a6c202e
+Acomys wound,Acomys,KLF4,Fib_K14,False,,3000,HVG-limited absence,"Absent from the 3,000-HVG object; no raw matrix is embedded, so biological absence cannot be concluded",existing Fib_K14 annotation,external_asset_772dfed66cf1
+Acomys wound,Acomys,IGFL1,all cells/spots,False,,3000,HVG-limited absence,"Absent from the 3,000-HVG object; no raw matrix is embedded, so biological absence cannot be concluded",existing Fib_K14 annotation,external_asset_772dfed66cf1
+Acomys unwounded,Acomys,KLF4,Fib_K14,True,Klf4,3000,direct/mapped feature,Matched as Klf4,existing Fib_K14 annotation,external_asset_b402716df77b
+Acomys unwounded,Acomys,IGFL1,all cells/spots,False,,3000,HVG-limited absence,"Absent from the 3,000-HVG object; no raw matrix is embedded, so biological absence cannot be concluded",existing Fib_K14 annotation,external_asset_b402716df77b
+Planarian 0 h,Planarian,KLF4,Fib_K14,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_ea8c104cf286
+Planarian 0 h,Planarian,IGFL1,all cells/spots,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_ea8c104cf286
+Planarian 36 h,Planarian,KLF4,Fib_K14,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_a0530f02eab1
+Planarian 36 h,Planarian,IGFL1,all cells/spots,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_a0530f02eab1
+Planarian 3 d,Planarian,KLF4,Fib_K14,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_c9f0a824d9d4
+Planarian 3 d,Planarian,IGFL1,all cells/spots,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_c9f0a824d9d4
+Planarian 5 d,Planarian,KLF4,Fib_K14,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_b482ee72e7fd
+Planarian 5 d,Planarian,IGFL1,all cells/spots,False,,3000,mapping unresolved,No IGFL1/KLF4 human-symbol match in the selected feature space; local planarian-to-human mapping has no IGFL1 candidate,KRT14-like direct ortholog surrogate,external_asset_b482ee72e7fd

@@ -1,0 +1,9 @@
+{
+  "figure": "FigureS7",
+  "core_scripts": [],
+  "extra_groups": [
+    "figure_s7",
+    "mechanism"
+  ],
+  "scope": "Rebuilt computational panels"
+}

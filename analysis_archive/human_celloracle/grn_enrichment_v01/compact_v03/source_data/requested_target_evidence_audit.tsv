@@ -1,0 +1,9 @@
+﻿gene	requested_direction	in_model_universe	edge_present	model_direction	coef_mean	p	FDR	evidence_status	display_as_model_edge
+TP63	positive	True	True	positive	0.07749991	1.5525836860418378e-17	6.047313457132957e-16	model_supported_direction_matched	True
+KRT5	positive	True	False	not_available				hypothesis_no_CellOracle_edge	False
+KRT14	positive	True	False	not_available				hypothesis_no_CellOracle_edge	False
+EPCAM	positive	True	True	positive	0.033482525	2.2220801021032244e-06	4.121429522710505e-06	model_supported_direction_matched	True
+TACSTD2	positive	True	False	not_available				hypothesis_no_CellOracle_edge	False
+VIM	negative	True	True	negative	-0.24915482	1.4997789186874474e-10	6.116899359463463e-10	model_supported_direction_matched	True
+PDGFRA	negative	True	True	negative	-0.014078836	1.9082577264617355e-05	3.19684466433052e-05	model_supported_direction_matched	True
+COL1A1	negative	True	True	negative	-0.00933623	0.263733652948433	0.2897722364553304	hypothesis_direction_matched_not_FDR_significant	False

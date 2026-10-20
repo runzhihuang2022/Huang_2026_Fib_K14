@@ -1,0 +1,9 @@
+﻿figure,phase,n_sequencing_samples,n_unique_patients,recovered_lineage_cells,recovered_target_cells,replicate_warning
+FigureS2,0-7dpb,8,4,2298,362,patients may recur across phases and libraries
+FigureS2,1-2mph,6,2,44466,5661,patients may recur across phases and libraries
+FigureS2,15-28dpb,9,5,16342,4054,patients may recur across phases and libraries
+FigureS2,8-14dpb,5,5,6559,1007,patients may recur across phases and libraries
+FigureS3,0-7dpb,8,4,1788,44,patients may recur across phases and libraries
+FigureS3,1-2mph,6,2,7063,43,patients may recur across phases and libraries
+FigureS3,15-28dpb,9,5,6158,1081,patients may recur across phases and libraries
+FigureS3,8-14dpb,5,5,1560,316,patients may recur across phases and libraries

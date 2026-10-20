@@ -1,0 +1,7 @@
+﻿stage,contrast,p_value,n_region,n_center,unit,p_adj_bh,significance
+Embryo,Front vs Center,0.3868601340110574,36,42,Fib_K14 spots within one selected slice,0.4642321608132689,
+Embryo,Peri vs Center,0.2938440147557929,70,42,Fib_K14 spots within one selected slice,0.4407660221336894,
+P5,Front vs Center,0.2101813871583407,635,659,Fib_K14 spots within one selected slice,0.4203627743166815,
+P5,Peri vs Center,0.0251222775794624,845,659,Fib_K14 spots within one selected slice,0.1507336654767746,
+Adult,Front vs Center,0.0602510822004325,447,784,Fib_K14 spots within one selected slice,0.1807532466012976,
+Adult,Peri vs Center,0.6280247929407572,1232,784,Fib_K14 spots within one selected slice,0.6280247929407572,

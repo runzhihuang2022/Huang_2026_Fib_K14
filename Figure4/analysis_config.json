@@ -1,0 +1,11 @@
+{
+  "figure": "Figure4",
+  "core_scripts": [
+    "reanalyze_bulk.py",
+    "rebuild_current_histology.py"
+  ],
+  "extra_groups": [
+    "derived"
+  ],
+  "scope": "Executed supporting analyses and/or archived sources; see panel-specific status"
+}

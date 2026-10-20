@@ -1,0 +1,17 @@
+﻿mode	group	time_group	interface	status	significant_lr_n	lr_gene_n	go_terms_tested	go_fdr_lt_0.05	gene_set_basis
+Mode 1	D0_7	0–7 dpb	Fib-SAC	PASS	228	46	881	8	all significant LR pairs among the five prespecified subtypes
+Mode 1	D0_7	0–7 dpb	Fib-KC	PASS	229	39	573	12	all significant LR pairs among the five prespecified subtypes
+Mode 1	D0_7	0–7 dpb	Fib-Endo	PASS	234	75	1297	41	all significant LR pairs among the five prespecified subtypes
+Mode 1	D0_7	0–7 dpb	Fib-Immune	NOT_ESTIMABLE	0	0	0	0	all significant LR pairs among the five prespecified subtypes
+Mode 2	D15_28	15–28 dpb	Fib-SAC	PASS	246	57	1003	14	all significant LR pairs among the five prespecified subtypes
+Mode 2	D15_28	15–28 dpb	Fib-KC	PASS	297	59	996	15	all significant LR pairs among the five prespecified subtypes
+Mode 2	D15_28	15–28 dpb	Fib-Endo	PASS	198	71	1360	46	all significant LR pairs among the five prespecified subtypes
+Mode 2	D15_28	15–28 dpb	Fib-Immune	PASS	181	65	1175	56	all significant LR pairs among the five prespecified subtypes
+Mode 3	D8_14	8–14 dpb	Fib-SAC	PASS	234	38	833	0	all significant LR pairs among the five prespecified subtypes
+Mode 3	D8_14	8–14 dpb	Fib-KC	PASS	282	44	820	2	all significant LR pairs among the five prespecified subtypes
+Mode 3	D8_14	8–14 dpb	Fib-Endo	PASS	115	56	1122	11	all significant LR pairs among the five prespecified subtypes
+Mode 3	D8_14	8–14 dpb	Fib-Immune	PASS	118	50	1147	33	all significant LR pairs among the five prespecified subtypes
+Mode 4	M1_2	1–2 mph	Fib-SAC	PASS	235	55	869	11	all significant LR pairs among the five prespecified subtypes
+Mode 4	M1_2	1–2 mph	Fib-KC	PASS	224	46	722	9	all significant LR pairs among the five prespecified subtypes
+Mode 4	M1_2	1–2 mph	Fib-Endo	PASS	255	72	1172	10	all significant LR pairs among the five prespecified subtypes
+Mode 4	M1_2	1–2 mph	Fib-Immune	NOT_ESTIMABLE	0	0	0	0	all significant LR pairs among the five prespecified subtypes

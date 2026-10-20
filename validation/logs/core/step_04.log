@@ -1,0 +1,64 @@
+{
+  "human_cells": 279305,
+  "human_samples": 38,
+  "human_states": 47,
+  "qc_samples": 51,
+  "trajectory_finite_cells": {
+    "M2_Fib_KC_SAC": 4500,
+    "M2_Fib_KC": 4500,
+    "M2_KC_SAC": 4500,
+    "M3_KC_SAC": 58952
+  },
+  "trajectory_rows": [
+    {
+      "analysis_a": "M2_Fib_KC_SAC",
+      "analysis_b": "M2_Fib_KC",
+      "n_shared_states": 8,
+      "spearman_rho": 0.3333333333333334,
+      "p_value": 0.4197530864197531,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    },
+    {
+      "analysis_a": "M2_Fib_KC_SAC",
+      "analysis_b": "M2_KC_SAC",
+      "n_shared_states": 16,
+      "spearman_rho": 0.7764705882352941,
+      "p_value": 0.0004043508405454705,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    },
+    {
+      "analysis_a": "M2_Fib_KC_SAC",
+      "analysis_b": "M3_KC_SAC",
+      "n_shared_states": 16,
+      "spearman_rho": 0.6558823529411765,
+      "p_value": 0.005800736962231502,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    },
+    {
+      "analysis_a": "M2_Fib_KC",
+      "analysis_b": "M2_KC_SAC",
+      "n_shared_states": 7,
+      "spearman_rho": -0.5714285714285715,
+      "p_value": 0.1802019889115274,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    },
+    {
+      "analysis_a": "M2_Fib_KC",
+      "analysis_b": "M3_KC_SAC",
+      "n_shared_states": 7,
+      "spearman_rho": -0.5,
+      "p_value": 0.25316999510032273,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    },
+    {
+      "analysis_a": "M2_KC_SAC",
+      "analysis_b": "M3_KC_SAC",
+      "n_shared_states": 16,
+      "spearman_rho": 0.5088235294117647,
+      "p_value": 0.04413521823498383,
+      "interpretation": "state_rank_sensitivity_not_patient_inference"
+    }
+  ],
+  "scope": "Re-rendering processed observations; no raw-read alignment, integration, clustering, trajectory fitting, or new experimental data"
+}
+

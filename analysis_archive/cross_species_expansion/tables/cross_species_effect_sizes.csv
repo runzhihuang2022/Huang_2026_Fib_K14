@@ -1,0 +1,50 @@
+﻿cohort,contrast,metric,effect,p_value,n_a,n_b,mean_a,mean_b,p_adj_bh,significance
+Human,Human wound vs Human normal,KLF4_mean,-0.7735813322313083,0.1153465700343079,28,10,1.1745921266930444,1.6992123067378997,0.256325711187351,
+Human,Human wound vs Human normal,IGFL1_mean,0.1475070626915448,0.2905047817402718,28,10,0.3977429083544329,0.2854564273613505,0.4841746362337864,
+Human,Human wound vs Human normal,KLF4 context | KLF4 repair proxy,0.7681605838522689,0.0123214931507611,28,10,6.297297892825944,2.622670078277588,0.0308037328769027,*
+Human,Human wound vs Human normal,KLF4 context | ECM niche,0.0028739678205183,0.8293986370624102,28,10,4.338241707533598,4.328199118375778,0.9422593738382384,
+Human,Human wound vs Human normal,KLF4 context | Growth-factor niche,1.0097498799748,0.0024197880873345,28,10,0.339130069129169,0.1246357582509517,0.0089931194989228,**
+Human,Human wound vs Human normal,KLF4 context | Inflammatory niche,0.8061455089560142,0.0026979358496768,28,10,0.9636842222618204,0.3408711118623614,0.0089931194989228,**
+Human,Human wound vs Human normal,KLF4 context | Epithelial repair,0.8174677747231017,0.0068986247643446,28,10,10.455973995583395,3.4305561542510987,0.019710356469556,*
+Rat,Rat adult vs Rat embryo,KLF4_mean,2.542229525672544,2.07651833048996e-05,10,40,15.602524566650391,7.68000295162201,0.0001038259165244,***
+Rat,Rat adult vs Rat embryo,IGFL1_mean,,,0,0,,,,
+Rat,Rat adult vs Rat embryo,KLF4 context | KLF4 repair proxy,-0.3416918197684511,0.627617543668566,10,40,0.4091965779662132,0.5469166379421949,0.7845219295857075,
+Rat,Rat adult vs Rat embryo,KLF4 context | ECM niche,2.818682964325393,1.8626134504845464e-05,10,40,106.50350456237793,22.337013353407382,0.0001038259165244,***
+Rat,Rat adult vs Rat embryo,KLF4 context | Growth-factor niche,3.1165491025569283,9.58742153949558e-06,10,40,1.7258698165416717,0.4725034573115408,9.58742153949558e-05,***
+Rat,Rat adult vs Rat embryo,KLF4 context | Inflammatory niche,3.3552672623870925,1.3076629632066955e-06,10,40,11.994544982910156,1.401178599987179,2.6153259264133916e-05,***
+Rat,Rat adult vs Rat embryo,KLF4 context | Epithelial repair,-0.3713383691455564,0.6020522180365764,10,40,0.4964135721325874,0.751494052214548,0.7845219295857075,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4_mean,-1.128608342595357,0.1904761904761904,4,5,0.4492682553827762,1.04131817817688,0.3809523809523809,
+Reindeer,Reindeer velvet vs Reindeer back,IGFL1_mean,0.0263488637623732,0.9422593738382384,6,7,0.0151022997063895,0.0144591959126825,0.9422593738382384,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4 context | KLF4 repair proxy,0.3633585012474139,0.9047619047619048,4,5,0.3769724741578102,0.3291455537080764,0.9422593738382384,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4 context | ECM niche,0.2959199308583518,0.9047619047619048,4,5,2.6237670183181763,2.49878351688385,0.9422593738382384,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4 context | Growth-factor niche,-0.4861012009004113,0.2857142857142857,4,5,0.3023522347211838,0.3377668797969818,0.4841746362337864,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4 context | Inflammatory niche,-0.6113028721504826,0.4126984126984127,4,5,0.4365749657154083,0.7670507371425629,0.5895691609977324,
+Reindeer,Reindeer velvet vs Reindeer back,KLF4 context | Epithelial repair,0.7314172886760301,0.4126984126984127,4,5,0.4968044385313988,0.3668170034885406,0.5895691609977324,
+Acomys,Acomys wound vs Acomys unwounded,KLF4_mean,,,0,1,,2.1501639601267706,,
+Acomys,Acomys wound vs Acomys unwounded,IGFL1_mean,,,0,0,,,,
+Acomys,Acomys wound vs Acomys unwounded,KLF4 context | KLF4 repair proxy,-0.1405050100036128,,2,1,0.6790617406368256,0.7485236803199863,,
+Acomys,Acomys wound vs Acomys unwounded,KLF4 context | ECM niche,0.597564217860575,,2,1,2.3926151990890503,1.581204385535136,,
+Acomys,Acomys wound vs Acomys unwounded,KLF4 context | Growth-factor niche,0.9227368522667,,2,1,0.6177047491073608,0.3258433333918467,,
+Acomys,Acomys wound vs Acomys unwounded,KLF4 context | Inflammatory niche,-3.986245904216134,,2,1,0.0376233411952853,0.5962765953743864,,
+Acomys,Acomys wound vs Acomys unwounded,KLF4 context | Epithelial repair,0.1564960092527288,,2,1,0.8716834187507629,0.7820755968782992,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4_mean,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,IGFL1_mean,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4 context | KLF4 repair proxy,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4 context | ECM niche,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4 context | Growth-factor niche,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4 context | Inflammatory niche,,,0,0,,,,
+Planarian,Planarian 36 h vs Planarian 0 h,KLF4 context | Epithelial repair,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4_mean,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,IGFL1_mean,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4 context | KLF4 repair proxy,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4 context | ECM niche,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4 context | Growth-factor niche,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4 context | Inflammatory niche,,,0,0,,,,
+Planarian,Planarian 3 d vs Planarian 0 h,KLF4 context | Epithelial repair,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4_mean,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,IGFL1_mean,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4 context | KLF4 repair proxy,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4 context | ECM niche,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4 context | Growth-factor niche,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4 context | Inflammatory niche,,,0,0,,,,
+Planarian,Planarian 5 d vs Planarian 0 h,KLF4 context | Epithelial repair,,,0,0,,,,

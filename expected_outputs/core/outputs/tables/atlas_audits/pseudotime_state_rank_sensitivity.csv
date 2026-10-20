@@ -1,0 +1,7 @@
+﻿analysis_a,analysis_b,n_shared_states,spearman_rho,p_value,interpretation
+M2_Fib_KC_SAC,M2_Fib_KC,8,0.3333333333333334,0.4197530864197531,state_rank_sensitivity_not_patient_inference
+M2_Fib_KC_SAC,M2_KC_SAC,16,0.7764705882352941,0.0004043508405454,state_rank_sensitivity_not_patient_inference
+M2_Fib_KC_SAC,M3_KC_SAC,16,0.6558823529411765,0.0058007369622315,state_rank_sensitivity_not_patient_inference
+M2_Fib_KC,M2_KC_SAC,7,-0.5714285714285715,0.1802019889115274,state_rank_sensitivity_not_patient_inference
+M2_Fib_KC,M3_KC_SAC,7,-0.5,0.2531699951003227,state_rank_sensitivity_not_patient_inference
+M2_KC_SAC,M3_KC_SAC,16,0.5088235294117647,0.0441352182349838,state_rank_sensitivity_not_patient_inference

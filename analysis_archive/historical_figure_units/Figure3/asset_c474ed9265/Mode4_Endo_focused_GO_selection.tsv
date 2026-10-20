@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 4	1–2 mph	Fib–Endo	Regulation Of Kinase Activity (GO:0043549)	72	822	30	11	AXL;CD4;CD74;EPHA2;FGFR1;FLT1;HLA-DRB1;IGF1R;INSR;PDGFRB;TEK	1.5553265340839404e-05	0.0101763280710675	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Substrate Adhesion-Dependent Cell Spreading (GO:0034446)	72	822	9	6	EFNA1;FN1;LAMA5;LAMB1;LAMC1;TEK	2.515080151976192e-05	0.0101763280710675	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Positive Regulation Of Transferase Activity (GO:0051347)	72	822	37	12	AXL;CD4;CD74;EPHA2;FGFR1;FLT1;HLA-DRB1;IGF1R;IGF2;INSR;PDGFRB;TEK	2.604862134232308e-05	0.0101763280710675	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Maintenance Of Blood-Brain Barrier (GO:0035633)	72	822	10	6	ESAM;F11R;JAM2;JAM3;LAMC1;PECAM1	5.8524682300668734e-05	0.0147641236910279	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Positive Regulation Of Kinase Activity (GO:0033674)	72	822	40	12	AXL;CD4;CD74;EPHA2;FGFR1;FLT1;GAS6;HLA-DRB1;IGF1R;INSR;PDGFRB;TEK	6.328908566824528e-05	0.0147641236910279	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Positive Regulation Of Phosphorylation (GO:0042327)	72	822	89	19	ANGPT1;APP;AXL;CD4;CD74;EFNA1;EPHA2;FGFR1;FLT1;GAS6;HLA-DRB1;IGF1R;IGF2;INSR;PDGFRB;PECAM1;TEK;THBS1;VEGFB	7.558425097795874e-05	0.0147641236910279	top BH-adjusted result used to fill display

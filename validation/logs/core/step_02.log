@@ -1,0 +1,7 @@
+data_origin                                            adjudication_status                                           
+new D12 source annotation and documented image review  AI_morphology_candidate_complete_requires_histology_validation     11
+                                                       original_three_curve_length_ratio                                   6
+                                                       unmeasurable_morphology                                             3
+previous user-supplied subset; values unchanged        NaN                                                               115
+{"summary_equals_source": true, "exploratory_p_equals_source": true, "reports": [{"experiment": "KLF4", "n_rows": 72, "n_observed": 64, "n_missing": 8, "animal_level_inference": false}, {"experiment": "IGFL1", "n_rows": 63, "n_observed": 61, "n_missing": 2, "animal_level_inference": false}], "all_holm_above_005": true, "limitations": ["KLF4 D12 includes 11 provisional morphology calls at 100 percent and 3 missing OE slices", "IGFL1 D12 one supplied 100 percent value differs from earlier length annotation", "Independent-animal/wound nesting unresolved; selection rationale required for current subset"], "source_collection": "October 16 v05, 135 rows; not the earlier 151-row workbook"}
+

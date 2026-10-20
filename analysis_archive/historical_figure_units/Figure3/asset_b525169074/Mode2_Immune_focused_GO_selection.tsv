@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–Immune	Positive Regulation Of Immune Response (GO:0050778)	65	822	25	9	CCL5;CD74;HLA-DMB;HLA-DRA;HLA-DRB1;ITGB2;LGALS9;LILRB1;PTPRC	5.174613753819199e-05	0.0055274283279432	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Immune	Macrophage Activation (GO:0042116)	65	822	11	4	APP;ITGB2;TLR4;TNF	0.0077094481898635	0.0730042351847216	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Immune	Regulation Of Inflammatory Response (GO:0050727)	65	822	47	10	ANXA1;APP;CCL3;CCL5;CD47;MDK;TLR4;TNF;TNFRSF1A;TNFRSF1B	0.0023516887714254	0.0493434697575883	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Immune	Positive Regulation Of Leukocyte Cell-Cell Adhesion (GO:1903039)	65	822	21	11	CD44;CD47;HLA-DMA;HLA-DMB;HLA-DPA1;HLA-DQA1;HLA-DRA;HLA-DRB1;ITGB2;MDK;TNF	6.18976631705917e-08	7.272975422544526e-05	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Immune	Regulation Of T Cell Activation (GO:0050863)	65	822	25	10	CCL5;CD4;CD47;HLA-DMA;HLA-DMB;HLA-DPA1;HLA-DQA1;HLA-DRA;HLA-DRB1;TNFRSF1B	6.116801926201951e-06	0.0035936211316436	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Immune	Antigen Processing And Presentation Of Exogenous Peptide Antigen (GO:0002478)	65	822	13	7	HLA-DMA;HLA-DMB;HLA-DPA1;HLA-DQA1;HLA-DRA;HLA-DRB1;HLA-F	1.656388230967951e-05	0.003751375460451	top BH-adjusted result used to fill display

@@ -1,0 +1,12 @@
+﻿metric,value
+Fib_K14 cells,3298.0
+Samples,19.0
+Candidate target peaks,447.0
+Tested peaks,124.0
+Positive cell-level FDR<0.05,33.0
+Negative cell-level FDR<0.05,27.0
+Positive sample-level FDR<0.05,0.0
+Fib_K14 KLF4 chromVAR mean z,-1.2801895
+Fib_K14 KLF4 marker-motif rows,0.0
+External Fib_K14-like Klf4-epithelial module partial rho,-0.126154604301874
+External validation p,0.0004860026651487

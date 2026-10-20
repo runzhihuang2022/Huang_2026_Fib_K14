@@ -1,0 +1,9 @@
+﻿sub_labels	legend_label	hex_color	source
+Fib_K14	Fib_K14 (root state)	#E41A1C	original atlas category palette
+KC_Basal	KC_Basal	#008941	original atlas category palette
+KC_Basal_Mig	KC_Basal_Mig	#FF3030	original atlas category palette
+KC_Basal_Prolif	KC_Basal_Prolif	#FFD700	original atlas category palette
+KC_Spinous	KC_Spinous	#00D93A	original atlas category palette
+KC_Spinous_Mig	KC_Spinous_Mig	#1A0099	original atlas category palette
+KC_Spinous_Mat	KC_Spinous_Mat	#EE4C97	original atlas category palette
+KC_Granular	KC_Granular	#882D17	original atlas category palette

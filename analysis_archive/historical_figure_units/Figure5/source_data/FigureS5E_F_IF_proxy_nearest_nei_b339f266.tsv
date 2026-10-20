@@ -1,0 +1,3 @@
+﻿sample_key	source_like	receiver_like	observed_mean_nn_um	perm_mean_nn_um	perm_p	n_source	n_receiver	fdr
+19dpb	SOX9+KRT17+ KC_Spinous_Mig	VIM+KRT5+ Fib_K14	54.68550568932049	36.51060680455025	1.0	30	1261	1.0
+19dpb_p1	SOX9+KRT17+ KC_Spinous_Mig	VIM+KRT5+ Fib_K14	59.11298951273786	18.55663449664602	1.0	94	4868	1.0

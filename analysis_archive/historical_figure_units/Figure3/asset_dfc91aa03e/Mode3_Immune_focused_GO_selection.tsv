@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 3	8–14 dpb	Fib–Immune	Positive Regulation Of Immune Response (GO:0050778)	50	822	25	8	CCL5;CD74;HLA-DRA;HLA-DRB1;ITGB2;LGALS9;LILRB1;PTPRC	5.216295591166433e-05	0.0166983981784164	pre-specified repair function
+Mode 3	8–14 dpb	Fib–Immune	Positive Regulation Of Leukocyte Cell-Cell Adhesion (GO:1903039)	50	822	21	8	CD44;CD47;HLA-DPA1;HLA-DRA;HLA-DRB1;ITGB2;MDK;TNF	1.1856607727863525e-05	0.0135995290638594	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Immune	Positive Regulation Of Cell Adhesion (GO:0045785)	50	822	23	8	CCL5;CD47;CXCL12;LAMA2;LAMB1;LAMC1;MDK;TNF	2.599278243480836e-05	0.0149068607263625	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Immune	Regulation Of Viral Entry Into Host Cell (GO:0046596)	50	822	5	4	CD4;CD74;HLA-DRB1;LGALS9	5.8233297919499234e-05	0.0166983981784164	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Immune	Positive Regulation Of Mononuclear Cell Migration (GO:0071677)	50	822	15	6	CCL5;CCR1;CD47;CXCL12;LGALS9;TNF	0.0001234845078819	0.0212638555669931	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Immune	Endoderm Formation (GO:0001706)	50	822	10	5	COL4A2;COL6A1;FN1;ITGB2;LAMB1	0.0001366600506271	0.0212638555669931	top BH-adjusted result used to fill display

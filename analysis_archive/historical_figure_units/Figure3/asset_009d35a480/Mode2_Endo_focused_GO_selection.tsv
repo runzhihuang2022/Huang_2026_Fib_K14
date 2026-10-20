@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	41	822	34	9	ANGPTL4;CDH5;FLT1;GRN;KDR;PGF;THBS1;VEGFA;WNT5A	1.637479707072359e-05	0.0074702630640238	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Endo	Angiogenesis Involved In Wound Healing (GO:0060055)	41	822	4	3	KDR;MCAM;VEGFA	0.0004462287951356	0.0285586428886836	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Endo	Blood Vessel Morphogenesis (GO:0048514)	41	822	13	4	COL4A1;FLT1;KDR;VEGFA	0.0027540785335343	0.0542341618911371	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Vasculature Development (GO:1904018)	41	822	31	9	ANGPTL4;CDH5;FLT1;GRN;KDR;PGF;THBS1;VEGFA;WNT5A	7.025806147962821e-06	0.0071944254955139	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Regulation Of Endothelial Cell Migration (GO:0010594)	41	822	20	7	EDN1;GRN;KDR;PTN;THBS1;VEGFA;WNT5A	2.1885536320382343e-05	0.0074702630640238	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Migration (GO:0010595)	41	822	21	7	EDN1;GRN;KDR;PDGFB;THBS1;VEGFA;WNT5A	3.162292778905685e-05	0.0080954695139985	top BH-adjusted result used to fill display

@@ -1,0 +1,8 @@
+{
+  "figure": "FigureS2",
+  "core_scripts": [
+    "rebuild_current_supplements.py"
+  ],
+  "extra_groups": [],
+  "scope": "Executed supporting analyses and/or archived sources; see panel-specific status"
+}

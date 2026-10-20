@@ -1,0 +1,6 @@
+﻿date,figure,panel,request_source,change_type,change_summary,scientific_impact,files_changed,approved_by,status
+2026-07-22,Figure5+A-I and FigureS5A-M,all,expert comments + supplied legends,audit,created joint evidence-unit manifests and fixed panel identities,prevents silent panel reassignment,panel_manifest.csv; data_manifest.csv,pending,Completed
+2026-07-22,Figure5,A-D,reproducibility audit,statistics,compared supplied claims with section-aware reanalysis tables,four supplied significance statements require revision or provenance recovery,SCIENTIFIC_CONFLICT_AUDIT.md,pending,Awaiting scientific approval
+2026-07-22,Figure5,E-I,source audit,provenance,mapped available microscopy/experimental AI and documented missing morphology/model sources,experimental claims cannot be finalized from summary bars alone,panel_manifest.csv; QC/current_composite_audit.md,pending,Blocked by source data
+2026-07-22,FigureS5,A-M,supplement finalizer,scope,created 13-panel source/action matrix,makes missing CellChat microscopy quantification viability morphology RNA-seq and GSEA explicit,panel_manifest.csv,pending,Blocked by source data
+2026-07-22,Figure5+S5,all,expert comments,layout,specified A4 Arial 8-14 pt matched panels and 3-4 mm spacing,visual optimization can proceed after evidence closure,CHANGE_SPECIFICATION.md; LAYOUT_BLUEPRINT.md,pending,Ready after approval

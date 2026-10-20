@@ -1,0 +1,790 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh
+Mode 1	0–7 dpb	Fib–Endo	Vascular Endothelial Growth Factor Receptor Signaling Pathway (GO:0048010)	32	822	8	5	FLT1;KDR;PGF;VEGFA;VEGFB	3.3567414142534078e-06	0.0026484689758459
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	32	822	34	8	ANGPTL4;CDH5;FLT1;KDR;MDK;PGF;VEGFA;VEGFB	1.9037041686751965e-05	0.0066974580883851
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Vascular Endothelial Growth Factor Stimulus (GO:0035924)	32	822	11	5	FLT1;KDR;PGF;VEGFA;VEGFB	2.5465620107928247e-05	0.0066974580883851
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Phosphorylation (GO:0001932)	32	822	76	11	APP;CD4;CD74;CDH5;FN1;HLA-DRB1;IGF2;KDR;PGF;VEGFA;VEGFB	5.4399213720312497e-05	0.0096766195898575
+Mode 1	0–7 dpb	Fib–Endo	Vascular Endothelial Growth Factor Signaling Pathway (GO:0038084)	32	822	7	4	KDR;PGF;VEGFA;VEGFB	6.132205063281106e-05	0.0096766195898575
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Vasculature Development (GO:1904018)	32	822	31	7	ANGPTL4;CDH5;FLT1;KDR;PGF;VEGFA;VEGFB	9.34893780873631e-05	0.0122938532184882
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Modification Process (GO:0031401)	32	822	68	10	APP;CD4;CD74;CDH5;HLA-DRB1;IGF2;KDR;PGF;VEGFA;VEGFB	0.0001156529052184	0.0130357346024844
+Mode 1	0–7 dpb	Fib–Endo	Maintenance Of Blood-Brain Barrier (GO:0035633)	32	822	10	4	CDH5;ESAM;JAM2;JAM3	0.0003385466062561	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of MAPK Cascade (GO:0043408)	32	822	52	8	CD4;CD74;DAG1;FLT1;FN1;HLA-DRB1;IGF2;KDR	0.0004831692015841	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Monocyte Differentiation (GO:0045657)	32	822	5	3	CD4;CD74;HLA-DRB1	0.0005096070397847	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Monocyte Differentiation (GO:0045655)	32	822	5	3	CD4;CD74;HLA-DRB1	0.0005096070397847	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Viral Entry Into Host Cell (GO:0046596)	32	822	5	3	CD4;CD74;HLA-DRB1	0.0005096070397847	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Proliferation (GO:0001938)	32	822	30	6	IGF2;KDR;MDK;PGF;VEGFA;VEGFB	0.0006557602233249	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Blood Vessel Endothelial Cell Migration (GO:0043534)	32	822	6	3	CDH5;KDR;VEGFA	0.0009921935188717	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Viral Life Cycle (GO:1903902)	32	822	6	3	CD4;CD74;HLA-DRB1	0.0009921935188717	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Blood Vessel Morphogenesis (GO:0048514)	32	822	13	4	COL4A1;FLT1;KDR;VEGFA	0.0010606684859992	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Positive Chemotaxis (GO:0050927)	32	822	13	4	KDR;PGF;VEGFA;VEGFB	0.0010606684859992	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Epithelial Cell Proliferation (GO:0050679)	32	822	45	7	KDR;LAMB1;MDK;PGF;PTN;VEGFA;VEGFB	0.0010944565710528	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phosphorylation (GO:0042327)	32	822	89	10	APP;CD4;CD74;FLT1;HLA-DRB1;IGF2;KDR;PGF;VEGFA;VEGFB	0.0011588457678496	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Angiogenesis (GO:0045765)	32	822	60	8	ANGPTL4;CDH5;FLT1;HSPG2;KDR;PGF;VEGFA;VEGFB	0.0013184282624012	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Branching Morphogenesis Of An Epithelial Tube (GO:0048754)	32	822	14	4	COL4A1;KDR;NOTCH4;VEGFA	0.0014443479774541	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Endothelial Cell Differentiation (GO:0045446)	32	822	2	2	JAG1;KDR	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Leukocyte Chemotaxis Involved In Inflammatory Response (GO:0002232)	32	822	2	2	MDK;PTN	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of DNA Damage Response, Signal Transduction By P53 Class Mediator (GO:0043518)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Intrinsic Apoptotic Signaling Pathway By P53 Class Mediator (GO:1902254)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage By P53 Class Mediator (GO:1902166)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Signal Transduction By P53 Class Mediator (GO:1901797)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Oogenesis (GO:0048477)	32	822	2	2	MDK;PTN	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Migration By Vascular Endothelial Growth Factor Signaling Pathway (GO:0038089)	32	822	2	2	KDR;VEGFA	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of DNA Damage Response, Signal Transduction By P53 Class Mediator (GO:0043516)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Hepatocyte Proliferation (GO:2000345)	32	822	2	2	MDK;PTN	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage By P53 Class Mediator (GO:1902165)	32	822	2	2	CD44;CD74	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T-helper Cell Differentiation (GO:0045622)	32	822	2	2	HLA-DRA;HLA-DRB1	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Response To Auditory Stimulus (GO:0010996)	32	822	2	2	MDK;PTN	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Vascular Endothelial Growth Factor Receptor-2 Signaling Pathway (GO:0036324)	32	822	2	2	KDR;VEGFA	0.0014699301486822	0.0331364253517227
+Mode 1	0–7 dpb	Fib–Endo	Branching Involved In Blood Vessel Morphogenesis (GO:0001569)	32	822	7	3	KDR;NOTCH4;VEGFA	0.0016903471200508	0.0370467743811155
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transferase Activity (GO:0051347)	32	822	37	6	CD4;CD74;FLT1;HLA-DRB1;IGF2;KDR	0.002110323700203	0.0450012270124387
+Mode 1	0–7 dpb	Fib–Endo	Epithelial Cell Differentiation (GO:0030855)	32	822	8	3	JAG1;KDR;VEGFA	0.0026329829761706	0.0532672709794516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Vascular Endothelial Cell Proliferation (GO:1905562)	32	822	8	3	FLT1;IGF2;MDK	0.0026329829761706	0.0532672709794516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Developmental Process (GO:0051094)	32	822	27	5	DAG1;KDR;MDK;PTN;VEGFA	0.0028432009872822	0.056082139474142
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Migration (GO:0002687)	32	822	17	4	JAM3;MDK;PTN;VEGFA	0.0031602915295558	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Induction Of Positive Chemotaxis (GO:0050930)	32	822	9	3	PGF;VEGFA;VEGFB	0.0038450536511157	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neutrophil Chemotaxis (GO:0090022)	32	822	9	3	CD74;JAM3;MDK	0.0038450536511157	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Substrate Adhesion-Dependent Cell Spreading (GO:0034446)	32	822	9	3	FN1;LAMA5;LAMB1	0.0038450536511157	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Circulatory System Development (GO:0072359)	32	822	18	4	CDH5;FN1;HSPG2;NOTCH4	0.0039522972599481	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Receptor-Mediated Endocytosis (GO:0006898)	32	822	18	4	ADM;CALCRL;HSPG2;IGF2R	0.0039522972599481	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Sprouting Angiogenesis (GO:0002040)	32	822	18	4	KDR;PGF;VEGFA;VEGFB	0.0039522972599481	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Cardiac Cell Development (GO:0055006)	32	822	3	2	JAG1;VEGFA	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Glial Cell Development (GO:0021782)	32	822	3	2	APP;MDK	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Long-Term Synaptic Potentiation (GO:1900272)	32	822	3	2	APP;PTN	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation By Symbiont Of Entry Into Host (GO:0075294)	32	822	3	2	CD74;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of CD4-positive, Alpha-Beta T Cell Differentiation (GO:0043372)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Memory T Cell Differentiation (GO:0043382)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Viral Entry Into Host Cell (GO:0046598)	32	822	3	2	CD74;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of CD4-positive, Alpha-Beta T Cell Activation (GO:2000514)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of CD4-positive, Alpha-Beta T Cell Differentiation (GO:0043370)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Immune Effector Process (GO:0002697)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Memory T Cell Differentiation (GO:0043380)	32	822	3	2	HLA-DRA;HLA-DRB1	0.004302234581509	0.058525225600183
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Chemotaxis (GO:0002690)	32	822	30	5	MDK;PGF;PTN;VEGFA;VEGFB	0.0046141469737974	0.0606760327054362
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Kinase Activity (GO:0043549)	32	822	30	5	CD4;CD74;FLT1;HLA-DRB1;KDR	0.0046141469737974	0.0606760327054362
+Mode 1	0–7 dpb	Fib–Endo	Macrophage Differentiation (GO:0030225)	32	822	10	3	CD4;HLA-DRB1;VEGFA	0.0053478423846269	0.0691712728109946
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Cell-Cell Adhesion (GO:1903039)	32	822	21	4	CD44;HLA-DRA;HLA-DRB1;MDK	0.0071145912287106	0.0896609520684051
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Epithelial Cell Apoptotic Process (GO:1904036)	32	822	11	3	CDH5;KDR;MDK	0.0071592395187699	0.0896609520684051
+Mode 1	0–7 dpb	Fib–Endo	Angiogenesis Involved In Wound Healing (GO:0060055)	32	822	4	2	KDR;VEGFA	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Endothelium Development (GO:0003158)	32	822	4	2	JAG1;KDR	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Leukocyte Aggregation (GO:0070486)	32	822	4	2	CD44;JAM2	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell-Cell Adhesion Mediated By Cadherin (GO:2000048)	32	822	4	2	NOTCH4;VEGFA	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Intrinsic Apoptotic Signaling Pathway In Response To DNA Damage (GO:1902230)	32	822	4	2	CD44;CD74	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of CD4-positive, CD25-positive, Alpha-Beta Regulatory T Cell Differentiation (GO:0032831)	32	822	4	2	HLA-DRA;HLA-DRB1	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Migration Involved In Sprouting Angiogenesis (GO:0090050)	32	822	4	2	KDR;VEGFA	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mast Cell Chemotaxis (GO:0060753)	32	822	4	2	VEGFA;VEGFB	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Modification Process (GO:0031399)	32	822	4	2	CDH5;FN1	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Vascular Wound Healing (GO:0061042)	32	822	4	2	KDR;VEGFA	0.0083950701080663	0.0907357577433477
+Mode 1	0–7 dpb	Fib–Endo	Integrin-Mediated Signaling Pathway (GO:0007229)	32	822	12	3	FN1;LAMA5;PTN	0.0092940029312783	0.097772910837048
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell-Cell Adhesion (GO:0022408)	32	822	12	3	JAG1;NOTCH4;VEGFA	0.0092940029312783	0.097772910837048
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Chemotaxis (GO:0050921)	32	822	23	4	KDR;MDK;PTN;VEGFA	0.0099601848830064	0.1034024456933166
+Mode 1	0–7 dpb	Fib–Endo	Immunoglobulin Mediated Immune Response (GO:0016064)	32	822	13	3	CD74;HLA-DRA;HLA-DRB1	0.011764003264862	0.1174911212148881
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Myeloid Leukocyte Differentiation (GO:0002763)	32	822	13	3	CD4;CD74;HLA-DRB1	0.011764003264862	0.1174911212148881
+Mode 1	0–7 dpb	Fib–Endo	Protein Localization (GO:0008104)	32	822	13	3	CD74;ESAM;JAM3	0.011764003264862	0.1174911212148881
+Mode 1	0–7 dpb	Fib–Endo	Cell Migration Involved In Sprouting Angiogenesis (GO:0002042)	32	822	5	2	KDR;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell-Substrate Junction Organization (GO:0150117)	32	822	5	2	KDR;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Focal Adhesion Assembly (GO:0051894)	32	822	5	2	KDR;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Oligodendrocyte Differentiation (GO:0048714)	32	822	5	2	MDK;PTN	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Small Molecule Metabolic Process (GO:0062013)	32	822	5	2	ADM;APP	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Vascular Endothelial Cell Proliferation (GO:1905564)	32	822	5	2	IGF2;MDK	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell-Cell Adhesion Mediated By Cadherin (GO:2000047)	32	822	5	2	NOTCH4;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Myelination (GO:0031641)	32	822	5	2	JAM2;PTN	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neuroblast Proliferation (GO:1902692)	32	822	5	2	PTN;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Positive Chemotaxis (GO:0050926)	32	822	5	2	KDR;VEGFA	0.0136520454869208	0.121027684148096
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Differentiation (GO:0045582)	32	822	14	3	HLA-DRA;HLA-DRB1;MDK	0.0145784547068823	0.1278044529303356
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Differentiation (GO:0045595)	32	822	26	4	DAG1;IGF2;MDK;NOTCH4	0.0154790643307225	0.1342085907356053
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Kinase Activity (GO:0033674)	32	822	40	5	CD4;CD74;FLT1;HLA-DRB1;KDR	0.0160973841283486	0.1380525660572511
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Peptidyl-Tyrosine Phosphorylation (GO:0050730)	32	822	42	5	APP;CD44;CD74;IGF2;VEGFA	0.0196761783496646	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Apical Junction Assembly (GO:0043297)	32	822	6	2	CDH5;ESAM	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Bicellular Tight Junction Assembly (GO:0070830)	32	822	6	2	CDH5;ESAM	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Endothelial Cell Migration (GO:0043542)	32	822	6	2	CDH5;VEGFA	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Female Gamete Generation (GO:0007292)	32	822	6	2	MDK;PTN	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of CD4-positive, Alpha-Beta T Cell Activation (GO:2000516)	32	822	6	2	HLA-DRA;HLA-DRB1	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Regulatory T Cell Differentiation (GO:0045591)	32	822	6	2	HLA-DRA;HLA-DRB1	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Protein Transport (GO:0015031)	32	822	6	2	CALCRL;CD74	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Establishment Of Endothelial Barrier (GO:1903140)	32	822	6	2	CDH5;VEGFA	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Oligodendrocyte Differentiation (GO:0048713)	32	822	6	2	MDK;PTN	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Ossification (GO:0030278)	32	822	6	2	MDK;PTN	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Stem Cell Differentiation (GO:2000736)	32	822	6	2	JAG1;PTN	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Tight Junction Assembly (GO:0120192)	32	822	6	2	CDH5;ESAM	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Vasculature Development (GO:0001944)	32	822	6	2	CDH5;NOTCH4	0.0199819714709454	0.1487337310431691
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Phosphorylation (GO:0042325)	32	822	16	3	APP;CDH5;FN1	0.0212655746563734	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Phosphorylation (GO:0001934)	32	822	133	10	APP;CD4;CD44;CD74;HLA-DRB1;IGF2;KDR;PGF;VEGFA;VEGFB	0.0231783207789121	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	32	822	115	9	APP;CD4;CD74;FLT1;FN1;HLA-DRB1;IGF2;KDR;VEGFA	0.0251512508758317	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Adherens Junction Organization (GO:0034332)	32	822	7	2	CDH5;JAM3	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	In Utero Embryonic Development (GO:0001701)	32	822	7	2	IGF2;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cysteine-Type Endopeptidase Activity (GO:2000117)	32	822	7	2	CD44;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cysteine-Type Endopeptidase Activity Involved In Apoptotic Process (GO:0043154)	32	822	7	2	CD44;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Extravasation (GO:0002693)	32	822	7	2	JAM3;MDK	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Chemotaxis (GO:2001028)	32	822	7	2	KDR;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neural Precursor Cell Proliferation (GO:2000179)	32	822	7	2	MDK;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Migration Involved In Sprouting Angiogenesis (GO:0090049)	32	822	7	2	KDR;VEGFA	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Leukocyte Chemotaxis (GO:0002688)	32	822	7	2	MDK;PTN	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Long-Term Synaptic Potentiation (GO:1900271)	32	822	7	2	APP;PTN	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Muscle Cell Differentiation (GO:0051147)	32	822	7	2	IGF2;LAMB1	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Translation (GO:0006417)	32	822	7	2	APP;NCL	0.0272986212113032	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Nervous System Development (GO:0007399)	32	822	62	6	APP;FN1;JAG1;MDK;PTN;VEGFA	0.0276123856776988	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of DNA-templated Transcription (GO:0045893)	32	822	98	8	APP;CD4;CD74;HLA-DRB1;IGF2;JAG1;NOTCH4;VEGFA	0.0281018367739814	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Endothelial Cell Proliferation (GO:0001936)	32	822	31	4	KDR;PGF;VEGFA;VEGFB	0.0283842213306661	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Epithelium Development (GO:0060429)	32	822	18	3	DAG1;KDR;VEGFA	0.0293838743682688	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Motility (GO:2000146)	32	822	18	3	CD74;DAG1;JAG1	0.0293838743682688	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Growth Factor Stimulus (GO:0071363)	32	822	32	4	CD44;FLT1;KDR;VEGFA	0.0315584221949526	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	T Cell Activation (GO:0042110)	32	822	32	4	CD4;CD44;CD74;MDK	0.0315584221949526	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Inflammatory Response (GO:0050728)	32	822	19	3	CDH5;HLA-DRB1;MDK	0.0339802998017922	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043123)	32	822	19	3	CD4;CD74;HLA-DRB1	0.0339802998017922	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Adaptive Immune Response Based On Somatic Recombination Of Immune Receptors Built From Immunoglobulin Superfamily Domains (GO:0002460)	32	822	8	2	HLA-DRB1;JAG1	0.035520500623014	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Alpha-Beta T Cell Activation (GO:0046635)	32	822	8	2	HLA-DRA;HLA-DRB1	0.035520500623014	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Morphogenesis Of An Epithelium (GO:1905332)	32	822	8	2	MDK;VEGFA	0.035520500623014	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neutrophil Chemotaxis (GO:0090023)	32	822	8	2	CD74;MDK	0.035520500623014	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Focal Adhesion Assembly (GO:0051893)	32	822	8	2	KDR;VEGFA	0.035520500623014	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Programmed Cell Death (GO:0043069)	32	822	49	5	ANGPTL4;CD44;CD74;KDR;VEGFA	0.0362523462353074	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Adherens Junction Assembly (GO:0034333)	32	822	1	1	JAM3	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Apical Protein Localization (GO:0045176)	32	822	1	1	JAM3	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Axo-Dendritic Transport (GO:0008088)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Basement Membrane Organization (GO:0071711)	32	822	1	1	COL4A1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Camera-Type Eye Development (GO:0043010)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Camera-Type Eye Morphogenesis (GO:0048593)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Acid Chemical (GO:0071229)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Copper Ion Homeostasis (GO:0055070)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Epigenetic Regulation Of Gene Expression (GO:0040029)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Eye Morphogenesis (GO:0048592)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Eye Photoreceptor Cell Differentiation (GO:0001754)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	GPI Anchor Biosynthetic Process (GO:0006506)	32	822	1	1	PGF	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	GPI Anchor Metabolic Process (GO:0006505)	32	822	1	1	PGF	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Glycolipid Biosynthetic Process (GO:0009247)	32	822	1	1	PGF	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Intracellular Copper Ion Homeostasis (GO:0006878)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Membrane Protein Ectodomain Proteolysis (GO:0006509)	32	822	1	1	DAG1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Microtubule Anchoring (GO:0034453)	32	822	1	1	DAG1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Modulation By Host Of Viral Process (GO:0044788)	32	822	1	1	IGF2R	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Myoblast Fusion (GO:0007520)	32	822	1	1	JAM2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cardiac Muscle Cell Apoptotic Process (GO:0010667)	32	822	1	1	MDK	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Inflammatory Response To Antigenic Stimulus (GO:0002862)	32	822	1	1	HLA-DRB1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Microtubule Polymerization (GO:0031115)	32	822	1	1	CDH5	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Microtubule Polymerization Or Depolymerization (GO:0031111)	32	822	1	1	CDH5	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Muscle Cell Differentiation (GO:0051148)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Nervous System Process (GO:0031645)	32	822	1	1	JAM2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Protein Polymerization (GO:0032272)	32	822	1	1	CDH5	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Regeneration (GO:0031102)	32	822	1	1	PTN	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Photoreceptor Cell Development (GO:0042461)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation By Host Of Viral Process (GO:0044794)	32	822	1	1	IGF2R	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Response To Insulin Stimulus (GO:1900078)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Deacetylase Activity (GO:0090045)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Histone Deacetylation (GO:0031065)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Insulin Receptor Signaling Pathway (GO:0046628)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Membrane Depolarization (GO:1904181)	32	822	1	1	KDR	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Mitochondrial Fission (GO:0090141)	32	822	1	1	KDR	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of RNA Splicing (GO:0033120)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Substrate Adhesion-Dependent Cell Spreading (GO:1900026)	32	822	1	1	MDK	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Mediated Immune Response To Tumor Cell (GO:0002842)	32	822	1	1	HLA-DRB1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription By RNA Polymerase I (GO:0045943)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription From RNA Polymerase II Promoter In Response To Stress (GO:0036003)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription Of Nucleolar Large rRNA By RNA Polymerase I (GO:1901838)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of mRNA Processing (GO:0050685)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of mRNA Splicing, Via Spliceosome (GO:0048026)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Protein Lipidation (GO:0006497)	32	822	1	1	PGF	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Protein Tetramerization (GO:0051262)	32	822	1	1	HLA-DRB1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	RNA Polyadenylation (GO:0043631)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Axon Guidance (GO:1902667)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cardiac Muscle Cell Apoptotic Process (GO:0010665)	32	822	1	1	MDK	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Establishment Of Cell Polarity (GO:2000114)	32	822	1	1	CDH5	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Gastrulation (GO:0010470)	32	822	1	1	DAG1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Gene Expression By Genomic Imprinting (GO:0006349)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Glycogen (Starch) Synthase Activity (GO:2000465)	32	822	1	1	IGF2	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Histone Deacetylase Activity (GO:1901725)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Inflammatory Response To Antigenic Stimulus (GO:0002861)	32	822	1	1	HLA-DRB1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Lamellipodium Morphogenesis (GO:2000392)	32	822	1	1	CD44	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mitochondrial Fission (GO:0090140)	32	822	1	1	KDR	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neutrophil Migration (GO:1902622)	32	822	1	1	JAM3	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Polymerization (GO:0032271)	32	822	1	1	ESAM	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Retinal Ganglion Cell Axon Guidance (GO:0090259)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Mediated Immune Response To Tumor Cell (GO:0002840)	32	822	1	1	HLA-DRB1	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Transcription From RNA Polymerase II Promoter In Response To Hypoxia (GO:0061418)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Transcription Of Nucleolar Large rRNA By RNA Polymerase I (GO:1901836)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of mRNA Splicing, Via Spliceosome (GO:0048024)	32	822	1	1	NCL	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Surfactant Homeostasis (GO:0043129)	32	822	1	1	VEGFA	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Transport Along Microtubule (GO:0010970)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	mRNA 3'-End Processing (GO:0031124)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	mRNA Polyadenylation (GO:0006378)	32	822	1	1	APP	0.0389294403892944	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Endothelial Cell Migration (GO:0010594)	32	822	20	3	KDR;PTN;VEGFA	0.0389319540707392	0.1505750576559474
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of MAPK Cascade (GO:0043410)	32	822	125	9	APP;CD4;CD44;CD74;FLT1;HLA-DRB1;IGF2;KDR;VEGFA	0.0413001135791524	0.1589550712875671
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	32	822	21	3	IGF2;NOTCH4;VEGFA	0.044234847877744	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043122)	32	822	21	3	CD4;CD74;HLA-DRB1	0.044234847877744	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Artery Morphogenesis (GO:0048844)	32	822	9	2	JAG1;VEGFA	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Cell-Cell Junction Assembly (GO:0007043)	32	822	9	2	CDH5;JAM3	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Granulocyte Chemotaxis (GO:0071624)	32	822	9	2	CD74;MDK	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Lymphocyte Migration (GO:2000403)	32	822	9	2	APP;JAM2	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neutrophil Migration (GO:1902624)	32	822	9	2	CD74;MDK	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Response To Wounding (GO:1903036)	32	822	9	2	MDK;PTN	0.0445706283292707	0.1650996514168762
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Migration (GO:0030334)	32	822	127	9	CD74;CDH5;DAG1;FLT1;JAG1;KDR;LAMB1;MDK;VEGFA	0.0452462080303587	0.1668189632521169
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Gene Expression (GO:0010629)	32	822	36	4	APP;KDR;NCL;VEGFA	0.0463122899822962	0.1699553339350313
+Mode 1	0–7 dpb	Fib–Endo	Endocytosis (GO:0006897)	32	822	22	3	APP;HSPG2;IGF2R	0.0498837416552038	0.1813745261103956
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Peptidyl-Serine Phosphorylation (GO:0033135)	32	822	22	3	APP;CD44;VEGFA	0.0498837416552038	0.1813745261103956
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Migration (GO:0030335)	32	822	90	7	CDH5;FLT1;FN1;KDR;LAMB1;MDK;VEGFA	0.0508522093180672	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Apoptotic Process (GO:0043066)	32	822	72	6	ANGPTL4;CD44;CD74;KDR;MDK;VEGFA	0.0529133504500249	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Antigen Processing And Presentation Of Exogenous Peptide Antigen Via MHC Class II (GO:0019886)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Antigen Processing And Presentation Of Peptide Antigen Via MHC Class II (GO:0002495)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Endoderm Formation (GO:0001706)	32	822	10	2	FN1;LAMB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Endodermal Cell Differentiation (GO:0035987)	32	822	10	2	FN1;LAMB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Immunoglobulin Production Involved In Immunoglobulin-Mediated Immune Response (GO:0002381)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Lymphocyte Activation Involved In Immune Response (GO:0002285)	32	822	10	2	CD74;MDK	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	MHC Class II Protein Complex Assembly (GO:0002399)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Endothelial Cell Apoptotic Process (GO:2000352)	32	822	10	2	CDH5;KDR	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Notch Signaling Pathway (GO:0007219)	32	822	10	2	JAG1;NOTCH4	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Peptide Antigen Assembly With MHC Class II Protein Complex (GO:0002503)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Peptide Antigen Assembly With MHC Protein Complex (GO:0002501)	32	822	10	2	HLA-DRA;HLA-DRB1	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell-Substrate Adhesion (GO:0010811)	32	822	10	2	FN1;MDK	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Component Biogenesis (GO:0044089)	32	822	10	2	CDH5;VEGFA	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Glial Cell Differentiation (GO:0045687)	32	822	10	2	MDK;PTN	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Granulocyte Chemotaxis (GO:0071622)	32	822	10	2	JAM3;MDK	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein-Containing Complex Assembly (GO:0043254)	32	822	10	2	CDH5;VEGFA	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Vasculogenesis (GO:0001570)	32	822	10	2	KDR;VEGFA	0.0543763248154316	0.1817920350821
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Adhesion (GO:0045785)	32	822	23	3	LAMB1;MDK;VEGFA	0.0558722751710335	0.1853538103405369
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Signal Transduction (GO:0009967)	32	822	55	5	CD74;IGF2;JAG1;LAMB1;VEGFA	0.0559115422826968	0.1853538103405369
+Mode 1	0–7 dpb	Fib–Endo	Myeloid Leukocyte Differentiation (GO:0002573)	32	822	24	3	CD4;HLA-DRB1;VEGFA	0.0621930886024264	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Migration (GO:0030336)	32	822	24	3	CD74;DAG1;JAG1	0.0621930886024264	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Antigen Processing And Presentation Of Endogenous Peptide Antigen (GO:0002483)	32	822	11	2	HLA-DRA;HLA-DRB1	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Mammary Gland Development (GO:0030879)	32	822	11	2	NOTCH4;VEGFA	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Blood Vessel Endothelial Cell Migration (GO:0043536)	32	822	11	2	KDR;VEGFA	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein-Containing Complex Assembly (GO:0031334)	32	822	11	2	CDH5;VEGFA	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Receptor Internalization (GO:0031623)	32	822	11	2	ADM;CALCRL	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cysteine-Type Endopeptidase Activity Involved In Apoptotic Process (GO:0043281)	32	822	11	2	CD44;VEGFA	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Immune Response (GO:0050776)	32	822	11	2	HLA-DRA;HLA-DRB1	0.064869010436912	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Central Nervous System Development (GO:0007417)	32	822	25	3	APP;COL4A1;HSPG2	0.0688379355316693	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Immune Response (GO:0050778)	32	822	25	3	CD74;HLA-DRA;HLA-DRB1	0.0688379355316693	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Activation (GO:0050863)	32	822	25	3	CD4;HLA-DRA;HLA-DRB1	0.0688379355316693	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of ERK1 And ERK2 Cascade (GO:0070372)	32	822	98	7	APP;CD4;CD44;CD74;FN1;HLA-DRB1;KDR	0.0750372550598033	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell-Matrix Adhesion (GO:0001954)	32	822	12	2	KDR;VEGFA	0.0759840119380388	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Associative Learning (GO:0008306)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Cardiac Right Ventricle Morphogenesis (GO:0003215)	32	822	2	1	JAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Coronary Vasculature Morphogenesis (GO:0060977)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Dendrite Arborization (GO:0140059)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Epiboly Involved In Wound Healing (GO:0090505)	32	822	2	1	CD44	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Eye Photoreceptor Cell Development (GO:0042462)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Glomerular Epithelial Cell Development (GO:0072310)	32	822	2	1	JAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Membrane Protein Proteolysis (GO:0033619)	32	822	2	1	DAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Mesoderm Development (GO:0007498)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Monocyte Differentiation (GO:0030224)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Adhesion Mediated By Integrin (GO:0033629)	32	822	2	1	JAM3	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Inflammatory Response To Wounding (GO:0106015)	32	822	2	1	MDK	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Lipase Activity (GO:0060192)	32	822	2	1	ANGPTL4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Lipoprotein Lipase Activity (GO:0051005)	32	822	2	1	ANGPTL4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Low-Density Lipoprotein Receptor Activity (GO:1905598)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Neural Precursor Cell Proliferation (GO:2000178)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Receptor-Mediated Endocytosis (GO:0048261)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Stem Cell Differentiation (GO:2000737)	32	822	2	1	JAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Striated Muscle Cell Apoptotic Process (GO:0010664)	32	822	2	1	MDK	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Supramolecular Fiber Organization (GO:1902904)	32	822	2	1	CDH5	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Transforming Growth Factor Beta Production (GO:0071635)	32	822	2	1	FN1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Translation (GO:0017148)	32	822	2	1	NCL	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Vascular Permeability (GO:0043116)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Arborization (GO:0140058)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Maintenance (GO:1990535)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Phosphatidylinositol Biosynthetic Process (GO:0006661)	32	822	2	1	PGF	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Podocyte Development (GO:0072015)	32	822	2	1	JAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Podocyte Differentiation (GO:0072112)	32	822	2	1	JAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Branching Involved In Ureteric Bud Morphogenesis (GO:0090190)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Catalytic Activity (GO:0043085)	32	822	2	1	IGF2	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Development (GO:1901552)	32	822	2	1	CDH5	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Establishment Of Endothelial Barrier (GO:1903142)	32	822	2	1	CDH5	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Extracellular Matrix Assembly (GO:1901203)	32	822	2	1	DAG1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Immune Response To Tumor Cell (GO:0002839)	32	822	2	1	HLA-DRB1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Insulin Secretion Involved In Cellular Response To Glucose Stimulus (GO:0035774)	32	822	2	1	HLA-DRB1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Mitochondrion Organization (GO:0010822)	32	822	2	1	KDR	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Stem Cell Differentiation (GO:2000738)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription From RNA Polymerase II Promoter Involved In Cellular Response To Chemical Stimulus (GO:1901522)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription Of Notch Receptor Target (GO:0007221)	32	822	2	1	NOTCH4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Trophoblast Cell Migration (GO:1901165)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Vascular Endothelial Growth Factor Signaling Pathway (GO:1900748)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Protein Complex Oligomerization (GO:0051259)	32	822	2	1	HLA-DRB1	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Protein Localization To Cell-Cell Junction (GO:0150105)	32	822	2	1	CDH5	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Actin Polymerization Or Depolymerization (GO:0008064)	32	822	2	1	ESAM	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Blood-Brain Barrier Permeability (GO:1905603)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Endothelial Cell Differentiation (GO:0045601)	32	822	2	1	NOTCH4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Establishment Or Maintenance Of Cell Polarity (GO:0032878)	32	822	2	1	CDH5	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Hemopoiesis (GO:1903706)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Insulin Receptor Signaling Pathway (GO:0046626)	32	822	2	1	IGF2	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Integrin Activation (GO:0033623)	32	822	2	1	JAM3	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Lamellipodium Organization (GO:1902743)	32	822	2	1	CD44	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Leukocyte Activation (GO:0002694)	32	822	2	1	CD74	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Leukocyte Cell-Cell Adhesion (GO:1903037)	32	822	2	1	MDK	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Lipoprotein Lipase Activity (GO:0051004)	32	822	2	1	ANGPTL4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Macroautophagy (GO:0016241)	32	822	2	1	KDR	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Metal Ion Transport (GO:0010959)	32	822	2	1	CD4	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mitochondrial Depolarization (GO:0051900)	32	822	2	1	KDR	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mitotic Cell Cycle (GO:0007346)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Nervous System Process (GO:0031644)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neuronal Synaptic Plasticity (GO:0048168)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neutrophil Extravasation (GO:2000389)	32	822	2	1	MDK	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Prostaglandin Biosynthetic Process (GO:0031392)	32	822	2	1	CD74	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Substrate Adhesion-Dependent Cell Spreading (GO:1900024)	32	822	2	1	MDK	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Type 2 Immune Response (GO:0002828)	32	822	2	1	CD74	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Spermatid Development (GO:0007286)	32	822	2	1	JAM2	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Transmembrane Receptor Protein Tyrosine Phosphatase Signaling Pathway (GO:0007185)	32	822	2	1	PTN	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Vascular Associated Smooth Muscle Cell Development (GO:0097084)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Venous Blood Vessel Morphogenesis (GO:0048845)	32	822	2	1	VEGFA	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Visual Learning (GO:0008542)	32	822	2	1	APP	0.0763889506299065	0.1877597571557516
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Motility (GO:2000147)	32	822	79	6	CDH5;FLT1;KDR;LAMB1;MDK;VEGFA	0.0772438952142052	0.1892715320621365
+Mode 1	0–7 dpb	Fib–Endo	Transmembrane Receptor Protein Tyrosine Kinase Signaling Pathway (GO:0007169)	32	822	100	7	CD4;FLT1;IGF2;KDR;PGF;VEGFA;VEGFB	0.0820285036381743	0.2003730321068717
+Mode 1	0–7 dpb	Fib–Endo	Antigen Processing And Presentation Of Exogenous Peptide Antigen (GO:0002478)	32	822	13	2	HLA-DRA;HLA-DRB1	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Chordate Embryonic Development (GO:0043009)	32	822	13	2	IGF2;VEGFA	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Epithelial To Mesenchymal Transition (GO:0010718)	32	822	13	2	JAG1;MDK	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Fibroblast Proliferation (GO:0048146)	32	822	13	2	CD74;FN1	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Immune Effector Process (GO:0002699)	32	822	13	2	HLA-DRA;HLA-DRB1	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Fibroblast Proliferation (GO:0048145)	32	822	13	2	CD74;FN1	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	T Cell Activation Involved In Immune Response (GO:0002286)	32	822	13	2	CD74;MDK	0.0876603771513436	0.2095879926436671
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of DNA-templated Transcription (GO:0006355)	32	822	63	5	CD4;CD74;HLA-DRB1;IGF2;NOTCH4	0.0903367847878526	0.2153345111710444
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Peptidyl-Serine Phosphorylation (GO:0033138)	32	822	29	3	APP;CD44;VEGFA	0.0984673993302897	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	External Encapsulating Structure Organization (GO:0045229)	32	822	14	2	APP;COL4A1	0.0998406975587539	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Extracellular Structure Organization (GO:0043062)	32	822	14	2	APP;COL4A1	0.0998406975587539	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Gland Development (GO:0048732)	32	822	14	2	MDK;NOTCH4	0.0998406975587539	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Plasma Membrane Bounded Cell Projection Organization (GO:0120036)	32	822	14	2	APP;LAMB1	0.0998406975587539	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Blood Vessel Endothelial Cell Migration (GO:0043535)	32	822	14	2	KDR;VEGFA	0.0998406975587539	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	32	822	65	5	APP;IGF2;JAG1;NOTCH4;VEGFA	0.1003957256947529	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Population Proliferation (GO:0008284)	32	822	148	9	CD74;FN1;IGF2;KDR;LAMB1;MDK;PGF;PTN;VEGFA	0.1031139098558068	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Nucleic Acid-Templated Transcription (GO:1903508)	32	822	47	4	CD4;CD74;HLA-DRB1;NOTCH4	0.1037855041613382	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Hemopoiesis (GO:0030097)	32	822	30	3	JAG1;KDR;NOTCH4	0.1065846670950896	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Differentiation (GO:0045596)	32	822	30	3	IGF2;JAG1;NOTCH4	0.1065846670950896	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Differentiation (GO:0045597)	32	822	48	4	KDR;LAMB1;MDK;PTN	0.1101771236569053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Acylglycerol Homeostasis (GO:0055090)	32	822	3	1	ANGPTL4	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Adrenal Gland Development (GO:0030325)	32	822	3	1	MDK	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Calcitonin Family Receptor Signaling Pathway (GO:0097646)	32	822	3	1	CALCRL	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Cardiac Muscle Cell Differentiation (GO:0055007)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Detection Of Bacterium (GO:0016045)	32	822	3	1	HLA-DRB1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Embryonic Placenta Development (GO:0001892)	32	822	3	1	IGF2	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Endocrine System Development (GO:0035270)	32	822	3	1	MDK	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Endothelial Cell Chemotaxis (GO:0035767)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Integrin Activation (GO:0033622)	32	822	3	1	FN1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Lactation (GO:0007595)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Myotube Differentiation (GO:0014902)	32	822	3	1	JAM2	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell-Matrix Adhesion (GO:0001953)	32	822	3	1	JAG1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Protein-Containing Complex Assembly (GO:0031333)	32	822	3	1	JAM3	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Organization (GO:0106027)	32	822	3	1	APP	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Nitrogen Compound Transport (GO:0071705)	32	822	3	1	CALCRL	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Notch Signaling Involved In Heart Development (GO:0061314)	32	822	3	1	JAG1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Blood Vessel Endothelial Cell Proliferation Involved In Sprouting Angiogenesis (GO:1903589)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Dendrite Development (GO:1900006)	32	822	3	1	PTN	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Macroautophagy (GO:0016239)	32	822	3	1	KDR	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neuron Migration (GO:2001224)	32	822	3	1	MDK	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Unsaturated Fatty Acid Biosynthetic Process (GO:2001280)	32	822	3	1	CD74	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Vasculogenesis (GO:2001214)	32	822	3	1	KDR	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Prostanoid Biosynthetic Process (GO:0046457)	32	822	3	1	CD74	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Amyloid Fibril Formation (GO:1905906)	32	822	3	1	APP	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Branching Involved In Ureteric Bud Morphogenesis (GO:0090189)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cellular Extravasation (GO:0002691)	32	822	3	1	JAM3	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Embryonic Development (GO:0045995)	32	822	3	1	DAG1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Epithelial Cell Apoptotic Process (GO:1904035)	32	822	3	1	MDK	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Inflammatory Response To Wounding (GO:0106014)	32	822	3	1	MDK	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Lymphocyte Migration (GO:2000401)	32	822	3	1	JAM2	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Microtubule Polymerization (GO:0031113)	32	822	3	1	CDH5	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Nitric Oxide Mediated Signal Transduction (GO:0010749)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Dephosphorylation (GO:0035304)	32	822	3	1	CDH5	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Stem Cell Population Maintenance (GO:2000036)	32	822	3	1	PTN	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Trophoblast Cell Migration (GO:1901163)	32	822	3	1	VEGFA	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Vasculogenesis (GO:2001212)	32	822	3	1	KDR	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	T-helper 1 Type Immune Response (GO:0042088)	32	822	3	1	HLA-DRB1	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Triglyceride Homeostasis (GO:0070328)	32	822	3	1	ANGPTL4	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Wound Healing, Spreading Of Cells (GO:0044319)	32	822	3	1	CD44	0.1124323086541053	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Brain Development (GO:0007420)	32	822	15	2	COL4A1;HSPG2	0.1124709384077173	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell-Cell Adhesion (GO:0022409)	32	822	15	2	CD44;MDK	0.1124709384077173	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Mediated Cytotoxicity (GO:0001916)	32	822	15	2	HLA-DRA;HLA-DRB1	0.1124709384077173	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Protein-Containing Complex Assembly (GO:0065003)	32	822	15	2	CD74;FN1	0.1124709384077173	0.2298952601131838
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of ERK1 And ERK2 Cascade (GO:0070374)	32	822	89	6	APP;CD4;CD44;CD74;HLA-DRB1;KDR	0.1217392739353034	0.2481971243797271
+Mode 1	0–7 dpb	Fib–Endo	Enzyme-Linked Receptor Protein Signaling Pathway (GO:0007167)	32	822	50	4	CD4;FLT1;KDR;PTN	0.1234943111885939	0.2506776231509963
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Adhesion (GO:0007162)	32	822	32	3	JAG1;JAM3;MDK	0.1235913756726711	0.2506776231509963
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Component Organization (GO:0051130)	32	822	16	2	CDH5;VEGFA	0.1255002760864808	0.2526013210005953
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Actin Cytoskeleton Organization (GO:0032956)	32	822	16	2	ESAM;MDK	0.1255002760864808	0.2526013210005953
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Chemokine Production (GO:0032642)	32	822	16	2	APP;CD74	0.1255002760864808	0.2526013210005953
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Apoptotic Process (GO:0042981)	32	822	71	5	ANGPTL4;CD44;CD74;KDR;VEGFA	0.1338853971870533	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Gene Expression (GO:0010468)	32	822	113	7	APP;CD74;CDH5;FN1;IGF2;KDR;VEGFA	0.1367273632061964	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Cell Junction Assembly (GO:0034329)	32	822	17	2	CDH5;FN1	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Cell-Matrix Adhesion (GO:0007160)	32	822	17	2	CD44;FN1	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Neuron Development (GO:0048666)	32	822	17	2	APP;LAMB1	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Mediated Immunity (GO:0002711)	32	822	17	2	HLA-DRA;HLA-DRB1	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Epithelial To Mesenchymal Transition (GO:0010717)	32	822	17	2	DAG1;MDK	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Mediated Cytotoxicity (GO:0001914)	32	822	17	2	HLA-DRA;HLA-DRB1	0.1388809424735384	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Artery Development (GO:0060840)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Cardiac Muscle Cell Development (GO:0055013)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Cell-Substrate Junction Assembly (GO:0007044)	32	822	4	1	FN1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Commissural Neuron Axon Guidance (GO:0071679)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Erythrocyte Differentiation (GO:0030218)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Granulocyte Migration (GO:0097530)	32	822	4	1	JAM3	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Hyaluronan Metabolic Process (GO:0030212)	32	822	4	1	CD44	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Intracellular Protein Transport (GO:0006886)	32	822	4	1	CD74	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Morphogenesis Of An Epithelium (GO:0002009)	32	822	4	1	DAG1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Muscle Cell Development (GO:0055001)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Myeloid Cell Development (GO:0061515)	32	822	4	1	APP	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Leukocyte Activation (GO:0002695)	32	822	4	1	FN1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Protein Kinase B Signaling (GO:0051898)	32	822	4	1	DAG1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Response To Wounding (GO:1903035)	32	822	4	1	MDK	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Neuron Maturation (GO:0042551)	32	822	4	1	APP	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Neuron Remodeling (GO:0016322)	32	822	4	1	APP	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Peptide Cross-Linking (GO:0018149)	32	822	4	1	FN1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Autophagy (GO:0010508)	32	822	4	1	KDR	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Axon Extension (GO:0045773)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of BMP Signaling Pathway (GO:0030513)	32	822	4	1	CDH5	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of CREB Transcription Factor Activity (GO:0032793)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cardiac Epithelial To Mesenchymal Transition (GO:0062043)	32	822	4	1	JAG1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Dephosphorylation (GO:0035306)	32	822	4	1	CDH5	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Glycogen Biosynthetic Process (GO:0045725)	32	822	4	1	IGF2	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Glycogen Metabolic Process (GO:0070875)	32	822	4	1	IGF2	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Keratinocyte Proliferation (GO:0010838)	32	822	4	1	MDK	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Long-Term Synaptic Potentiation (GO:1900273)	32	822	4	1	APP	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neuroblast Proliferation (GO:0002052)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Dephosphorylation (GO:0035307)	32	822	4	1	CDH5	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Vascular Permeability (GO:0043117)	32	822	4	1	VEGFA	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Prostaglandin Biosynthetic Process (GO:0001516)	32	822	4	1	CD74	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Prostaglandin Metabolic Process (GO:0006693)	32	822	4	1	CD74	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Protein Localization To Cell Junction (GO:1902414)	32	822	4	1	JAM3	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Protein Localization To Cell Surface (GO:0034394)	32	822	4	1	JAM3	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Axon Regeneration (GO:0048679)	32	822	4	1	PTN	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Basement Membrane Organization (GO:0110011)	32	822	4	1	LAMB1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Bone Remodeling (GO:0046850)	32	822	4	1	MDK	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Adhesion Molecule Production (GO:0060353)	32	822	4	1	NOTCH4	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Morphogenesis (GO:0022604)	32	822	4	1	CD44	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Glycogen Biosynthetic Process (GO:0005979)	32	822	4	1	IGF2	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Glycolytic Process (GO:0006110)	32	822	4	1	APP	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Insulin Secretion Involved In Cellular Response To Glucose Stimulus (GO:0061178)	32	822	4	1	HLA-DRB1	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Leukocyte Adhesion To Vascular Endothelial Cell (GO:1904994)	32	822	4	1	MDK	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Multicellular Organismal Development (GO:2000026)	32	822	4	1	PTN	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neural Precursor Cell Proliferation (GO:2000177)	32	822	4	1	MDK	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Systemic Arterial Blood Pressure (GO:0003073)	32	822	4	1	ADM	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Urine Volume (GO:0035809)	32	822	4	1	ADM	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Response To Fibroblast Growth Factor (GO:0071774)	32	822	4	1	CD44	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Vacuolar Transport (GO:0007034)	32	822	4	1	IGF2R	0.1471113881694516	0.2585097667387468
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Junction Assembly (GO:1901890)	32	822	18	2	KDR;VEGFA	0.152568075986697	0.2657311522152405
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neuron Projection Development (GO:0010976)	32	822	18	2	MDK;PTN	0.152568075986697	0.2657311522152405
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Endothelial Cell Apoptotic Process (GO:2000351)	32	822	18	2	CDH5;KDR	0.152568075986697	0.2657311522152405
+Mode 1	0–7 dpb	Fib–Endo	Response To Cytokine (GO:0034097)	32	822	18	2	APP;CD74	0.152568075986697	0.2657311522152405
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of DNA-templated Transcription (GO:0045892)	32	822	36	3	IGF2;NOTCH4;VEGFA	0.1603540945720975	0.2780645727854614
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Macromolecule Metabolic Process (GO:0010605)	32	822	36	3	APP;KDR;VEGFA	0.1603540945720975	0.2780645727854614
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Epithelial Cell Migration (GO:0010634)	32	822	19	2	KDR;VEGFA	0.166519579067274	0.28749222731746
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Lymphocyte Activation (GO:0051251)	32	822	19	2	HLA-DRA;HLA-DRB1	0.166519579067274	0.28749222731746
+Mode 1	0–7 dpb	Fib–Endo	Aorta Development (GO:0035904)	32	822	5	1	JAG1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Aorta Morphogenesis (GO:0035909)	32	822	5	1	JAG1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Autonomic Nervous System Development (GO:0048483)	32	822	5	1	FN1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	B Cell Mediated Immunity (GO:0019724)	32	822	5	1	CD74	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Calcium-Mediated Signaling Using Intracellular Calcium Source (GO:0035584)	32	822	5	1	KDR	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Decreased Oxygen Levels (GO:0036294)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Hypoxia (GO:0071456)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Connective Tissue Development (GO:0061448)	32	822	5	1	CD44	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Dopaminergic Neuron Differentiation (GO:0071542)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Insulin Receptor Signaling Pathway (GO:0008286)	32	822	5	1	IGF2	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Myoblast Differentiation (GO:0045445)	32	822	5	1	JAG1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Amide Metabolic Process (GO:0034249)	32	822	5	1	NCL	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Epithelial Cell Differentiation (GO:0030857)	32	822	5	1	NOTCH4	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Ossification (GO:0030279)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of T Cell Differentiation (GO:0045581)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Placenta Development (GO:0001890)	32	822	5	1	IGF2	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cartilage Development (GO:0061036)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Cycle (GO:0045787)	32	822	5	1	APP	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Insulin Secretion (GO:0032024)	32	822	5	1	HLA-DRB1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Integrin-Mediated Signaling Pathway (GO:2001046)	32	822	5	1	LAMB1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Autophosphorylation (GO:0031954)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Sprouting Angiogenesis (GO:1903672)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Pulmonary Valve Morphogenesis (GO:0003184)	32	822	5	1	JAG1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cartilage Development (GO:0061035)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Chondrocyte Differentiation (GO:0032330)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Integrin-Mediated Signaling Pathway (GO:2001044)	32	822	5	1	LAMB1	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Keratinocyte Proliferation (GO:0010837)	32	822	5	1	MDK	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Leukocyte Migration (GO:0002685)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Lymphocyte Activation (GO:0051249)	32	822	5	1	CD4	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Monoatomic Ion Transmembrane Transporter Activity (GO:0032412)	32	822	5	1	APP	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Vascular Endothelial Growth Factor Signaling Pathway (GO:1900746)	32	822	5	1	VEGFA	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Wnt Signaling Pathway (GO:0030111)	32	822	5	1	APP	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Skeletal System Morphogenesis (GO:0048705)	32	822	5	1	LAMA5	0.1804762238400843	0.2906035522649521
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phosphatidylinositol 3-Kinase Signaling (GO:0014068)	32	822	39	3	FLT1;FN1;KDR	0.1899413593466875	0.3052214511701354
+Mode 1	0–7 dpb	Fib–Endo	Embryonic Organ Development (GO:0048568)	32	822	21	2	IGF2;KDR	0.1950603117359218	0.3102874716928273
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Chemokine Production (GO:0032722)	32	822	21	2	APP;CD74	0.1950603117359218	0.3102874716928273
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Migration (GO:0010595)	32	822	21	2	KDR;VEGFA	0.1950603117359218	0.3102874716928273
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-6 Production (GO:0032755)	32	822	21	2	APP;CD74	0.1950603117359218	0.3102874716928273
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Mediated Cytotoxicity (GO:0001912)	32	822	21	2	HLA-DRA;HLA-DRB1	0.1950603117359218	0.3102874716928273
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Phosphatidylinositol 3-Kinase Signaling (GO:0014066)	32	822	41	3	FLT1;FN1;KDR	0.2104398661290831	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Astrocyte Development (GO:0014002)	32	822	6	1	APP	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Body Fluid Secretion (GO:0007589)	32	822	6	1	VEGFA	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Cell-Cell Adhesion Mediated By Cadherin (GO:0044331)	32	822	6	1	CDH5	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	ERK1 And ERK2 Cascade (GO:0070371)	32	822	6	1	KDR	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Lymphocyte Mediated Immunity (GO:0002449)	32	822	6	1	JAG1	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Lysosomal Transport (GO:0007041)	32	822	6	1	IGF2R	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Peptidyl-Tyrosine Autophosphorylation (GO:0038083)	32	822	6	1	KDR	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Activated T Cell Proliferation (GO:0042104)	32	822	6	1	IGF2	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Adhesion To Vascular Endothelial Cell (GO:1904996)	32	822	6	1	MDK	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Muscle Cell Differentiation (GO:0051149)	32	822	6	1	LAMB1	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Myeloid Leukocyte Cytokine Production Involved In Immune Response (GO:0061081)	32	822	6	1	CD74	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Nitric-Oxide Synthase Biosynthetic Process (GO:0051770)	32	822	6	1	KDR	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Kinase C Signaling (GO:0090037)	32	822	6	1	VEGFA	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Response To Cytokine Stimulus (GO:0060760)	32	822	6	1	CD74	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of p38MAPK Cascade (GO:1900745)	32	822	6	1	VEGFA	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Protein-Containing Complex Organization (GO:0043933)	32	822	6	1	CD74	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of BMP Signaling Pathway (GO:0030510)	32	822	6	1	CDH5	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neurotransmitter Receptor Activity (GO:0099601)	32	822	6	1	APP	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Phospholipase C Activity (GO:1900274)	32	822	6	1	FLT1	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Autophosphorylation (GO:0031952)	32	822	6	1	VEGFA	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Kinase C Signaling (GO:0090036)	32	822	6	1	VEGFA	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Differentiation (GO:0045580)	32	822	6	1	MDK	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Transforming Growth Factor Beta Production (GO:0071634)	32	822	6	1	FN1	0.212575074313912	0.322541795449378
+Mode 1	0–7 dpb	Fib–Endo	Extracellular Matrix Organization (GO:0030198)	32	822	23	2	APP;COL4A1	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Heart Development (GO:0007507)	32	822	23	2	FN1;VEGFA	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Development (GO:0031175)	32	822	23	2	APP;LAMB1	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Peptidyl-Tyrosine Modification (GO:0018212)	32	822	23	2	FLT1;KDR	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Projection Organization (GO:0031346)	32	822	23	2	MDK;PTN	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Intracellular Signal Transduction (GO:1902531)	32	822	23	2	KDR;VEGFA	0.2242166062271326	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Peptidyl-Tyrosine Phosphorylation (GO:0050731)	32	822	63	4	CD44;CD74;IGF2;VEGFA	0.2247444937326748	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Process (GO:0048522)	32	822	152	8	FN1;IGF2;KDR;LAMB1;MDK;PGF;PTN;VEGFA	0.2247994508112256	0.3359219066099566
+Mode 1	0–7 dpb	Fib–Endo	Astrocyte Activation (GO:0048143)	32	822	7	1	APP	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Cell Surface Receptor Signaling Pathway Involved In Heart Development (GO:0061311)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Insulin Stimulus (GO:0032869)	32	822	7	1	IGF2	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Cognition (GO:0050890)	32	822	7	1	HLA-DRA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Dendrite Morphogenesis (GO:0048813)	32	822	7	1	PTN	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Embryonic Hemopoiesis (GO:0035162)	32	822	7	1	KDR	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Epidermal Cell Differentiation (GO:0009913)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Epithelial Tube Morphogenesis (GO:0060562)	32	822	7	1	COL4A1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Heart Morphogenesis (GO:0003007)	32	822	7	1	VEGFA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Heterotypic Cell-Cell Adhesion (GO:0034113)	32	822	7	1	JAM3	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Keratinocyte Differentiation (GO:0030216)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Canonical Wnt Signaling Pathway (GO:0090090)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cellular Component Organization (GO:0051129)	32	822	7	1	VEGFA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Immune Response (GO:0050777)	32	822	7	1	HLA-DRB1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Macromolecule Biosynthetic Process (GO:0010558)	32	822	7	1	NCL	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Wnt Signaling Pathway (GO:0030178)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Heterotypic Cell-Cell Adhesion (GO:0034116)	32	822	7	1	CD44	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Lymphocyte Differentiation (GO:0045621)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Notch Signaling Pathway (GO:0045747)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Smooth Muscle Cell Migration (GO:0014911)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Pulmonary Valve Development (GO:0003177)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Actin Cytoskeleton Reorganization (GO:2000249)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Actin Filament Polymerization (GO:0030833)	32	822	7	1	ESAM	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Blood Vessel Endothelial Cell Proliferation Involved In Sprouting Angiogenesis (GO:1903587)	32	822	7	1	VEGFA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Development (GO:0060284)	32	822	7	1	PTN	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cytokine-Mediated Signaling Pathway (GO:0001959)	32	822	7	1	CD74	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Developmental Growth (GO:0048638)	32	822	7	1	APP	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Epithelial Cell Migration (GO:0010632)	32	822	7	1	PTN	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Heterotypic Cell-Cell Adhesion (GO:0034114)	32	822	7	1	CD44	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-4 Production (GO:0032673)	32	822	7	1	HLA-DRB1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Macrophage Activation (GO:0043030)	32	822	7	1	CD74	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Nitric-Oxide Synthase Biosynthetic Process (GO:0051769)	32	822	7	1	KDR	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Regulatory T Cell Differentiation (GO:0045589)	32	822	7	1	MDK	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of p38MAPK Cascade (GO:1900744)	32	822	7	1	VEGFA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Renal System Development (GO:0072001)	32	822	7	1	VEGFA	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Supramolecular Fiber Organization (GO:0097435)	32	822	7	1	APP	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	T Cell Mediated Immunity (GO:0002456)	32	822	7	1	JAG1	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Vesicle-Mediated Transport (GO:0016192)	32	822	7	1	APP	0.2434544831643469	0.3393738290047168
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Macromolecule Metabolic Process (GO:0010604)	32	822	88	5	APP;CD74;CDH5;FN1;VEGFA	0.2514776468802076	0.3499397943359503
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Kinase Activity (GO:0045860)	32	822	25	2	CD4;VEGFA	0.2537380239975589	0.3518441141196379
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Stress-Activated MAPK Cascade (GO:0032874)	32	822	25	2	APP;VEGFA	0.2537380239975589	0.3518441141196379
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cellular Process (GO:0048523)	32	822	67	4	APP;JAM2;MDK;NOTCH4	0.2597794148903222	0.3595894006113407
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Activation (GO:0050870)	32	822	46	3	HLA-DRA;HLA-DRB1;MDK	0.2636932259506546	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Intracellular Monoatomic Cation Homeostasis (GO:0030003)	32	822	26	2	APP;CDH5	0.2685663769726047	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Inflammatory Response (GO:0050729)	32	822	26	2	APP;MDK	0.2685663769726047	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Macromolecule Biosynthetic Process (GO:0010557)	32	822	26	2	IGF2;KDR	0.2685663769726047	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Epithelial Cell Proliferation (GO:0050678)	32	822	26	2	LAMB1;VEGFA	0.2685663769726047	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neuron Projection Development (GO:0010975)	32	822	26	2	MDK;PTN	0.2685663769726047	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Learning (GO:0007612)	32	822	8	1	PTN	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Memory (GO:0007613)	32	822	8	1	PTN	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Mononuclear Cell Differentiation (GO:1903131)	32	822	8	1	VEGFA	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cellular Biosynthetic Process (GO:0031327)	32	822	8	1	NCL	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Neuron Migration (GO:0001764)	32	822	8	1	VEGFA	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Chemotaxis (GO:0050918)	32	822	8	1	VEGFA	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Catabolic Process (GO:0031331)	32	822	8	1	APP	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-2 Production (GO:0032743)	32	822	8	1	CD4	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Binding (GO:0032092)	32	822	8	1	APP	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Receptor Clustering (GO:0043113)	32	822	8	1	PTN	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Adhesion Mediated By Integrin (GO:0033628)	32	822	8	1	JAM3	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Dendrite Development (GO:0050773)	32	822	8	1	PTN	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Epidermal Growth Factor-Activated Receptor Activity (GO:0007176)	32	822	8	1	APP	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Nervous System Development (GO:0051960)	32	822	8	1	PTN	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Nucleic Acid-Templated Transcription (GO:1903506)	32	822	8	1	IGF2	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Binding (GO:0043393)	32	822	8	1	APP	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Respiratory System Development (GO:0060541)	32	822	8	1	VEGFA	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Respiratory Tube Development (GO:0030323)	32	822	8	1	VEGFA	0.2731593378131087	0.3628328578022605
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Response To External Stimulus (GO:0032103)	32	822	47	3	APP;MDK;PTN	0.2745960251635626	0.363517221231629
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Inflammatory Response (GO:0050727)	32	822	47	3	APP;CDH5;MDK	0.2745960251635626	0.363517221231629
+Mode 1	0–7 dpb	Fib–Endo	Protein Autophosphorylation (GO:0046777)	32	822	28	2	FLT1;KDR	0.2982361580798658	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Aortic Valve Morphogenesis (GO:0003180)	32	822	9	1	JAG1	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Cell Morphogenesis Involved In Neuron Differentiation (GO:0048667)	32	822	9	1	APP	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Microglial Cell Activation (GO:0001774)	32	822	9	1	APP	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Endothelial Cell Proliferation (GO:0001937)	32	822	9	1	FLT1	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cytokine-Mediated Signaling Pathway (GO:0001961)	32	822	9	1	CD74	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Immune System Process (GO:0002684)	32	822	9	1	VEGFA	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Macrophage Chemotaxis (GO:0010759)	32	822	9	1	MDK	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Reproductive Process (GO:2000243)	32	822	9	1	VEGFA	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Activated T Cell Proliferation (GO:0046006)	32	822	9	1	IGF2	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cellular Biosynthetic Process (GO:0031326)	32	822	9	1	APP	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neuron Migration (GO:2001222)	32	822	9	1	MDK	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Notch Signaling Pathway (GO:0008593)	32	822	9	1	JAG1	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Receptor Internalization (GO:0002090)	32	822	9	1	VEGFA	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Migration (GO:2000404)	32	822	9	1	APP	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Vasoconstriction (GO:0019229)	32	822	9	1	ADM	0.3017329264985885	0.3889988219074941
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cytokine Production (GO:0001819)	32	822	72	4	APP;CD4;CD74;MDK	0.3051372645021344	0.3927460060231388
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Gene Expression (GO:0010628)	32	822	95	5	APP;CD74;CDH5;FN1;VEGFA	0.3067734423802553	0.3942088697687645
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Population Proliferation (GO:0042127)	32	822	166	8	APP;FN1;IGF2;JAG1;KDR;PGF;PTN;VEGFA	0.3093203339532002	0.3968353552667885
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell Adhesion (GO:0030155)	32	822	51	3	LAMB1;MDK;VEGFA	0.3186889270402498	0.4081908497317485
+Mode 1	0–7 dpb	Fib–Endo	Peptidyl-Tyrosine Phosphorylation (GO:0018108)	32	822	30	2	FLT1;KDR	0.3277802136858878	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Calcium-Dependent Cell-Cell Adhesion Via Plasma Membrane Cell Adhesion Molecules (GO:0016339)	32	822	10	1	CDH5	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Cardiac Ventricle Morphogenesis (GO:0003208)	32	822	10	1	JAG1	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Leukocyte Adhesion To Vascular Endothelial Cell (GO:0061756)	32	822	10	1	JAM2	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Leukocyte Tethering Or Rolling (GO:0050901)	32	822	10	1	JAM2	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Lung Development (GO:0030324)	32	822	10	1	VEGFA	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell-Substrate Adhesion (GO:0010812)	32	822	10	1	JAG1	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Neurogenesis (GO:0050768)	32	822	10	1	PTN	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Bone Mineralization (GO:0030501)	32	822	10	1	PTN	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Carbohydrate Metabolic Process (GO:0045913)	32	822	10	1	APP	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of NIK/NF-kappaB Signaling (GO:1901224)	32	822	10	1	APP	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Actin Filament-Based Process (GO:0032970)	32	822	10	1	ESAM	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Calcium Ion Transport (GO:0051924)	32	822	10	1	CD4	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Extracellular Matrix Organization (GO:1903053)	32	822	10	1	LAMB1	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Sprouting Angiogenesis (GO:1903670)	32	822	10	1	VEGFA	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Tissue Remodeling (GO:0034103)	32	822	10	1	MDK	0.3292169933522725	0.4110003287261757
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-6 Production (GO:0032675)	32	822	31	2	APP;CD74	0.3424572431618704	0.4268542888700091
+Mode 1	0–7 dpb	Fib–Endo	Protein Phosphorylation (GO:0006468)	32	822	54	3	APP;FLT1;KDR	0.3519886251849902	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Antigen Receptor-Mediated Signaling Pathway (GO:0050851)	32	822	11	1	HLA-DRB1	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Aortic Valve Development (GO:0003176)	32	822	11	1	JAG1	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Cell Junction Organization (GO:0034330)	32	822	11	1	APP	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Cytoskeleton Organization (GO:0007010)	32	822	11	1	MDK	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Epithelial To Mesenchymal Transition (GO:0001837)	32	822	11	1	NOTCH4	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Macrophage Activation (GO:0042116)	32	822	11	1	APP	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Metal Ion Transport (GO:0030001)	32	822	11	1	CALCRL	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Protein Metabolic Process (GO:0051248)	32	822	11	1	NCL	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Binding (GO:0051099)	32	822	11	1	APP	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Biomineral Tissue Development (GO:0070169)	32	822	11	1	PTN	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-8 Production (GO:0032757)	32	822	11	1	CD74	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Macrophage Migration (GO:1905523)	32	822	11	1	MDK	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Nitrogen Compound Metabolic Process (GO:0051173)	32	822	11	1	APP	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Ossification (GO:0045778)	32	822	11	1	PTN	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phospholipase Activity (GO:0010518)	32	822	11	1	FLT1	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Receptor Internalization (GO:0002092)	32	822	11	1	VEGFA	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Protein Kinase B Signaling (GO:0043491)	32	822	11	1	KDR	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell-Cell Adhesion (GO:0022407)	32	822	11	1	JAG1	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Macrophage Chemotaxis (GO:0010758)	32	822	11	1	MDK	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	T Cell Receptor Signaling Pathway (GO:0050852)	32	822	11	1	HLA-DRB1	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Transforming Growth Factor Beta Receptor Signaling Pathway (GO:0007179)	32	822	11	1	CDH5	0.3556517916438088	0.4284110894762826
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Multicellular Organismal Process (GO:0051241)	32	822	32	2	ADM;MDK	0.3570483009944841	0.4294376668973292
+Mode 1	0–7 dpb	Fib–Endo	Adenylate Cyclase-Activating G Protein-Coupled Receptor Signaling Pathway (GO:0007189)	32	822	33	2	ADM;CALCRL	0.3715380734113542	0.444830864827858
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Defense Response (GO:0031349)	32	822	33	2	APP;MDK	0.3715380734113542	0.444830864827858
+Mode 1	0–7 dpb	Fib–Endo	Protein Modification Process (GO:0036211)	32	822	33	2	APP;FN1	0.3715380734113542	0.444830864827858
+Mode 1	0–7 dpb	Fib–Endo	Axon Development (GO:0061564)	32	822	12	1	APP	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Calcium Ion Transport (GO:0006816)	32	822	12	1	CALCRL	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Amyloid-Beta (GO:1904646)	32	822	12	1	APP	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Peptide (GO:1901653)	32	822	12	1	APP	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Epidermis Development (GO:0008544)	32	822	12	1	HLA-DRB1	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Intracellular Signal Transduction (GO:1902532)	32	822	12	1	DAG1	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Organelle Organization (GO:0006996)	32	822	12	1	MDK	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-12 Production (GO:0032735)	32	822	12	1	MDK	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cytoskeleton Organization (GO:0051493)	32	822	12	1	ESAM	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-2 Production (GO:0032663)	32	822	12	1	CD4	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mononuclear Cell Migration (GO:0071675)	32	822	12	1	MDK	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of NIK/NF-kappaB Signaling (GO:1901222)	32	822	12	1	APP	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Tyrosine Kinase Activity (GO:0061097)	32	822	12	1	APP	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Skin Development (GO:0043588)	32	822	12	1	JAG1	0.381076135253424	0.4467593918498537
+Mode 1	0–7 dpb	Fib–Endo	Skeletal System Development (GO:0001501)	32	822	34	2	CD44;LAMA5	0.3859124923643545	0.4517580956609431
+Mode 1	0–7 dpb	Fib–Endo	Kidney Development (GO:0001822)	32	822	13	1	VEGFA	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Mesenchymal Cell Differentiation (GO:0048762)	32	822	13	1	NOTCH4	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Defense Response (GO:0031348)	32	822	13	1	CDH5	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Developmental Process (GO:0051093)	32	822	13	1	NOTCH4	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Lymphocyte Proliferation (GO:0050672)	32	822	13	1	HLA-DRB1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of MAPK Cascade (GO:0043409)	32	822	13	1	DAG1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of T Cell Proliferation (GO:0042130)	32	822	13	1	HLA-DRB1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Type II Interferon Production (GO:0032689)	32	822	13	1	HLA-DRB1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Odontogenesis (GO:0042476)	32	822	13	1	LAMB1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Organic Substance Transport (GO:0071702)	32	822	13	1	CALCRL	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of B Cell Proliferation (GO:0030890)	32	822	13	1	CD74	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-1 Beta Production (GO:0032731)	32	822	13	1	APP	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phosphate Metabolic Process (GO:0045937)	32	822	13	1	APP	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Migration (GO:2000406)	32	822	13	1	APP	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Bone Mineralization (GO:0030500)	32	822	13	1	PTN	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cell-Matrix Adhesion (GO:0001952)	32	822	13	1	JAG1	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Metabolic Process (GO:0051246)	32	822	13	1	APP	0.4055274484285974	0.4630407479163
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of MAP Kinase Activity (GO:0043406)	32	822	36	2	FLT1;VEGFA	0.4142648183205669	0.4716521524602126
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Serine/Threonine Kinase Activity (GO:0071902)	32	822	36	2	FLT1;VEGFA	0.4142648183205669	0.4716521524602126
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cytokine Production (GO:0001818)	32	822	37	2	FN1;HLA-DRB1	0.4282202168777346	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Leukocyte Cell-Cell Adhesion (GO:0007159)	32	822	14	1	JAM2	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phosphatidylinositol 3-Kinase Activity (GO:0043552)	32	822	14	1	FLT1	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Receptor-Mediated Endocytosis (GO:0048260)	32	822	14	1	VEGFA	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Synaptic Transmission (GO:0050806)	32	822	14	1	APP	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Phosphatidylinositol 3-Kinase Activity (GO:0043551)	32	822	14	1	FLT1	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Kinase Activity (GO:0045859)	32	822	14	1	CD4	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Response To Amyloid-Beta (GO:1904645)	32	822	14	1	APP	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	T Cell Differentiation (GO:0030217)	32	822	14	1	CD4	0.4290418138801238	0.4822136626088571
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of MAP Kinase Activity (GO:0043405)	32	822	38	2	FLT1;VEGFA	0.4420151234132788	0.496088097259
+Mode 1	0–7 dpb	Fib–Endo	Cartilage Development (GO:0051216)	32	822	15	1	CD44	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Response To External Stimulus (GO:0032102)	32	822	15	1	CDH5	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Interleukin-1 Production (GO:0032732)	32	822	15	1	APP	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Lipid Kinase Activity (GO:0090218)	32	822	15	1	FLT1	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Mitotic Nuclear Division (GO:0045840)	32	822	15	1	IGF2	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Mononuclear Cell Migration (GO:0071677)	32	822	15	1	JAM2	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Nuclear Division (GO:0051785)	32	822	15	1	IGF2	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Phospholipase C Activity (GO:0010863)	32	822	15	1	FLT1	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Supramolecular Fiber Organization (GO:1902905)	32	822	15	1	APP	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-8 Production (GO:0032677)	32	822	15	1	CD74	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Macromolecule Metabolic Process (GO:0060255)	32	822	15	1	APP	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Signal Transduction (GO:0009966)	32	822	15	1	APP	0.4516540192710101	0.4983986310557021
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of DNA-binding Transcription Factor Activity (GO:0051091)	32	822	39	2	APP;VEGFA	0.4556407322817435	0.5020957231428711
+Mode 1	0–7 dpb	Fib–Endo	Cell-Cell Junction Organization (GO:0045216)	32	822	16	1	CDH5	0.4733976021499788	0.5187648723560184
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of B Cell Activation (GO:0050871)	32	822	16	1	CD74	0.4733976021499788	0.5187648723560184
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Neurogenesis (GO:0050769)	32	822	16	1	VEGFA	0.4733976021499788	0.5187648723560184
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Canonical Wnt Signaling Pathway (GO:0060828)	32	822	16	1	MDK	0.4733976021499788	0.5187648723560184
+Mode 1	0–7 dpb	Fib–Endo	Cellular Component Assembly (GO:0022607)	32	822	17	1	CD74	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Transforming Growth Factor Beta Stimulus (GO:0071560)	32	822	17	1	CDH5	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	MAPK Cascade (GO:0000165)	32	822	17	1	KDR	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of T Cell Activation (GO:0050868)	32	822	17	1	HLA-DRB1	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cell Cycle Process (GO:0090068)	32	822	17	1	IGF2	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of JNK Cascade (GO:0046330)	32	822	17	1	APP	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Mitotic Nuclear Division (GO:0007088)	32	822	17	1	IGF2	0.4943048933797559	0.5364601937780294
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Kinase B Signaling (GO:0051896)	32	822	43	2	DAG1;IGF2	0.5083038079169382	0.5508951984154729
+Mode 1	0–7 dpb	Fib–Endo	G Protein-Coupled Receptor Signaling Pathway, Coupled To Cyclic Nucleotide Second Messenger (GO:0007187)	32	822	18	1	CALCRL	0.5144070591087596	0.5537069162848722
+Mode 1	0–7 dpb	Fib–Endo	Modulation Of Chemical Synaptic Transmission (GO:0050804)	32	822	18	1	APP	0.5144070591087596	0.5537069162848722
+Mode 1	0–7 dpb	Fib–Endo	Protein Localization To Membrane (GO:0072657)	32	822	18	1	PTN	0.5144070591087596	0.5537069162848722
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Axon Extension Involved In Axon Guidance (GO:0048841)	32	822	18	1	VEGFA	0.5144070591087596	0.5537069162848722
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of B Cell Proliferation (GO:0030888)	32	822	18	1	CD74	0.5144070591087596	0.5537069162848722
+Mode 1	0–7 dpb	Fib–Endo	Cell Chemotaxis (GO:0060326)	32	822	19	1	VEGFA	0.5337341413332867	0.5729472619210384
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-12 Production (GO:0032655)	32	822	19	1	MDK	0.5337341413332867	0.5729472619210384
+Mode 1	0–7 dpb	Fib–Endo	Cell-Cell Adhesion Via Plasma-Membrane Adhesion Molecules (GO:0098742)	32	822	46	2	CDH5;ESAM	0.54571229892454	0.5850095161025299
+Mode 1	0–7 dpb	Fib–Endo	Calcium-Mediated Signaling (GO:0019722)	32	822	20	1	KDR	0.5523150970958453	0.5888873129846242
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-1 Beta Production (GO:0032651)	32	822	20	1	APP	0.5523150970958453	0.5888873129846242
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Interleukin-10 Production (GO:0032653)	32	822	20	1	HLA-DRB1	0.5523150970958453	0.5888873129846242
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of JNK Cascade (GO:0046328)	32	822	20	1	APP	0.5523150970958453	0.5888873129846242
+Mode 1	0–7 dpb	Fib–Endo	Homophilic Cell Adhesion Via Plasma Membrane Adhesion Molecules (GO:0007156)	32	822	21	1	ESAM	0.5701778363638417	0.607112433051378
+Mode 1	0–7 dpb	Fib–Endo	Activation Of Protein Kinase Activity (GO:0032147)	32	822	22	1	VEGFA	0.5873492586314537	0.6220383423627074
+Mode 1	0–7 dpb	Fib–Endo	Neural Crest Cell Migration (GO:0001755)	32	822	22	1	FN1	0.5873492586314537	0.6220383423627074
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Tumor Necrosis Factor Production (GO:0032760)	32	822	22	1	APP	0.5873492586314537	0.6220383423627074
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Anatomical Structure Morphogenesis (GO:0022603)	32	822	22	1	DAG1	0.5873492586314537	0.6220383423627074
+Mode 1	0–7 dpb	Fib–Endo	Calcium Ion Homeostasis (GO:0055074)	32	822	23	1	CDH5	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Lymphocyte Differentiation (GO:0030098)	32	822	23	1	CD4	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Neuron Apoptotic Process (GO:0043524)	32	822	23	1	MDK	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Neuron Death (GO:1901215)	32	822	23	1	MDK	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Morphogenesis (GO:0048812)	32	822	23	1	APP	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of NF-kappaB Transcription Factor Activity (GO:0051092)	32	822	23	1	APP	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Metabolic Process (GO:0051247)	32	822	23	1	APP	0.6038552882861952	0.6335662532683617
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Tumor Necrosis Factor Superfamily Cytokine Production (GO:1903557)	32	822	24	1	APP	0.6197209087803657	0.6493490000367975
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Fibroblast Growth Factor Stimulus (GO:0044344)	32	822	25	1	CD44	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Angiogenesis (GO:0016525)	32	822	25	1	HSPG2	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	32	822	25	1	HSPG2	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	32	822	25	1	IGF2	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Cold-Induced Thermogenesis (GO:0120162)	32	822	25	1	VEGFA	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Neuron Apoptotic Process (GO:0043523)	32	822	25	1	MDK	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Type II Interferon Production (GO:0032649)	32	822	25	1	HLA-DRB1	0.6349701956463158	0.65919932153282
+Mode 1	0–7 dpb	Fib–Endo	Apoptotic Process (GO:0006915)	32	822	26	1	APP	0.6496263483932643	0.6735285005023463
+Mode 1	0–7 dpb	Fib–Endo	Adenylate Cyclase-Modulating G Protein-Coupled Receptor Signaling Pathway (GO:0007188)	32	822	57	2	ADM;CALCRL	0.6662562453001811	0.689863750054912
+Mode 1	0–7 dpb	Fib–Endo	Intracellular Calcium Ion Homeostasis (GO:0006874)	32	822	28	1	CDH5	0.6772478532941157	0.6975829716045134
+Mode 1	0–7 dpb	Fib–Endo	Phosphorylation (GO:0016310)	32	822	28	1	APP	0.6772478532941157	0.6975829716045134
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Metabolic Process (GO:0009893)	32	822	28	1	VEGFA	0.6772478532941157	0.6975829716045134
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cytokine Production (GO:0001817)	32	822	28	1	HLA-DRB1	0.6772478532941157	0.6975829716045134
+Mode 1	0–7 dpb	Fib–Endo	Synapse Organization (GO:0050808)	32	822	29	1	APP	0.6902554964862925	0.7100542199839437
+Mode 1	0–7 dpb	Fib–Endo	Axonogenesis (GO:0007409)	32	822	60	2	APP;DAG1	0.6945401606039912	0.7135314931205066
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Multicellular Organismal Process (GO:0051240)	32	822	91	3	MDK;PTN;VEGFA	0.708746235340579	0.7271791673390335
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Tyrosine Phosphorylation Of STAT Protein (GO:0042531)	32	822	32	1	VEGFA	0.7263037916179549	0.7422975279618736
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Cold-Induced Thermogenesis (GO:0120161)	32	822	32	1	VEGFA	0.7263037916179549	0.7422975279618736
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Tyrosine Phosphorylation Of STAT Protein (GO:0042509)	32	822	32	1	VEGFA	0.7263037916179549	0.7422975279618736
+Mode 1	0–7 dpb	Fib–Endo	Monocyte Chemotaxis (GO:0002548)	32	822	33	1	FLT1	0.7373902203119111	0.7517482056783727
+Mode 1	0–7 dpb	Fib–Endo	Axon Guidance (GO:0007411)	32	822	65	2	DAG1;VEGFA	0.7374564146958942	0.7517482056783727
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of T Cell Proliferation (GO:0042102)	32	822	34	1	IGF2	0.7480410605527462	0.7586174765759855
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0090100)	32	822	34	1	CDH5	0.7480410605527462	0.7586174765759855
+Mode 1	0–7 dpb	Fib–Endo	Response To Type II Interferon (GO:0034341)	32	822	34	1	CD74	0.7480410605527462	0.7586174765759855
+Mode 1	0–7 dpb	Fib–Endo	Transmembrane Receptor Protein Serine/Threonine Kinase Signaling Pathway (GO:0007178)	32	822	34	1	CDH5	0.7480410605527462	0.7586174765759855
+Mode 1	0–7 dpb	Fib–Endo	Response To Interleukin-1 (GO:0070555)	32	822	35	1	APP	0.7582728956572031	0.768006822430723
+Mode 1	0–7 dpb	Fib–Endo	Inflammatory Response (GO:0006954)	32	822	99	3	ADM;CD44;HSPG2	0.7638912847325148	0.7727054149409669
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Protein Kinase B Signaling (GO:0051897)	32	822	36	1	IGF2	0.7681016978668214	0.7749772885126881
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of T Cell Proliferation (GO:0042129)	32	822	36	1	HLA-DRB1	0.7681016978668214	0.7749772885126881
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Tumor Necrosis Factor Production (GO:0032680)	32	822	37	1	APP	0.7775428501165182	0.7835010328760318
+Mode 1	0–7 dpb	Fib–Endo	Neuron Differentiation (GO:0030182)	32	822	38	1	VEGFA	0.7866111670544436	0.7916278199055561
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Lymphocyte Proliferation (GO:0050671)	32	822	39	1	CD74	0.7953209153379357	0.7993735059893392
+Mode 1	0–7 dpb	Fib–Endo	Negative Regulation Of Cell Population Proliferation (GO:0008285)	32	822	47	1	APP	0.8536365043826607	0.8568946589795411
+Mode 1	0–7 dpb	Fib–Endo	Neuron Projection Guidance (GO:0097485)	32	822	52	1	DAG1	0.8815251894515146	0.8837654059431321
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Cytokine Stimulus (GO:0071345)	32	822	80	1	CD4	0.964682640324486	0.9659068568731212
+Mode 1	0–7 dpb	Fib–Endo	Cytokine-Mediated Signaling Pathway (GO:0019221)	32	822	103	1	CD4	0.987386805891653	0.987386805891653

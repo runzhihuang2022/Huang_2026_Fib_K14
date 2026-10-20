@@ -1,0 +1,11 @@
+﻿asset_id,modality,species,source_path_or_accession,subset_rule,observational_unit,n_observations,checksum_or_version,used_by_panel,status,notes
+DATA001,Stereo-seq,human,external_asset_e710d93ba7fe,explicit registered 11 sample IDs only,bin/cell and section,live object; exact project total not recomputed here,local file,Figure5A-D;FigureS5A-D,Verified path,filename count does not define project scope
+DATA002,Stereo-seq reanalysis,human,external_asset_c212343f8f78,19dpb + 19dpb_p1,bin and section,87482 bins; 2 sections,2026-07-15,Figure5A-D;FigureS5A-B;FigureS5F,Verified,auditable tables copied to source_data
+DATA003,spatial derivatives,human,external_asset_c353c5f1852e,explicit registered 11 IDs only,section,up to 11 project sections,local derivatives,FigureS5D,Verified path,exclude unregistered 6mph/9mph outputs
+DATA004,multiplex IF,human,inputs\raw_panels\from_slide7\image58.png,19 and 26 dpb shown,specimen/field,unknown,PPT-extracted raster,Figure5E;FigureS5E,Provenance incomplete,need raw channels and specimen/field metadata
+DATA005,in-vitro qPCR and KRT14 IF,primary cells,external_asset_f1409f6216ae,PBS/0.1 ug/1 ug IGFL1 as displayed,independent experiment,unknown,PDF-compatible AI,Figure5F-G;FigureS5H-I,Summary-only,need replicate-level source data
+DATA006,morphology,primary cells,NOT LOCATED,IGFL1 vs control,cell nested in experiment,unknown,,Figure5H;FigureS5J,Missing,need raw images and morphometry table
+DATA007,viability/proliferation,primary cells,NOT LOCATED,tested IGFL1 doses,independent experiment,unknown,,FigureS5G,Missing,need CCK-8/EdU raw table
+DATA008,RNA-seq,primary cells,NOT LOCATED,IGFL1 vs control,biological replicate,unknown,,FigureS5K-L,Missing,need counts/metadata or DE and GSEA result tables
+DATA009,CellChat/CellPhoneDB,human,NOT LOCATED,Epi-Front populations,section/donor,unknown,,FigureS5C,Missing,need method-specific object and code
+DATA010,current composite,mixed,inputs\current\Figure5_current_composite.png,current draft only,panel image,A-H only,current screenshot,all Figure5 panels,Verified,H is placeholder; I absent

@@ -1,0 +1,5 @@
+﻿display,sample_id,source,rotation_deg,n_bins,processing
+Mode 1 | 5 dpb SPTDI & DPTDI,LEGACY_S_65324782c587,external_asset_b3c2bd3ee952,135,16821,direct H5AD render; equal aspect; 1 mm vector scale bar
+Mode 2 | 19 dpb SPTDI & DPTDI,LEGACY_S_09c73cc8dfdb,external_asset_6acdf2ec56a4,140,47042,direct H5AD render; equal aspect; 1 mm vector scale bar
+Mode 3 | 12 dpb SPTDI,LEGACY_S_fbe865ebc3cd,external_asset_3a31dc42d632,135,34538,direct H5AD render; equal aspect; 1 mm vector scale bar
+Mode 4 | 2 mph SPTDI & DPTDI,LEGACY_S_35688ce2d24a,external_asset_ce4d74d2ae22,45,90304,direct H5AD render; equal aspect; 1 mm vector scale bar

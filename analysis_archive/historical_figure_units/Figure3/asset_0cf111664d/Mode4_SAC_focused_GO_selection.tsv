@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 4	1–2 mph	Fib–SAC	Endoderm Formation (GO:0001706)	55	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.171442966408593e-05	0.0046266139986445	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Endodermal Cell Differentiation (GO:0035987)	55	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.171442966408593e-05	0.0046266139986445	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Regulation Of Basement Membrane Organization (GO:0110011)	55	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	1.806021573314919e-05	0.0046266139986445	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Regulation Of Muscle Cell Differentiation (GO:0051147)	55	822	7	5	FGFR2;LAMA2;LAMB1;LAMB2;LAMC1	2.1296266967293698e-05	0.0046266139986445	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Positive Regulation Of Integrin-Mediated Signaling Pathway (GO:2001046)	55	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	8.579706398412925e-05	0.0124262747670347	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Regulation Of Integrin-Mediated Signaling Pathway (GO:2001044)	55	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	8.579706398412925e-05	0.0124262747670347	top BH-adjusted result used to fill display

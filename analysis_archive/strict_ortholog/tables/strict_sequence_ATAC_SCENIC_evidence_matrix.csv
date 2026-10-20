@@ -1,0 +1,11 @@
+﻿gene,study_group,strict_sequence_ortholog,sequence_evidence_note,motif_ATAC_evidence,regulon_role
+KLF4,Human,True,human reference sequence,not tested,transcription factor
+KLF4,Rat,True,strict Ensembl Compara protein ortholog,rat Fib_K14 KLF4 chromVAR/footprint/peak links,transcription factor
+KLF4,Cervid,True,strict ortholog record is partial; retained in audit but excluded from full-length tree,not tested,transcription factor
+KLF4,Acomys,True,strict Ensembl Compara protein ortholog,not tested,transcription factor
+KLF4,Planarian,False,no strict sequence entered,not tested,transcription factor
+IGFL1,Human,True,human reference sequence,not tested,"candidate downstream effector, not a TF"
+IGFL1,Rat,False,no strict sequence entered,not tested,"candidate downstream effector, not a TF"
+IGFL1,Cervid,True,strict Ensembl Compara protein ortholog,not tested,"candidate downstream effector, not a TF"
+IGFL1,Acomys,True,strict Ensembl Compara protein ortholog,not tested,"candidate downstream effector, not a TF"
+IGFL1,Planarian,False,no strict sequence entered,not tested,"candidate downstream effector, not a TF"

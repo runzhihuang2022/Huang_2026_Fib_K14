@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	75	822	34	11	ANGPTL4;CDH5;FLT1;GRN;KDR;MDK;PGF;TEK;THBS1;VEGFA;VEGFB	9.092366717358534e-05	0.0130440573036924	pre-specified repair function
+Mode 1	0–7 dpb	Fib–Endo	Notch Signaling Pathway (GO:0007219)	75	822	10	7	DLL4;JAG1;JAG2;NOTCH1;NOTCH2;NOTCH3;NOTCH4	3.869061492788736e-06	0.0050181727561469	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Vascular Endothelial Growth Factor Stimulus (GO:0035924)	75	822	11	7	DLL4;FLT1;KDR;NOTCH1;PGF;VEGFA;VEGFB	9.863588418096303e-06	0.0063965370891354	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Endothelial Cell Migration (GO:0010594)	75	822	20	9	ANGPT1;DLL4;EDN1;GRN;KDR;PTN;TEK;THBS1;VEGFA	2.0240279888316445e-05	0.0085149213506629	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Migration (GO:0010595)	75	822	21	9	ANGPT1;EDN1;FGFR1;GRN;KDR;PDGFB;TEK;THBS1;VEGFA	3.282544853763655e-05	0.0085149213506629	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Leukocyte Cell-Cell Adhesion (GO:1903039)	75	822	21	9	CCL2;CD44;CD47;HLA-DMA;HLA-DPA1;HLA-DRA;HLA-DRB1;HLA-DRB5;MDK	3.282544853763655e-05	0.0085149213506629	top BH-adjusted result used to fill display

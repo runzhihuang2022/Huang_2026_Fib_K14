@@ -1,0 +1,11 @@
+﻿panel,marker,threshold_raw_8bit_mean,method
+KC_Spinous_Mig,MMP3,54.67838732999571,Otsu on pooled cell means across primary slides
+KC_Spinous_Mig,SOX9,48.413075764973954,Otsu on pooled cell means across primary slides
+KC_Spinous_Mig,KRT6B,29.384765625,Otsu on pooled cell means across primary slides
+Fib_K14_core,PDGFRA,19.871009371029224,Otsu on pooled cell means across primary slides
+Fib_K14_core,P63,8.003721611890693,Otsu on pooled cell means across primary slides
+Fib_K14_core,KLF4,10.639064134414223,Otsu on pooled cell means across primary slides
+Fib_K14_core,KRT14,23.408203125,Otsu on pooled cell means across primary slides
+SAC_SG_Progenitor,KRT77,33.142479923184354,Otsu on pooled cell means across primary slides
+SAC_SG_Progenitor,SCGB2A2,30.156818140332945,Otsu on pooled cell means across primary slides
+SAC_SG_Progenitor,S100A7,33.66087341308594,Otsu on pooled cell means across primary slides

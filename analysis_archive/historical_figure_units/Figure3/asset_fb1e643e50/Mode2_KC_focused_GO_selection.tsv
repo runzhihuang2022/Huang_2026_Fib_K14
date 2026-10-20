@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–KC	Keratinocyte Differentiation (GO:0030216)	38	822	7	2	EPHA2;JAG1	0.0377455616168101	0.2619852925791233	pre-specified repair function
+Mode 2	15–28 dpb	Fib–KC	Epidermal Cell Differentiation (GO:0009913)	38	822	7	2	EPHA2;JAG1	0.0377455616168101	0.2619852925791233	pre-specified repair function
+Mode 2	15–28 dpb	Fib–KC	Positive Regulation Of Cell Migration (GO:0030335)	38	822	90	8	COL1A1;EPHA2;F2R;F2RL1;FN1;LAMB1;MDK;THBS1	0.0462788391082882	0.2619852925791233	pre-specified repair function
+Mode 2	15–28 dpb	Fib–KC	Regulation Of Basement Membrane Organization (GO:0110011)	38	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	3.908797186208697e-06	0.0026110765203874	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–KC	Positive Regulation Of Integrin-Mediated Signaling Pathway (GO:2001046)	38	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	1.8894112560231286e-05	0.0042070890634115	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–KC	Regulation Of Integrin-Mediated Signaling Pathway (GO:2001044)	38	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	1.8894112560231286e-05	0.0042070890634115	top BH-adjusted result used to fill display

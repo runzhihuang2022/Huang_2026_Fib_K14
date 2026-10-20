@@ -1,0 +1,561 @@
+{
+  "LINEAGES": {
+    "KC": [
+      "KC_Basal",
+      "KC_Basal_Mig",
+      "KC_Basal_Prolif",
+      "KC_Spinous",
+      "KC_Spinous_Mig",
+      "KC_Spinous_Mat",
+      "KC_Granular"
+    ],
+    "SAC": [
+      "SAC_SG_Progenitor",
+      "SAC_SG_Clear",
+      "SAC_SG_Dark",
+      "SAC_SG_Ductal",
+      "SAC_HF_IRS",
+      "SAC_HF_ORS",
+      "SAC_HF_HFSC",
+      "SAC_HF_DP_DS",
+      "SAC_HF_Matrix"
+    ],
+    "Endo": [
+      "Endo_Capillary",
+      "Endo_Arterial",
+      "Endo_Venous",
+      "Endo_Lymphatic",
+      "Endo_Prolif"
+    ],
+    "Immune": [
+      "M1_Macrophage",
+      "M2_Macrophage",
+      "LAM",
+      "Neutrophil",
+      "Mast",
+      "cDC1",
+      "cDC2",
+      "pDC",
+      "LGHS",
+      "B_Mature",
+      "B_Plasma",
+      "CD4_T",
+      "CD8_T",
+      "NK"
+    ],
+    "Fib": [
+      "Fib_Papi",
+      "Fib_SFRP2",
+      "Fib_Myo",
+      "Fib_Inflama",
+      "Fib_Fasci",
+      "Fib_EN1",
+      "Fib_Prolif",
+      "Fib_K14",
+      "Fib_CD45"
+    ]
+  },
+  "RAW_COLORS": {
+    "KC_Basal": "#008941",
+    "KC_Basal_Mig": "#FF3030",
+    "KC_Basal_Prolif": "#FFD700",
+    "KC_Spinous_Mat": "#EE4C97FF",
+    "KC_Spinous": "#00FF00FF",
+    "KC_Spinous_Mig": "#1A0099FF",
+    "KC_Granular": "#882D17",
+    "SAC_SG_Progenitor": "#0099CCFF",
+    "SAC_SG_Clear": "#B7E4F9FF",
+    "SAC_SG_Dark": "#193006FF",
+    "SAC_SG_Ductal": "#8F7700FF",
+    "SAC_HF_IRS": "#CC9900FF",
+    "SAC_HF_ORS": "#A30059",
+    "SAC_HF_HFSC": "#00F5FF",
+    "SAC_HF_DP_DS": "#CDBE70",
+    "SAC_HF_Matrix": "#7FFFD4",
+    "Melanocyte": "#FF4500",
+    "Fib_Papi": "#3DA873FF",
+    "Fib_SFRP2": "#CCFF00FF",
+    "Fib_Myo": "#B79762",
+    "Fib_Inflama": "#800000FF",
+    "Fib_Fasci": "#9370DB",
+    "Fib_EN1": "#BDB76B",
+    "Fib_Prolif": "#EED2EE",
+    "Fib_CD45": "#DA70D6",
+    "Fib_K14": "#FF0000",
+    "Endo_Capillary": "#CF4E9CFF",
+    "Endo_Arterial": "#FF00FF",
+    "Endo_Venous": "#4169E1",
+    "Endo_Lymphatic": "#ADFF2F",
+    "Endo_Prolif": "#F08080",
+    "Pericyte": "#FFFF00",
+    "Schwann": "#7CFC00",
+    "M1_Macrophage": "#FF4040",
+    "M2_Macrophage": "#54FF9F",
+    "LAM": "#8B4513",
+    "Neutrophil": "#FF7F50",
+    "Mast": "#FF1493",
+    "cDC1": "#9B30FF",
+    "cDC2": "#EE9A00",
+    "pDC": "#D1EEEE",
+    "LGHS": "#FFB5C5",
+    "B_Mature": "#0000CD",
+    "B_Plasma": "#FAF0E6",
+    "CD4_T": "#00BFFF",
+    "CD8_T": "#1E90FF",
+    "NK": "#00E5EE"
+  },
+  "MARKERS": {
+    "KC_Basal": [
+      "COL17A1",
+      "KRT15",
+      "POSTN",
+      "KRT31",
+      "S100A2",
+      "ASS1"
+    ],
+    "KC_Basal_Mig": [
+      "COL17A1",
+      "KRT15",
+      "AREG",
+      "MMP3",
+      "TNFRSF12A",
+      "FGFBP1",
+      "S100A2",
+      "S100A10"
+    ],
+    "KC_Basal_Prolif": [
+      "COL17A1",
+      "MKI67",
+      "TOP2A",
+      "STMN1",
+      "NUSAP1",
+      "CENPF"
+    ],
+    "KC_Spinous": [
+      "KRT10",
+      "DEFB1",
+      "DSG1",
+      "ITPRIPL2",
+      "NRARP",
+      "MT1X",
+      "MT1G",
+      "APOE",
+      "CHP2",
+      "KCNK7",
+      "TNFAIP2",
+      "IRF1",
+      "TNFSF10",
+      "NFKBIA",
+      "CCL27",
+      "KRTDAP"
+    ],
+    "KC_Spinous_Mig": [
+      "KRT6A",
+      "KRT17",
+      "SOX9",
+      "KRT6B",
+      "KRT16",
+      "MMP3"
+    ],
+    "KC_Spinous_Mat": [
+      "DSC1",
+      "KRT1",
+      "KRTDAP",
+      "KRT2",
+      "KRT10"
+    ],
+    "KC_Granular": [
+      "FLG",
+      "KLK7",
+      "CNFN",
+      "LOR",
+      "IVL",
+      "FLG1"
+    ],
+    "SAC_SG_Progenitor": [
+      "SCGB2A2",
+      "S100A7",
+      "KRT77",
+      "SOX9",
+      "MUCL1"
+    ],
+    "SAC_SG_Clear": [
+      "AQP5",
+      "KRT19",
+      "KRT7",
+      "KRT18"
+    ],
+    "SAC_SG_Dark": [
+      "SCGB2A2",
+      "DCD",
+      "PIP",
+      "FASN"
+    ],
+    "SAC_SG_Ductal": [
+      "KRT5",
+      "CLDN1",
+      "CLDN4",
+      "KRT14",
+      "KRT10"
+    ],
+    "SAC_HF_IRS": [
+      "FXYD3",
+      "KRT71",
+      "KRT25",
+      "GATA3"
+    ],
+    "SAC_HF_ORS": [
+      "KRT17",
+      "KRT23",
+      "KRT16",
+      "CD200",
+      "KRT6A",
+      "PTHLH"
+    ],
+    "SAC_HF_HFSC": [
+      "TSPAN8",
+      "LGR5",
+      "CD34",
+      "KRT15",
+      "SOX9",
+      "KRT19"
+    ],
+    "SAC_HF_DP_DS": [
+      "PDGFRA",
+      "SOX18",
+      "CRABP1",
+      "WIF1",
+      "RGS2",
+      "COL6A1",
+      "TNN",
+      "ACTA2"
+    ],
+    "SAC_HF_Matrix": [
+      "LEF1",
+      "MKI67",
+      "KRT31",
+      "KRT85",
+      "HOXC13",
+      "LHX2",
+      "TOP2A",
+      "MMP7"
+    ],
+    "Endo_Capillary": [
+      "RGCC",
+      "COL15A1",
+      "PECAM1",
+      "CA4",
+      "VWA1",
+      "H19",
+      "APLN"
+    ],
+    "Endo_Arterial": [
+      "SEMA3G",
+      "HEY1",
+      "PECAM1",
+      "EFNB2",
+      "SOX17",
+      "GJA5",
+      "IGFBP3",
+      "ARL15",
+      "CXCL12"
+    ],
+    "Endo_Venous": [
+      "ACKR1",
+      "SELE",
+      "VWF",
+      "NR2F2",
+      "SELP",
+      "G0S2",
+      "CCL14",
+      "AQP1",
+      "ID1"
+    ],
+    "Endo_Lymphatic": [
+      "LYVE1",
+      "PDPN",
+      "CCL21",
+      "PROX1",
+      "GUCY1A2",
+      "TFF3"
+    ],
+    "Endo_Prolif": [
+      "PECAM1",
+      "MKI67",
+      "TOP2A",
+      "STMN1"
+    ],
+    "M1_Macrophage": [
+      "IL1B",
+      "CD86",
+      "CD68",
+      "FCN1"
+    ],
+    "M2_Macrophage": [
+      "MRC1",
+      "CD163",
+      "CD68",
+      "C1QC",
+      "ARG1"
+    ],
+    "LAM": [
+      "SPP1",
+      "TREM2",
+      "LIPA",
+      "APOE",
+      "LPL"
+    ],
+    "Neutrophil": [
+      "CSF3R",
+      "S100A8",
+      "S100A9",
+      "FCGR3B",
+      "CXCR2"
+    ],
+    "Mast": [
+      "TPSAB1",
+      "CPA3",
+      "KIT",
+      "TPSB2",
+      "MS4A2"
+    ],
+    "cDC1": [
+      "CLEC9A",
+      "XCR1",
+      "BATF3",
+      "IRF8"
+    ],
+    "cDC2": [
+      "CD1C",
+      "CLEC10A",
+      "LAMP3",
+      "FCER1A"
+    ],
+    "pDC": [
+      "GZMB",
+      "TCF4",
+      "LILRA4",
+      "IL3RA",
+      "JCHAIN"
+    ],
+    "LGHS": [
+      "CD207",
+      "CD1A",
+      "LAMP3"
+    ],
+    "B_Mature": [
+      "MS4A1",
+      "CD79A",
+      "CD79B",
+      "CD37",
+      "IGHM",
+      "CD19"
+    ],
+    "B_Plasma": [
+      "MZB1",
+      "JCHAIN",
+      "SDC1",
+      "PTGDS",
+      "CD38"
+    ],
+    "CD4_T": [
+      "CD3D",
+      "IL7R",
+      "CD4",
+      "LTB",
+      "TIGIT",
+      "BATF",
+      "FOXP3",
+      "LDHB",
+      "GIMAP7",
+      "KLF2",
+      "AHR",
+      "CCR6",
+      "PTGER4"
+    ],
+    "CD8_T": [
+      "CD3D",
+      "CD8A",
+      "CD8B",
+      "TRGC2",
+      "KLRC3",
+      "KLRC2",
+      "HSPA1B",
+      "DNAJB1",
+      "NR4A1",
+      "PRF1"
+    ],
+    "NK": [
+      "NKG7",
+      "KLRB1",
+      "PRF1",
+      "GNLY",
+      "XCL1",
+      "XCL2",
+      "FCER1G",
+      "GZMA",
+      "GZMK"
+    ],
+    "Fib_Papi": [
+      "FAP",
+      "COL6A1",
+      "LUM",
+      "COL4A1",
+      "COL4A2",
+      "IGFBP6",
+      "APOD",
+      "FGF7",
+      "PLA2G2A",
+      "ITM2A",
+      "C3",
+      "LEPR",
+      "PLPP3",
+      "CD9",
+      "SLIT3",
+      "PDGFRA",
+      "COL6A2",
+      "TNN",
+      "LAMA4",
+      "CRABP1",
+      "COL1A1",
+      "DPP4",
+      "DCN",
+      "SPARC"
+    ],
+    "Fib_SFRP2": [
+      "SFRP2",
+      "COL3A1",
+      "THY1",
+      "COL1A1",
+      "SFRP1",
+      "COCH",
+      "G0S2",
+      "AKR1C1",
+      "GPRC5A",
+      "SFRP4",
+      "PDGFRA",
+      "DPP4",
+      "CTHRC1",
+      "FSTL1"
+    ],
+    "Fib_Myo": [
+      "ACTA2",
+      "TAGLN",
+      "MYL9",
+      "MYH11",
+      "ADRA2A",
+      "PDGFRA",
+      "POSTN",
+      "MYLK",
+      "CNN1",
+      "LOX",
+      "RUNX2",
+      "LRRC15"
+    ],
+    "Fib_Inflama": [
+      "IL6",
+      "CCL19",
+      "PDGFRA",
+      "VIM",
+      "CXCL8",
+      "CCL2",
+      "MMP11",
+      "ISG15",
+      "IER5",
+      "IFI6",
+      "APOE",
+      "CD74",
+      "COL6A5",
+      "CXCL12",
+      "CXCL1",
+      "CXCL5"
+    ],
+    "Fib_Fasci": [
+      "PROCR",
+      "DPT",
+      "PI16",
+      "HIF1A",
+      "PLAC8"
+    ],
+    "Fib_EN1": [
+      "EN1",
+      "ELN",
+      "DPP4",
+      "DLK1",
+      "TNC",
+      "COL11A1",
+      "COL16A1"
+    ],
+    "Fib_Prolif": [
+      "MKI67",
+      "TOP2A",
+      "PDGFRA",
+      "STMN1",
+      "PCLAF",
+      "DPP4",
+      "VIM",
+      "COL1A1"
+    ],
+    "Fib_K14": [
+      "KRT14",
+      "VIM",
+      "PDGFRA",
+      "KRT5",
+      "TP63",
+      "KLF4",
+      "TACSTD2",
+      "COL1A1"
+    ],
+    "Fib_CD45": [
+      "PTPRC",
+      "VIM",
+      "PDGFRA",
+      "LST1",
+      "TYROBP",
+      "COL1A1",
+      "CD34"
+    ],
+    "Pericyte": [
+      "PDGFRB",
+      "DES",
+      "RGS5",
+      "MUSTN1",
+      "COL6A3",
+      "COL5A2",
+      "DCN"
+    ],
+    "Melanocyte": [
+      "MLANA",
+      "PMEL",
+      "DCT",
+      "TYR"
+    ],
+    "Schwann": [
+      "MPZ",
+      "S100B",
+      "PLP1"
+    ]
+  },
+  "MODES": [
+    "0-7dpb",
+    "8-14dpb",
+    "15-28dpb",
+    "1-2mph"
+  ],
+  "targets": {
+    "KC": "KC_Spinous_Mig",
+    "SAC": "SAC_SG_Progenitor"
+  },
+  "marker_programs": {
+    "KC": [
+      "SOX9",
+      "MMP3",
+      "KRT6B"
+    ],
+    "SAC": [
+      "SCGB2A2",
+      "S100A7",
+      "KRT77"
+    ]
+  }
+}

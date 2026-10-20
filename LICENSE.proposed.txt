@@ -1,0 +1,3 @@
+PROPOSED CODE LICENSE — NOT ADOPTED
+
+The authors may choose an MIT license for code they own. No license has been assigned by the packaging process. The final copyright holder and license must be selected by the rights holder. Third-party software, reference resources, clinical data and experimental images retain their own terms; no blanket relicensing is implied.

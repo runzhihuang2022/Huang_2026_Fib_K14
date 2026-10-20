@@ -1,0 +1,9 @@
+﻿source	target	ligand	receptor	prob	pval	interaction_name	interaction_name_2	pathway_name	annotation	evidence	key_id
+Fib_Myo	Endo_Venous	CCL2	ACKR1	0.0013083879712386	0	CCL2_ACKR1	CCL2 - ACKR1	CCL	Secreted Signaling	PMID: 26740381	Fib_Myo|CCL2|Endo_Venous|ACKR1
+Endo_Venous	Fib_Myo	COL4A1	CD44	0.001077164244445	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Venous|COL4A1|Fib_Myo|CD44
+Endo_Venous	Fib_Myo	CD99	CD99	0.0010771006100256	0	CD99_CD99	CD99 - CD99	CD99	Cell-Cell Contact	KEGG: hsa04514	Endo_Venous|CD99|Fib_Myo|CD99
+Fib_Myo	Endo_Venous	CD99	CD99	0.0010771006100256	0	CD99_CD99	CD99 - CD99	CD99	Cell-Cell Contact	KEGG: hsa04514	Fib_Myo|CD99|Endo_Venous|CD99
+Fib_Myo	Endo_Venous	APP	CD74	0.001071469675787	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	Fib_Myo|APP|Endo_Venous|CD74
+Endo_Capillary	Fib_Myo	COL4A1	CD44	0.0005791899542435	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Capillary|COL4A1|Fib_Myo|CD44
+Endo_Arterial	Fib_Myo	CD99	CD99	0.0003801160173771	0	CD99_CD99	CD99 - CD99	CD99	Cell-Cell Contact	KEGG: hsa04514	Endo_Arterial|CD99|Fib_Myo|CD99
+Fib_Prolif	Endo_Venous	CCL2	ACKR1	2.19338332473421e-05	0	CCL2_ACKR1	CCL2 - ACKR1	CCL	Secreted Signaling	PMID: 26740381	Fib_Prolif|CCL2|Endo_Venous|ACKR1

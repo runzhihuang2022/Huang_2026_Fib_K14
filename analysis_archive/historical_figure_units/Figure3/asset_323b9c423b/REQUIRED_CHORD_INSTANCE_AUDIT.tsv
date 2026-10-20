@@ -1,0 +1,17 @@
+﻿group	interface	required_cells	required_counts	status	n_all_significant_lr	n_display_lr	reason
+D0_7	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary;Endo_Venous;Endo_Arterial	Fib_Prolif=569;Fib_Myo=3691;Endo_Capillary=296;Endo_Venous=3167;Endo_Arterial=785	PASS	234	8	
+D0_7	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage;Mast	Fib_Inflama=505;Fib_CD45=522;M1_Macrophage=5;M2_Macrophage=1;Mast=489	NOT_ESTIMABLE	0	0	Required subtype count <10: M1_Macrophage n=5; M2_Macrophage n=1
+D0_7	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig;KC_Basal;KC_Spinous_Mig	Fib_Papi=257;Fib_K14=311;KC_Basal_Mig=176;KC_Basal=1439;KC_Spinous_Mig=362	PASS	229	8	
+D0_7	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor;SAC_SG_Ductal;SAC_SG_Dark	Fib_Papi=257;Fib_K14=311;SAC_SG_Progenitor=44;SAC_SG_Ductal=1301;SAC_SG_Dark=290	PASS	228	8	
+D15_28	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary;Endo_Venous;Endo_Arterial	Fib_Prolif=1048;Fib_Myo=1604;Endo_Capillary=601;Endo_Venous=2211;Endo_Arterial=1263	PASS	198	8	
+D15_28	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage;Mast	Fib_Inflama=3783;Fib_CD45=1860;M1_Macrophage=1489;M2_Macrophage=1374;Mast=336	PASS	181	8	
+D15_28	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig;KC_Basal;KC_Spinous_Mig	Fib_Papi=922;Fib_K14=1844;KC_Basal_Mig=4194;KC_Basal=4574;KC_Spinous_Mig=4054	PASS	297	8	
+D15_28	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor;SAC_SG_Ductal;SAC_SG_Dark	Fib_Papi=922;Fib_K14=1844;SAC_SG_Progenitor=1081;SAC_SG_Ductal=3326;SAC_SG_Dark=222	PASS	246	8	
+D8_14	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary;Endo_Venous;Endo_Arterial	Fib_Prolif=324;Fib_Myo=393;Endo_Capillary=25;Endo_Venous=506;Endo_Arterial=94	PASS	115	8	
+D8_14	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage;Mast	Fib_Inflama=1333;Fib_CD45=469;M1_Macrophage=442;M2_Macrophage=248;Mast=111	PASS	118	8	
+D8_14	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig;KC_Basal;KC_Spinous_Mig	Fib_Papi=370;Fib_K14=385;KC_Basal_Mig=1577;KC_Basal=2356;KC_Spinous_Mig=1007	PASS	282	8	
+D8_14	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor;SAC_SG_Ductal;SAC_SG_Dark	Fib_Papi=370;Fib_K14=385;SAC_SG_Progenitor=316;SAC_SG_Ductal=739;SAC_SG_Dark=73	PASS	234	8	
+M1_2	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary;Endo_Venous;Endo_Arterial	Fib_Prolif=91;Fib_Myo=4507;Endo_Capillary=1851;Endo_Venous=4369;Endo_Arterial=1327	PASS	255	8	
+M1_2	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage;Mast	Fib_Inflama=40;Fib_CD45=584;M1_Macrophage=2;M2_Macrophage=0;Mast=271	NOT_ESTIMABLE	0	0	Required subtype count <10: M1_Macrophage n=2; M2_Macrophage n=0
+M1_2	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig;KC_Basal;KC_Spinous_Mig	Fib_Papi=416;Fib_K14=1329;KC_Basal_Mig=865;KC_Basal=18296;KC_Spinous_Mig=5661	PASS	224	8	
+M1_2	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor;SAC_SG_Ductal;SAC_SG_Dark	Fib_Papi=416;Fib_K14=1329;SAC_SG_Progenitor=43;SAC_SG_Ductal=2164;SAC_SG_Dark=3685	PASS	235	8	

@@ -1,0 +1,6 @@
+﻿from,to,edge_type,positive_peaks,negative_peaks,max_partial_rho,min_FDR,sample_evidence,biological_role
+KLF4,KRT5,KLF4 expression–peak accessibility association,4,1,0.0896661474153005,1.60395976652445e-06,not sample-replicated,Basal epithelial identity
+KLF4,KRT15,KLF4 expression–peak accessibility association,4,1,0.103017278439046,2.80046413887139e-08,not sample-replicated,Progenitor/barrier
+KLF4,KRT17,KLF4 expression–peak accessibility association,2,0,0.0800282476718917,1.98626333230248e-05,not sample-replicated,Wound epithelialization
+KLF4,KRT1,KLF4 expression–peak accessibility association,1,0,0.0700214261480149,0.0002258564324731,not sample-replicated,Differentiation/barrier
+KLF4,MMP3,KLF4 expression–peak accessibility association,3,0,0.0646086866103582,0.0006992476975682,nominal positive sample support,Wound remodeling

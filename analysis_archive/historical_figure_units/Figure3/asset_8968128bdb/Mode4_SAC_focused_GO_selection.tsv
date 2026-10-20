@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 4	1–2 mph	Fib–SAC	Positive Regulation Of Epithelial Cell Proliferation (GO:0050679)	36	822	45	4	EGFR;LAMB1;LAMC1;NOTCH2	0.1280137579529217	0.3140676519268716	pre-specified repair function
+Mode 4	1–2 mph	Fib–SAC	Regulation Of Cell Migration (GO:0030334)	36	822	127	10	COL1A1;EGFR;EPHA4;HBEGF;JAG1;LAMB1;PLXND1;SEMA3C;THBS1;TNC	0.0384296069977692	0.2371504322810332	pre-specified repair function
+Mode 4	1–2 mph	Fib–SAC	Epidermis Development (GO:0008544)	36	822	12	2	LAMA3;LAMB3	0.0934290645142966	0.2877416401796688	pre-specified repair function
+Mode 4	1–2 mph	Fib–SAC	Endoderm Formation (GO:0001706)	36	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	8.5536097777995e-07	0.0002476270030672	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Endodermal Cell Differentiation (GO:0035987)	36	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	8.5536097777995e-07	0.0002476270030672	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–SAC	Regulation Of Basement Membrane Organization (GO:0110011)	36	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	3.119253515594708e-06	0.0006020159285097	top BH-adjusted result used to fill display

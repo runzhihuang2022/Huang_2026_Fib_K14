@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 1	0–7 dpb	Fib–KC	Keratinocyte Differentiation (GO:0030216)	31	822	7	1	EPHA2	0.2366996124783142	0.3838837351466478	pre-specified repair function
+Mode 1	0–7 dpb	Fib–KC	Epidermal Cell Differentiation (GO:0009913)	31	822	7	1	EPHA2	0.2366996124783142	0.3838837351466478	pre-specified repair function
+Mode 1	0–7 dpb	Fib–KC	Positive Regulation Of Cell Migration (GO:0030335)	31	822	90	7	COL1A1;EGFR;EPHA2;FN1;HBEGF;LAMB1;THBS1	0.0435203612273524	0.2205691034931725	pre-specified repair function
+Mode 1	0–7 dpb	Fib–KC	Epidermis Development (GO:0008544)	31	822	12	2	LAMA3;LAMB3	0.0718158863751163	0.2540406779460097	pre-specified repair function
+Mode 1	0–7 dpb	Fib–KC	Endoderm Formation (GO:0001706)	31	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	3.304022445522804e-07	7.367970053515853e-05	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–KC	Endodermal Cell Differentiation (GO:0035987)	31	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	3.304022445522804e-07	7.367970053515853e-05	top BH-adjusted result used to fill display

@@ -1,0 +1,38 @@
+{
+  "analysis_scope": "whole_slide",
+  "threshold_status": "EXPLORATORY_CONTROLS_ABSENT",
+  "families": [
+    {
+      "name": "KC",
+      "input_dir": "data/external/local_b73b81858bb0",
+      "input_globs": ["*.tif", "*.tiff"],
+      "level": 0,
+      "pixel_um": null,
+      "channels": {"SOX9": 0, "MMP3": 1, "DAPI": 2, "KRT6B": 3},
+      "marker_compartments": {"SOX9": "nuclear", "MMP3": "pericellular", "KRT6B": "cytoplasmic"},
+      "positive_definition": "SOX9 nuclear-positive AND MMP3-associated AND KRT6B cytoplasmic-positive AND valid DAPI nucleus",
+      "expansion_units": [2, 3, 5],
+      "primary_expansion": 3,
+      "background_sigma_um_or_px": 15,
+      "nuclear_area_min": 8,
+      "nuclear_area_max": 500,
+      "tile": 1024
+    },
+    {
+      "name": "Fib_K14",
+      "input_dir": "data/external/local_fe05c5546243",
+      "input_globs": ["*.ome.tiff"],
+      "level": 2,
+      "pixel_um": 1.0113780498504639,
+      "channels": {"DAPI": 0, "PDGFRA": 1, "KRT14": 4},
+      "marker_compartments": {"PDGFRA": "membrane", "KRT14": "cytoplasmic"},
+      "positive_definition": "PDGFRA outer-cell-ring-positive AND KRT14 cytoplasmic-positive AND valid DAPI nucleus",
+      "expansion_units": [2, 3, 5],
+      "primary_expansion": 3,
+      "background_sigma_um_or_px": 15,
+      "nuclear_area_min": 20,
+      "nuclear_area_max": 300,
+      "tile": 1024
+    }
+  ]
+}

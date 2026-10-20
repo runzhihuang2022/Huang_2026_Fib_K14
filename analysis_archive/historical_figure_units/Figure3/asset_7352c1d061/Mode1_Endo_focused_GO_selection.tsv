@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 1	0–7 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	32	822	34	8	ANGPTL4;CDH5;FLT1;KDR;MDK;PGF;VEGFA;VEGFB	1.9037041686751965e-05	0.0066974580883851	pre-specified repair function
+Mode 1	0–7 dpb	Fib–Endo	Angiogenesis Involved In Wound Healing (GO:0060055)	32	822	4	2	KDR;VEGFA	0.0083950701080663	0.0907357577433477	pre-specified repair function
+Mode 1	0–7 dpb	Fib–Endo	Blood Vessel Morphogenesis (GO:0048514)	32	822	13	4	COL4A1;FLT1;KDR;VEGFA	0.0010606684859992	0.0331364253517227	pre-specified repair function
+Mode 1	0–7 dpb	Fib–Endo	Vascular Endothelial Growth Factor Receptor Signaling Pathway (GO:0048010)	32	822	8	5	FLT1;KDR;PGF;VEGFA;VEGFB	3.3567414142534078e-06	0.0026484689758459	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Cellular Response To Vascular Endothelial Growth Factor Stimulus (GO:0035924)	32	822	11	5	FLT1;KDR;PGF;VEGFA;VEGFB	2.5465620107928247e-05	0.0066974580883851	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–Endo	Regulation Of Protein Phosphorylation (GO:0001932)	32	822	76	11	APP;CD4;CD74;CDH5;FN1;HLA-DRB1;IGF2;KDR;PGF;VEGFA;VEGFB	5.4399213720312497e-05	0.0096766195898575	top BH-adjusted result used to fill display

@@ -1,0 +1,7 @@
+﻿date,figure,panel,change,rationale
+2026-07-22,Figure3,A-K,Reassembled on one A4 portrait page with Arial labels and 3.2 mm gaps,Reviewer request for clear spacious consistent sizing
+2026-07-22,Figure3,D,Used source statistics rather than screenshot stars,Prevent unsupported significance annotations
+2026-07-22,Figure3,K,Replaced alternate-threshold 119/8 gate with machine-matched 1259/619 gate,Matches Results text and FCS-derived summary
+2026-07-22,FigureS3,A-I,Regenerated computational panels from live h5ad and registered spatial maps,Source-code reproducibility
+2026-07-22,FigureS3,B,Flagged absent doublet score,No synthetic QC metric
+2026-07-22,FigureS3,J-K;M-O,Inserted evidence-required placeholders,Panel identities frozen and missing evidence made explicit

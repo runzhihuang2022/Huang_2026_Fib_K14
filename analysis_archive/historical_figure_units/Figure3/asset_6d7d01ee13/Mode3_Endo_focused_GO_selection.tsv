@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 3	8–14 dpb	Fib–Endo	Notch Signaling Pathway (GO:0007219)	56	822	10	6	DLL4;JAG1;JAG2;NOTCH1;NOTCH3;NOTCH4	1.3062255193296602e-05	0.0146558503268787	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Aorta Morphogenesis (GO:0035909)	56	822	5	4	DLL4;JAG1;LRP1;PDGFRB	9.230173073774612e-05	0.036863343624845	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Positive Regulation Of Phospholipase C Activity (GO:0010863)	56	822	15	6	EDNRA;FGFR1;FLT1;PDGFRA;PDGFRB;SELE	0.0002377654981485	0.036863343624845	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Protein Transport (GO:0015031)	56	822	6	4	CALCRL;CD36;CD74;LRP1	0.0002628402397493	0.036863343624845	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Regulation Of Ossification (GO:0030278)	56	822	6	4	MDK;NOTCH1;PTN;WNT5A	0.0002628402397493	0.036863343624845	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–Endo	Regulation Of Phospholipase C Activity (GO:1900274)	56	822	6	4	FGFR1;FLT1;PDGFRA;PDGFRB	0.0002628402397493	0.036863343624845	top BH-adjusted result used to fill display

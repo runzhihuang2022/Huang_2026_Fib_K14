@@ -1,0 +1,9 @@
+﻿source	target	ligand	receptor	prob	pval	interaction_name	interaction_name_2	pathway_name	annotation	evidence	key_id
+Fib_Myo	Endo_Venous	APP	CD74	0.0004956024659977	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	Fib_Myo|APP|Endo_Venous|CD74
+Fib_Myo	Endo_Venous	CCL2	ACKR1	0.0004930531820428	0	CCL2_ACKR1	CCL2 - ACKR1	CCL	Secreted Signaling	PMID: 26740381	Fib_Myo|CCL2|Endo_Venous|ACKR1
+Endo_Venous	Fib_Myo	SELE	CD44	0.0004444661799356	0	SELE_CD44	SELE - CD44	SELE	Cell-Cell Contact	PMC4571854	Endo_Venous|SELE|Fib_Myo|CD44
+Endo_Venous	Fib_Myo	COL4A1	CD44	0.000401880392097	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Venous|COL4A1|Fib_Myo|CD44
+Endo_Venous	Fib_Myo	CD99	CD99	0.000376083094862	0	CD99_CD99	CD99 - CD99	CD99	Cell-Cell Contact	KEGG: hsa04514	Endo_Venous|CD99|Fib_Myo|CD99
+Fib_Prolif	Endo_Venous	CXCL2	ACKR1	0.0003549933555928	0	CXCL2_ACKR1	CXCL2 - ACKR1	CXCL	Secreted Signaling	PMID: 26740381	Fib_Prolif|CXCL2|Endo_Venous|ACKR1
+Endo_Arterial	Fib_Myo	COL4A1	CD44	0.0002843682864933	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Arterial|COL4A1|Fib_Myo|CD44
+Fib_Myo	Endo_Capillary	APP	CD74	0.0001254880221951	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	Fib_Myo|APP|Endo_Capillary|CD74

@@ -1,0 +1,28 @@
+﻿"Table S1. Routed human and adult-rat single-cell, spatial, chromatin, transcriptomic and proteomic resources.",
+Verified item,Value
+Human sequencing units (sample/section level),51 (38 scRNA-seq samples; 11 Stereo-seq sections; 2 10x Visium sections)
+Sequential patient IDs after metadata reconciliation,31
+scRNA-seq samples / post-filter cells,"38 / 279,305"
+scRNA-seq pre-filter cells,316194
+Stereo-seq sections / cell bins,"11 / 387,061"
+10x Visium sections / spots,"2 / 4,449"
+Annotated cell states,47
+Counting and reporting rule,"Human cohort rows are reported at the sample/section level. Patient IDs are listed once per row only in Cohort_Metadata and are not restated as counts across other resources. scRNA-seq cells, Stereo-seq cell bins and Visium spots remain separate observational units."
+Rat scRNA-seq libraries / post-filter cells,"53 / 450,282"
+Rat scATAC-seq libraries / post-filter cells,"19 / 28,618"
+Rat Stereo-seq sections / final cell bins,"6 / 324,382"
+Rat sequencing units represented in Figure S6,78 (53 scRNA-seq libraries; 19 scATAC-seq libraries; 6 adult Stereo-seq sections)
+Human + adult-rat scRNA-seq cells,729587
+Human + adult-rat Stereo-seq cell bins,711443
+Figure S6 v08 scope,Panel A removed. Panels B-F contain adult rat data only; embryonic and neonatal/P5 records are excluded from the Figure S6-linked tables.
+Figure S6B QC code and metrics,RR01-RR53: UMI and detected genes; RA01-RA19: fragments and TSS enrichment; RST01-RST06: spatial counts and detected genes. Every retained library/section is represented.
+Figure S6C annotation key,Frozen number-label-color keys are provided for 47 scRNA-seq cell states and 13 scATAC-seq cell classes in Rat_Annotation_Key.
+Figure S6E/F spatial orientation,Six adult sections are ordered by time. Adult_2d received an additional rigid 180-degree rotation; the epidermis is displayed upward. Rotation metadata are recorded in Rat_QC_Codebook.
+Routed datasets,8 (human_scrna; human_spatial; rat_adult_scrna; rat_adult_spatial; rat_adult_scatac; bulk_klf4_oe; bulk_igfl1_treatment; skin_spatial_proteomics)
+Human KLF4-OE bulk RNA-seq,"4 libraries (Control n=2; KLF4-OE n=2); 62,700 genes; sample is the statistical replicate"
+Human IGFL1-treatment bulk RNA-seq,"5 libraries (PBS n=3; IGFL1 n=2); 62,700 genes; metadata is a faithful reconstruction; sample is the statistical replicate"
+Skin spatial proteomics,"1 section; 2,029 spatial pixels; 5,852 proteins in the raw analysis matrix and 5,846 proteins after gene-symbol consolidation"
+Spatial-proteomics evidence boundary,"Species, patient, condition, timepoint, biological replicate and physical scale are not confirmed. Pixels are within-section observations, not biological replicates; inference is descriptive only."
+Spatial-proteomics histology warning,"Coordinate token d_241_1 differs from H&E token d_214_1. Alignment was user-confirmed, but specimen identity is not independently documented."
+Figure 1A routing rule,"Sample/library/section counts are displayed separately from cells, bins, spots and pixels. No observation count is presented as a biological sample size."
+V10 sample crosswalk,All 51 human figure aliases and all retained rat QC codes are mapped in Figure_sample_crosswalk. Animal IDs not encoded in sources remain explicitly missing; sequencing IDs are not substituted for animals.

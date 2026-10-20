@@ -1,0 +1,7 @@
+﻿group,input_path,fibk14_cells_available,cells_subsampled,common_genes,KLF4_in_matrix,IGFL1_in_matrix
+Human normal,external_asset_decd995edda5,865,600,2200,True,False
+Human wound,external_asset_decd995edda5,3869,600,2200,True,False
+Rat embryo,external_asset_4899326aa62d,3850,600,2200,True,False
+Rat adult,external_asset_4899326aa62d,5794,600,2200,True,False
+Reindeer velvet,external_asset_66f48a6c202e,1563,600,2200,True,False
+Reindeer back,external_asset_66f48a6c202e,1355,600,2200,True,False

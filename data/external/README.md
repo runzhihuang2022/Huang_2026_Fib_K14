@@ -1,0 +1,1 @@
+Large matrices, raw images, fragments and external gene-set libraries are not bundled. See ../external_assets.csv. No public accession has been invented. Supply authorized assets here before executing archived upstream analyses.

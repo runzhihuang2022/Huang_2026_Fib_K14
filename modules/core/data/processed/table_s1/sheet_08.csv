@@ -1,0 +1,104 @@
+﻿Adult-rat per-library/section codebook supporting Figure S6A-F,,,,,,,,,,,,
+Species,Modality,QC code,Sample / section ID,Life stage,Observations,QC metric 1,QC metric 2,Figure panel,Base rotation (deg),Additional rotation (deg),Displayed orientation,Source data file
+Rat,scRNA-seq,RR01,FTDI_10dpi_1,Adult,7556,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR02,FTDI_10dpi_2,Adult,7822,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR03,FTDI_19dpi_1,Adult,6664,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR04,FTDI_19dpi_2,Adult,6704,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR05,FTDI_1dpi_1,Adult,4017,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR06,FTDI_1dpi_2,Adult,5474,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR07,FTDI_2dpi_1,Adult,7731,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR08,FTDI_2dpi_2,Adult,7835,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR09,FTDI_5dpi_1,Adult,10435,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR10,FTDI_5dpi_2,Adult,10074,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR11,Normal1,Adult,3150,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR12,Normal2,Adult,2167,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR13,Normal3,Adult,4325,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR14,SS_0.5dpi_1,Adult,5397,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR15,SS_0.5dpi_2,Adult,5330,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR16,SS_0dpi_1,Adult,21135,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR17,SS_0dpi_2,Adult,19093,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR18,SS_11dpi_1,Adult,8636,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR19,SS_11dpi_2,Adult,7529,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR20,SS_15dpi_1,Adult,9049,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR21,SS_15dpi_2,Adult,12892,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR22,SS_19dpi_1,Adult,9192,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR23,SS_19dpi_2,Adult,5533,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR24,SS_1dpi_1,Adult,12042,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR25,SS_1dpi_2,Adult,9877,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR26,SS_1dpi_3,Adult,2385,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR27,SS_1dpi_4,Adult,2847,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR28,SS_2dpi_1,Adult,9459,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR29,SS_2dpi_2,Adult,8568,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR30,SS_3dpi_1,Adult,7392,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR31,SS_3dpi_2,Adult,6602,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR32,SS_7dpi_1,Adult,8601,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR33,SS_7dpi_2,Adult,11681,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR34,YZ_0.5dpi_1,Adult,5733,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR35,YZ_0.5dpi_2,Adult,5652,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR36,YZ_0dpi_1,Adult,16743,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR37,YZ_0dpi_2,Adult,12714,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR38,YZ_11dpi_1,Adult,7759,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR39,YZ_11dpi_2,Adult,7740,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR40,YZ_15dpi_1,Adult,10365,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR41,YZ_15dpi_2,Adult,12160,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR42,YZ_19dpi_1,Adult,7134,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR43,YZ_19dpi_2,Adult,6108,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR44,YZ_1dpi_1,Adult,8014,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR45,YZ_1dpi_2,Adult,7803,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR46,YZ_1dpi_3,Adult,14477,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR47,YZ_1dpi_4,Adult,11959,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR48,YZ_2dpi_1,Adult,7617,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR49,YZ_2dpi_2,Adult,7780,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR50,YZ_3dpi_1,Adult,10175,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR51,YZ_3dpi_2,Adult,10675,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR52,YZ_7dpi_1,Adult,6449,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,scRNA-seq,RR53,YZ_7dpi_2,Adult,6031,UMI,Detected genes,Figure S6A–B,,,,FigureS6B_scRNA_per_library_QC_v06.csv
+Rat,Stereo-seq,RST01,Adult_10d_A02988C5,Adult,45100,Counts,Detected genes,"Figure S6A, E–F",175.393396448191,0,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,Stereo-seq,RST02,Adult_19d_B03424F4,Adult,58368,Counts,Detected genes,"Figure S6A, E–F",-139.6412254043666,0,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,Stereo-seq,RST03,Adult_1d_C01830C1D1,Adult,40282,Counts,Detected genes,"Figure S6A, E–F",91.1882998491672,0,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,Stereo-seq,RST04,Adult_2d_C01830E4F4,Adult,63652,Counts,Detected genes,"Figure S6A, E–F",175.3517868814087,180,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,Stereo-seq,RST05,Adult_5d1_C01830E6F6,Adult,73386,Counts,Detected genes,"Figure S6A, E–F",-178.1253122165191,0,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,Stereo-seq,RST06,Adult_nor_A02988C1,Adult,43594,Counts,Detected genes,"Figure S6A, E–F",4.929261556913374,0,epidermis upward,FigureS6B_Stereo_per_section_QC_v06.csv
+Rat,scATAC-seq,RA01,230907YYLib_V2_Hskin-SD11-2,Adult,6334,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA02,230907YYLib_V2_Hskin-SD5-1,Adult,555,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA03,230907YYLib_V2_Hskin-SD5-2,Adult,303,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA04,230907YYLib_V2_Hskin-SD9-1,Adult,797,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA05,230907YYLib_V2_Hskin-SD9-2,Adult,496,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA06,231008YYLib_V2_Hskin-SD20-1,Adult,2716,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA07,231008YYLib_V2_Hskin-SD20-2,Adult,2086,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA08,231008YYLib_V2_Hskin-SD24-1,Adult,538,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA09,231008YYLib_V2_Hskin-SD24-2,Adult,121,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA10,231008YYLib_V2_Hskin-SD26-1,Adult,5024,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA11,231008YYLib_V2_Hskin-SD26-2,Adult,3454,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA12,231008YYLib_V2_Hskin-SD28-1,Adult,1436,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA13,231008YYLib_V2_Hskin-SD28-2,Adult,145,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA14,231008YYLib_V2_Hskin-SD31-1,Adult,966,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA15,231008YYLib_V2_Hskin-SD31-2,Adult,305,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA16,231008YYLib_V2_Hskin-SD36-1,Adult,1507,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA17,231008YYLib_V2_Hskin-SD36-2,Adult,1613,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA18,231008YYLib_V2_Hskin-SD46-1,Adult,128,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+Rat,scATAC-seq,RA19,231008YYLib_V2_Hskin-SD46-2,Adult,94,Fragments,TSS enrichment,Figure S6A–B,,,,FigureS6B_scATAC_per_cell_QC_v08.csv.gz
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

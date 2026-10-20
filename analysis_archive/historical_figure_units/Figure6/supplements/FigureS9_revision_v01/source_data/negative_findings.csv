@@ -1,0 +1,8 @@
+﻿dataset_id,finding,impact
+spiny_mouse_wound,PDGFRA_not_available_in_selected_h5ad,strict Fib_K14 may be blocked or relies on prior output
+spiny_mouse_steady_hf,PDGFRA_not_available_in_selected_h5ad,strict Fib_K14 may be blocked or relies on prior output
+mouse_adult_embryo_epithelial,KRT14_not_available_in_selected_h5ad,strict Fib_K14 cannot be newly claimed from selected h5ad
+planarian_regeneration,PDGFRA_not_available_in_selected_h5ad,strict Fib_K14 may be blocked or relies on prior output
+planarian_regeneration,KRT14_not_available_in_selected_h5ad,strict Fib_K14 cannot be newly claimed from selected h5ad
+spiny_mouse_ear_asymmetric,missing_h5ad,cannot compute expression-level evidence
+rat_adult_neonate_embryo_spatial,KRT14_not_available_in_selected_h5ad,strict Fib_K14 cannot be newly claimed from selected h5ad

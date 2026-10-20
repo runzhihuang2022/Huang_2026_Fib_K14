@@ -1,0 +1,13 @@
+﻿target_gene,display_gene,biological_role,epithelial_class,tested_peaks,positive_cell_FDR,negative_cell_FDR,max_positive_partial_rho,min_positive_FDR,positive_sample_rawP,best_positive_sample_rho,min_positive_sample_p,best_positive_peak,best_positive_peak2gene_cor,evidence_class,sample_evidence,order
+Krt1,KRT1,Differentiation/barrier,Differentiation,1,1,0,0.0700214261480149,0.0002258564324731,0,0.0530994244053592,0.829070870238664,chr7:133102400-133102900,0.503814514455851,positive-dominant candidate,not sample-replicated,1
+Krt5,KRT5,Basal epithelial identity,Basal/progenitor,7,4,1,0.0896661474153005,1.60395976652445e-06,0,0.199669189925594,0.257119213808798,chr7:132660714-132661214,0.532473702697463,positive-dominant candidate,not sample-replicated,2
+Krt10,KRT10,Differentiation/barrier,Differentiation,5,0,2,,,0,,,,,negative-only candidate,not sample-replicated,3
+Krt15,KRT15,Progenitor/barrier,Basal/progenitor,9,4,1,0.103017278439046,2.80046413887139e-08,0,0.106148763742314,0.364202946705457,chr10:85212513-85213013,0.849763963838452,positive-dominant candidate,not sample-replicated,4
+Krt17,KRT17,Wound epithelialization,Wound repair,3,2,0,0.0800282476718917,1.98626333230248e-05,0,0.361625449359407,0.128183515575714,chr10:85326560-85327060,0.685611066560702,positive-dominant candidate,not sample-replicated,5
+Col17a1,COL17A1,Epithelial adhesion,Adhesion,11,3,6,0.0798313128193053,2.02452151486978e-05,0,-0.0556414884074657,0.22032753139629,chr1:246381062-246381562,0.720543434669576,mixed-direction candidate,not sample-replicated,6
+Grhl3,GRHL3,Epithelial transcription,Transcription,15,3,3,0.105048529630156,1.46283391612541e-08,0,0.187667019231207,0.441679008904617,chr5:147853493-147853993,0.652287433546071,mixed-direction candidate,not sample-replicated,7
+Areg,AREG,EGFR signaling,Signaling,7,1,5,0.0478759024883102,0.0135381019260284,0,-0.0991189255566704,0.686422562094686,chr14:17074649-17075149,0.463750608271793,mixed-direction candidate,not sample-replicated,8
+Mmp3,MMP3,Wound remodeling,Remodeling,7,3,0,0.0646086866103582,0.0006992476975682,1,0.608353117627949,0.0057139049595694,chr8:4749242-4749742,0.57465996963894,positive-dominant candidate,nominal positive sample support,9
+Tacstd2,TACSTD2,Epithelial identity,Identity,1,0,1,,,0,,,,,negative-only candidate,not sample-replicated,10
+Col1a1,COL1A1,Fibrosis/ECM context,Context,48,6,8,0.121546504398102,6.003517353614159e-11,0,0.175522445628996,0.472292858806602,chr10:79808958-79809458,0.543273389054135,mixed-direction candidate,not sample-replicated,11
+Cd34,CD34,Fibroblast state context,Context,10,6,0,0.113635208007022,1.05604947525035e-09,0,0.27696705803591,0.250991201471067,chr13:106486971-106487471,0.549044638590858,positive-dominant candidate,not sample-replicated,12

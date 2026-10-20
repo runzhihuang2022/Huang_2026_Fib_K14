@@ -1,0 +1,13 @@
+name: Check reproducibility package
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  package-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python scripts/validate_release.py
+      # Scientific reruns require the pinned environment and, for some upstream
+      # analyses, separately authorized external data. This job checks packaging.

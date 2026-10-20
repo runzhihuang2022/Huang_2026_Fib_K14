@@ -1,0 +1,38 @@
+[
+  {
+    "panel": "S7A",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "2a01fae3361dc99ab9ca06b4e5d42e34a44c6225ded4c9e9e0caa2bc5279f2ad",
+    "new_sha256": "3fa44cd7e01672c408403019dbfe2b4d3430e079fe24d57af29db68561a35df6"
+  },
+  {
+    "panel": "S7B",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "327370011eb420ca6c2a5153651c87fb0d6b2b0cd92566150c1a3f87fcb94b51",
+    "new_sha256": "5f3fc8cba2968008e82f064ef989f7bdf6a19b9c7c49a5032c55120548c985e5"
+  },
+  {
+    "panel": "S7C",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "d81e95772a2512543a3af7a3b9a4e448e8382d12c0e2856dc7b4955808ccf2b2",
+    "new_sha256": "f667d78179bc5a651c917d2038758716c8d060e521099d9c510f1a329a694b5d"
+  },
+  {
+    "panel": "S7D",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "40a837f7d51d3c5c8d528f2bba25aa3c0dd6174e293a0c1702bc13aff877fad7",
+    "new_sha256": "14c81a3430c026e9128251d544fa9da3b3f51bbefc5905c6dad4297c72f932fd"
+  },
+  {
+    "panel": "S7E",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "f0ac000a1adc4ba072ad5087ae5c2bb12d65e364de4797de980673a3f9cdf028",
+    "new_sha256": "22fc2cdf94543f1f0377e70ecf465ce13a7a8f0679f77a43886a81c3e76516f4"
+  },
+  {
+    "panel": "S7F",
+    "pixel_equal_at_72dpi": true,
+    "old_sha256": "d69c330566e3da74720d018ed7bc072e3e03ec1c9c553a9be315decd4c744d74",
+    "new_sha256": "2445e79fefa3ef716e4ea0342ba508d4904f1e519b4a4c316636c1ed5b0b69a6"
+  }
+]

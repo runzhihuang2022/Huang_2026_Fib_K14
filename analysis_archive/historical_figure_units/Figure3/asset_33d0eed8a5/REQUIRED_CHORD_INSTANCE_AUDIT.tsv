@@ -1,0 +1,17 @@
+﻿group	interface	required_cells	required_counts	status	n_all_significant_lr	n_display_lr	reason
+D0_7	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary	Fib_Prolif=569;Fib_Myo=3691;Endo_Capillary=296	PASS	41	8	
+D0_7	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage	Fib_Inflama=505;Fib_CD45=522;M1_Macrophage=5;M2_Macrophage=1	NOT_ESTIMABLE	0	0	Required subtype count <10: M1_Macrophage n=5; M2_Macrophage n=1
+D0_7	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig	Fib_Papi=257;Fib_K14=311;KC_Basal_Mig=176	PASS	75	8	
+D0_7	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor	Fib_Papi=257;Fib_K14=311;SAC_SG_Progenitor=44	PASS	86	8	
+D15_28	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary	Fib_Prolif=1048;Fib_Myo=1604;Endo_Capillary=601	PASS	50	8	
+D15_28	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage	Fib_Inflama=3783;Fib_CD45=1860;M1_Macrophage=1489;M2_Macrophage=1374	PASS	153	8	
+D15_28	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig	Fib_Papi=922;Fib_K14=1844;KC_Basal_Mig=4194	PASS	83	8	
+D15_28	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor	Fib_Papi=922;Fib_K14=1844;SAC_SG_Progenitor=1081	PASS	88	8	
+D8_14	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary	Fib_Prolif=324;Fib_Myo=393;Endo_Capillary=25	PASS	26	8	
+D8_14	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage	Fib_Inflama=1333;Fib_CD45=469;M1_Macrophage=442;M2_Macrophage=248	PASS	90	8	
+D8_14	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig	Fib_Papi=370;Fib_K14=385;KC_Basal_Mig=1577	PASS	84	8	
+D8_14	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor	Fib_Papi=370;Fib_K14=385;SAC_SG_Progenitor=316	PASS	80	8	
+M1_2	Fib_Endo	Fib_Prolif;Fib_Myo;Endo_Capillary	Fib_Prolif=91;Fib_Myo=4507;Endo_Capillary=1851	PASS	78	8	
+M1_2	Fib_Immune	Fib_Inflama;Fib_CD45;M1_Macrophage;M2_Macrophage	Fib_Inflama=40;Fib_CD45=584;M1_Macrophage=2;M2_Macrophage=0	NOT_ESTIMABLE	0	0	Required subtype count <10: M1_Macrophage n=2; M2_Macrophage n=0
+M1_2	Fib_KC	Fib_Papi;Fib_K14;KC_Basal_Mig	Fib_Papi=416;Fib_K14=1329;KC_Basal_Mig=865	PASS	114	8	
+M1_2	Fib_SAC	Fib_Papi;Fib_K14;SAC_SG_Progenitor	Fib_Papi=416;Fib_K14=1329;SAC_SG_Progenitor=43	PASS	51	8	

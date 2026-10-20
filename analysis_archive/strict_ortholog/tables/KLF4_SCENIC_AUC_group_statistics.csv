@@ -1,0 +1,4 @@
+﻿group_1,group_2,n_1,n_2,test,p_value,FDR,significance
+Human normal,Human wound,10,28,two-sided Mann-Whitney U on sample means,0.9867757976871728,0.9867757976871728,n.s.
+Rat embryo,Rat adult,39,9,two-sided Mann-Whitney U on sample means,0.0283516113207864,0.0425274169811796,*
+Reindeer back,Reindeer velvet,5,4,two-sided Mann-Whitney U on sample means,0.0158730158730158,0.0425274169811796,*

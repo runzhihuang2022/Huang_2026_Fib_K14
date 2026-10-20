@@ -1,0 +1,2 @@
+﻿comparison	n_Fib_K14	n_other	mean_Fib_K14	mean_other	median_Fib_K14	median_other	mannwhitney_U	p_value	cliffs_delta
+Fib_K14 vs other fibroblast states	4734	29419	1.290452003479004	1.367891550064087	1.0	0.0	73931425.5	5.865658669739673e-14	0.0617026855246587

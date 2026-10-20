@@ -1,0 +1,2 @@
+﻿comparison	n_Fib_K14	n_other_Fib	mean_Fib_K14	mean_other_Fib	median_Fib_K14	median_other_Fib	wilcoxon_rank_sum_stat	p_value	mean_difference	median_difference
+Fib_K14_vs_other_Fib	4734	33600	0.1014818768754129	0.0815330937118436	0.0948461538461538	0.0795384615384615	38.97703738325195	0.0	0.0199487831635692	0.0153076923076923

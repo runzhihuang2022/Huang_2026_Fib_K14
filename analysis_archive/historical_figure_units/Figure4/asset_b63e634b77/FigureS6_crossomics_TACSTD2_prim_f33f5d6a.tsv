@@ -1,0 +1,2 @@
+﻿analysis_set	x	y	pearson_r	pearson_p_raw	n_rank_aligned_pseudobulks	slope	intercept	bh_q_across_5_prespecified_genes	pairing
+Expression QC	Klf4 ATAC gene-score equal-count bin mean	TACSTD2 RNA sample-pseudobulk mean	0.5307021916026068	0.0036678526421056	28	0.365513239333372	0.8121997749094433	0.0183	rank-aligned state-axis pseudobulks; not donor-paired

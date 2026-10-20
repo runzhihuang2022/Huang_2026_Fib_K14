@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–KC	Keratinocyte Differentiation (GO:0030216)	59	822	7	5	EPHA2;EREG;FGFR1;JAG1;WNT5A	3.0385417365112832e-05	0.0050439792826087	pre-specified repair function
+Mode 2	15–28 dpb	Fib–KC	Epidermal Cell Differentiation (GO:0009913)	59	822	7	5	EPHA2;EREG;FGFR1;JAG1;WNT5A	3.0385417365112832e-05	0.0050439792826087	pre-specified repair function
+Mode 2	15–28 dpb	Fib–KC	Skin Development (GO:0043588)	59	822	12	7	COL1A1;COL1A2;EPHA2;EREG;FGFR1;JAG1;WNT5A	4.133743219169193e-06	0.0041172082462925	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–KC	Endoderm Formation (GO:0001706)	59	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.7887463511625833e-05	0.0050439792826087	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–KC	Endodermal Cell Differentiation (GO:0035987)	59	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.7887463511625833e-05	0.0050439792826087	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–KC	Regulation Of Basement Membrane Organization (GO:0110011)	59	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	2.4100727876047148e-05	0.0050439792826087	top BH-adjusted result used to fill display

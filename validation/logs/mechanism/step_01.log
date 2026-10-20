@@ -1,0 +1,55 @@
+SUBTYPES ['B_Plasma', 'CD4_T', 'CD8_T', 'Endo_Arterial', 'Endo_Capillary', 'Endo_Lymphatic', 'Endo_Prolif', 'Endo_Venous', 'Fib_CD45', 'Fib_EN1', 'Fib_Fasci', 'Fib_Inflama', 'Fib_K14', 'Fib_Myo', 'Fib_Papi', 'Fib_Prolif', 'Fib_SFRP2', 'KC_Basal', 'KC_Basal_Mig', 'KC_Basal_Prolif', 'KC_Granular', 'KC_Spinous', 'KC_Spinous_Mat', 'KC_Spinous_Mig', 'LGHS', 'Mast', 'Melanocyte', 'NK', 'Neutrophil', 'Pericyte', 'SAC_HF_DP_DS', 'SAC_HF_HFSC', 'SAC_HF_Matrix', 'SAC_SG_Clear', 'SAC_SG_Dark', 'SAC_SG_Ductal', 'SAC_SG_Progenitor', 'Schwann', 'cDC2', 'B_Mature', 'LAM', 'pDC', 'M1_Macrophage', 'M2_Macrophage', 'cDC1', 'SAC_HF_IRS', 'SAC_HF_ORS']
+       sub_labels  n_patients  n_cells  IGFL1_mean  IGFL1_pct  IGFLR1_mean  IGFLR1_pct  KLF4_mean
+   KC_Spinous_Mig          18    21390    0.371622  19.454580     0.006685    0.704825   1.154157
+      KC_Granular          17    42098    0.272398  16.294447     0.001479    0.226266   1.275464
+     KC_Basal_Mig          17    15536    0.251975  14.020044     0.002464    0.355857   1.250073
+  KC_Basal_Prolif          18    13520    0.173917  12.186653     0.017142    2.106378   1.034324
+   KC_Spinous_Mat           8     8603    0.166975  10.628760     0.003527    0.285080   1.285940
+       SAC_HF_ORS           4      506    0.129413   8.163831     0.001854    0.124378   0.881561
+    SAC_HF_Matrix           2       61    0.119232   8.391608     0.006742    1.282051   0.705295
+          Fib_K14          20     4639    0.098657   6.188964     0.010293    0.924846   0.922463
+         KC_Basal          21    54277    0.088502   5.931343     0.006279    0.588361   1.143610
+      Endo_Prolif          10      646    0.075718   6.605922     0.042921    4.847925   0.691937
+         Fib_CD45          20     4139    0.072331   4.422330     0.116475    9.138901   0.688646
+    SAC_SG_Ductal          22    10734    0.069862   4.730922     0.007154    0.598045   1.118773
+       KC_Spinous          12    17586    0.068609   4.419114     0.001925    0.156147   0.919576
+      SAC_SG_Dark          13     5590    0.060436   4.293099     0.005993    0.631544   0.725123
+       Melanocyte          12     2295    0.058284   5.254101     0.006053    0.785583   1.093761
+       Neutrophil           1       44    0.047975   4.545455     0.000000    0.000000   0.564881
+     SAC_SG_Clear           4     2092    0.040172   4.694325     0.013905    1.816860   0.934089
+SAC_SG_Progenitor          13     1758    0.038797   3.533773     0.006424    0.783918   0.942882
+       Fib_Prolif          11     1995    0.037518   4.143503     0.028515    3.679685   0.351104
+         Fib_Papi          14     2036    0.035401   3.345337     0.007411    0.787678   0.461419
+             Mast           6     1093    0.034601   2.370263     0.258638   19.599225   0.339867
+    M1_Macrophage           5     1915    0.032731   2.167435     0.070976    5.413378   0.974058
+            CD8_T           7     1218    0.030057   1.923469     0.094614    6.218404   0.070118
+   Endo_Lymphatic           8      430    0.029677   1.751036     0.004160    0.235310   0.917482
+    M2_Macrophage           5     1617    0.027952   2.702721     0.036822    3.370620   1.150454
+              LAM           5     1296    0.027921   2.862006     0.067840    6.184139   0.768581
+         B_Plasma           3      129    0.024851   1.694915     0.065531    4.431497   0.047213
+        Fib_Fasci           5     1510    0.022596   1.784615     0.025945    3.410478   0.810035
+          Schwann           7     1315    0.022000   1.650384     0.010770    0.787415   0.402154
+      Fib_Inflama          10     5605    0.020668   2.076646     0.008823    1.236738   0.953739
+    Endo_Arterial          11     3466    0.020051   1.463346     0.013602    1.066738   1.261980
+        Fib_SFRP2          16     5891    0.018747   1.818596     0.011813    1.517595   0.948466
+   Endo_Capillary          10     2926    0.015828   1.094004     0.022969    1.595762   0.796364
+      Endo_Venous          18    11618    0.014494   1.051758     0.011160    1.066858   0.918820
+          Fib_Myo          12    10416    0.013799   1.283582     0.020781    2.009822   0.386294
+          Fib_EN1          10     1476    0.011945   1.034226     0.027652    2.644744   1.036513
+              pDC           3      245    0.011299   0.900901     0.223169   19.775170   0.439892
+         Pericyte          11     9589    0.011283   1.130109     0.006748    0.944311   0.203204
+            CD4_T           8     3010    0.007637   0.548575     0.082368    6.298834   0.057176
+     SAC_HF_DP_DS           2      208    0.007135   0.347222     0.019431    1.903736   1.214038
+             cDC2           8      524    0.001486   0.077160     0.218354   18.740703   0.763879
+         B_Mature           5      331    0.000000   0.000000     0.056940    3.357626   0.267009
+             LGHS           7      373    0.000000   0.000000     0.467022   31.080913   0.667869
+      SAC_HF_HFSC           1      105    0.000000   0.000000     0.033203    5.263158   1.057623
+       SAC_HF_IRS           2      180    0.000000   0.000000     0.000000    0.000000   0.542742
+               NK           1       20    0.000000   0.000000     0.095651   10.000000   0.138627
+             cDC1           2       41    0.000000   0.000000     0.399567   46.428571   1.043813
+CORRELATIONS           subtype          x                   y  n_patients  spearman_rho   pvalue  bootstrap_lo  bootstrap_hi  group_adjusted_rank_correlation                                                                                                                note   FDR_BH
+          Fib_K14  KLF4_mean          IGFL1_mean          20     -0.367339 0.111093     -0.678238      0.086412                        -0.310378 Exploratory patient-aggregated association; group-adjusted coefficient descriptive; no causal or temporal direction 0.380889
+          Fib_K14 IGFL1_mean wound_keratin_score          20      0.763057 0.000091      0.528111      0.893264                         0.777651 Exploratory patient-aggregated association; group-adjusted coefficient descriptive; no causal or temporal direction 0.006558
+   KC_Spinous_Mig  KLF4_mean          IGFL1_mean          18     -0.312855 0.206207     -0.730981      0.221546                        -0.120148 Exploratory patient-aggregated association; group-adjusted coefficient descriptive; no causal or temporal direction 0.511962
+SAC_SG_Progenitor  KLF4_mean          IGFL1_mean          13     -0.238059 0.433505     -0.746092      0.363620                        -0.054537 Exploratory patient-aggregated association; group-adjusted coefficient descriptive; no causal or temporal direction 0.650258
+

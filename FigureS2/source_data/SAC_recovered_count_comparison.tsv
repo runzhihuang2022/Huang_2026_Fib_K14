@@ -1,0 +1,10 @@
+﻿sub_labels	log2FC_count	P_sample_nominal	n_mode1	n_modes234	observational_unit	analysis	BH_FDR_within_lineage
+SAC_SG_Progenitor	3.5949465892937784	0.0410309815462059	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1230929446386178
+SAC_SG_Clear	2.598218597423423	0.0599792396200399	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1349532891450898
+SAC_SG_Dark	2.440572591385981	0.1279848480486525	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1739841268558995
+SAC_SG_Ductal	0.9353369077489428	0.1495970082244044	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1739841268558995
+SAC_HF_IRS	4.426264754702098	0.154652557205244	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1739841268558995
+SAC_HF_ORS	5.680886920719692	0.0080955549974652	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.0728599949771874
+SAC_HF_HFSC	2.4623432140572006	0.1786628361269874	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1786628361269874
+SAC_HF_DP_DS	2.155278225477911	0.0905238455164853	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1629429219296736
+SAC_HF_Matrix	2.6667565918848037	0.0279008249620712	8	20	sequencing sample; patient non-independence remains	Welch on recovered counts; EXPLORATORY	0.1230929446386178

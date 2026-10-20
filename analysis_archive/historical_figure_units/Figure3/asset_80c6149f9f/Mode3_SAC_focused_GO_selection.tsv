@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 3	8–14 dpb	Fib–SAC	Positive Regulation Of Epithelial Cell Proliferation (GO:0050679)	32	822	45	3	LAMB1;LAMC1;MDK	0.2528595964667618	0.380879872581282	pre-specified repair function
+Mode 3	8–14 dpb	Fib–SAC	Regulation Of Cell Migration (GO:0030334)	32	822	127	8	CD74;COL1A1;EDN1;JAG1;LAMB1;MDK;THBS1;TNC	0.1051485620762454	0.2854716909403152	pre-specified repair function
+Mode 3	8–14 dpb	Fib–SAC	External Encapsulating Structure Organization (GO:0045229)	32	822	14	5	APP;COL1A1;COL1A2;COL4A1;COL4A2	0.0001014697573619	0.0315416654051855	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–SAC	Extracellular Structure Organization (GO:0043062)	32	822	14	5	APP;COL1A1;COL1A2;COL4A1;COL4A2	0.0001014697573619	0.0315416654051855	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–SAC	Extracellular Matrix Organization (GO:0030198)	32	822	23	6	APP;COL1A1;COL1A2;COL4A1;COL4A2;LAMC1	0.0001355658971569	0.0315416654051855	top BH-adjusted result used to fill display
+Mode 3	8–14 dpb	Fib–SAC	Endoderm Formation (GO:0001706)	32	822	10	4	COL4A2;COL6A1;FN1;LAMB1	0.0003385466062561	0.0466368747172822	top BH-adjusted result used to fill display

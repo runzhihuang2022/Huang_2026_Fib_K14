@@ -1,0 +1,11 @@
+﻿display_item,value,unit,source,verification
+"Inflammation, 0-7 dpb",9,stage-coded human wound sequencing unit,external_asset_a3083823a31a,derived 2026-07-22
+"Proliferation, 8-28 dpb",22,stage-coded human wound sequencing unit,external_asset_a3083823a31a,derived 2026-07-22
+"Remodeling, 1-2 mph",7,stage-coded human wound sequencing unit,external_asset_a3083823a31a,derived 2026-07-22
+Normal,11,human sequencing unit,external_asset_a3083823a31a,derived 2026-07-22; not assigned to wound-stage timeline
+Visium time unencoded,2,human Visium section,external_asset_a3083823a31a,derived 2026-07-22; not assigned to wound-stage timeline
+Human,51,sequencing unit,38 scRNA samples + 11 Stereo sections + 2 Visium sections,verified
+Rat validation,83,sequencing unit,53 scRNA samples + 30 Stereo sections,verified from live H5AD metadata/object inventory
+scRNA-seq,729587,cell,human 279305 + rat 450282,verified from live H5AD objects
+Stereo-seq,1031523,cell bin,human 387061 + rat 644462,verified from registered/live H5AD objects
+10x Visium,2,section,epithelialization dataset router,verified

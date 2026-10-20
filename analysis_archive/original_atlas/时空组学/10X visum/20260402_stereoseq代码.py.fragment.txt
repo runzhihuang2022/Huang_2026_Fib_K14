@@ -1,0 +1,1535 @@
+import stereo as st
+import warnings
+import os
+
+# 屏蔽无关紧要的警告
+warnings.filterwarnings('ignore')
+
+# ================= 配置路径 =================
+# 建议使用 r"" 避免转义字符报错
+base_dir = r"data/external/local_703294432d63"
+os.chdir(base_dir)
+print(f"当前工作目录: {os.getcwd()}")
+
+input_file_1 = os.path.join(base_dir, "A1", "SS200000132BR_A1.bin1.Lasso.gem.gz")
+input_file_2 = os.path.join(base_dir, "A2", "SS200000132BR_A2.bin1.Lasso.gem.gz")
+
+# ================= 数据读取 =================
+# 注意：bin1 数据非常大，读取可能需要一定时间
+data1 = st.io.read_gem(input_file_1)
+data2 = st.io.read_gem(input_file_2)
+
+# ================= 质控与转换 =================
+# 样本 1 处理
+data1.tl.cal_qc()
+data1.tl.raw_checkpoint() # 保存原始计数的快照
+
+# 转换并保存为 h5ad
+# 如果你打算以后导入 R 语言的 Seurat，请将 flavor 改为 'seurat'
+adata1 = st.io.stereo_to_anndata(
+    data1, 
+    flavor='scanpy', 
+    output='mouse1_brain.h5ad'
+)
+
+# 样本 2 处理
+data2.tl.cal_qc()
+data2.tl.raw_checkpoint()
+
+adata2 = st.io.stereo_to_anndata(
+    data2, 
+    flavor='scanpy', 
+    output='mouse2_brain.h5ad'
+)
+
+print("✅ 所有样本处理并导出完成！")
+
+############################seurat to h5ad
+import stereo as st
+import warnings
+import os
+
+# 屏蔽无关警告
+warnings.filterwarnings('ignore')
+
+# ================= 配置路径 =================
+# 对应你的 st_rds_dir
+st_rds_dir = r"data/external/local_728c8c962d2d"  
+# 结果输出目录
+output_dir = r"data/external/local_c9ce0f6697a4"
+os.makedirs(output_dir, exist_ok=True)
+
+# ================= 获取文件列表 =================
+# 相当于 R 的 list.files(pattern = "\\.rds$")
+all_st_files = [f for f in os.listdir(st_rds_dir) if f.endswith('.rds')]
+
+print(f"📂 找到 {len(all_st_files)} 个 RDS 文件，准备开始转换...")
+
+# ================= 批处理循环 =================
+for file_name in all_st_files:
+    # 提取样本名（去除 .rds 后缀）
+    sample_id = file_name.rsplit('.', 1)[0]
+    input_path = os.path.join(st_rds_dir, file_name)
+    output_path = os.path.join(output_dir, f"{sample_id}.h5ad")
+    
+    print(f"🚀 正在处理: {sample_id}")
+    
+    try:
+        # 1. 读取 Seurat 对象
+        # StereoPy 会尝试通过 rpy2 调用 R 来解析 RDS
+        data = st.io.read_rds(input_path)
+        
+        # 2. 执行质控
+        data.tl.cal_qc()
+        
+        # 3. 保存原始计数快照
+        data.tl.raw_checkpoint()
+        
+        # 4. 转换并保存为 h5ad
+        # 如果后续要进 Scanpy 分析，维持 'scanpy'；若回 Seurat，改为 'seurat'
+        st.io.stereo_to_anndata(
+            data, 
+            flavor='scanpy', 
+            output=output_path
+        )
+        
+        print(f"✅ {sample_id} 转换成功")
+        
+    except Exception as e:
+        print(f"❌ {sample_id} 处理失败: {str(e)}")
+
+print("\n✨ 所有样本处理并导出完成！")
+
+
+
+############################seurat to h5ad
+import stereo as st
+import os
+import warnings
+import rpy2.robjects as robjects
+from rpy2.robjects import r
+import anndata2ri
+
+# 屏蔽无关警告
+warnings.filterwarnings('ignore')
+
+# ================= 配置路径 =================
+# 对应你的 st_rds_dir
+st_rds_dir = r"data/external/local_4d178e80268f"  
+# 结果输出目录
+output_dir = r"data/external/local_4d178e80268f"
+os.makedirs(output_dir, exist_ok=True)
+all_st_files = ['BW15D_1_D1_SDSDB_19dpb.rds', 'BW15D_C6_SDSDB_19dpb.rds']
+
+# ================= 转换循环 =================
+for file_name in all_st_files:
+    sample_id = file_name.replace('.rds', '')
+    input_path = os.path.join(st_rds_dir, file_name)
+    output_path = os.path.join(output_dir, f"{sample_id}.h5ad")
+    
+    print(f"🚀 正在处理样本: {sample_id}")
+    
+    try:
+        # 1. 使用 R 引擎直接读取 RDS
+        # 这一步会将 R 里的 Seurat 对象加载到 Python 内存中
+        robjects.r(f'library(Seurat)')
+        robjects.r(f'seurat_obj <- readRDS("{input_path}")')
+        
+        # 2. 转换为 AnnData 对象 (通过 anndata2ri)
+        # 注意：这里我们使用 anndata2ri 将 R 的 Seurat 对象转为 Python 可操作的 adata
+        adata = robjects.r('as.SingleCellExperiment(seurat_obj)')
+        
+        # 3. 将其封装进 StereoData 以便使用 StereoPy 的质控功能
+        # 如果你只需要 h5ad，可以直接 adata.write_h5ad()
+        data = st.io.anndata_to_stereo(adata)
+        
+        # 4. 执行 StereoPy 质控流程
+        data.tl.cal_qc()
+        data.tl.raw_checkpoint()
+        
+        # 5. 导出为最终的 h5ad
+        st.io.stereo_to_anndata(data, flavor='scanpy', output=output_path)
+        
+        print(f"✅ {sample_id} 转换成功 -> {output_path}")
+        
+    except Exception as e:
+        print(f"❌ {sample_id} 转换失败: {str(e)}")
+
+print("\n✨ 任务全部完成！")
+
+
+#############################################样本整合
+import os
+import gc
+import numpy as np
+import pandas as pd
+import scipy.sparse as sp
+import scanpy as sc
+import anndata as ad
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+from datetime import datetime
+
+print("⏳ 正在启动 Stereo-seq 核心 16 样本 Harmony 整合与空间聚类流水线...")
+
+# ==========================================
+# 0. 全局暗黑主题配置 (适合时空组学高对比度展示)
+# ==========================================
+plt.rcdefaults() 
+plt.style.use('dark_background')
+params = {
+    'figure.facecolor': 'black', 'axes.facecolor': 'black', 'savefig.facecolor': 'black',
+    'axes.labelcolor': 'white', 'text.color': 'white',
+    'xtick.color': 'white', 'ytick.color': 'white', 'axes.edgecolor': 'white'
+}
+plt.rcParams.update(params)
+sc.settings.set_figure_params(dpi=150, facecolor='black', color_map='viridis')
+
+# 目录配置 (请根据您服务器或本地的实际情况修改此处的 data_dir)
+data_dir = r"data/external/local_a2c380b13663" 
+out_dir = r"data/external/local_e47d4cf60996"
+os.makedirs(out_dir, exist_ok=True)
+
+# ==========================================
+# 1. 严格提取 16 个核心样本并取并集合并
+# ==========================================
+target_files = [
+    "1mph_A03699G6.SCT.h5ad", "6mph_A02988A2.SCT.h5ad", "9mph_A03091C5.SCT.h5ad",
+    "BW13_1_B1_DSDB_12dpb.h5ad", "BW13_A3_DSDB_12dpb.h5ad",
+    "BW14_1_C1_SSDB_12dpb.h5ad", "BW14_B3_SSDB_12dpb.h5ad",
+    "BW15D_1_D1_SDSDB_19dpb.h5ad", "BW15D_C6_SDSDB_19dpb.h5ad",
+    "BW32_A01597A3_SDSDB_5dpb.h5ad", "BW81_C02846B6_SDSDB_26dpb.h5ad",
+    "NS_C02847B1.h5ad",
+    "Y01065L7.adjusted.cellbin.h5ad", "Y01065NA.adjusted.cellbin.h5ad",
+    "Y01066D1.adjusted.cellbin.h5ad", "Y01066D2.adjusted.cellbin.h5ad"
+]
+
+adata_list = []
+sample_names = []
+print(f"🎯 锁定指定的 {len(target_files)} 个核心样本，开始循环读取...")
+
+for file_name in target_files:
+    path = os.path.join(data_dir, file_name)
+    if not os.path.exists(path):
+        print(f"⚠️ 找不到文件: {path}")
+        continue
+    s_name = file_name.replace(".h5ad", "")
+    try:
+        temp_ad = sc.read_h5ad(path)
+        if isinstance(temp_ad.X, np.ndarray): temp_ad.X = sp.csr_matrix(temp_ad.X)
+        elif not sp.isspmatrix_csr(temp_ad.X): temp_ad.X = temp_ad.X.tocsr()
+            
+        temp_ad.uns.clear()
+        keys_to_keep = ['spatial']
+        for k in list(temp_ad.obsm.keys()):
+            if k not in keys_to_keep: del temp_ad.obsm[k]
+                
+        temp_ad.var_names_make_unique()
+        temp_ad.obs_names = s_name + "_" + temp_ad.obs_names
+        adata_list.append(temp_ad)
+        sample_names.append(s_name)
+        print(f"  ✅ 载入: {s_name} (细胞数: {temp_ad.n_obs})")
+    except Exception as e: 
+        print(f"  ⚠️ 读取 {file_name} 失败: {e}")
+    gc.collect()
+
+print("\n🔗 正在采用 outer join 取并集合并 (保留所有出现过的基因，缺失用 0 填充)...")
+adata = ad.concat(adata_list, join='outer', label='sample_batch_new', keys=sample_names, index_unique=None, fill_value=0)
+del adata_list
+gc.collect()
+print(f"✨ 合并完毕！当前总矩阵大小：{adata.n_obs:,} 个 Spot，{adata.n_vars:,} 个基因。")
+
+# ==========================================
+# 2. 数据标准化与【全基因】备份
+# ==========================================
+# 1. 核心修复：剔除没有任何表达量的幽灵 Spot (防止分母为0导致 NaN)
+print(f"过滤前 Spot 数量: {adata.n_obs:,}")
+sc.pp.filter_cells(adata, min_counts=1)
+# 顺手把没有任何表达的死基因也剔除，极大地降低计算负担
+sc.pp.filter_genes(adata, min_counts=1) 
+print(f"过滤后有效 Spot 数量: {adata.n_obs:,}")
+
+# ==========================================
+# 2. 重新执行标准化与【全基因】备份
+# ==========================================
+print("\n⚖️ 正在重新执行标准化...")
+sc.pp.normalize_total(adata, target_sum=1e4)
+sc.pp.log1p(adata)
+
+print("💾 正在将【全量基因】备份到 adata.raw 中...")
+adata.raw = adata
+
+# ==========================================
+# 3. 高变基因、防溢出 Scale 与 PCA
+# ==========================================
+print("🧬 正在计算高变基因...")
+sc.pp.highly_variable_genes(adata, n_top_genes=3000, flavor='seurat')
+
+print("⚖️ 正在提取高变子集执行 Scale...")
+adata_hvg = adata[:, adata.var['highly_variable']].copy()
+sc.pp.scale(adata_hvg, max_value=10)
+
+print("📊 正在计算 PCA...")
+sc.tl.pca(adata_hvg, svd_solver='arpack')
+
+# 将健康的 PCA 坐标移交给大矩阵
+adata.obsm['X_pca'] = adata_hvg.obsm['X_pca'].copy()
+del adata_hvg
+gc.collect()
+
+# 👑 核心护航操作：强行斩杀 PCA 矩阵中的所有 NaN / Inf 毒药！
+print("🛡️ 正在扫描并清除 PCA 矩阵中的 NaN (非数字)...")
+if np.isnan(adata.obsm['X_pca']).any() or np.isinf(adata.obsm['X_pca']).any():
+    print("  ⚠️ 警告：检测到 NaN/Inf！这正是导致 Harmony 崩溃的元凶！正在强行抹平修正...")
+    # 将所有的 NaN 和无穷大全部替换为 0.0 (相当于把这些点归置到 PCA 坐标原点)
+    adata.obsm['X_pca'] = np.nan_to_num(adata.obsm['X_pca'], nan=0.0, posinf=0.0, neginf=0.0)
+    print("  ✅ 毒药清除完毕！")
+else:
+    print("  ✅ PCA 矩阵健康，无 NaN！")
+
+# ==========================================
+# 4. 重新启动 Harmony 算法
+# ==========================================
+print("\n⚖️ 正在启动 Harmony 算法消除批次效应 (此次已免除溢出风险)...")
+# 强制设定为类别变量，提升底层运算的稳定性
+adata.obs['sample_batch_new'] = adata.obs['sample_batch_new'].astype('category')
+sc.external.pp.harmony_integrate(adata, key='sample_batch_new', max_iter_harmony=20)
+print("✅ Harmony 校正坐标已成功生成在 adata.obsm['X_pca_harmony']！")
+
+# ==========================================
+# 5. 图聚类网络构建与 Leiden 聚类
+# ==========================================
+print("\n🕸️ 正在基于 Harmony 空间构建细胞邻接图...")
+sc.pp.neighbors(adata, use_rep='X_pca_harmony', n_neighbors=15)
+
+print("🧬 正在执行 Leiden 聚类...")
+sc.tl.leiden(adata, resolution=1.5, key_added='leiden_harmony')
+
+# 提取固定的颜色映射表
+cluster_colors = adata.uns.get('leiden_harmony_colors', None)
+print(f"✅ 聚类完成！共划分出 {len(adata.obs['leiden_harmony'].unique())} 个细胞亚群。")
+
+# ==========================================
+# 6. 单样本逐级空间可视化
+# ==========================================
+current_time = datetime.now().strftime("%Y%m%d_%H%M")
+pdf_path = os.path.join(out_dir, f"Spatial_Clusters_Harmony_{current_time}.pdf")
+print(f"\n🎨 正在绘制每个样本的聚类空间分布图，并保存至: {pdf_path}")
+
+spot_size = 3 
+
+with PdfPages(pdf_path) as pdf:
+    for sample in sample_names:
+        print(f"  -> 正在渲染: {sample}")
+        fig, ax = plt.subplots(figsize=(10, 10))
+        
+        adata_sub = adata[adata.obs['sample_batch_new'] == sample]
+        
+        sc.pl.embedding(
+            adata_sub, 
+            basis='spatial', 
+            color='leiden_harmony', 
+            palette=cluster_colors, 
+            size=spot_size, 
+            frameon=False, 
+            show=False, 
+            ax=ax, 
+            title=f"Sample: {sample} \n(Harmony Integrated Clusters)"
+        )
+        
+        ax.set_aspect('equal', adjustable='datalim')
+        if len(ax.collections) > 0: 
+            ax.collections[0].set_rasterized(True)
+            
+        if ax.get_legend() is not None:
+            ax.legend(loc='center left', bbox_to_anchor=(1.05, 0.5), frameon=False, ncol=2)
+            
+        plt.tight_layout()
+        pdf.savefig(fig, facecolor='black', dpi=150, bbox_inches='tight')
+        plt.close(fig)
+
+print("\n✅ 所有时空图谱出图完毕！")
+
+# ==========================================
+# 7. 保存最终成果
+# ==========================================
+save_path = os.path.join(data_dir, "combined_16samples_Harmony_Clustered.h5ad")
+print(f"💾 正在保存最终大矩阵 (包含 .raw 与 Harmony 聚类结果) ...")
+adata.write_h5ad(save_path)
+print(f"✨ 大功告成！数据已安全存至: {save_path}")
+
+
+
+
+
+
+
+##################可视化
+import os
+import scanpy as sc
+import squidpy as sq
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+import harmonypy as hm
+import gc
+
+save_path = "data/external/local_e223c708cdec"
+print(f"💾 正在保存原始数据至: {save_path}")
+adata.write_h5ad(save_path)
+
+# ==========================================
+# 1. 全局视觉与字体设定 (纯正黑底白字 + Arial)
+# ==========================================
+# 强制设定全局参数，确保所有底层绘图区都是黑色
+plt.rcParams.update({
+    'font.family': 'sans-serif',
+    'font.sans-serif': ['Arial', 'DejaVu Sans', 'sans-serif'], # 优先 Arial
+    'figure.facecolor': 'black',    # 整个画布背景设为黑色
+    'axes.facecolor': 'black',      # 坐标轴内部背景设为黑色
+    'axes.edgecolor': 'white',      # 坐标轴边框颜色为白色
+    'axes.labelcolor': 'white',     # 坐标轴标签颜色为白色
+    'xtick.color': 'white',         # X轴刻度颜色
+    'ytick.color': 'white',         # Y轴刻度颜色
+    'text.color': 'white',          # 全局文本颜色
+    'legend.facecolor': 'black',    # 图例背景色
+    'legend.edgecolor': 'white'     # 图例边框色
+})
+
+# Scanpy 专用设定
+sc.settings.set_figure_params(
+    dpi=100, 
+    facecolor='black', 
+    format='png', 
+    fontsize=10,
+    color_map='magma' # 适合黑底的高对比度色条
+)
+
+# 假设您的数据对象叫 adata，批次列名假设为 'sample_batch_new'
+# 如果之前没跑完，可以从保存的地方加载：
+adata = sc.read_h5ad("data/external/local_e223c708cdec")
+
+##############################
+import os
+import scanpy as sc
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.backends.backend_pdf import PdfPages
+from matplotlib.gridspec import GridSpec
+
+# ==========================================
+# 1. 环境配置与数据加载
+# ==========================================
+work_dir = "data/external/local_08d9c722ae3e"
+data_path = os.path.join(work_dir, "combined_800k_clustered.h5ad")
+gene_list_path = os.path.join(work_dir, "merged_cleaned_genes.txt")
+output_dir = os.path.join(work_dir, "analysis_results_fixed")
+if not os.path.exists(output_dir): os.makedirs(output_dir)
+
+# 样式设定
+plt.rcParams.update({
+    'font.family': 'sans-serif',
+    'font.sans-serif': ['Arial', 'DejaVu Sans'],
+    'figure.facecolor': 'black', 'axes.facecolor': 'black',
+    'axes.edgecolor': 'white', 'axes.labelcolor': 'white',
+    'xtick.color': 'white', 'ytick.color': 'white',
+    'text.color': 'white', 'legend.facecolor': 'black', 'legend.edgecolor': 'white'
+})
+
+print("⏳ 正在加载数据并检查 Spatial Keys...")
+adata = sc.read_h5ad(data_path)
+
+# 1. 根据您的扫描结果定义的 20 个原始样本名 (去除 .h5ad 后缀)
+raw_sample_names = [
+    "BW14_1_C1_SSDB_12dpb", "6mph_A02988A2.SCT", "BW13_A3_DSDB_12dpb",
+    "X002", "BW9", "9mph_A03091C5.SCT", "Y01066D2.adjusted.cellbin",
+    "NS_C02847B1", "Y01066D1.adjusted.cellbin", "Y01065L7.adjusted.cellbin",
+    "BW32_A01597A3_SDSDB_5dpb", "Y01065NA.adjusted.cellbin", "BW15D_1_D1_SDSDB_19dpb",
+    "BW81_C02846B6_SDSDB_26dpb_1", "BW13_1_B1_DSDB_12dpb", "BW81_C02846B6_SDSDB_26dpb",
+    "1mph_A03699G6.SCT", "BW15D_C6_SDSDB_19dpb", "BW14_B3_SSDB_12dpb",
+    "NS_A03700A1.SCT"
+]
+
+# 2. 建立从 obs 里的样本名到 Library ID 的 1:1 映射
+# 因为没有底图，我们将 Library ID 直接映射为样本名本身
+sample_to_lib = {s: s for s in raw_sample_names}
+
+print(f"📊 已配置 {len(sample_to_lib)} 个样本的映射关系。")
+
+# 3. 强制校验并同步坐标 (针对合并后的 adata)
+def sync_spatial_coords(adata):
+    print("⏳ 正在检查并同步全局空间坐标...")
+    
+    # 如果 obsm 中已经有 spatial 键且非空，则直接使用
+    if 'spatial' in adata.obsm:
+        print("✅ 发现 obsm['spatial']，已就绪。")
+    # 否则，尝试从 obs['x'] 和 ['y'] 重建
+    elif 'x' in adata.obs.columns and 'y' in adata.obs.columns:
+        print("💡 正在从 obs['x', 'y'] 构建 obsm['spatial']...")
+        adata.obsm['spatial'] = adata.obs[['x', 'y']].values.astype(float)
+    else:
+        print("❌ 警告：未能在数据中找到 x, y 坐标信息！")
+    
+    return adata
+
+# 执行同步
+adata = sync_spatial_coords(adata)
+
+# --- 关键修复：移除非 Stereo-seq 样本并同步坐标 ---
+exclude_samples = ['BW9', 'X002']
+adata = adata[~adata.obs['sample_batch_new'].isin(exclude_samples)].copy()
+print(f"✂️ 已移除样本: {exclude_samples}，剩余样本数: {len(adata.obs['sample_batch_new'].unique())}")
+
+####################可视化
+# 2. 强制同步坐标到 obsm['spatial']
+if 'spatial' not in adata.obsm:
+    print("⏳ 正在同步 obs['x', 'y'] 坐标到 obsm['spatial']...")
+    adata.obsm['spatial'] = adata.obs[['x', 'y']].values.astype(float)
+
+# 3. 动态参数计算
+samples = sorted(adata.obs['sample_batch_new'].unique().tolist())
+n_samples = len(samples)
+n_cols = 6  # 18个样本采用 6x3 布局更美观
+n_rows = int(np.ceil(n_samples / n_cols))
+SPOT_SIZE = 1.2  # 80万点量级建议值
+
+# ==========================================
+# 2. 核心绘图函数 (完全避开底图检查)
+# ==========================================
+def plot_spatial_grid(adata, color_key, title_prefix, spot_size=SPOT_SIZE, v_max=None):
+    """通用空间分布网格绘制函数：强制使用 embedding 模式以确保无底图运行"""
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(24, 4 * n_rows), facecolor='black')
+    axes_flat = axes.flatten()
+    
+    for i, s in enumerate(samples):
+        ax = axes_flat[i]
+        adata_sub = adata[adata.obs['sample_batch_new'] == s]
+        
+        if len(adata_sub) > 0:
+            sc.pl.embedding(
+                adata_sub, 
+                basis='spatial', 
+                color=color_key, 
+                size=spot_size, 
+                show=False, 
+                ax=ax, 
+                title=f"{s}",
+                frameon=False, 
+                colorbar_loc=None,
+                vmax=v_max
+            )
+            # 性能优化：光栅化散点，防止 PDF 渲染卡顿
+            if len(ax.collections) > 0:
+                ax.collections[0].set_rasterized(True)
+        else:
+            ax.axis('off')
+            
+    for k in range(i + 1, len(axes_flat)): axes_flat[k].axis('off')
+    plt.suptitle(f"{title_prefix}: {color_key}", color='white', fontsize=20, y=0.99)
+    return fig
+
+# ==========================================
+# 3. 差异表达分析 (DEG) 与 结果保存
+# ==========================================
+def run_cluster_deg(adata):
+    print("⏳ 正在计算各 Cluster 之间的差异基因 (Wilcoxon)...")
+    sc.tl.rank_genes_groups(adata, groupby='clusters', method='wilcoxon')
+    
+    # 导出完整 CSV 结果
+    deg_path = os.path.join(output_dir, "03_All_Clusters_DEG_Results.csv")
+    sc.get.rank_genes_groups_df(adata, group=None).to_csv(deg_path, index=False)
+    print(f"✅ DEG 结果已保存至: {deg_path}")
+
+# ==========================================
+# 4. 执行完整可视化流水线
+# ==========================================
+def run_visualization_pipeline(adata):
+    # --- A. QC 报告 ---
+    print("⏳ 正在生成 01_Sample_QC_Report.pdf...")
+    with PdfPages(os.path.join(output_dir, "01_Sample_QC_Report.pdf")) as pdf:
+        metrics = ['total_counts', 'n_genes_by_counts', 'pct_counts_mt']
+        # Violin 图
+        fig_v, axes_v = plt.subplots(1, 3, figsize=(25, 8), facecolor='black')
+        for i, m in enumerate(metrics):
+            sc.pl.violin(adata, keys=m, groupby='sample_batch_new', ax=axes_v[i], show=False, stripplot=False)
+            axes_v[i].tick_params(axis='x', rotation=90)
+        pdf.savefig(fig_v); plt.close()
+        # 空间 QC 指标分布
+        for m in metrics:
+            # 使用 95% 分位数统一色阶，避免 BW9/X002 排除后的残余异常点干扰
+            v_max = np.quantile(adata.obs[m], 0.95)
+            fig = plot_spatial_grid(adata, m, "QC Metric", v_max=v_max)
+            pdf.savefig(fig, bbox_inches='tight'); plt.close()
+    # --- B. Cluster 分布 ---
+    print("⏳ 正在生成 02_Cluster_Distribution.pdf...")
+    with PdfPages(os.path.join(output_dir, "02_Cluster_Distribution.pdf")) as pdf:
+        # 全局 UMAP
+        fig_u, ax_u = plt.subplots(figsize=(10, 10), facecolor='black')
+        sc.pl.umap(adata, color='clusters', ax=ax_u, show=False, frameon=False, add_outline=True)
+        ax_u.collections[0].set_rasterized(True)
+        pdf.savefig(fig_u); plt.close()
+        # 20 样本空间分布图
+        fig_s = plot_spatial_grid(adata, 'clusters', "Spatial Clusters")
+        pdf.savefig(fig_s, bbox_inches='tight'); plt.close()
+# C. Marker 基因图谱 (修正路径)
+    if os.path.exists(gene_list_path):
+        with open(gene_list_path, 'r') as f:
+            gene_list = [line.strip() for line in f if line.strip() in adata.var_names]
+        print(f"⏳ 正在生成 04_Cell_Annotation_Atlas (共 {len(gene_list)} 个基因)...")
+        with PdfPages(os.path.join(output_dir, "04_Cell_Annotation_Atlas.pdf")) as pdf:
+            for gene in gene_list:
+                fig = plt.figure(figsize=(35, 6 * n_rows), facecolor='black')
+                gs = GridSpec(n_rows, n_cols + 2)
+                ax_v = fig.add_subplot(gs[:, :2])
+                sc.pl.violin(adata, keys=gene, groupby='clusters', rotation=90, show=False, ax=ax_v)
+                for idx, s in enumerate(samples):
+                    ax_s = fig.add_subplot(gs[idx // n_cols, (idx % n_cols) + 2])
+                    adata_sub = adata[adata.obs['sample_batch_new'] == s]
+                    sc.pl.embedding(adata_sub, basis='spatial', color=gene, size=SPOT_SIZE,
+                                    show=False, ax=ax_s, title=f"{s}", frameon=False, colorbar_loc=None)
+                    if len(ax_s.collections) > 0: ax_s.collections[0].set_rasterized(True)
+                plt.suptitle(f"Marker Gene: {gene}", color='white', fontsize=30, y=0.98)
+                pdf.savefig(fig, dpi=100, bbox_inches='tight'); plt.close()
+    else:
+        print(f"⚠️ 路径未找到: {gene_list_path}")
+
+# ==========================================
+# 5. 启动执行
+# ==========================================
+if __name__ == "__main__":
+    run_cluster_deg(adata)            # 1. 跑差异分析并存 CSV
+    run_visualization_pipeline(adata)  # 2. 跑所有可视化报告
+    print(f"✨ 任务全部完成！结果见目录: {output_dir}")
+    
+if __name__ == "__main__":
+    run_visualization_pipeline(adata)  # 2. 跑所有可视化报告
+    print(f"✨ 任务全部完成！结果见目录: {output_dir}")
+    
+
+
+
+
+
+
+####################################本地单独样本处理
+import os
+import numpy as np
+import pandas as pd
+import scipy.sparse as sp
+import scanpy as sc
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+from matplotlib.gridspec import GridSpec
+from matplotlib.lines import Line2D
+from datetime import datetime
+import gc
+
+print("⏳ 正在启动 Stereo-seq 单样本个性化分析流水线...")
+
+# ==========================================
+# 0. 您的专属细胞字典
+# ==========================================
+raw_annotation_config = {
+    # 皮肤上皮 (KC)
+    "KC_Basal": {"color": "#008941", "markers": ["COL17A1", "KRT15", "DST", "S100A2"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Mig": {"color": "#D60C00FF", "markers": ["COL17A1", "MMP3", "MMP1", "AREG"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Prolif": {"color": "#FAFD7CFF", "markers": ["COL17A1", "STMN1", "TOP2A", "MKI67"], "cutoffs": [1.0, 0.5, 0.5, 0.5]},
+    "KC_Spinous": {"color": "#00FF00FF", "markers": ["CHP2", "MT1X", "DEFB1", "KRTDAP"], "cutoffs": [0, 0.5, 0.5, 0.5]},
+    "KC_Spinous_Mig": {"color": "#1A0099FF", "markers": ["SOX9", "MMP3", "KRT6B", "KRT6A"], "cutoffs": [0.5, 0.5, 2.5, 2.5]},
+    "KC_Spinous_Mat": {"color": "#EE4C97FF", "markers": ["KRT1", "KRT10", "DSC1", "KRTDAP"], "cutoffs": [5.0, 5.0, 0.5, 0.5]},
+    "KC_Granular": {"color": "#882D17", "markers": ["FLG", "SLURP2", "KLK7", "CNFN"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    
+    # 附属器 (SAC)
+    "SAC_SG_Progenitor": {"color": "#0099CCFF", "markers": ["TSPAN8", "S100A7", "KRT77", "SCGB2A2"], "cutoffs": [0.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Clear": {"color": "#B7E4F9FF", "markers": ["KRT19", "KRT7", "AQP5", "KRT8"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Dark": {"color": "#193006FF", "markers": ["PIP", "MUCL1", "DCD", "SCGB2A2"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Ductal": {"color": "#8F7700FF", "markers": ["CLDN4", "MMP7", "ATP5MG", "FOXC1"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_HFSC": {"color": "#2B3D26", "markers": ["LGR5", "CD34", "LHX2", "TCF3"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_DP_DS": {"color": "#99991EFF", "markers": ["SOX2", "BMP4", "CRABP1", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}, 
+    "SAC_HF_Matrix": {"color": "#69C8ECFF", "markers": ["LEF1", "HOXC13", "TOP2A", "MKI67"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_ORS": {"color": "#A30059", "markers": ["KRT17", "KRT23", "CD200", "SOX9"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_IRS": {"color": "#CC9900FF", "markers": ["KRT71", "KRT25", "GATA3", "FXYD3"], "cutoffs": [0, 0, 0, 0]},
+    
+    # 黑素细胞
+    "Melanocyte": {"color": "#FF4500", "markers": ["MLANA", "PMEL", "TYR", "DCT"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    
+    # 成纤维细胞 (Fib)
+    "Fib_Papi": {"color": "#3DA873FF", "markers": ["COL6A1", "LUM", "COL6A3", "SPARC"], "cutoffs": [3.0, 3.0, 3.0, 3.0]},
+    "Fib_SFRP2": {"color": "#CCFF00FF", "markers": ["SFRP2", "CTHRC1", "FSTL1", "THY1"], "cutoffs": [2.0, 2.0, 2.0, 2.0]},
+    "Fib_Fasci": {"color": "#54FF9F", "markers": ["TNC", "PROCR", "HIF1A", "PI16"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_EN1": {"color": "#6B7900", "markers": ["COL1A1", "DLK1", "EN1", "DPP4"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_Inflama": {"color": "#800000FF", "markers": ["CCL19", "CXCL1", "CXCL5", "VIM"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_CD45": {"color": "#C50084FF", "markers": ["PTPRC", "CD34", "COL1A1", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}, 
+    "Fib_Myo": {"color": "#B79762", "markers": ["ACTA2", "TAGLN", "CNN1", "POSTN"], "cutoffs": [2.0, 2.0, 1.5, 1.5]},
+    "Fib_Prolif": {"color": "#8787FFFF", "markers": ["MKI67", "TOP2A", "PCNA", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_K14": {"color": "#2A6EBBFF", "markers": ["KRT14", "PDGFRA", "KLF4", "TACSTD2"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    
+    # 内皮与周细胞 (Endo)
+    "Endo_Arterial": {"color": "#FF00FF", "markers": ["PECAM1", "IGFBP3", "HEY1", "SEMA3G"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Venous": {"color": "#2600D1FF", "markers": ["SELE", "ACKR1", "VWF", "PLVAP"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Lymphatic": {"color": "#76EE00", "markers": ["CCL21", "TFF3", "LYVE1", "PDPN"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Capillary": {"color": "#CF4E9CFF", "markers": ["COL15A1", "VWA1", "RGCC", "KDR"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "Endo_Prolif": {"color": "#E64B35FF", "markers": ["PECAM1", "MKI67", "TOP2A", "PCNA"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "Pericyte": {"color": "#FFFF00", "markers": ["RGS5", "PDGFRB", "TAGLN", "COL6A3"], "cutoffs": [1.5, 1.5, 1.5, 1.5]},
+   
+    # 神经细胞 (Neuro)
+    "Schwann": {"color": "#84BD00FF", "markers": ["MPZ", "PLP1", "MBP", "S100B"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    
+    # 髓系与免疫细胞 (Myeloid/Lymphocyte)
+    "M1_Macrophage": {"color": "#CD534CFF", "markers": ["CD86", "IL1B", "TNF", "CD68"], "cutoffs": [0.5, 0.5, 0.5, 1.0]},
+    "M2_Macrophage": {"color": "#54FF9F", "markers": ["CD163", "MRC1", "MAF", "CD68"], "cutoffs": [1.5, 1.5, 1.5, 1.0]},
+    "LAM": {"color": "#5F559BFF", "markers": ["TREM2", "LIPA", "SPP1", "CD68"], "cutoffs": [0.5, 0.5, 0.5, 1.0]},
+    "Neutrophil": {"color": "#DC0000FF", "markers": ["CXCR2", "FCGR3B", "S100A8", "S100A9"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Mast": {"color": "#e9148f", "markers": ["TPSAB1", "CPA3", "MS4A2", "KIT"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "cDC1": {"color": "#631879FF", "markers": ["CLEC9A", "IRF8", "XCR1", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "cDC2": {"color": "#FFC20AFF", "markers": ["CD1C", "FCER1A", "CLEC10A", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "pDC": {"color": "#A1CAF1", "markers": ["LILRA4", "CLEC4C", "TCF4", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "LGHS": {"color": "#E68FAC", "markers": ["CD207", "CD1A", "HLA-DRB1", "ITGAX"], "cutoffs": [0.25, 0.25, 0.5, 0.5]},
+    "B_Mature": {"color": "#003C67FF", "markers": ["MS4A1", "CD79A", "CD79B", "CD19"], "cutoffs": [0.25, 0.25, 0.25, 0.25]},
+    "B_Plasma": {"color": "#3D3B25FF", "markers": ["SDC1", "JCHAIN", "MZB1", "CD38"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "CD4_T": {"color": "#C2B280", "markers": ["CD3D", "CD3E", "CD4", "IL7R"], "cutoffs": [0.5, 0.5, 1.0, 1.5]},
+    "CD8_T": {"color": "#882D17", "markers": ["CD8A", "CD8B", "PRF1", "IL7R"], "cutoffs": [0.5, 0.5, 0.5, 1.5]},
+    "NK": {"color": "#A1C299", "markers": ["KLRB1", "GNLY", "KLRD1", "NKG7"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}
+}
+
+
+# ==========================================
+# 1. 数据加载与本地单样本提取
+# ==========================================
+# 您的本地路径
+data_path = r"data/external/local_14b51ea2ed10"
+output_dir = r"data/external/local_3343036e5c18"
+
+if not os.path.exists(output_dir): 
+    os.makedirs(output_dir)
+
+# 🎯 在这里填写您想单独分析的样本名
+target_sample = "BW15D_C6_SDSDB_19dpb" 
+
+print(f"📂 正在从母矩阵中提取样本: {target_sample} (初次读取需稍等...)")
+adata_full = sc.read_h5ad(data_path)
+
+# 精准切割并切断内存联系
+adata = adata_full[adata_full.obs['sample_batch_new'] == target_sample].copy()
+del adata_full
+gc.collect()
+
+if adata.n_obs == 0:
+    raise ValueError(f"⚠️ 未在数据集中找到样本: {target_sample}，请检查拼写！")
+
+print(f"✅ 单样本提取成功！当前分析池包含 {adata.n_obs} 个 Spot。")
+
+# ==========================================
+# 💎 核心升级：基因库智能预检与清洗引擎
+# ==========================================
+print("\n🔍 正在执行全量基因库强制预检与字典清洗...")
+use_raw = adata.raw is not None
+var_names_pool = adata.raw.var_names if use_raw else adata.var_names
+# 创建大写映射字典，用于智能纠错大小写不匹配 (如 pdgfra -> PDGFRA)
+var_names_upper = {str(v).upper(): str(v) for v in var_names_pool}
+
+annotation_config = {} # 将存放 100% 安全的新字典
+missing_genes_total = []
+
+for cell_type, config in raw_annotation_config.items():
+    raw_markers = config['markers']
+    raw_cutoffs = config['cutoffs']
+    
+    safe_markers = []
+    safe_cutoffs = []
+    
+    for m, c in zip(raw_markers, raw_cutoffs):
+        # 1. 精确匹配
+        if m in var_names_pool:
+            safe_markers.append(m)
+            safe_cutoffs.append(c)
+        # 2. 大小写模糊匹配修正
+        elif m.upper() in var_names_upper:
+            real_name = var_names_upper[m.upper()]
+            safe_markers.append(real_name)
+            safe_cutoffs.append(c)
+            print(f"  [修正] 基因名纠错: {m} -> {real_name}")
+        # 3. 彻底找不到
+        else:
+            missing_genes_total.append(m)
+            
+    # 重构安全的字典
+    if len(safe_markers) > 0:
+        annotation_config[cell_type] = {
+            "color": config["color"],
+            "markers": safe_markers,
+            "cutoffs": safe_cutoffs
+        }
+        if len(safe_markers) < len(raw_markers):
+            print(f"  [警告] {cell_type}: 剔除了缺失的基因，剩余有效Marker: {safe_markers}")
+    else:
+        print(f"  ❌ [剔除] {cell_type}: 所有 Marker 均不存在，该亚群被强制跳过！")
+
+missing_genes_total = list(set(missing_genes_total))
+if missing_genes_total:
+    print(f"\n⚠️ 最终战损报告：共有 {len(missing_genes_total)} 个基因未在当前矩阵中找到: {missing_genes_total}")
+else:
+    print("\n✅ 完美！字典中的所有 Marker 基因均 100% 存在于数据集中。")
+
+# ==========================================
+# 2. 绘图参数与坐标系初始化
+# ==========================================
+spot_size_base = 3  
+current_time = datetime.now().strftime("%Y%m%d_%H%M")
+color_palette = {cell: config['color'] for cell, config in annotation_config.items()}
+
+plt.rcParams.update({
+    'font.family': 'sans-serif', 'font.sans-serif': ['Arial', 'DejaVu Sans'],
+    'figure.facecolor': 'black', 'axes.facecolor': 'black',
+    'axes.edgecolor': 'white', 'axes.labelcolor': 'white',
+    'text.color': 'white', 'xtick.color': 'white', 'ytick.color': 'white',
+    'axes.titlesize': 18, 'pdf.fonttype': 42
+})
+
+if 'spatial' in adata.obsm.keys():
+    adata.obsm['X_spatial'] = np.array(adata.obsm['spatial'])
+else:
+    adata.obsm['X_spatial'] = np.vstack([adata.obs['x'], adata.obs['y']]).T
+
+group1_cells = [k for k in annotation_config.keys() if k.startswith("KC_") or k.startswith("SAC_") or k == "Melanocyte"]
+group2_cells = [k for k in annotation_config.keys() if k.startswith("Fib_") or k.startswith("Endo_") or k in ["Pericyte", "Schwann"]]
+group3_cells = [k for k in annotation_config.keys() if k not in group1_cells and k not in group2_cells]
+
+def create_master_handles(cell_list, all_data):
+    handles, labels = [], []
+    all_present_cells = all_data.obs['sub_labels'].unique()
+    for c in cell_list:
+        if c in all_present_cells:
+            handles.append(Line2D([0], [0], marker='o', color='w', markerfacecolor=color_palette[c], markersize=12))
+            labels.append(c)
+    return handles, labels
+
+# ==========================================
+# [任务 1] 强行全员注释逻辑 (零 Unassigned 版本)
+# ==========================================
+print("\n🧬 阶段 1: 执行全员强制注释 (无 Unassigned 模式)...")
+
+# 1. 定义优先级群体
+priority_cells = [c for c in ["Fib_K14", "Fib_CD45", "SAC_SG_Progenitor"] if c in annotation_config.keys()]
+base_cells = [c for c in annotation_config.keys() if c not in priority_cells]
+
+# 2. 计算各亚群得分 (已含 NaN 处理)
+df_masks = pd.DataFrame(index=adata.obs_names)
+df_scores = pd.DataFrame(index=adata.obs_names)
+
+for cell_type, config in annotation_config.items():
+    valid_pairs = list(zip(config['markers'], config['cutoffs']))
+    mask = np.ones((adata.n_obs,), dtype=bool)
+    score_sum = np.zeros((adata.n_obs,))
+    
+    for g, cut in valid_pairs:
+        matrix_g = adata.raw[:, g].X if use_raw else adata[:, g].X
+        expr = matrix_g.toarray().flatten() if sp.issparse(matrix_g) else np.asarray(matrix_g).flatten()
+        expr = np.nan_to_num(expr, nan=0.0) 
+        mask &= (expr > cut)
+        score_sum += expr
+        
+    df_masks[cell_type] = mask
+    df_scores[cell_type] = score_sum / len(valid_pairs)
+
+# 3. 强制分配：第一步，基于 base_cells 寻找得分最高的类型 (不设 0 阈值)
+# 这样即使所有表达量都是 0，也会根据字典顺序或极微弱差异强行分一个类
+adata.obs['sub_labels'] = df_scores[base_cells].idxmax(axis=1)
+
+# 4. 聚类共识修复 (可选优化)：
+# 如果某个 Spot 信号极弱，我们参考它所在的 leiden_harmony 簇中最常见的标签
+if 'leiden_harmony' in adata.obs.columns:
+    print("🔮 正在利用 Harmony 聚类背景进行空间平滑修复...")
+    for cluster in adata.obs['leiden_harmony'].unique():
+        idx = adata.obs['leiden_harmony'] == cluster
+        # 找到该簇中被初步分配最多的细胞类型
+        most_frequent = adata.obs.loc[idx, 'sub_labels'].mode()[0]
+        # 针对得分极低 (如平均分 < 0.1) 的点，强制跟随大部队
+        low_signal_mask = df_scores.loc[idx, base_cells].max(axis=1) < 0.1
+        adata.obs.loc[idx.index[idx & low_signal_mask], 'sub_labels'] = most_frequent
+
+# 5. 特权覆盖：最后强行覆写指定的特殊细胞群
+# 只要满足其 Cutoff，无论其他群得分多高，都以此为准
+if priority_cells:
+    print(f"👑 执行特权亚群覆盖: {priority_cells}")
+    for p_cell in priority_cells:
+        p_mask = df_masks[p_cell]
+        if p_mask.any():
+            adata.obs.loc[p_mask, 'sub_labels'] = p_cell
+
+# 6. 整理分类信息
+present_categories = [cat for cat in annotation_config.keys() if cat in adata.obs['sub_labels'].unique()]
+adata.obs['sub_labels'] = pd.Categorical(adata.obs['sub_labels'], categories=present_categories, ordered=True)
+
+print(f"✅ 全员注释完成！当前所有 Spot 已被归类至 {len(present_categories)} 种类型。")
+
+
+# ==========================================
+# [任务 3] 绘制单样本纯 Numpy 溯源图册
+# ==========================================
+print(f"🖼️ 阶段 3: 正在渲染核心溯源图册...")
+pdf_path_individual = os.path.join(output_dir, f"Tracing_{target_sample}_{current_time}.pdf")
+
+sample_mask = (adata.obs['sample_batch_new'] == target_sample).values
+x_coords = adata.obsm['X_spatial'][sample_mask, 0]
+y_coords = adata.obsm['X_spatial'][sample_mask, 1]
+sub_labels_array = adata.obs['sub_labels'].values[sample_mask]
+
+with PdfPages(pdf_path_individual) as pdf:
+    for cell_type, config in annotation_config.items():
+        dot_color_id = config['color']
+        valid_genes = config['markers']  # 已经是 100% 验证过的安全基因
+        valid_cutoffs = config['cutoffs']
+        
+        print(f"  -> {cell_type}")
+        is_target = (sub_labels_array == cell_type)
+        color_hex = np.where(is_target, dot_color_id, '#222222')
+        
+        gene_data = {}
+        for g in valid_genes:
+            if use_raw and g in adata.raw.var_names:
+                col_data = adata.raw[:, g].X
+            else:
+                col_data = adata[:, g].X
+                
+            if sp.issparse(col_data): 
+                col_data = col_data.toarray()
+            gene_data[g] = col_data.flatten()[sample_mask]
+            
+        merge_score = np.column_stack([gene_data[g] for g in valid_genes]).mean(axis=1) if valid_genes else np.zeros_like(x_coords)
+        
+        fig = plt.figure(figsize=(30, 4.5))
+        gs = GridSpec(1, 6)
+        
+        # 图1: Target 分布
+        ax1 = fig.add_subplot(gs[0, 0])
+        sort_idx_target = np.argsort(is_target)
+        ax1.scatter(x_coords[sort_idx_target], y_coords[sort_idx_target], c=color_hex[sort_idx_target], s=spot_size_base, rasterized=True, edgecolors='none')
+        ax1.set_title(f"{target_sample}: {cell_type}\n(from sub_labels)", color='white', fontsize=12)
+        ax1.set_aspect('equal', adjustable='datalim')
+        ax1.axis('off')
+        
+        # 图2-5: 基因表达
+        for col_idx_inner in range(4):
+            ax_gene = fig.add_subplot(gs[0, 1 + col_idx_inner])
+            if col_idx_inner < len(valid_genes):
+                g = valid_genes[col_idx_inner]
+                sub_g = gene_data[g]
+                sort_idx_g = np.argsort(sub_g)
+                
+                scatter_gene = ax_gene.scatter(x_coords[sort_idx_g], y_coords[sort_idx_g], c=sub_g[sort_idx_g], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+                ax_gene.set_title(f"{g} Expression\n(Cut-off > {valid_cutoffs[col_idx_inner]})", color='white', fontsize=12)
+                ax_gene.set_aspect('equal', adjustable='datalim')
+                ax_gene.axis('off')
+                
+                cbar = fig.colorbar(scatter_gene, ax=ax_gene, fraction=0.03, pad=0.01, shrink=0.7)
+                cbar.ax.tick_params(labelsize=9, colors='white')
+                cbar.outline.set_edgecolor('white')
+                cbar.outline.set_linewidth(0.5)
+            else:
+                ax_gene.axis('off')
+                
+        # 图6: 综合得分
+        ax6 = fig.add_subplot(gs[0, 5])
+        sort_idx_merge = np.argsort(merge_score)
+        scatter_merge = ax6.scatter(x_coords[sort_idx_merge], y_coords[sort_idx_merge], c=merge_score[sort_idx_merge], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+        ax6.set_title("Merge Score", color='white', fontsize=12)
+        ax6.set_aspect('equal', adjustable='datalim')
+        ax6.axis('off')
+        
+        cbar_merge = fig.colorbar(scatter_merge, ax=ax6, fraction=0.03, pad=0.01, shrink=0.7)
+        cbar_merge.ax.tick_params(labelsize=9, colors='white')
+        cbar_merge.outline.set_edgecolor('white')
+        cbar_merge.outline.set_linewidth(0.5)
+        
+        plt.tight_layout(pad=2.0)
+        pdf.savefig(fig, bbox_inches='tight', dpi=150, facecolor='black')
+        
+        plt.show() 
+        plt.close('all')
+        
+        del gene_data, merge_score, is_target, color_hex
+        gc.collect()
+
+print(f"\n✅ 针对样本 {target_sample} 的个性化分析和出图已全部完成！")
+
+
+####################
+focus_cell_type = "SAC_HF_ORS"
+focus_markers = ["KRT17", "KRT6A", "KRT23", "CD200"] 
+focus_cutoffs = [0, 0, 0, 0] # 实时打捞阈值
+
+# ==========================================
+# [任务 3-定制] 针对特定细胞类型生成单页溯源图
+# ==========================================
+    # 皮肤上皮 (KC)
+    "KC_Basal": {"color": "#008941", "markers": ["COL17A1", "KRT15", "DST", "S100A2"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Mig": {"color": "#D60C00FF", "markers": ["COL17A1", "MMP3", "MMP1", "AREG"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Prolif": {"color": "#FAFD7CFF", "markers": ["COL17A1", "STMN1", "TOP2A", "MKI67"], "cutoffs": [1.0, 0.5, 0.5, 0.5]},
+    "KC_Spinous": {"color": "#00FF00FF", "markers": ["CHP2", "MT1X", "DEFB1", "KRTDAP"], "cutoffs": [0, 0.5, 0.5, 0.5]},
+    "KC_Spinous_Mig": {"color": "#1A0099FF", "markers": ["SOX9", "MMP3", "KRT6B", "KRT6A"], "cutoffs": [0.5, 0.5, 2.5, 2.5]},
+    "KC_Spinous_Mat": {"color": "#EE4C97FF", "markers": ["KRT1", "KRT10", "DSC1", "KRTDAP"], "cutoffs": [5.0, 5.0, 0.5, 0.5]},
+    "KC_Granular": {"color": "#882D17", "markers": ["FLG", "SLURP2", "KLK7", "CNFN"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+
+# ==========================================
+# [任务 3-终极版] 独立样本提取、强制打捞、坐标旋转与高清渲染
+# ==========================================
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
+from matplotlib.backends.backend_pdf import PdfPages
+import scipy.sparse as sp
+import scanpy as sc
+import gc
+
+print("⏳ 正在初始化独立样本提取与打捞分析流水线...")
+
+# ==========================================
+# 1. 核心参数与路径配置
+# ==========================================
+# 📁 原始大矩阵路径 (绝不会被修改)
+data_path = r"data/external/local_14b51ea2ed10"
+# 仅读取，不进行任何原地覆盖保存
+adata_full = sc.read_h5ad(data_path)
+
+output_dir = r"data/external/local_3343036e5c18"
+os.makedirs(output_dir, exist_ok=True)
+
+# 🎯 目标设定
+target_sample = "BW15D_C6_SDSDB_19dpb"  # 您想要提取的特定样本
+
+# ==========================================
+# 2. 安全提取样本并释放内存 (Protect Original Data)
+# ==========================================
+print(f"\n📂 正在从母矩阵中提取样本: {target_sample} (初次读取需稍等...)")
+
+# 精准切割并执行深拷贝(.copy)，彻底切断与母矩阵的内存联系
+adata = adata_full[adata_full.obs['sample_batch_new'] == target_sample].copy()
+
+# 瞬间销毁母矩阵，释放数十GB内存防卡死
+# del adata_full
+#gc.collect()
+
+#if adata.n_obs == 0:
+#    raise ValueError(f"⚠️ 未在数据集中找到样本: {target_sample}，请检查拼写！")
+print(f"✅ 样本提取成功！当前工作区仅包含 {adata.n_obs} 个 Spot。原始文件安全。")
+
+#########################
+# 🎯 1. 设置：目标亚群、Marker 及 【任意旋转角度】
+focus_cell_type = "KC_Basal" 
+focus_markers = ["COL17A1", "KRT15", "DST", "S100A2"] 
+focus_cutoffs = [0, 0, 0, 0]     # 实时打捞阈值
+
+# 🔄 视觉调整控制台
+rotation_angle = -225              # 🌟 支持任意角度，正数代表逆时针旋转 (如 45, 60, 120)
+spot_size_base = 0.5             # 散点大小
+
+print(f"\n🖼️ 正在为 {focus_cell_type} 执行深度打捞，并逆时针旋转 {rotation_angle}°...")
+
+# 路径准备
+target_pdf = os.path.join(output_dir, f"Rotated_{rotation_angle}deg_Tracing_{focus_cell_type}_{target_sample}.pdf")
+
+# 动态配置基因库环境
+use_raw = adata.raw is not None
+var_names_pool = adata.raw.var_names if use_raw else adata.var_names
+
+# 确保 sub_labels 列存在（如果原矩阵没有，则初始化）
+if 'sub_labels' not in adata.obs.columns:
+    adata.obs['sub_labels'] = 'Unassigned'
+    adata.obs['sub_labels'] = adata.obs['sub_labels'].astype('category')
+
+# ==========================================
+# 3. 万能角度坐标旋转与强制打捞逻辑
+# ==========================================
+raw_x = adata.obsm['spatial'][:, 0] if 'spatial' in adata.obsm else adata.obsm['X_spatial'][:, 0]
+raw_y = adata.obsm['spatial'][:, 1] if 'spatial' in adata.obsm else adata.obsm['X_spatial'][:, 1]
+
+# 👑 核心升级：基于三角函数的二维旋转矩阵
+def rotate_coordinates(x, y, angle):
+    # 将角度转换为弧度
+    theta = np.radians(angle)
+    # 矩阵计算新坐标
+    x_rotated = x * np.cos(theta) - y * np.sin(theta)
+    y_rotated = x * np.sin(theta) + y * np.cos(theta)
+    return x_rotated, y_rotated
+
+x_coords, y_coords = rotate_coordinates(raw_x, raw_y, rotation_angle)
+
+# 实时捕获掩码
+local_mask = np.ones((adata.n_obs,), dtype=bool)
+gene_data = {}
+valid_plot_markers = []
+
+for g, cut in zip(focus_markers, focus_cutoffs):
+    if g in var_names_pool:
+        valid_plot_markers.append(g)
+        col_data = adata.raw[:, g].X if use_raw else adata[:, g].X
+        if sp.issparse(col_data): col_data = col_data.toarray()
+        expr_full = col_data.flatten()
+        gene_data[g] = expr_full
+        local_mask &= (expr_full > cut)
+
+# 覆写 sub_labels 
+newly_found = local_mask
+if newly_found.any():
+    if focus_cell_type not in adata.obs['sub_labels'].cat.categories:
+        adata.obs['sub_labels'] = adata.obs['sub_labels'].cat.add_categories([focus_cell_type])
+    adata.obs.loc[newly_found, 'sub_labels'] = focus_cell_type
+
+# --- 核心统计汇报 ---
+sub_labels_array = adata.obs['sub_labels'].values
+cell_count = np.sum(sub_labels_array == focus_cell_type)
+print(f"📊 汇报：在样本 {target_sample} 中，共识别到 {cell_count} 个 {focus_cell_type} 细胞")
+
+# ==========================================
+# 4. 高清 PDF 渲染输出
+# ==========================================
+# 获取颜色 (请确保 raw_annotation_config 字典在您脚本的前面已经定义)
+try:
+    target_color = raw_annotation_config[focus_cell_type]['color']
+except KeyError:
+    target_color = "#FF0000" # 默认红色防报错
+
+with PdfPages(target_pdf) as pdf:
+    is_target = (sub_labels_array == focus_cell_type)
+    color_hex = np.where(is_target, target_color, '#222222')
+    merge_score = np.column_stack([gene_data[g] for g in valid_plot_markers]).mean(axis=1) if valid_plot_markers else np.zeros_like(x_coords)
+
+    fig = plt.figure(figsize=(30, 6), facecolor='black')
+    gs = GridSpec(1, 6)
+    
+    # 子图 1: 最终分布图
+    ax1 = fig.add_subplot(gs[0, 0])
+    sort_idx = np.argsort(is_target)
+    ax1.scatter(x_coords[sort_idx], y_coords[sort_idx], c=color_hex[sort_idx], s=spot_size_base, rasterized=True, edgecolors='none')
+    ax1.set_title(f"Target: {focus_cell_type}", color='white', fontsize=24)
+    ax1.set_aspect('equal')
+    ax1.axis('off')
+
+    # 子图 2-5: 各 Marker 分布
+    for i in range(4):
+        ax_g = fig.add_subplot(gs[0, 1 + i])
+        if i < len(valid_plot_markers):
+            g = valid_plot_markers[i]
+            vals = gene_data[g]
+            s_idx = np.argsort(vals)
+            sc = ax_g.scatter(x_coords[s_idx], y_coords[s_idx], c=vals[s_idx], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+            ax_g.set_title(f"Marker: {g}", color='white', fontsize=24)
+            ax_g.set_aspect('equal')
+            cbar = fig.colorbar(sc, ax=ax_g, fraction=0.03, pad=0.01)
+            cbar.ax.tick_params(colors='white', labelsize=24)
+        ax_g.axis('off')
+
+    # 子图 6: 综合得分
+    ax6 = fig.add_subplot(gs[0, 5])
+    m_idx = np.argsort(merge_score)
+    sc_m = ax6.scatter(x_coords[m_idx], y_coords[m_idx], c=merge_score[m_idx], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+    ax6.set_title("Combined Evidence", color='white', fontsize=24)
+    ax6.set_aspect('equal')
+    cbar_m = fig.colorbar(sc_m, ax=ax6, fraction=0.03, pad=0.01)
+    cbar_m.ax.tick_params(colors='white', labelsize=24)
+    ax6.axis('off')
+
+    # 💎 优化大黑边距：调整 y 参数和 tight_layout
+    plt.suptitle(f"Sample: {target_sample} | Cell Count: {cell_count}", color='white', fontsize=32, y=0.95)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    
+    # 💎 600 DPI 高清保存
+    pdf.savefig(fig, bbox_inches='tight', facecolor='black', dpi=600)
+    plt.show() 
+    plt.close(fig)
+
+print(f"✅ 渲染完成！PDF 已保存至: {target_pdf}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################系统注释
+# ==========================================
+# Stereo-seq 全样本自动化分析与可视化流水线 (Linux 服务器后台版)
+# ==========================================
+import os
+import numpy as np
+import pandas as pd
+import scipy.sparse as sp
+import scanpy as sc
+import matplotlib
+# 👑 核心设置：启用无头模式，防止服务器报 X11 display 错误，并极大提升画图速度
+matplotlib.use('Agg') 
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+from matplotlib.gridspec import GridSpec
+from matplotlib.lines import Line2D
+from datetime import datetime
+import gc
+
+print("⏳ 正在启动 Stereo-seq 服务器级自动化流水线 (无头极速版)...")
+
+# ==========================================
+# 0. 您的专属细胞字典
+# ==========================================
+raw_annotation_config = {
+    # 皮肤上皮 (KC)
+    "KC_Basal": {"color": "#EE4C97FF", "markers": ["COL17A1", "KRT15", "DST", "S100A2"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Mig": {"color": "#1A0099FF", "markers": ["COL17A1", "MMP3", "MMP1", "AREG"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "KC_Basal_Prolif": {"color": "#008941", "markers": ["COL17A1", "STMN1", "TOP2A", "MKI67"], "cutoffs": [1.0, 0.5, 0.5, 0.5]},
+    "KC_Spinous": {"color": "#00FF00FF", "markers": ["CHP2", "MT1X", "DEFB1", "KRTDAP"], "cutoffs": [0, 0.5, 0.5, 0.5]},
+    "KC_Spinous_Mig": {"color": "#D60C00FF", "markers": ["SOX9", "MMP3", "KRT6B", "KRT6A"], "cutoffs": [0.5, 0.5, 2.5, 2.5]},
+    "KC_Spinous_Mat": {"color": "#FAFD7CFF", "markers": ["KRT1", "KRT10", "DSC1", "KRTDAP"], "cutoffs": [5.0, 5.0, 0.5, 0.5]},
+    "KC_Granular": {"color": "#882D17", "markers": ["FLG", "SLURP2", "KLK7", "CNFN"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+
+    # 附属器 (SAC)
+    "SAC_SG_Progenitor": {"color": "#0099CCFF", "markers": ["TSPAN8", "S100A7", "KRT77", "SCGB2A2"], "cutoffs": [0.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Clear": {"color": "#B7E4F9FF", "markers": ["KRT19", "KRT7", "AQP5", "KRT8"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Dark": {"color": "#193006FF", "markers": ["PIP", "MUCL1", "DCD", "SCGB2A2"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    "SAC_SG_Ductal": {"color": "#8F7700FF", "markers": ["CLDN4", "MMP7", "ATP5MG", "FOXC1"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_HFSC": {"color": "#2B3D26", "markers": ["LGR5", "CD34", "LHX2", "TCF3"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_DP_DS": {"color": "#99991EFF", "markers": ["SOX2", "BMP4", "CRABP1", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}, 
+    "SAC_HF_Matrix": {"color": "#69C8ECFF", "markers": ["LEF1", "HOXC13", "TOP2A", "MKI67"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_ORS": {"color": "#A30059", "markers": ["KRT17", "KRT23", "CD200", "SOX9"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "SAC_HF_IRS": {"color": "#CC9900FF", "markers": ["KRT71", "KRT25", "GATA3", "FXYD3"], "cutoffs": [0, 0, 0, 0]},
+    
+    # 黑素细胞
+    "Melanocyte": {"color": "#171717FF", "markers": ["MLANA", "PMEL", "TYR", "DCT"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    
+    # 成纤维细胞 (Fib)
+    "Fib_Papi": {"color": "#3DA873FF", "markers": ["COL6A1", "LUM", "COL6A3", "SPARC"], "cutoffs": [3.0, 3.0, 3.0, 3.0]},
+    "Fib_SFRP2": {"color": "#CCFF00FF", "markers": ["SFRP2", "CTHRC1", "FSTL1", "THY1"], "cutoffs": [2.0, 2.0, 2.0, 2.0]},
+    "Fib_Fasci": {"color": "#54FF9F", "markers": ["TNC", "PROCR", "HIF1A", "PI16"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_EN1": {"color": "#6B7900", "markers": ["COL1A1", "DLK1", "EN1", "DPP4"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_Inflama": {"color": "#800000FF", "markers": ["CCL19", "CXCL1", "CXCL5", "VIM"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_CD45": {"color": "#C50084FF", "markers": ["PTPRC", "CD34", "COL1A1", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}, 
+    "Fib_Myo": {"color": "#B79762", "markers": ["ACTA2", "TAGLN", "CNN1", "POSTN"], "cutoffs": [2.0, 2.0, 1.5, 1.5]},
+    "Fib_Prolif": {"color": "#8787FFFF", "markers": ["MKI67", "TOP2A", "PCNA", "PDGFRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Fib_K14": {"color": "#2A6EBBFF", "markers": ["KRT14", "PDGFRA", "KLF4", "TACSTD2"], "cutoffs": [1.5, 1.5, 0.5, 0.5]},
+    
+    # 内皮与周细胞 (Endo)
+    "Endo_Arterial": {"color": "#AD002AFF", "markers": ["PECAM1", "IGFBP3", "HEY1", "SEMA3G"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Venous": {"color": "#2600D1FF", "markers": ["SELE", "ACKR1", "VWF", "PLVAP"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Lymphatic": {"color": "#76EE00", "markers": ["CCL21", "TFF3", "LYVE1", "PDPN"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Endo_Capillary": {"color": "#CF4E9CFF", "markers": ["COL15A1", "VWA1", "RGCC", "KDR"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "Endo_Prolif": {"color": "#E64B35FF", "markers": ["PECAM1", "MKI67", "TOP2A", "PCNA"], "cutoffs": [1.5, 0.5, 0.5, 0.5]},
+    "Pericyte": {"color": "#FFDC91FF", "markers": ["RGS5", "PDGFRB", "TAGLN", "COL6A3"], "cutoffs": [1.5, 1.5, 1.5, 1.5]},
+    
+    # 神经细胞 (Neuro)
+    "Schwann": {"color": "#84BD00FF", "markers": ["MPZ", "PLP1", "MBP", "S100B"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    
+    # 髓系与免疫细胞 (Myeloid/Lymphocyte)
+    "M1_Macrophage": {"color": "#CD534CFF", "markers": ["CD86", "IL1B", "TNF", "CD68"], "cutoffs": [0.5, 0.5, 0.5, 1.0]},
+    "M2_Macrophage": {"color": "#3DA873FF", "markers": ["CD163", "MRC1", "MAF", "CD68"], "cutoffs": [1.5, 1.5, 1.5, 1.0]},
+    "LAM": {"color": "#5F559BFF", "markers": ["TREM2", "LIPA", "SPP1", "CD68"], "cutoffs": [0.5, 0.5, 0.5, 1.0]},
+    "Neutrophil": {"color": "#DC0000FF", "markers": ["CXCR2", "FCGR3B", "S100A8", "S100A9"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "Mast": {"color": "#e9148f", "markers": ["TPSAB1", "CPA3", "MS4A2", "KIT"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "cDC1": {"color": "#631879FF", "markers": ["CLEC9A", "IRF8", "XCR1", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "cDC2": {"color": "#FFC20AFF", "markers": ["CD1C", "FCER1A", "CLEC10A", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "pDC": {"color": "#A1CAF1", "markers": ["LILRA4", "CLEC4C", "TCF4", "HLA-DRA"], "cutoffs": [0.5, 0.5, 0.5, 0.5]},
+    "LGHS": {"color": "#E68FAC", "markers": ["CD207", "CD1A", "HLA-DRB1", "ITGAX"], "cutoffs": [0.25, 0.25, 0.5, 0.5]},
+    "B_Mature": {"color": "#003C67FF", "markers": ["MS4A1", "CD79A", "CD79B", "CD19"], "cutoffs": [0.25, 0.25, 0.25, 0.25]},
+    "B_Plasma": {"color": "#3D3B25FF", "markers": ["SDC1", "JCHAIN", "MZB1", "CD38"], "cutoffs": [1.0, 1.0, 1.0, 1.0]},
+    "CD4_T": {"color": "#C2B280", "markers": ["CD3D", "CD3E", "CD4", "IL7R"], "cutoffs": [0.5, 0.5, 1.0, 1.5]},
+    "CD8_T": {"color": "#882D17", "markers": ["CD8A", "CD8B", "PRF1", "IL7R"], "cutoffs": [0.5, 0.5, 0.5, 1.5]},
+    "NK": {"color": "#A1C299", "markers": ["KLRB1", "GNLY", "KLRD1", "NKG7"], "cutoffs": [0.5, 0.5, 0.5, 0.5]}
+}
+
+# ==========================================
+# 1. 数据加载与环境初始化
+# ==========================================
+# 服务器统一路径
+data_path = r"data/external/local_98f9c17791a4"
+output_dir = r"data/external/local_2ce935c2f506"
+save_path_annotated = r"data/external/local_42fcb0025381"
+
+if not os.path.exists(output_dir): 
+    os.makedirs(output_dir)
+
+print(f"📂 正在从母矩阵中读取全量数据: {data_path} (初次读取需稍等...)")
+adata = sc.read_h5ad(data_path)
+print(f"✅ 全局数据读取成功！共包含 {adata.n_obs} 个 Spot。")
+
+# ==========================================
+# 💎 核心升级：全局基因库智能预检与清洗引擎
+# ==========================================
+print("\n🔍 正在执行全量基因库强制预检与字典清洗...")
+use_raw = adata.raw is not None
+var_names_pool = adata.raw.var_names if use_raw else adata.var_names
+var_names_upper = {str(v).upper(): str(v) for v in var_names_pool}
+
+annotation_config = {} 
+missing_genes_total = []
+
+for cell_type, config in raw_annotation_config.items():
+    raw_markers = config['markers']
+    raw_cutoffs = config['cutoffs']
+    safe_markers = []
+    safe_cutoffs = []
+    
+    for m, c in zip(raw_markers, raw_cutoffs):
+        if m in var_names_pool:
+            safe_markers.append(m)
+            safe_cutoffs.append(c)
+        elif m.upper() in var_names_upper:
+            real_name = var_names_upper[m.upper()]
+            safe_markers.append(real_name)
+            safe_cutoffs.append(c)
+            print(f"  [修正] 基因名纠错: {m} -> {real_name}")
+        else:
+            missing_genes_total.append(m)
+            
+    if len(safe_markers) > 0:
+        annotation_config[cell_type] = {
+            "color": config["color"],
+            "markers": safe_markers,
+            "cutoffs": safe_cutoffs
+        }
+        if len(safe_markers) < len(raw_markers):
+            print(f"  [警告] {cell_type}: 剔除了缺失的基因，剩余有效Marker: {safe_markers}")
+    else:
+        print(f"  ❌ [剔除] {cell_type}: 所有 Marker 均不存在，该亚群被强制跳过！")
+
+missing_genes_total = list(set(missing_genes_total))
+if missing_genes_total:
+    print(f"\n⚠️ 最终战损报告：共有 {len(missing_genes_total)} 个基因未在当前矩阵中找到: {missing_genes_total}")
+else:
+    print("\n✅ 完美！字典中的所有 Marker 基因均 100% 存在于数据集中。")
+
+# ==========================================
+# 2. 绘图参数与坐标系初始化
+# ==========================================
+spot_size_base = 3  
+current_time = datetime.now().strftime("%Y%m%d_%H%M")
+color_palette = {cell: config['color'] for cell, config in annotation_config.items()}
+
+plt.rcParams.update({
+    'font.family': 'sans-serif', 'font.sans-serif': ['Arial', 'DejaVu Sans'],
+    'figure.facecolor': 'black', 'axes.facecolor': 'black',
+    'axes.edgecolor': 'white', 'axes.labelcolor': 'white',
+    'text.color': 'white', 'xtick.color': 'white', 'ytick.color': 'white',
+    'axes.titlesize': 18, 'pdf.fonttype': 42
+})
+
+if 'spatial' in adata.obsm.keys():
+    adata.obsm['X_spatial'] = np.array(adata.obsm['spatial'])
+else:
+    adata.obsm['X_spatial'] = np.vstack([adata.obs['x'], adata.obs['y']]).T
+
+group1_cells = [k for k in annotation_config.keys() if k.startswith("KC_") or k.startswith("SAC_") or k == "Melanocyte"]
+group2_cells = [k for k in annotation_config.keys() if k.startswith("Fib_") or k.startswith("Endo_") or k in ["Pericyte", "Schwann"]]
+group3_cells = [k for k in annotation_config.keys() if k not in group1_cells and k not in group2_cells]
+
+def create_master_handles(cell_list, all_data):
+    handles, labels = [], []
+    all_present_cells = all_data.obs['sub_labels'].unique()
+    for c in cell_list:
+        if c in all_present_cells:
+            handles.append(Line2D([0], [0], marker='o', color='w', markerfacecolor=color_palette[c], markersize=12))
+            labels.append(c)
+    return handles, labels
+
+# ==========================================
+# [全局任务 1] 竞争判定，生成全局 `sub_labels`
+# ==========================================
+print("\n🧬 阶段 1: 正在量化全矩阵特征得分，执行全局注释...")
+priority_cells = [c for c in ["Fib_K14", "Fib_CD45", "SAC_SG_Progenitor"] if c in annotation_config.keys()]
+base_cells = [c for c in annotation_config.keys() if c not in priority_cells]
+
+df_masks = pd.DataFrame(index=adata.obs_names)
+df_scores = pd.DataFrame(index=adata.obs_names)
+
+for cell_type, config in annotation_config.items():
+    valid_pairs = list(zip(config['markers'], config['cutoffs']))
+    mask = np.ones((adata.n_obs,), dtype=bool)
+    score_sum = np.zeros((adata.n_obs,))
+    
+    for g, cut in valid_pairs:
+        matrix_g = adata.raw[:, g].X if use_raw else adata[:, g].X
+        expr = matrix_g.toarray().flatten() if sp.issparse(matrix_g) else np.asarray(matrix_g).flatten()
+        mask &= (expr > cut)
+        score_sum += expr
+        
+    df_masks[cell_type] = mask
+    df_scores[cell_type] = score_sum / len(valid_pairs)
+
+adata.obs['sub_labels'] = 'TEMP_UNASSIGNED'
+
+if base_cells:
+    base_masks = df_masks[base_cells]
+    base_scores = df_scores[base_cells]
+    passed_any_base = base_masks.any(axis=1)
+    masked_base_scores = base_scores.where(base_masks, -1)
+    adata.obs.loc[passed_any_base, 'sub_labels'] = masked_base_scores.idxmax(axis=1)[passed_any_base]
+
+unassigned_mask = adata.obs['sub_labels'] == 'TEMP_UNASSIGNED'
+if unassigned_mask.any() and base_cells:
+    adata.obs.loc[unassigned_mask, 'sub_labels'] = base_scores.loc[unassigned_mask].idxmax(axis=1)
+
+if priority_cells:
+    priority_masks = df_masks[priority_cells]
+    priority_scores = df_scores[priority_cells]
+    passed_any_priority = priority_masks.any(axis=1)
+    masked_priority_scores = priority_scores.where(priority_masks, -1)
+    adata.obs.loc[passed_any_priority, 'sub_labels'] = masked_priority_scores.idxmax(axis=1)[passed_any_priority]
+
+present_categories = [cat for cat in annotation_config.keys() if cat in adata.obs['sub_labels'].unique()]
+adata.obs['sub_labels'] = pd.Categorical(adata.obs['sub_labels'], categories=present_categories, ordered=True)
+print(f"✅ 全局 {adata.n_obs} 级别细胞注释完成！")
+
+print(f"💾 正在保存全局注释结果至: {save_path_annotated}...")
+adata.write_h5ad(save_path_annotated)
+print("✅ 带有 sub_labels 的全局 h5ad 备份完成！")
+
+
+# ==========================================
+# 🚀 批量处理循环：逐个样本绘制 Task 2 和 Task 3
+# ==========================================
+sample_ids = adata.obs['sample_batch_new'].unique().tolist()
+print(f"\n🎯 即将对 {len(sample_ids)} 个样本进行批量独立画图...")
+
+for target_sample in sample_ids:
+    print(f"\n=========================================")
+    print(f"🚀 正在处理样本: {target_sample}")
+    print(f"=========================================")
+    
+    # 获取当前样本的 Mask，避免对全图数据做计算
+    sample_mask = (adata.obs['sample_batch_new'] == target_sample).values
+    adata_sample = adata[sample_mask]
+    
+    # 提取当前样本专用的 Numpy 数组
+    x_coords = adata.obsm['X_spatial'][sample_mask, 0]
+    y_coords = adata.obsm['X_spatial'][sample_mask, 1]
+    sub_labels_array = adata.obs['sub_labels'].values[sample_mask]
+
+    # --- [任务 2] 绘制单样本全景图 ---
+    print(f"  🎨 阶段 2: 正在渲染 {target_sample} 的全景细胞图谱...")
+    pdf_path_global = os.path.join(output_dir, f"Atlas_{target_sample}_{current_time}.pdf")
+
+    with PdfPages(pdf_path_global) as pdf:
+        fig, ax = plt.subplots(figsize=(14, 10))
+        sc.pl.embedding(
+            adata_sample, basis="spatial", color='sub_labels', 
+            palette=color_palette, size=spot_size_base, frameon=False, 
+            show=False, ax=ax, title=f"Sample: {target_sample}"
+        )
+        
+        ax.set_aspect('equal', adjustable='datalim')
+        if len(ax.collections) > 0: ax.collections[0].set_rasterized(True)
+        if ax.get_legend() is not None: ax.get_legend().remove()
+        
+        h1, l1 = create_master_handles(group1_cells, adata)
+        h2, l2 = create_master_handles(group2_cells, adata)
+        h3, l3 = create_master_handles(group3_cells, adata)
+        
+        leg1 = fig.legend(h1, l1, loc='upper left', bbox_to_anchor=(0.68, 0.95), frameon=False, title="Epithelial & Appendage", fontsize=11, title_fontsize=13, ncol=2)
+        leg1.get_title().set_fontweight('bold')
+        leg2 = fig.legend(h2, l2, loc='upper left', bbox_to_anchor=(0.68, 0.65), frameon=False, title="Stromal & Vascular", fontsize=11, title_fontsize=13, ncol=2)
+        leg2.get_title().set_fontweight('bold')
+        leg3 = fig.legend(h3, l3, loc='upper left', bbox_to_anchor=(0.68, 0.35), frameon=False, title="Immune Cells", fontsize=11, title_fontsize=13, ncol=2)
+        leg3.get_title().set_fontweight('bold')
+        
+        plt.tight_layout(rect=[0, 0, 0.68, 1]) 
+        pdf.savefig(fig, facecolor='black', dpi=300)
+        plt.close('all')
+
+    # --- [任务 3] 绘制单样本纯 Numpy 溯源图册 ---
+    print(f"  🖼️ 阶段 3: 正在生成 {target_sample} 的核心溯源图册...")
+    pdf_path_individual = os.path.join(output_dir, f"Tracing_{target_sample}_{current_time}.pdf")
+
+    with PdfPages(pdf_path_individual) as pdf:
+        for cell_type, config in annotation_config.items():
+            dot_color_id = config['color']
+            valid_genes = config['markers']  
+            valid_cutoffs = config['cutoffs']
+            
+            is_target = (sub_labels_array == cell_type)
+            color_hex = np.where(is_target, dot_color_id, '#222222')
+            
+            gene_data = {}
+            for g in valid_genes:
+                if use_raw and g in adata.raw.var_names:
+                    col_data = adata.raw[:, g].X
+                else:
+                    col_data = adata[:, g].X
+                    
+                if sp.issparse(col_data): 
+                    col_data = col_data.toarray()
+                # 仅截取当前样本的数据片段
+                gene_data[g] = col_data.flatten()[sample_mask]
+                
+            merge_score = np.column_stack([gene_data[g] for g in valid_genes]).mean(axis=1) if valid_genes else np.zeros_like(x_coords)
+            
+            fig = plt.figure(figsize=(30, 4.5))
+            gs = GridSpec(1, 6)
+            
+            # 图1: Target 分布
+            ax1 = fig.add_subplot(gs[0, 0])
+            sort_idx_target = np.argsort(is_target)
+            ax1.scatter(x_coords[sort_idx_target], y_coords[sort_idx_target], c=color_hex[sort_idx_target], s=spot_size_base, rasterized=True, edgecolors='none')
+            ax1.set_title(f"{target_sample}: {cell_type}\n(from sub_labels)", color='white', fontsize=12)
+            ax1.set_aspect('equal', adjustable='datalim')
+            ax1.axis('off')
+            
+            # 图2-5: 基因表达
+            for col_idx_inner in range(4):
+                ax_gene = fig.add_subplot(gs[0, 1 + col_idx_inner])
+                if col_idx_inner < len(valid_genes):
+                    g = valid_genes[col_idx_inner]
+                    sub_g = gene_data[g]
+                    sort_idx_g = np.argsort(sub_g)
+                    
+                    scatter_gene = ax_gene.scatter(x_coords[sort_idx_g], y_coords[sort_idx_g], c=sub_g[sort_idx_g], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+                    ax_gene.set_title(f"{g} Expression\n(Cut-off > {valid_cutoffs[col_idx_inner]})", color='white', fontsize=12)
+                    ax_gene.set_aspect('equal', adjustable='datalim')
+                    ax_gene.axis('off')
+                    
+                    cbar = fig.colorbar(scatter_gene, ax=ax_gene, fraction=0.03, pad=0.01, shrink=0.7)
+                    cbar.ax.tick_params(labelsize=9, colors='white')
+                    cbar.outline.set_edgecolor('white')
+                    cbar.outline.set_linewidth(0.5)
+                else:
+                    ax_gene.axis('off')
+                    
+            # 图6: 综合得分
+            ax6 = fig.add_subplot(gs[0, 5])
+            sort_idx_merge = np.argsort(merge_score)
+            scatter_merge = ax6.scatter(x_coords[sort_idx_merge], y_coords[sort_idx_merge], c=merge_score[sort_idx_merge], cmap='magma', s=spot_size_base, rasterized=True, edgecolors='none')
+            ax6.set_title("Merge Score", color='white', fontsize=12)
+            ax6.set_aspect('equal', adjustable='datalim')
+            ax6.axis('off')
+            
+            cbar_merge = fig.colorbar(scatter_merge, ax=ax6, fraction=0.03, pad=0.01, shrink=0.7)
+            cbar_merge.ax.tick_params(labelsize=9, colors='white')
+            cbar_merge.outline.set_edgecolor('white')
+            cbar_merge.outline.set_linewidth(0.5)
+            
+            plt.tight_layout(pad=2.0)
+            pdf.savefig(fig, bbox_inches='tight', dpi=150, facecolor='black')
+            
+            plt.close('all')
+            
+            del gene_data, merge_score, is_target, color_hex
+            
+        print(f"  ✅ {target_sample} 的所有图册落盘完成！")
+        del adata_sample, x_coords, y_coords, sub_labels_array
+        gc.collect() # 强力回收，确保下个循环时内存洁净
+
+print("\n🎉 恭喜！服务器全自动化批处理完成，所有结果已保存在 PDF 文件夹中！")

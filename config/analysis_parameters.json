@@ -1,0 +1,56 @@
+{
+  "baseline": "Manuscript V12; Figure S7 V12; remaining figures V11",
+  "date": "2026-10-20",
+  "scope": {
+    "human_scrna_libraries": 38,
+    "human_stereo_sections": 11,
+    "human_visium_sections": 2,
+    "rat_adult_spatial_sections": 6
+  },
+  "primary_bulk": {
+    "implementation": "PyDESeq2 0.5.2",
+    "filter": "count >=10 in >=2 libraries",
+    "design": "~condition",
+    "contrast": [
+      "condition",
+      "Treated",
+      "Control"
+    ],
+    "independent_filter": true,
+    "cooks_filter": true,
+    "alpha": 0.05,
+    "abs_log2fc_threshold": 1,
+    "seed": 20261016
+  },
+  "complementary_bulk": {
+    "implementation": "R DESeq2 1.46.0 + edgeR QL 4.4.2",
+    "filter": "total count >=10",
+    "independentFiltering": false,
+    "design": "~condition"
+  },
+  "gsea": {
+    "seed": 20261017,
+    "minSize": 10,
+    "maxSize": 500,
+    "eps": 1e-06,
+    "nproc": 1,
+    "adjustment_family": "all tested GO+KEGG"
+  },
+  "patient_associations": {
+    "min_cells_per_sample_subtype": 20,
+    "aggregation": "equal sample mean within patient; patient equal weight",
+    "bootstrap": 1000,
+    "seed": 20261017,
+    "fdr_family": "all tested subtype/gene/module pairs"
+  },
+  "spatial_protein": {
+    "rule": "all four proteins X>2; approved fixed ROI; 2029 pixels",
+    "biological_sections": 1
+  },
+  "histology": {
+    "unit": "section, not independent animal",
+    "adjustment": "Holm over five time points per intervention",
+    "seed": 20261017
+  },
+  "morphological_modes_vs_time": "must remain distinct"
+}

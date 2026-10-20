@@ -1,0 +1,5 @@
+﻿specimen,condition,original_group,sample_id,lane,udi,source
+C7-1,Control,C,CORE_S_544846ee5a74,L6,UDI465,previous_10
+C7-2,Control,C,CORE_S_871136735ad1,L6,UDI466,previous_10
+K7-1,OE,K,CORE_S_d7feeaa27247,L6,UDI469,previous_10
+K7-2,OE,K,CORE_S_3f2bf1c91e75,L6,UDI470,added_2

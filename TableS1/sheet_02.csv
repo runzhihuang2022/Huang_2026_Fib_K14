@@ -1,0 +1,131 @@
+﻿Table S1 sample aliases used in Figures S1 and S6,,,,,,,,,,,
+Figure,Plot code,Species,Modality,Displayed sample,Source sample / section ID,Participant / animal ID,Injury depth,Repair stage,Time point,Observations,Identity status
+Figure S1B,R01,Human,scRNA-seq,TABLE_S_5283b03431ca,TABLE_S_5283b03431ca,TABLE_patient1,SPTDI,1-2mph,2mph,9785,Source alias verified
+Figure S1B,R02,Human,scRNA-seq,TABLE_S_bf6cd5ff1837,TABLE_S_bf6cd5ff1837,TABLE_patient1,SPTDI,1-2mph,2mph,8217,Source alias verified
+Figure S1B,R03,Human,scRNA-seq,TABLE_S_02212164d258,TABLE_S_02212164d258,TABLE_patient1,DPTDI,1-2mph,2mph,8188,Source alias verified
+Figure S1B,R04,Human,scRNA-seq,TABLE_S_9b61cec781f0,TABLE_S_9b61cec781f0,TABLE_patient1,DPTDI,1-2mph,2mph,7605,Source alias verified
+Figure S1B,R05,Human,scRNA-seq,TABLE_S_03bbc46a411e,TABLE_S_03bbc46a411e,TABLE_patient2,Normal,Normal,Normal,13869,Source alias verified
+Figure S1B,R06,Human,scRNA-seq,TABLE_S_acccbb845e4d,TABLE_S_acccbb845e4d,TABLE_patient3,Normal,Normal,Normal,10190,Source alias verified
+Figure S1B,R07,Human,scRNA-seq,TABLE_S_9318dc0a2d77,TABLE_S_9318dc0a2d77,TABLE_patient4,Normal,Normal,Normal,12162,Source alias verified
+Figure S1B,R08,Human,scRNA-seq,TABLE_S_88935349db44,TABLE_S_88935349db44,TABLE_patient5,Normal,Normal,Normal,14696,Source alias verified
+Figure S1B,R09,Human,scRNA-seq,TABLE_S_f3a36f50c5b2,TABLE_S_f3a36f50c5b2,TABLE_patient6,DPTDI,0-7dpb,5dpb,3939,Source alias verified
+Figure S1B,R10,Human,scRNA-seq,TABLE_S_d602b660b56d,TABLE_S_d602b660b56d,TABLE_patient7,DPTDI,15-28dpb,26dpb,9018,Source alias verified
+Figure S1B,R11,Human,scRNA-seq,TABLE_S_087ef12c5ea4,TABLE_S_087ef12c5ea4,TABLE_patient7,DPTDI,15-28dpb,26dpb,8964,Source alias verified
+Figure S1B,R12,Human,scRNA-seq,TABLE_S_ac0c643ac2b3,TABLE_S_ac0c643ac2b3,TABLE_patient8,DPTDI,0-7dpb,7dpb,3220,Source alias verified
+Figure S1B,R13,Human,scRNA-seq,TABLE_S_190d6819e729,TABLE_S_190d6819e729,TABLE_patient8,DPTDI,0-7dpb,7dpb,3724,Source alias verified
+Figure S1B,R14,Human,scRNA-seq,TABLE_S_63356950b848,TABLE_S_63356950b848,TABLE_patient8,DPTDI,0-7dpb,7dpb,2843,Source alias verified
+Figure S1B,R15,Human,scRNA-seq,TABLE_S_e5c74143fb41,TABLE_S_e5c74143fb41,TABLE_patient13,DPTDI,15-28dpb,26dpb,3256,Source alias verified
+Figure S1B,R16,Human,scRNA-seq,TABLE_S_ede18777bfbf,TABLE_S_ede18777bfbf,TABLE_patient12,DPTDI,15-28dpb,22dpb,5469,Source alias verified
+Figure S1B,R17,Human,scRNA-seq,TABLE_S_852e0380c295,TABLE_S_852e0380c295,TABLE_patient14,DPTDI,15-28dpb,22dpb,4294,Source alias verified
+Figure S1B,R18,Human,scRNA-seq,TABLE_S_0ce6b06bfcb2,TABLE_S_0ce6b06bfcb2,TABLE_patient9,DPTDI,8-14dpb,12dpb,400,Source alias verified
+Figure S1B,R19,Human,scRNA-seq,TABLE_S_d400aa528081,TABLE_S_d400aa528081,TABLE_patient9,DPTDI,15-28dpb,19dpb,2949,Source alias verified
+Figure S1B,R20,Human,scRNA-seq,TABLE_S_fca35d1fd6ad,TABLE_S_fca35d1fd6ad,TABLE_patient10,DPTDI,0-7dpb,6dpb,2991,Source alias verified
+Figure S1B,R21,Human,scRNA-seq,TABLE_S_be69ab0c411b,TABLE_S_be69ab0c411b,TABLE_patient10,DPTDI,0-7dpb,6dpb,3680,Source alias verified
+Figure S1B,R22,Human,scRNA-seq,TABLE_S_ecbaaac08061,TABLE_S_ecbaaac08061,TABLE_patient12,DPTDI,15-28dpb,22dpb,3904,Source alias verified
+Figure S1B,R23,Human,scRNA-seq,TABLE_S_3e2ea8121fe9,TABLE_S_3e2ea8121fe9,TABLE_patient14,DPTDI,15-28dpb,22dpb,3625,Source alias verified
+Figure S1B,R24,Human,scRNA-seq,TABLE_S_8196d38d9913,TABLE_S_8196d38d9913,TABLE_patient11,DPTDI,8-14dpb,11dpb,1339,Source alias verified
+Figure S1B,R25,Human,scRNA-seq,TABLE_S_09b8bfb77a7b,TABLE_S_09b8bfb77a7b,TABLE_patient12,DPTDI,8-14dpb,12dpb,4498,Source alias verified
+Figure S1B,R26,Human,scRNA-seq,TABLE_S_14b1487566a9,TABLE_S_14b1487566a9,TABLE_patient15,Normal,Normal,Normal,7148,Source alias verified
+Figure S1B,R27,Human,scRNA-seq,TABLE_S_5efdff3bf01e,TABLE_S_5efdff3bf01e,TABLE_patient16,Normal,Normal,Normal,7874,Source alias verified
+Figure S1B,R28,Human,scRNA-seq,TABLE_S_efc6199957eb,TABLE_S_efc6199957eb,TABLE_patient17,Normal,Normal,Normal,7181,Source alias verified
+Figure S1B,R29,Human,scRNA-seq,TABLE_S_5eac1d74d515,TABLE_S_5eac1d74d515,TABLE_patient18,DPTDI,1-2mph,1mph,18962,Source alias verified
+Figure S1B,R30,Human,scRNA-seq,TABLE_S_d06925ff5425,TABLE_S_d06925ff5425,TABLE_patient18,DPTDI,1-2mph,1mph,23613,Source alias verified
+Figure S1B,R31,Human,scRNA-seq,TABLE_S_1283df579cca,TABLE_S_1283df579cca,TABLE_patient19,SPTDI,0-7dpb,7dpb,2453,Source alias verified
+Figure S1B,R32,Human,scRNA-seq,TABLE_S_919ef7b1c65e,TABLE_S_919ef7b1c65e,TABLE_patient19,SPTDI,0-7dpb,7dpb,2631,Source alias verified
+Figure S1B,R33,Human,scRNA-seq,TABLE_S_89a014d312ac,TABLE_S_89a014d312ac,TABLE_patient10,SPTDI,8-14dpb,12dpb,509,Source alias verified
+Figure S1B,R34,Human,scRNA-seq,TABLE_S_2ed132b9f352,TABLE_S_2ed132b9f352,TABLE_patient20,SPTDI,8-14dpb,10dpb,8099,Source alias verified
+Figure S1B,R35,Human,scRNA-seq,TABLE_S_8f67b681f27b,TABLE_S_8f67b681f27b,TABLE_patient12,SPTDI,15-28dpb,19dpb,5503,Source alias verified
+Figure S1B,R36,Human,scRNA-seq,TABLE_S_cddf8eee816f,TABLE_S_cddf8eee816f,TABLE_patient21,Normal,Normal,Normal,14109,Source alias verified
+Figure S1B,R37,Human,scRNA-seq,TABLE_S_7c96ea8a361f,TABLE_S_7c96ea8a361f,TABLE_patient21,Normal,Normal,Normal,14372,Source alias verified
+Figure S1B,R38,Human,scRNA-seq,TABLE_S_685b6ba3f6e1,TABLE_S_685b6ba3f6e1,TABLE_patient22,Normal,Normal,Normal,14026,Source alias verified
+Figure S1B,ST01,Human,Stereo-seq,TABLE_S_44eac9d5ddcc,TABLE_S_6eb7c1392f89,TABLE_patient23,DPTDI,0-7dpb,5dpb,16821,Source alias verified
+Figure S1B,ST02,Human,Stereo-seq,TABLE_S_a5698925b19c,TABLE_S_fdafe146baf7,TABLE_patient24,DPTDI,8-14dpb,12dpb,13315,Source alias verified
+Figure S1B,ST03,Human,Stereo-seq,TABLE_S_bedf7b23b40d,TABLE_S_b10464a9ad97,TABLE_patient25,SPTDI,8-14dpb,12dpb,29135,Source alias verified
+Figure S1B,ST04,Human,Stereo-seq,TABLE_S_39f0ae02150f,TABLE_S_36016d2af1ee,TABLE_patient24,DPTDI,8-14dpb,12dpb,25512,Source alias verified
+Figure S1B,ST05,Human,Stereo-seq,TABLE_S_76f55f137cdd,TABLE_S_af84cdf78eb5,TABLE_patient25,SPTDI,8-14dpb,12dpb,34538,Source alias verified
+Figure S1B,ST06,Human,Stereo-seq,TABLE_S_aa75195b9283,TABLE_S_c8406aa3985c,TABLE_patient26,DPTDI,15-28dpb,19dpb,40440,Source alias verified
+Figure S1B,ST07,Human,Stereo-seq,TABLE_S_80989506a37d,TABLE_S_ea750bdc5691,TABLE_patient26,DPTDI,15-28dpb,19dpb,47042,Source alias verified
+Figure S1B,ST08,Human,Stereo-seq,TABLE_S_a9810d1c8eb0,TABLE_S_6c1ea5e90408,TABLE_patient27,DPTDI,15-28dpb,26dpb,39669,Source alias verified
+Figure S1B,ST09,Human,Stereo-seq,TABLE_S_c1b3a57ec12d,TABLE_S_7cee6eb9302c,TABLE_patient27,DPTDI,15-28dpb,26dpb,34928,Source alias verified
+Figure S1B,ST10,Human,Stereo-seq,TABLE_S_2c7eedcd02f5,TABLE_S_d9df150c4d41,TABLE_patient28,SPTDI & DPTDI,1-2mph,2mph,90304,Source alias verified
+Figure S1B,ST11,Human,Stereo-seq,TABLE_S_9fb895455350,TABLE_S_317a248b8f7d,TABLE_patient29,Normal,Normal,Normal,15357,Source alias verified
+Figure S1B,V01,Human,10x Visium,TABLE_S_c6df93186555,TABLE_S_c6df93186555,TABLE_patient30,DPTDI,15-28dpb,26dpb,2236,Source alias verified
+Figure S1B,V02,Human,10x Visium,TABLE_S_91b474e200df,TABLE_S_91b474e200df,TABLE_patient31,Not encoded,Not encoded,Not encoded,2213,Source alias verified
+Figure S6A,RR01,Rat,scRNA-seq,TABLE_S_8dc18257ec84,TABLE_S_8dc18257ec84,TABLE_P_2814bb70b036,FTDI,8-14dpi,10dpi,7556,Source code verified; animal identity pending
+Figure S6A,RR02,Rat,scRNA-seq,TABLE_S_3aeb46a43773,TABLE_S_3aeb46a43773,TABLE_P_2814bb70b036,FTDI,8-14dpi,10dpi,7822,Source code verified; animal identity pending
+Figure S6A,RR03,Rat,scRNA-seq,TABLE_S_b3cb9597f88f,TABLE_S_b3cb9597f88f,TABLE_P_2814bb70b036,FTDI,15-28dpi,19dpi,6664,Source code verified; animal identity pending
+Figure S6A,RR04,Rat,scRNA-seq,TABLE_S_97c7a65e413b,TABLE_S_97c7a65e413b,TABLE_P_2814bb70b036,FTDI,15-28dpi,19dpi,6704,Source code verified; animal identity pending
+Figure S6A,RR05,Rat,scRNA-seq,TABLE_S_0997cbf1bc65,TABLE_S_0997cbf1bc65,TABLE_P_2814bb70b036,FTDI,0-7dpi,1dpi,4017,Source code verified; animal identity pending
+Figure S6A,RR06,Rat,scRNA-seq,TABLE_S_d97bb6fcbfb3,TABLE_S_d97bb6fcbfb3,TABLE_P_2814bb70b036,FTDI,0-7dpi,1dpi,5474,Source code verified; animal identity pending
+Figure S6A,RR07,Rat,scRNA-seq,TABLE_S_5722ed326859,TABLE_S_5722ed326859,TABLE_P_2814bb70b036,FTDI,0-7dpi,2dpi,7731,Source code verified; animal identity pending
+Figure S6A,RR08,Rat,scRNA-seq,TABLE_S_7591f344fb08,TABLE_S_7591f344fb08,TABLE_P_2814bb70b036,FTDI,0-7dpi,2dpi,7835,Source code verified; animal identity pending
+Figure S6A,RR09,Rat,scRNA-seq,TABLE_S_f036bbdab484,TABLE_S_f036bbdab484,TABLE_P_2814bb70b036,FTDI,0-7dpi,5dpi,10435,Source code verified; animal identity pending
+Figure S6A,RR10,Rat,scRNA-seq,TABLE_S_d2491b6a9cc0,TABLE_S_d2491b6a9cc0,TABLE_P_2814bb70b036,FTDI,0-7dpi,5dpi,10074,Source code verified; animal identity pending
+Figure S6A,RR11,Rat,scRNA-seq,TABLE_S_722c41a89f7e,TABLE_S_722c41a89f7e,TABLE_P_2814bb70b036,Normal,Normal,Normal,3150,Source code verified; animal identity pending
+Figure S6A,RR12,Rat,scRNA-seq,TABLE_S_781f94a24041,TABLE_S_781f94a24041,TABLE_P_2814bb70b036,Normal,Normal,Normal,2167,Source code verified; animal identity pending
+Figure S6A,RR13,Rat,scRNA-seq,TABLE_S_85bd2f76c2e2,TABLE_S_85bd2f76c2e2,TABLE_P_2814bb70b036,Normal,Normal,Normal,4325,Source code verified; animal identity pending
+Figure S6A,RR14,Rat,scRNA-seq,TABLE_S_45bf6019c4ea,TABLE_S_45bf6019c4ea,TABLE_P_2814bb70b036,PTDI,0-7dpi,0.5dpi,5397,Source code verified; animal identity pending
+Figure S6A,RR15,Rat,scRNA-seq,TABLE_S_9d78369d900a,TABLE_S_9d78369d900a,TABLE_P_2814bb70b036,PTDI,0-7dpi,0.5dpi,5330,Source code verified; animal identity pending
+Figure S6A,RR16,Rat,scRNA-seq,TABLE_S_ac83a6be2c3b,TABLE_S_ac83a6be2c3b,TABLE_P_2814bb70b036,PTDI,0-7dpi,0dpi,21135,Source code verified; animal identity pending
+Figure S6A,RR17,Rat,scRNA-seq,TABLE_S_85a7a005cf92,TABLE_S_85a7a005cf92,TABLE_P_2814bb70b036,PTDI,0-7dpi,0dpi,19093,Source code verified; animal identity pending
+Figure S6A,RR18,Rat,scRNA-seq,TABLE_S_e930636fc7b1,TABLE_S_e930636fc7b1,TABLE_P_2814bb70b036,PTDI,8-14dpi,11dpi,8636,Source code verified; animal identity pending
+Figure S6A,RR19,Rat,scRNA-seq,TABLE_S_cb567149e58f,TABLE_S_cb567149e58f,TABLE_P_2814bb70b036,PTDI,8-14dpi,11dpi,7529,Source code verified; animal identity pending
+Figure S6A,RR20,Rat,scRNA-seq,TABLE_S_cc2417ac169d,TABLE_S_cc2417ac169d,TABLE_P_2814bb70b036,PTDI,15-28dpi,15dpi,9049,Source code verified; animal identity pending
+Figure S6A,RR21,Rat,scRNA-seq,TABLE_S_47b53082f61e,TABLE_S_47b53082f61e,TABLE_P_2814bb70b036,PTDI,15-28dpi,15dpi,12892,Source code verified; animal identity pending
+Figure S6A,RR22,Rat,scRNA-seq,TABLE_S_1392994546b7,TABLE_S_1392994546b7,TABLE_P_2814bb70b036,PTDI,15-28dpi,19dpi,9192,Source code verified; animal identity pending
+Figure S6A,RR23,Rat,scRNA-seq,TABLE_S_9271b061d20f,TABLE_S_9271b061d20f,TABLE_P_2814bb70b036,PTDI,15-28dpi,19dpi,5533,Source code verified; animal identity pending
+Figure S6A,RR24,Rat,scRNA-seq,TABLE_S_749ade562f06,TABLE_S_749ade562f06,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,12042,Source code verified; animal identity pending
+Figure S6A,RR25,Rat,scRNA-seq,TABLE_S_43692561a4e5,TABLE_S_43692561a4e5,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,9877,Source code verified; animal identity pending
+Figure S6A,RR26,Rat,scRNA-seq,TABLE_S_963d186a116b,TABLE_S_963d186a116b,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,2385,Source code verified; animal identity pending
+Figure S6A,RR27,Rat,scRNA-seq,TABLE_S_2cd2d583c702,TABLE_S_2cd2d583c702,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,2847,Source code verified; animal identity pending
+Figure S6A,RR28,Rat,scRNA-seq,TABLE_S_0b869bd2b229,TABLE_S_0b869bd2b229,TABLE_P_2814bb70b036,PTDI,0-7dpi,2dpi,9459,Source code verified; animal identity pending
+Figure S6A,RR29,Rat,scRNA-seq,TABLE_S_24ab555a4371,TABLE_S_24ab555a4371,TABLE_P_2814bb70b036,PTDI,0-7dpi,2dpi,8568,Source code verified; animal identity pending
+Figure S6A,RR30,Rat,scRNA-seq,TABLE_S_e52fa4b6215a,TABLE_S_e52fa4b6215a,TABLE_P_2814bb70b036,PTDI,0-7dpi,3dpi,7392,Source code verified; animal identity pending
+Figure S6A,RR31,Rat,scRNA-seq,TABLE_S_6e1fa49d6ebe,TABLE_S_6e1fa49d6ebe,TABLE_P_2814bb70b036,PTDI,0-7dpi,3dpi,6602,Source code verified; animal identity pending
+Figure S6A,RR32,Rat,scRNA-seq,TABLE_S_af961164a5c4,TABLE_S_af961164a5c4,TABLE_P_2814bb70b036,PTDI,0-7dpi,7dpi,8601,Source code verified; animal identity pending
+Figure S6A,RR33,Rat,scRNA-seq,TABLE_S_d2747e95c05b,TABLE_S_d2747e95c05b,TABLE_P_2814bb70b036,PTDI,0-7dpi,7dpi,11681,Source code verified; animal identity pending
+Figure S6A,RR34,Rat,scRNA-seq,TABLE_S_ed6a66704d87,TABLE_S_ed6a66704d87,TABLE_P_2814bb70b036,PTDI,0-7dpi,0.5dpi,5733,Source code verified; animal identity pending
+Figure S6A,RR35,Rat,scRNA-seq,TABLE_S_4bc7899c5f88,TABLE_S_4bc7899c5f88,TABLE_P_2814bb70b036,PTDI,0-7dpi,0.5dpi,5652,Source code verified; animal identity pending
+Figure S6A,RR36,Rat,scRNA-seq,TABLE_S_70950a9b13e1,TABLE_S_70950a9b13e1,TABLE_P_2814bb70b036,PTDI,0-7dpi,0dpi,16743,Source code verified; animal identity pending
+Figure S6A,RR37,Rat,scRNA-seq,TABLE_S_295b95f21c2a,TABLE_S_295b95f21c2a,TABLE_P_2814bb70b036,PTDI,0-7dpi,0dpi,12714,Source code verified; animal identity pending
+Figure S6A,RR38,Rat,scRNA-seq,TABLE_S_a404c119048c,TABLE_S_a404c119048c,TABLE_P_2814bb70b036,PTDI,8-14dpi,11dpi,7759,Source code verified; animal identity pending
+Figure S6A,RR39,Rat,scRNA-seq,TABLE_S_b57681afeef0,TABLE_S_b57681afeef0,TABLE_P_2814bb70b036,PTDI,8-14dpi,11dpi,7740,Source code verified; animal identity pending
+Figure S6A,RR40,Rat,scRNA-seq,TABLE_S_00ca94cc5fb3,TABLE_S_00ca94cc5fb3,TABLE_P_2814bb70b036,PTDI,15-28dpi,15dpi,10365,Source code verified; animal identity pending
+Figure S6A,RR41,Rat,scRNA-seq,TABLE_S_1acbd773fb69,TABLE_S_1acbd773fb69,TABLE_P_2814bb70b036,PTDI,15-28dpi,15dpi,12160,Source code verified; animal identity pending
+Figure S6A,RR42,Rat,scRNA-seq,TABLE_S_259748dec624,TABLE_S_259748dec624,TABLE_P_2814bb70b036,PTDI,15-28dpi,19dpi,7134,Source code verified; animal identity pending
+Figure S6A,RR43,Rat,scRNA-seq,TABLE_S_832d7375001a,TABLE_S_832d7375001a,TABLE_P_2814bb70b036,PTDI,15-28dpi,19dpi,6108,Source code verified; animal identity pending
+Figure S6A,RR44,Rat,scRNA-seq,TABLE_S_dd56a64f1c41,TABLE_S_dd56a64f1c41,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,8014,Source code verified; animal identity pending
+Figure S6A,RR45,Rat,scRNA-seq,TABLE_S_5c0cd3199139,TABLE_S_5c0cd3199139,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,7803,Source code verified; animal identity pending
+Figure S6A,RR46,Rat,scRNA-seq,TABLE_S_2c1a0b27f250,TABLE_S_2c1a0b27f250,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,14477,Source code verified; animal identity pending
+Figure S6A,RR47,Rat,scRNA-seq,TABLE_S_d89f02074f74,TABLE_S_d89f02074f74,TABLE_P_2814bb70b036,PTDI,0-7dpi,1dpi,11959,Source code verified; animal identity pending
+Figure S6A,RR48,Rat,scRNA-seq,TABLE_S_17c850317ac2,TABLE_S_17c850317ac2,TABLE_P_2814bb70b036,PTDI,0-7dpi,2dpi,7617,Source code verified; animal identity pending
+Figure S6A,RR49,Rat,scRNA-seq,TABLE_S_66401238bae2,TABLE_S_66401238bae2,TABLE_P_2814bb70b036,PTDI,0-7dpi,2dpi,7780,Source code verified; animal identity pending
+Figure S6A,RR50,Rat,scRNA-seq,TABLE_S_16b7eb7505c9,TABLE_S_16b7eb7505c9,TABLE_P_2814bb70b036,PTDI,0-7dpi,3dpi,10175,Source code verified; animal identity pending
+Figure S6A,RR51,Rat,scRNA-seq,TABLE_S_6f404d8de042,TABLE_S_6f404d8de042,TABLE_P_2814bb70b036,PTDI,0-7dpi,3dpi,10675,Source code verified; animal identity pending
+Figure S6A,RR52,Rat,scRNA-seq,TABLE_S_4c6850f7a8d7,TABLE_S_4c6850f7a8d7,TABLE_P_2814bb70b036,PTDI,0-7dpi,7dpi,6449,Source code verified; animal identity pending
+Figure S6A,RR53,Rat,scRNA-seq,TABLE_S_ad8835552efa,TABLE_S_ad8835552efa,TABLE_P_2814bb70b036,PTDI,0-7dpi,7dpi,6031,Source code verified; animal identity pending
+Figure S6A,RST01,Rat,Stereo-seq,TABLE_S_4dfc034d6d28,TABLE_S_4dfc034d6d28,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,10d,45100,Source code verified; animal identity pending
+Figure S6A,RST02,Rat,Stereo-seq,TABLE_S_52b38bfec5f0,TABLE_S_52b38bfec5f0,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,19d,58368,Source code verified; animal identity pending
+Figure S6A,RST03,Rat,Stereo-seq,TABLE_S_391c1db0cf06,TABLE_S_391c1db0cf06,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,1d,40282,Source code verified; animal identity pending
+Figure S6A,RST04,Rat,Stereo-seq,TABLE_S_63a900a92921,TABLE_S_63a900a92921,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,2d,63652,Source code verified; animal identity pending
+Figure S6A,RST05,Rat,Stereo-seq,TABLE_S_1939c61c9e7a,TABLE_S_1939c61c9e7a,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,5d1,73386,Source code verified; animal identity pending
+Figure S6A,RST06,Rat,Stereo-seq,TABLE_S_6ada7a3416eb,TABLE_S_6ada7a3416eb,TABLE_P_2814bb70b036,Not encoded in source object,Adult wound repair,nor,43594,Source code verified; animal identity pending
+Figure S6A,RA01,Rat,scATAC-seq,TABLE_S_cc4e0981a74f,TABLE_S_cc4e0981a74f,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,6334,Source code verified; animal identity pending
+Figure S6A,RA02,Rat,scATAC-seq,TABLE_S_c70dde485400,TABLE_S_c70dde485400,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,555,Source code verified; animal identity pending
+Figure S6A,RA03,Rat,scATAC-seq,TABLE_S_03d0761cbcdc,TABLE_S_03d0761cbcdc,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,303,Source code verified; animal identity pending
+Figure S6A,RA04,Rat,scATAC-seq,TABLE_S_b1088a5dcbb6,TABLE_S_b1088a5dcbb6,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,797,Source code verified; animal identity pending
+Figure S6A,RA05,Rat,scATAC-seq,TABLE_S_4c91b6bc47a9,TABLE_S_4c91b6bc47a9,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,496,Source code verified; animal identity pending
+Figure S6A,RA06,Rat,scATAC-seq,TABLE_S_72fadb448f75,TABLE_S_72fadb448f75,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,2716,Source code verified; animal identity pending
+Figure S6A,RA07,Rat,scATAC-seq,TABLE_S_a5d6190a10a5,TABLE_S_a5d6190a10a5,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,2086,Source code verified; animal identity pending
+Figure S6A,RA08,Rat,scATAC-seq,TABLE_S_3f4e02c20640,TABLE_S_3f4e02c20640,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,538,Source code verified; animal identity pending
+Figure S6A,RA09,Rat,scATAC-seq,TABLE_S_6eacdd89a8b4,TABLE_S_6eacdd89a8b4,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,121,Source code verified; animal identity pending
+Figure S6A,RA10,Rat,scATAC-seq,TABLE_S_de3053313ba8,TABLE_S_de3053313ba8,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,5024,Source code verified; animal identity pending
+Figure S6A,RA11,Rat,scATAC-seq,TABLE_S_3f6229849b78,TABLE_S_3f6229849b78,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,3454,Source code verified; animal identity pending
+Figure S6A,RA12,Rat,scATAC-seq,TABLE_S_f91e5f51bedb,TABLE_S_f91e5f51bedb,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,1436,Source code verified; animal identity pending
+Figure S6A,RA13,Rat,scATAC-seq,TABLE_S_99f9bf4be020,TABLE_S_99f9bf4be020,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,145,Source code verified; animal identity pending
+Figure S6A,RA14,Rat,scATAC-seq,TABLE_S_60026c485266,TABLE_S_60026c485266,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,966,Source code verified; animal identity pending
+Figure S6A,RA15,Rat,scATAC-seq,TABLE_S_e82326fcafde,TABLE_S_e82326fcafde,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,305,Source code verified; animal identity pending
+Figure S6A,RA16,Rat,scATAC-seq,TABLE_S_0754d4d196c3,TABLE_S_0754d4d196c3,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,1507,Source code verified; animal identity pending
+Figure S6A,RA17,Rat,scATAC-seq,TABLE_S_6a32e5e437a6,TABLE_S_6a32e5e437a6,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,1613,Source code verified; animal identity pending
+Figure S6A,RA18,Rat,scATAC-seq,TABLE_S_a48e2832af0b,TABLE_S_a48e2832af0b,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,128,Source code verified; animal identity pending
+Figure S6A,RA19,Rat,scATAC-seq,TABLE_S_76b9bc27f3be,TABLE_S_76b9bc27f3be,TABLE_P_2814bb70b036,Not encoded in source table,Adult skin / wound atlas,Not encoded,94,Source code verified; animal identity pending

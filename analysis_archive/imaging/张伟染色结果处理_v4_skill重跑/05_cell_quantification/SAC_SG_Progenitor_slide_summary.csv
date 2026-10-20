@@ -1,0 +1,11 @@
+﻿wsi_id,panel,canonical_specimen,region_group,injury_depth,time_dpb,healing_status,requires_review,n_rois,total_cells,total_target_primary,total_target_sensitivity,mean_roi_pct_primary,sd_roi_pct_primary,mean_roi_pct_sensitivity,pooled_pct_primary,pooled_pct_sensitivity
+WSI-016,SAC_SG_Progenitor,32-1,Front_candidate,MIXED_SPTDI_DPTDI,5.0,Not_documented,Yes,5,13636,0,888,0.0,0.0,6.456236233355021,0.0,6.512173657964213
+WSI-017,SAC_SG_Progenitor,BS1,Unhealed,DPTDI,12.0,Nonhealed,Yes,5,10047,0,20,0.0,0.0,0.2144550929058864,0.0,0.199064397332537
+WSI-018,SAC_SG_Progenitor,BW3,Healed,SPTDI,19.0,Healed,Yes,5,10388,0,0,0.0,0.0,0.0,0.0,0.0
+WSI-019,SAC_SG_Progenitor,BW7,Healed,DPTDI,22.0,Healed,No,5,8503,0,0,0.0,0.0,0.0,0.0,0.0
+WSI-020,SAC_SG_Progenitor,BW8,Unhealed,DPTDI,22.0,Nonhealed,No,5,8537,0,0,0.0,0.0,0.0,0.0,0.0
+WSI-021,SAC_SG_Progenitor,BW9,Healed,DPTDI,26.0,Healed,No,5,15802,0,22,0.0,0.0,0.1514629948364888,0.0,0.1392228831793444
+WSI-022,SAC_SG_Progenitor,W14-1,Healed,SPTDI,14.0,Healed,No,5,5026,0,2,0.0,0.0,0.0581395348837209,0.0,0.0397930760047751
+WSI-023,SAC_SG_Progenitor,003,Front_candidate,DPTDI,10.0,Not_documented,No,2,2840,0,0,0.0,0.0,0.0,0.0,0.0
+WSI-024,SAC_SG_Progenitor,007,Front_candidate,MIXED_SPTDI_DPTDI,19.0,Not_documented,Yes,5,9349,0,36,0.0,0.0,0.4110940683859133,0.0,0.3850679217028559
+WSI-025,SAC_SG_Progenitor,001A,Front_candidate,SPTDI,10.0,Not_documented,No,5,12267,0,10,0.0,0.0,0.0807679729158316,0.0,0.0815195239259802

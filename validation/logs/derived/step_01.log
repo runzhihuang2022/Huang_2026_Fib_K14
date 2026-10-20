@@ -1,0 +1,2 @@
+[{"analysis": "CellOracle per-cell score aggregation", "source_match": true, "rows": 16, "model_refitted": false}, {"analysis": "orthology", "retained_table_rows": 14, "new_inference": false}, {"analysis": "chromVAR", "retained_table_rows": 19, "new_inference": false}, {"analysis": "cross_species", "retained_table_rows": 49, "new_inference": false}]
+

@@ -1,0 +1,16 @@
+﻿panel,family,contrast,n,statistic,p_raw,p_adjusted,status
+KC_Spinous_Mig,time_within_depth_global,SPTDI: categorical time bins,8-14dpb:2|15-28dpb:1,,,,descriptive_only_due_to_n_lt_2
+KC_Spinous_Mig,time_within_depth_global,DPTDI: 8-14dpb vs 15-28dpb,2|3,1.333333333333332,0.2482130789899204,0.3742593192802246,tested
+KC_Spinous_Mig,time_within_depth_pairwise,DPTDI: 8-14dpb vs 15-28dpb,2|3,5.0,0.4,0.4,tested
+KC_Spinous_Mig,depth_within_time,8-14dpb: SPTDI vs DPTDI,2|2,0.0,0.3333333333333333,0.3333333333333333,tested
+KC_Spinous_Mig,depth_within_time,15-28dpb: SPTDI vs DPTDI,1|3,,,,descriptive_only_due_to_n_lt_2
+Fib_K14_core,time_within_depth_global,SPTDI: categorical time bins,8-14dpb:2|15-28dpb:1,,,,descriptive_only_due_to_n_lt_2
+Fib_K14_core,time_within_depth_global,DPTDI: 8-14dpb vs 15-28dpb,2|3,0.7894736842105263,0.3742593192802246,0.3742593192802246,tested
+Fib_K14_core,time_within_depth_pairwise,DPTDI: 8-14dpb vs 15-28dpb,2|3,1.5,0.5536169919657805,0.5536169919657805,tested
+Fib_K14_core,depth_within_time,8-14dpb: SPTDI vs DPTDI,2|2,4.0,0.3333333333333333,0.3333333333333333,tested
+Fib_K14_core,depth_within_time,15-28dpb: SPTDI vs DPTDI,1|3,,,,descriptive_only_due_to_n_lt_2
+SAC_SG_Progenitor,time_within_depth_global,SPTDI: categorical time bins,8-14dpb:2|15-28dpb:1,,,,descriptive_only_due_to_n_lt_2
+SAC_SG_Progenitor,time_within_depth_global,DPTDI: 8-14dpb vs 15-28dpb,2|3,,,,undefined_constant_endpoint
+SAC_SG_Progenitor,time_within_depth_pairwise,DPTDI: 8-14dpb vs 15-28dpb,2|3,,,,undefined_constant_endpoint
+SAC_SG_Progenitor,depth_within_time,8-14dpb: SPTDI vs DPTDI,2|2,,,,undefined_constant_endpoint
+SAC_SG_Progenitor,depth_within_time,15-28dpb: SPTDI vs DPTDI,1|3,,,,descriptive_only_due_to_n_lt_2

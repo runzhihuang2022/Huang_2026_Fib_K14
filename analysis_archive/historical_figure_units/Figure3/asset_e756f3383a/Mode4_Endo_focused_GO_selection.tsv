@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 4	1–2 mph	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	51	822	34	4	FLT1;MDK;THBS1;VEGFB	0.1536844642895211	0.3222358963081294	pre-specified repair function
+Mode 4	1–2 mph	Fib–Endo	Blood Vessel Morphogenesis (GO:0048514)	51	822	13	2	COL4A1;FLT1	0.1903893064824568	0.3372904080669424	pre-specified repair function
+Mode 4	1–2 mph	Fib–Endo	Maintenance Of Blood-Brain Barrier (GO:0035633)	51	822	10	6	ESAM;F11R;JAM2;JAM3;LAMC1;PECAM1	7.407008908926891e-06	0.0072959037752929	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Substrate Adhesion-Dependent Cell Spreading (GO:0034446)	51	822	9	5	EFNA1;FN1;LAMA5;LAMB1;LAMC1	7.905815160056474e-05	0.0389361396632781	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Positive Regulation Of Transferase Activity (GO:0051347)	51	822	37	9	AXL;CD4;CD74;EPHA2;FLT1;HLA-DRB1;IGF1R;IGF2;PDGFRB	0.0002184968838181	0.0634489086057177	top BH-adjusted result used to fill display
+Mode 4	1–2 mph	Fib–Endo	Regulation Of Kinase Activity (GO:0043549)	51	822	30	8	AXL;CD4;CD74;EPHA2;FLT1;HLA-DRB1;IGF1R;PDGFRB	0.0002576605425612	0.0634489086057177	top BH-adjusted result used to fill display

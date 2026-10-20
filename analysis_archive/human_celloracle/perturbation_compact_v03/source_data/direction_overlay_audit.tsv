@@ -1,0 +1,3 @@
+﻿condition	display_label	start_state	end_state	start_UMAP_1	start_UMAP_2	end_UMAP_1	end_UMAP_2	overlay_evidence	raw_CellOracle_grid_arrows_shown	SAC_region_arrows
+KO	Inhibition	KC_Basal core	Fib_K14	0.9490215	-1.525236875	2.2698218	-7.513131	user_requested_interpretive_differentiation_direction	False	False
+OE	Promotion	Fib_K14	KC_Basal core	2.2698218	-7.513131	0.9490215	-1.525236875	user_requested_interpretive_differentiation_direction	False	False

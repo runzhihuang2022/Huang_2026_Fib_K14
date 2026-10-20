@@ -1,0 +1,12 @@
+﻿condition,n_samples,total_units,double_positive,pooled_percent,sample_mean_percent,sample_sem_percent,marker_or_annotation,mapping_status
+Human normal,10,115627,865,0.7480951680835791,0.7924902220297803,0.2712971268980339,existing_Fib_K14_annotation:cell_type_module1|+,annotation_mapped
+Human wound,21,163678,3869,2.363787436307873,2.720857243831204,0.4683865224931582,existing_Fib_K14_annotation:cell_type_module1|+,annotation_mapped
+Rat embryo,40,366328,3850,1.0509707147692775,0.9896125171535328,0.1074216742369358,existing_Fib_K14_annotation:cell_type_module1|+,annotation_mapped
+Rat adult,10,74312,5794,7.796856496931855,7.029983407176649,1.7420400627544348,existing_Fib_K14_annotation:cell_type_module1|+,annotation_mapped
+Reindeer velvet,6,38193,1563,4.092372947922394,3.0545242652775424,1.1660524680926585,flexible_fibroblast_plus_epithelial_marker_coexpression|PDGFRA+KRT14,flexible_marker_mapped
+Reindeer back,7,28921,1355,4.685176861104388,4.387202613333494,1.2987856286379718,flexible_fibroblast_plus_epithelial_marker_coexpression|PDGFRA+KRT14,flexible_marker_mapped
+Acomys wound,6,55869,4879,8.732928815622259,11.913458257275163,8.007738001373715,flexible_fibroblast_plus_epithelial_marker_coexpression|Vim+Krt14,flexible_marker_mapped
+Acomys unwounded,1,2787,26,0.932902762827413,0.932902762827413,,flexible_fibroblast_plus_epithelial_marker_coexpression|Vim+Krt14,flexible_marker_mapped
+Planarian 0hpa1,1,294166,2152,0.7315597315801282,0.7315597315801282,,planarian_alias_expanded_KRT14_like_only; fibroblast marker PDGFRA/VIM unavailable|PDGFRA/VIM unavailable+KRT14,KRT14_like_only_fibroblast_marker_missing
+Planarian 3dpa1,1,172641,1160,0.671914551004686,0.671914551004686,,planarian_alias_expanded_KRT14_like_only; fibroblast marker PDGFRA/VIM unavailable|PDGFRA/VIM unavailable+KRT14,KRT14_like_only_fibroblast_marker_missing
+Planarian 7dpa1,1,105723,0,0.0,0.0,,planarian_alias_expanded_KRT14_like_only; fibroblast marker PDGFRA/VIM unavailable|PDGFRA/VIM unavailable+,planarian_alias_marker_missing

@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 1	0–7 dpb	Fib–KC	Epidermis Development (GO:0008544)	39	822	12	5	FGF7;FGFR2;LAMA3;LAMB3;LAMC2	0.0001152869777678	0.0082574297826247	pre-specified repair function
+Mode 1	0–7 dpb	Fib–KC	Endoderm Formation (GO:0001706)	39	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.414214963022542e-06	0.0004051725869059	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–KC	Endodermal Cell Differentiation (GO:0035987)	39	822	10	6	COL4A2;COL6A1;FN1;LAMA3;LAMB1;LAMB3	1.414214963022542e-06	0.0004051725869059	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–KC	Regulation Of Muscle Cell Differentiation (GO:0051147)	39	822	7	5	FGFR2;LAMA2;LAMB1;LAMB2;LAMC1	3.646836869566087e-06	0.0006239277908586	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–KC	Regulation Of Basement Membrane Organization (GO:0110011)	39	822	4	4	LAMA2;LAMB1;LAMB2;LAMC1	4.355516864632549e-06	0.0006239277908586	top BH-adjusted result used to fill display
+Mode 1	0–7 dpb	Fib–KC	Positive Regulation Of Integrin-Mediated Signaling Pathway (GO:2001046)	39	822	5	4	LAMA2;LAMB1;LAMB2;LAMC1	2.1032141338995803e-05	0.002008569497874	top BH-adjusted result used to fill display

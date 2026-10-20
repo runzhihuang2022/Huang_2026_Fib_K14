@@ -1,0 +1,6 @@
+﻿asset_id,modality,species,source_path_or_accession,subset_rule,observational_unit,used_by_panel,status,notes
+DATA001,scRNA-seq,human,external_asset_decd995edda5,Fib_K14/KC/SAC/fibroblast states,cell,Figure3A-F;FigureS3A-H,Verified,279305 cells; no doublet_score field
+DATA002,Stereo-seq,human,external_asset_e710d93ba7fe,explicit registered wound subset and rotations,spatial cell/bin,Figure3G;FigureS3I,Verified,Do not infer scope from filename
+DATA003,Flow cytometry,mouse,external_asset_cba392e02635,5dpb PTDI wound,event,Figure3K;FigureS3L,Verified,619 of 10000 events are PDGFRA+EPCAM+
+DATA004,Immunofluorescence,mouse/human,external_asset_a89489f7ab1f,original experimental image blobs only,specimen/field,Figure3H-J,Verified pixels; metadata incomplete,No computational plots cropped from PPT
+DATA005,Clone culture,mouse,not located,sorted Fib_K14-like cells,clone,FigureS3N-O,Missing,Raw clone images and replicate table required

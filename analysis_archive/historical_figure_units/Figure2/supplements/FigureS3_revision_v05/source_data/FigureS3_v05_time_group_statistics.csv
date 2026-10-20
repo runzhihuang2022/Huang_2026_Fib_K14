@@ -1,0 +1,4 @@
+﻿cell_state,comparison,test,n_sections,statistic,p_value,displayed_in_figure
+KC_Spinous_Mig,co-occurrence score across six healing time groups,Kruskal-Wallis,11,6.438356164383566,0.2658696287127087,False
+SAC_SG_Progenitor,co-occurrence score across six healing time groups,Kruskal-Wallis,11,7.022727272727273,0.2189555322629915,False
+Fib_K14,co-occurrence score across six healing time groups,Kruskal-Wallis,11,8.977272727272727,0.1099741133968318,False

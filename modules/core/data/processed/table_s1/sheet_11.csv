@@ -1,0 +1,10 @@
+﻿Dataset routing inventory used for Table S1 and Figure 1A (2026-09-18),,,,,,,,
+Dataset ID,Species,Modality,Samples / sections / libraries,Observations,Observation unit,Canonical entry,Evidence status,Key boundary
+human_scrna,Human,scRNA-seq,38,279305,cells,01_canonical/human_epithelialization_scrna_279305cells.h5ad,exact,patient is the statistical replicate
+human_spatial,Human,Stereo-seq + 10x Visium,11 + 2,"387,061 + 4,449",bins + spots,stereoseq_11samples_compatible.h5ad; visium_2sections_4449spots.h5ad,exact,modalities and observational units remain separate
+rat_adult_scrna,Rat,scRNA-seq,53,450282,cells,01_canonical/rat_adult_scrna_450282cells.rds,exact,adult libraries only
+rat_adult_spatial,Rat,Stereo-seq,6,324382,bins,01_canonical/sections/*.h5ad,exact,adult sections only; embryonic and P5 excluded
+rat_adult_scatac,Rat,scATAC-seq,19,28618,post-filter cells,rat_burn_scatac_stage1.rds / stage3_peaks_motifs.rds,exact processed scope,raw fragments and Arrow files missing; associations are not causal
+bulk_klf4_oe,Human,bulk RNA-seq,4,62700,genes,01_canonical/raw_counts_matrix.csv,exact counts,n=2 per group; count-model reanalysis required
+bulk_igfl1_treatment,Human,bulk RNA-seq,5,62700,genes,01_canonical/IGFL1_raw_counts.xlsx,faithful reconstruction,IGFL1 n=2; reconstructed group metadata
+skin_spatial_proteomics,Not confirmed,Spatial proteomics,1,"2,029; 5,852 raw / 5,846 final",pixels; proteins,processed_spatial_proteomics.h5ad / HE-aligned final object,reference-only descriptive,single section; missing replicate metadata; d_241_1 vs d_214_1 warning

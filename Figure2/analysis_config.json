@@ -1,0 +1,9 @@
+{
+  "figure": "Figure2",
+  "core_scripts": [
+    "rebuild_atlas_audits.py",
+    "spatial_protein/rebuild.py"
+  ],
+  "extra_groups": [],
+  "scope": "Executed supporting analyses and/or archived sources; see panel-specific status"
+}

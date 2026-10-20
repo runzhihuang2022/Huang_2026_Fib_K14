@@ -1,0 +1,3 @@
+﻿condition	arrow_subset	n_arrows	axis_definition	mean_unit_projection	median_unit_projection	fraction_toward_KC	bootstrap_ci_low	bootstrap_ci_high	display_direction	inference_status
+KO	display arrows assigned to Fib_K14 region	37	Fib_K14 median to KC_Basal median	-0.0319990989497207	-0.0431921830713821	0.4864864864864865	-0.2121662837047197	0.1459727659411013	toward_Fib_K14	descriptive; bootstrap CI includes zero
+OE	display arrows assigned to Fib_K14 region	38	Fib_K14 median to KC_Basal median	0.1330357050518173	0.1136338080917136	0.5789473684210527	-0.0635256442758499	0.3271720804522237	toward_KC	descriptive; bootstrap CI includes zero

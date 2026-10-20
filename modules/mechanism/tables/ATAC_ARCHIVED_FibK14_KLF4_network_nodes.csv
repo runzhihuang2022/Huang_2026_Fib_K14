@@ -1,0 +1,8 @@
+﻿node,node_type,biological_role
+KLF4,transcription factor,candidate regulator
+KRT5,candidate target gene,Basal epithelial identity
+KRT15,candidate target gene,Progenitor/barrier
+KRT17,candidate target gene,Wound epithelialization
+KRT1,candidate target gene,Differentiation/barrier
+MMP3,candidate target gene,Wound remodeling
+Pro-epithelial candidate program,functional outcome,annotation-supported outcome

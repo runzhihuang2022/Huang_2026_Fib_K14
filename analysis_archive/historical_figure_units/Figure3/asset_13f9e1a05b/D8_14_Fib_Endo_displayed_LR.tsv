@@ -1,0 +1,9 @@
+﻿source	target	ligand	receptor	prob	pval	interaction_name	interaction_name_2	pathway_name	annotation	evidence	key_id
+Fib_Myo	Endo_Venous	CCL2	ACKR1	0.0003561638639386	0	CCL2_ACKR1	CCL2 - ACKR1	CCL	Secreted Signaling	PMID: 26740381	Fib_Myo|CCL2|Endo_Venous|ACKR1
+Fib_Prolif	Endo_Venous	CXCL2	ACKR1	0.0002727031604141	0	CXCL2_ACKR1	CXCL2 - ACKR1	CXCL	Secreted Signaling	PMID: 26740381	Fib_Prolif|CXCL2|Endo_Venous|ACKR1
+Endo_Venous	Fib_Myo	COL4A1	CD44	0.0002719188288265	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Venous|COL4A1|Fib_Myo|CD44
+Fib_Myo	Endo_Venous	CXCL2	ACKR1	0.0002614812483398	0	CXCL2_ACKR1	CXCL2 - ACKR1	CXCL	Secreted Signaling	PMID: 26740381	Fib_Myo|CXCL2|Endo_Venous|ACKR1
+Endo_Venous	Fib_Myo	SELE	CD44	0.0002329880031788	0	SELE_CD44	SELE - CD44	SELE	Cell-Cell Contact	PMC4571854	Endo_Venous|SELE|Fib_Myo|CD44
+Fib_Prolif	Endo_Venous	CXCL3	ACKR1	0.0002280022408712	0	CXCL3_ACKR1	CXCL3 - ACKR1	CXCL	Secreted Signaling	PMID: 26740381	Fib_Prolif|CXCL3|Endo_Venous|ACKR1
+Endo_Arterial	Fib_Myo	COL4A1	CD44	3.98284050481583e-05	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Arterial|COL4A1|Fib_Myo|CD44
+Endo_Capillary	Fib_Myo	COL4A1	CD44	1.45443978930284e-05	0	COL4A1_CD44	COL4A1 - CD44	COLLAGEN	ECM-Receptor	KEGG: hsa04512	Endo_Capillary|COL4A1|Fib_Myo|CD44

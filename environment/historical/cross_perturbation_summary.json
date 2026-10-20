@@ -1,0 +1,8 @@
+{
+  "n_shared_tested_genes": 16764,
+  "effect_spearman_rho": 0.25628182642665914,
+  "effect_spearman_p_descriptive": 1.268324259098161e-249,
+  "same_direction_both_FDR05": 1739,
+  "opposite_direction_both_FDR05": 641,
+  "note": "Genes are not independent biological replicates; concordance is descriptive, not mediation or pathway direction"
+}

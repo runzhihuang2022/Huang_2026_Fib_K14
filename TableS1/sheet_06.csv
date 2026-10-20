@@ -1,0 +1,14 @@
+﻿Figure 1E-F epithelialization and biological-process gene-set resources,,,,,
+Biological process,Gene count,Genes,Figure use,Detected genes,Missing from analyzed object
+Epithelialization,13,"KRT14, KRT5, KRT10, KRT1, IVL, SBSN, LOR, FLG, AREG, MMP3, MMP9, KRT17, KRT6A",Figure 1E spatial module score,12 / 13,LOR
+Skin development,7,"TP63, WNT10A, LEF1, SHH, BMP2, EDAR, SOX9",Figure 1F temporal biological-process score,7 / 7,None
+Inflammatory response,7,"IL1B, IL6, TNF, CXCL8, CCL2, CXCL1, CXCL2",Figure 1F temporal biological-process score,7 / 7,None
+Vascularization,7,"VEGFA, PECAM1, CD34, KDR, FLT1, ANGPT1, VWF",Figure 1F temporal biological-process score,7 / 7,None
+Matrix remodeling,7,"ACTA2, COL1A1, COL1A2, COL3A1, FN1, TGFB1, CTGF",Figure 1F temporal biological-process score,6 / 7,CTGF
+,,,,,
+Figure 1E-F scoring and display parameters,,,,,
+Parameter,Value,,,,
+Stereo-seq subset,"Exact whitelist of 11 registered human sections; 387,061 cell bins",,,,
+Module-score method,scanpy.tl.score_genes; ctrl_size=50; n_bins=25; random_state=0; use_raw=False,,,,
+Figure 1E display,Shared 1st-99th percentile range across the registered 11-section subset; no within-section rescaling or spatial smoothing,,,,
+Figure 1F unit,Section-level mean; individual section points shown; within-process z-standardization for display,,,,

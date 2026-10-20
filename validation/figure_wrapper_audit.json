@@ -1,0 +1,23 @@
+{
+  "figure": "FigureS7",
+  "scope": "New figure-oriented wrapper; S7 render and patient analysis",
+  "all_commands_passed": true,
+  "steps": [
+    {
+      "module": "figure_s7",
+      "step": "build_figure_s7.py",
+      "exit_code": 0
+    },
+    {
+      "module": "mechanism",
+      "step": "analyze_human.py",
+      "exit_code": 0
+    },
+    {
+      "module": "mechanism",
+      "step": "make_figures.py",
+      "exit_code": 0
+    }
+  ],
+  "private_output_directory_included": false
+}

@@ -1,0 +1,9 @@
+Fit KLF4 (4, 13839)
+{"experiment": "KLF4", "n_libraries": 4, "group_sizes": {"Control": 2, "Treated": 2}, "input_genes": 62700, "filtered_genes": 13839, "filter": "at least 10 counts in at least 2 libraries", "model": "PyDESeq2 negative-binomial ~condition; Treated/Control", "alpha": 0.05, "effect_threshold_abs_log2FC": 1, "up": 1114, "down": 1137, "runtime_seconds": 15.72030758857727, "versions": {"pydeseq2": "0.5.2", "anndata": "0.11.4", "numpy": "2.2.6", "pandas": "2.3.3", "scipy": "1.15.3"}, "replicate_identity": "library-level; independent donor/culture and batch metadata not supplied", "purpose": "count-model sensitivity; replaces neither experiment identity nor source-figure version audit"}
+Fit IGFL1 (5, 18865)
+{"experiment": "IGFL1", "n_libraries": 5, "group_sizes": {"Control": 3, "Treated": 2}, "input_genes": 62700, "filtered_genes": 18865, "filter": "at least 10 counts in at least 2 libraries", "model": "PyDESeq2 negative-binomial ~condition; Treated/Control", "alpha": 0.05, "effect_threshold_abs_log2FC": 1, "up": 1828, "down": 2792, "runtime_seconds": 24.596986532211304, "versions": {"pydeseq2": "0.5.2", "anndata": "0.11.4", "numpy": "2.2.6", "pandas": "2.3.3", "scipy": "1.15.3"}, "replicate_identity": "library-level; independent donor/culture and batch metadata not supplied", "purpose": "count-model sensitivity; replaces neither experiment identity nor source-figure version audit"}
+
+[local path omitted]
+  self.fit_dispersion_prior()
+[local path omitted]
+  self.fit_dispersion_prior()

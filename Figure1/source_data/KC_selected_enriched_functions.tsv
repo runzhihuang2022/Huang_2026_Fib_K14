@@ -1,0 +1,9 @@
+﻿Term	P_value	overlap_count	gene_set_background	selected_genes	background_genes	Genes	Adjusted P-value	GO_ID	display_label	display_category	display_selection
+Epithelium Development (GO:0060429)	6.123295792660853e-06	11	87	309	13067	AKR1C1;AKR1C2;ANXA7;CTSB;KRT14;KRT16;KRT17;KRT6A;PGK1;STAT1;TAGLN2	0.0020017255243387	GO:0060429	"Epithelium
+development"	epithelial	post hoc epithelial/cytoskeletal/repair-related selected view; complete-library BH unchanged
+Intermediate Filament Organization (GO:0045109)	7.822359349850004e-06	7	32	309	13067	KRT14;KRT16;KRT17;KRT5;KRT6A;KRT6B;KRT6C	0.0020017255243387	GO:0045109	"Intermediate filament
+organization"	cytoskeleton	post hoc epithelial/cytoskeletal/repair-related selected view; complete-library BH unchanged
+Epithelial Cell Differentiation (GO:0030855)	7.29770024591667e-05	9	76	309	13067	AKR1C1;AKR1C2;ANXA7;CTSB;KRT14;KRT16;KRT17;PGK1;TAGLN2	0.0099360995655942	GO:0030855	"Epithelial cell
+differentiation"	epithelial	post hoc epithelial/cytoskeletal/repair-related selected view; complete-library BH unchanged
+Actin Filament Organization (GO:0007015)	0.0001472753557873	10	102	309	13067	ACTN1;CAP1;CNN2;DSG3;ENAH;FLNA;TAGLN2;TPM1;TPM3;TPM4	0.0166389816857631	GO:0007015	"Actin filament
+organization"	cytoskeleton	post hoc epithelial/cytoskeletal/repair-related selected view; complete-library BH unchanged

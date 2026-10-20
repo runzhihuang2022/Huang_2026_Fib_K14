@@ -1,0 +1,11 @@
+﻿experiment,time_dpb,n_treatment,n_control,difference,p_two_sided,p_holm_five_timepoints,status
+KLF4,3,6,5,2.1289999999999942,0.6015092199976053,1.0,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+KLF4,5,8,7,-17.557321428571427,0.0782094636018155,0.3128378544072622,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+KLF4,7,5,4,21.857000000000006,0.047495946427505,0.2374797321375251,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+KLF4,10,7,5,23.829142857142852,0.1204737670776416,0.3614213012329249,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+KLF4,12,9,8,1.4280595401332477,0.8730758696512861,1.0,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+IGFL1,3,7,6,5.665714285714284,0.0280917411362753,0.1188598610994034,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+IGFL1,5,6,7,31.238571428571426,0.0237719722198806,0.1188598610994034,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+IGFL1,7,5,6,28.538000000000004,0.0498927649361538,0.1216295656122976,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+IGFL1,10,5,5,28.239999999999995,0.0405431885374325,0.1216295656122976,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference
+IGFL1,12,7,7,15.0,0.1188734566727373,0.1216295656122976,EXPLORATORY conditional on unverified section independence; not confirmatory animal inference

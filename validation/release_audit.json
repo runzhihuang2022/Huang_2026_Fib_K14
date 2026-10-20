@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checksummed_files": 1289,
+  "active_python_scripts_checked": 28,
+  "files_over_25_MiB": [],
+  "issues": [],
+  "scope": "Automated packaging checks only; not a certification of consent, licensing, scientific validity or complete raw-data reproduction."
+}

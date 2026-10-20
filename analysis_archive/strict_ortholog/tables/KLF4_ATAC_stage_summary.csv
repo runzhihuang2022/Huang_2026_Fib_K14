@@ -1,0 +1,8 @@
+﻿metric,value
+Fib_K14_cells,3298
+samples,19
+candidate_target_peaks,447
+tested_peaks,124
+FDR_lt_0.05,60
+positive_FDR_lt_0.05,33
+negative_FDR_lt_0.05,27

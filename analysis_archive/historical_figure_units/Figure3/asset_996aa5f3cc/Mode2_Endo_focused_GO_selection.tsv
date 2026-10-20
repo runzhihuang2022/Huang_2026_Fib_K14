@@ -1,0 +1,7 @@
+﻿mode	time_group	interface	term	lr_gene_n	background_n	term_n	overlap_n	overlap_genes	p_value	fdr_bh	selection_basis
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Angiogenesis (GO:0045766)	71	822	34	12	ANGPTL4;CDH5;CXCL8;FLT1;GRN;KDR;MDK;PGF;TEK;THBS1;VEGFA;WNT5A	8.190617920933666e-06	0.0027848100931174	pre-specified repair function
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Endothelial Cell Migration (GO:0010595)	71	822	21	11	ANGPT1;EDN1;FGFR1;GRN;KDR;MET;PDGFB;TEK;THBS1;VEGFA;WNT5A	1.64684209652057e-07	0.0002239705251267	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Regulation Of Endothelial Cell Migration (GO:0010594)	71	822	20	10	ANGPT1;DLL4;EDN1;GRN;KDR;PTN;TEK;THBS1;VEGFA;WNT5A	1.1428634029577752e-06	0.0007771471140112	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Positive Regulation Of Epithelial Cell Migration (GO:0010634)	71	822	19	9	ANGPT1;EDN1;FGF7;GRN;KDR;TEK;THBS1;VEGFA;WNT5A	7.469473991918953e-06	0.0027848100931174	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Negative Regulation Of Gene Expression (GO:0010629)	71	822	36	12	APP;CD46;CXCL8;DLL4;EPHA4;KDR;LGALS9;LRP1;NCL;NOTCH1;PDGFB;VEGFA	1.623156075570448e-05	0.003679153771293	top BH-adjusted result used to fill display
+Mode 2	15–28 dpb	Fib–Endo	Negative Regulation Of Macromolecule Metabolic Process (GO:0010605)	71	822	36	12	APP;CD46;CXCL8;DLL4;EDN1;EDNRB;KDR;LGALS9;LRP1;NOTCH1;PDGFB;VEGFA	1.623156075570448e-05	0.003679153771293	top BH-adjusted result used to fill display

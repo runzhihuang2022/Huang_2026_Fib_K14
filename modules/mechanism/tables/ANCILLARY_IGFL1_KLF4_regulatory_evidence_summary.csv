@@ -1,0 +1,5 @@
+﻿evidence,value,interpretation
+IGFL1 measured in human+cervid Fib_K14,1,present in joint expression matrix
+KLF4->IGFL1 GRNBoost2 edge,1,rank 726 of 2173
+KLF4 motif near IGFL1 in cisTarget,1,best rank 864; top 3.19%
+IGFL1 retained in motif-pruned KLF4 regulon,0,NES>=3 regulon target criterion
